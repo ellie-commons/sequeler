@@ -25,19 +25,7 @@
     "*.a",
     "*.la"
   ],
-  "modules": [{
-      "name": "libxml2",
-      "build-options": {
-        "config-opts": [
-          "--with-python=no"
-        ]
-      },
-      "sources": [{
-        "type": "archive",
-        "url": "https://github.com/GNOME/libxml2/archive/v2.9.10.tar.gz",
-        "sha256": "3bdffb4d728e4dc135b3210bf2a2cebb76548b820a5617c68abb7b83654066dd"
-      }]
-    },
+  "modules": [
     {
       "name": "gtksourceview",
       "build-options": {
