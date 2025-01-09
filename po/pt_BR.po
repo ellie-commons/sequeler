@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: com.github.alecaddd.sequeler\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-11 12:37+0200\n"
-"PO-Revision-Date: 2022-09-22 13:24+0000\n"
-"Last-Translator: Marco Andrei Kichalowsky <mandrei@arsnova.digital>\n"
+"PO-Revision-Date: 2025-01-10 13:00+0000\n"
+"Last-Translator: aquila0101 <aquila.santos@ba.estudante.senai.br>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "sequeler/translations/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 5.10-dev\n"
 
 #: src/Application.vala:62
 msgid "Directories are not supported"
@@ -33,7 +33,7 @@ msgstr "Algo completamente inesperado ocorreu"
 
 #: src/Layouts/HeaderBar.vala:46 src/Layouts/HeaderBar.vala:53
 msgid "Logout"
-msgstr "Sair"
+msgstr "Desconectar"
 
 #: src/Layouts/HeaderBar.vala:56
 msgid "Light background"
@@ -509,7 +509,7 @@ msgstr "Selecione seu Arquivo SQLite…"
 
 #: src/Widgets/ConnectionDialog.vala:261
 msgid "Connect via SSH Tunnel:"
-msgstr "Conectar via terminal SSH"
+msgstr "Conectar-se através de um Túnel SSH"
 
 #: src/Widgets/ConnectionDialog.vala:271
 msgid "SSH Host:"
@@ -561,7 +561,7 @@ msgstr "Testar Conexão"
 
 #: src/Widgets/ConnectionDialog.vala:620
 msgid "Opening SSH Tunnel…"
-msgstr "Abrindo túnel SSH"
+msgstr "Abrindo túnel SSH…"
 
 #: src/Widgets/ConnectionDialog.vala:650
 msgid "Testing Connection…"
