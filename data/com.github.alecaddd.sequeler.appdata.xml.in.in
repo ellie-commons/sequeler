@@ -510,7 +510,9 @@
 			<image>https://raw.githubusercontent.com/Alecaddd/sequeler/master/data/assets/screenshots/sequeler-screenshot2.png</image>
 		</screenshot>
 	</screenshots>
-	<developer_name>Alessandro Castellani</developer_name>
+	<developer id="com.alecaddd">
+		<name>Alessandro Castellani</name>
+	</developer>
 	<launchable type="desktop-id">@appid@.desktop</launchable>
 	<url type="homepage">https://github.com/Alecaddd/sequeler</url>
 	<url type="donation">https://www.paypal.me/alecaddd</url>
