@@ -1,10 +1,10 @@
 {
   "id": "com.github.alecaddd.sequeler",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "40",
+  "runtime-version": "46",
   "sdk": "org.gnome.Sdk",
   "base": "io.elementary.BaseApp",
-  "base-version": "juno-20.08",
+  "base-version": "juno-23.08",
   "command": "com.github.alecaddd.sequeler",
   "finish-args": [
     "--share=ipc",
