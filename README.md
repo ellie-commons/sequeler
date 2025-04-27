@@ -37,7 +37,7 @@ You can install Sequeler by compiling from source, here's the list of dependenci
  - `gobject-2.0`
  - `libxml-2.0`
  - `libgda-5.0`
- - `gtksourceview-3.0`
+ - `gtksourceview-4`
  - `libsecret-1`
  - `libssh2`
  - `meson`
