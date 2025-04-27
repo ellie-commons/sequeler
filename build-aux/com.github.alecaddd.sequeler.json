@@ -109,6 +109,18 @@
           }]
         },
         {
+          "name": "libfmt",
+          "buildsystem": "cmake-ninja",
+          "sources": [
+            {
+              "type": "git",
+              "url": "https://github.com/fmtlib/fmt.git",
+              "tag": "8.1.1",
+              "commit": "b6f4ceaed0a0a24ccf575fab6c56dd50ccf6f1a9"
+            }
+          ]
+        },
+        {
           "name": "mariadb",
           "buildsystem": "cmake-ninja",
           "config-opts": [
