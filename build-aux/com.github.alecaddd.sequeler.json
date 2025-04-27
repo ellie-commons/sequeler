@@ -35,8 +35,7 @@
       "build-options": {
         "config-opts": [
           "-Dgtk_doc=false"
-        ],
-        "cflags": "-Wno-error=incompatible-pointer-types"
+        ]
       },
       "sources": [
         {
