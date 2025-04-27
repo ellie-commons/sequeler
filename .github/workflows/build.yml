@@ -11,7 +11,7 @@ jobs:
       image: elementary/docker:unstable
 
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v4
     - name: Install Dependencies
       run: |
         apt update
