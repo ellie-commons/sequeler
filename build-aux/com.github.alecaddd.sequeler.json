@@ -31,7 +31,7 @@
       "buildsystem": "meson",
       "build-options": {
         "config-opts": [
-          "-Dgtk-doc=false"
+          "-Dgtk_doc=false"
         ],
         "cflags": "-Wno-error=incompatible-pointer-types"
       },
