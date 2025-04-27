@@ -107,12 +107,13 @@
         },
         {
           "name": "mariadb",
-          "buildsystem": "cmake",
-          "no-make-install": true,
+          "buildsystem": "cmake-ninja",
           "config-opts": [
             "-DCMAKE_BUILD_TYPE=Release",
             "-DBUILD_CONFIG=mysql_release",
             "-DWITH_INNOBASE_STORAGE_ENGINE=1",
+            "-DWITH_PCRE=system",
+            "-DWITH_LIBFMT=system",
             "-DWITHOUT_ARCHIVE_STORAGE_ENGINE=1",
             "-DWITHOUT_BLACKHOLE_STORAGE_ENGINE=1",
             "-DWITHOUT_PARTITION_STORAGE_ENGINE=1",
@@ -120,22 +121,20 @@
             "-DWITHOUT_EXAMPLE_STORAGE_ENGINE=1",
             "-DWITHOUT_FEDERATED_STORAGE_ENGINE=1",
             "-DWITHOUT_PBXT_STORAGE_ENGINE=1",
+            "-DWITHOUT_SERVER=ON",
             "-DPLUGIN_AUTH_PAM=NO"
-          ],
-          "post-install": [
-            "make -C libmysql install",
-            "make -C include install",
-            "install -Dm755 scripts/mysql_config /app/bin/mysql_config",
-            "install -Dm644 support-files/mariadb.pc /app/share/pkgconfig/mariadb.pc"
           ],
           "cleanup": [
             "/bin/"
           ],
-          "sources": [{
-            "type": "archive",
-            "url": "http://ftp.hosteurope.de/mirror/archive.mariadb.org/mariadb-10.1.48/source/mariadb-10.1.48.tar.gz",
-            "sha256": "069d58b1e2c06bb1e6c31249eda34138f41fb8ae3dec7ecaeba8035812c87cf9"
-          }]
+          "sources": [
+            {
+              "type": "git",
+              "url": "https://github.com/MariaDB/server.git",
+              "tag": "mariadb-10.11.7",
+              "commit": "87e13722a95af5d9378d990caf48cb6874439347"
+            }
+          ]
         },
         {
           "name": "intltool",
