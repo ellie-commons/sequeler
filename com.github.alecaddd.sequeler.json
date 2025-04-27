@@ -21,6 +21,9 @@
     "*.a",
     "*.la"
   ],
+  "build-options": {
+    "libdir": "/app/lib"
+  },
   "modules": [
     {
       "name": "gtksourceview",
