@@ -1,7 +1,7 @@
 {
   "id": "com.github.alecaddd.sequeler",
   "runtime": "io.elementary.Platform",
-  "runtime-version": "6",
+  "runtime-version": "8.1",
   "sdk": "io.elementary.Sdk",
   "command": "com.github.alecaddd.sequeler",
   "finish-args": [
@@ -45,7 +45,8 @@
           "--with-java=no",
           "--with-jni=no",
           "--with-oracle=no"
-        ]
+        ],
+        "cflags": "-Wno-error=incompatible-pointer-types -Wno-error=implicit-function-declaration"
       },
       "sources": [
         {
@@ -63,7 +64,8 @@
               "--with-perl=no",
               "--with-libxml",
               "--with-openssl"
-            ]
+            ],
+            "cflags": "-Wno-error=incompatible-pointer-types"
           },
           "sources": [
             {
