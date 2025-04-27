@@ -1,5 +1,5 @@
 {
-  "app-id": "com.github.alecaddd.sequeler",
+  "id": "com.github.alecaddd.sequeler",
   "runtime": "io.elementary.Platform",
   "runtime-version": "6",
   "sdk": "io.elementary.Sdk",

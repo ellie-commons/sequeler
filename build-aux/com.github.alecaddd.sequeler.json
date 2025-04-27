@@ -1,5 +1,5 @@
 {
-  "app-id": "com.github.alecaddd.sequeler",
+  "id": "com.github.alecaddd.sequeler",
   "runtime": "org.gnome.Platform",
   "runtime-version": "40",
   "sdk": "org.gnome.Sdk",
