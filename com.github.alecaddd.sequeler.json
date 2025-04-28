@@ -1,7 +1,7 @@
 {
-  "app-id": "com.github.alecaddd.sequeler",
+  "id": "com.github.alecaddd.sequeler",
   "runtime": "io.elementary.Platform",
-  "runtime-version": "6",
+  "runtime-version": "8.1",
   "sdk": "io.elementary.Sdk",
   "command": "com.github.alecaddd.sequeler",
   "finish-args": [
@@ -21,32 +21,25 @@
     "*.a",
     "*.la"
   ],
-  "modules": [{
-      "name": "libxml2",
-      "build-options": {
-        "config-opts": [
-          "--with-python=no"
-        ]
-      },
-      "sources": [{
-        "type": "archive",
-        "url": "https://github.com/GNOME/libxml2/archive/v2.9.10.tar.gz",
-        "sha256": "3bdffb4d728e4dc135b3210bf2a2cebb76548b820a5617c68abb7b83654066dd"
-      }]
-    },
+  "build-options": {
+    "libdir": "/app/lib"
+  },
+  "modules": [
     {
       "name": "gtksourceview",
       "buildsystem": "meson",
       "build-options": {
         "config-opts": [
-          "-Dgtk-doc=false"
+          "-Dgtk_doc=false"
         ]
       },
-      "sources": [{
-        "type": "archive",
-        "url": "https://download.gnome.org/sources/gtksourceview/4.8/gtksourceview-4.8.4.tar.xz",
-        "sha256": "7ec9d18fb283d1f84a3a3eff3b7a72b09a10c9c006597b3fbabbb5958420a87d"
-      }]
+      "sources": [
+        {
+          "type": "archive",
+          "url": "https://download.gnome.org/sources/gtksourceview/4.8/gtksourceview-4.8.4.tar.xz",
+          "sha256": "7ec9d18fb283d1f84a3a3eff3b7a72b09a10c9c006597b3fbabbb5958420a87d"
+        }
+      ]
     },
     {
       "name": "libgda",
@@ -55,14 +48,18 @@
           "--with-java=no",
           "--with-jni=no",
           "--with-oracle=no"
-        ]
+        ],
+        "cflags": "-Wno-error=incompatible-pointer-types -Wno-error=implicit-function-declaration"
       },
-      "sources": [{
-        "type": "archive",
-        "url": "https://download-fallback.gnome.org/sources/libgda/5.2/libgda-5.2.9.tar.xz",
-        "sha256": "59caed8ca72b1ac6437c9844f0677f8a296d52cfd1c0049116026abfb1d87d9b"
-      }],
-      "modules": [{
+      "sources": [
+        {
+          "type": "archive",
+          "url": "https://download.gnome.org/sources/libgda/5.2/libgda-5.2.9.tar.xz",
+          "sha256": "59caed8ca72b1ac6437c9844f0677f8a296d52cfd1c0049116026abfb1d87d9b"
+        }
+      ],
+      "modules": [
+        {
           "name": "postgresql-libs",
           "build-options": {
             "config-opts": [
@@ -70,13 +67,16 @@
               "--with-perl=no",
               "--with-libxml",
               "--with-openssl"
-            ]
+            ],
+            "cflags": "-Wno-error=incompatible-pointer-types"
           },
-          "sources": [{
-            "type": "archive",
-            "url": "https://ftp.postgresql.org/pub/source/v13.2/postgresql-13.2.tar.gz",
-            "sha256": "3386a40736332aceb055c7c9012ecc665188536d874d967fcc5a33e7992f8080"
-          }]
+          "sources": [
+            {
+              "type": "archive",
+              "url": "https://ftp.postgresql.org/pub/source/v13.2/postgresql-13.2.tar.gz",
+              "sha256": "3386a40736332aceb055c7c9012ecc665188536d874d967fcc5a33e7992f8080"
+            }
+          ]
         },
         {
           "name": "jemalloc",
@@ -84,11 +84,13 @@
             "/bin/",
             "/share"
           ],
-          "sources": [{
-            "type": "archive",
-            "url": "https://github.com/jemalloc/jemalloc/releases/download/5.2.1/jemalloc-5.2.1.tar.bz2",
-            "sha256": "34330e5ce276099e2e8950d9335db5a875689a4c6a56751ef3b1d8c537f887f6"
-          }]
+          "sources": [
+            {
+              "type": "archive",
+              "url": "https://github.com/jemalloc/jemalloc/releases/download/5.2.1/jemalloc-5.2.1.tar.bz2",
+              "sha256": "34330e5ce276099e2e8950d9335db5a875689a4c6a56751ef3b1d8c537f887f6"
+            }
+          ]
         },
         {
           "name": "libaio",
@@ -104,20 +106,35 @@
             "make",
             "make prefix=/app install"
           ],
-          "sources": [{
-            "type": "archive",
-            "url": "https://ftp.debian.org/debian/pool/main/liba/libaio/libaio_0.3.113.orig.tar.gz",
-            "sha256": "2c44d1c5fd0d43752287c9ae1eb9c023f04ef848ea8d4aafa46e9aedb678200b"
-          }]
+          "sources": [
+            {
+              "type": "archive",
+              "url": "https://ftp.debian.org/debian/pool/main/liba/libaio/libaio_0.3.113.orig.tar.gz",
+              "sha256": "2c44d1c5fd0d43752287c9ae1eb9c023f04ef848ea8d4aafa46e9aedb678200b"
+            }
+          ]
+        },
+        {
+          "name": "libfmt",
+          "buildsystem": "cmake-ninja",
+          "sources": [
+            {
+              "type": "git",
+              "url": "https://github.com/fmtlib/fmt.git",
+              "tag": "8.1.1",
+              "commit": "b6f4ceaed0a0a24ccf575fab6c56dd50ccf6f1a9"
+            }
+          ]
         },
         {
           "name": "mariadb",
-          "buildsystem": "cmake",
-          "no-make-install": true,
+          "buildsystem": "cmake-ninja",
           "config-opts": [
             "-DCMAKE_BUILD_TYPE=Release",
             "-DBUILD_CONFIG=mysql_release",
             "-DWITH_INNOBASE_STORAGE_ENGINE=1",
+            "-DWITH_PCRE=system",
+            "-DWITH_LIBFMT=system",
             "-DWITHOUT_ARCHIVE_STORAGE_ENGINE=1",
             "-DWITHOUT_BLACKHOLE_STORAGE_ENGINE=1",
             "-DWITHOUT_PARTITION_STORAGE_ENGINE=1",
@@ -125,22 +142,20 @@
             "-DWITHOUT_EXAMPLE_STORAGE_ENGINE=1",
             "-DWITHOUT_FEDERATED_STORAGE_ENGINE=1",
             "-DWITHOUT_PBXT_STORAGE_ENGINE=1",
+            "-DWITHOUT_SERVER=ON",
             "-DPLUGIN_AUTH_PAM=NO"
-          ],
-          "post-install": [
-            "make -C libmysql install",
-            "make -C include install",
-            "install -Dm755 scripts/mysql_config /app/bin/mysql_config",
-            "install -Dm644 support-files/mariadb.pc /app/share/pkgconfig/mariadb.pc"
           ],
           "cleanup": [
             "/bin/"
           ],
-          "sources": [{
-            "type": "archive",
-            "url": "http://ftp.hosteurope.de/mirror/archive.mariadb.org/mariadb-10.1.48/source/mariadb-10.1.48.tar.gz",
-            "sha256": "069d58b1e2c06bb1e6c31249eda34138f41fb8ae3dec7ecaeba8035812c87cf9"
-          }]
+          "sources": [
+            {
+              "type": "git",
+              "url": "https://github.com/MariaDB/server.git",
+              "tag": "mariadb-10.11.7",
+              "commit": "87e13722a95af5d9378d990caf48cb6874439347"
+            }
+          ]
         },
         {
           "name": "intltool",
@@ -157,15 +172,18 @@
     },
     {
       "name": "libssh2",
-      "sources": [{
-        "type": "archive",
-        "url": "https://www.libssh2.org/download/libssh2-1.9.0.tar.gz",
-        "sha256": "d5fb8bd563305fd1074dda90bd053fb2d29fc4bce048d182f96eaa466dfadafd"
-      }]
+      "sources": [
+        {
+          "type": "archive",
+          "url": "https://www.libssh2.org/download/libssh2-1.9.0.tar.gz",
+          "sha256": "d5fb8bd563305fd1074dda90bd053fb2d29fc4bce048d182f96eaa466dfadafd"
+        }
+      ]
     },
     {
       "name": "libfiposix",
-      "sources": [{
+      "sources": [
+        {
           "type": "archive",
           "url": "https://github.com/sionescu/libfixposix/archive/v0.4.3.tar.gz",
           "sha256": "78fe8bcebf496520ac29b5b65049f5ec1977c6bd956640bdc6d1da6ea04d8504"
@@ -182,7 +200,8 @@
     {
       "name": "sequeler",
       "buildsystem": "meson",
-      "sources": [{
+      "sources": [
+        {
           "type": "dir",
           "path": "."
         }
