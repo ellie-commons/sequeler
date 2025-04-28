@@ -1,0 +1,735 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the extra package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: extra\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-11 12:37+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/com.github.alecaddd.sequeler.desktop.in.in:3
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:7
+msgid "Sequeler"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.desktop.in.in:4
+msgid "Sequeler App"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.desktop.in.in:5
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:8
+msgid "Friendly SQL Client"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.desktop.in.in:9
+msgid "@icon@"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.desktop.in.in:12
+msgid "SQL;MySql;Database;MariaDB;S3;PostgreSQL;"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:10
+msgid "Easily connect to your local or remote database"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:13
+msgid ""
+"Store your Database Connections in the library, connect over SSH tunnel, "
+"type and execute SQL commands directly in the app, and do everything you "
+"need to do without the necessity of opening the terminal."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:16
+msgid "Supported Databases:"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:20
+msgid "SQLite"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:21
+msgid "MySQL"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:22
+msgid "MariaDB"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:23
+msgid "PostgreSQL"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:25
+msgid "Features Include:"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:29
+msgid "Test Connections before saving them"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:30
+msgid "View Table structure, content, and relations"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:31
+msgid "Write multiple custom SQL Queries"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:32
+msgid "Switch between light and dark mode"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:33
+msgid ""
+"Handy keyboard shortcuts to quit (ctrl+q), create new connection (ctrl+shift"
+"+n), open a new window (ctrl+n)"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:42
+msgid "Query Tab Bonanza!"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:44
+msgid "Fix ORDER BY in PostgreSQL Relationship view."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:45
+msgid "Improve MySQL structure view."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:46
+msgid "Drop Granite.Settings in favor of GLib.Settings."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:47
+msgid "Implement Granite.Notebook on the Query tab."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:48
+msgid "Show query error messages inline."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:54
+msgid "New features and improvements"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:56
+msgid "You can now duplicate connections."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:57
+msgid ""
+"Sorting columns now works as expected by actually running the ORDER BY query."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:58
+msgid ""
+"Quickly jump to a specific result page with the handy dandy pagination "
+"popover."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:59
+msgid "Show Comment Column inside table structure view."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:65
+msgid "The 2020 release!"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:67
+msgid "Manually reorder saved connection."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:68
+msgid "Allow selecting a custom SSH public key."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:69
+msgid "Fix SSH tunnel crashes."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:75
+msgid "Raw Query Improvements"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:77
+msgid "Strip comments from SQL raw queries."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:78
+msgid "Better handle complex queries on multiple lines."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:79
+msgid "Speed up query rendering."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:85
+msgid "Sweet Query Tab Improvements"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:87
+msgid "Edit font size of the Query Tab."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:88
+msgid "Edit background style of the Query Tab."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:89
+msgid "Save and remember the Query Tab size."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:95
+msgid "PostgreSQL Fixes"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:97
+msgid "Fixed PostgreSQL relationship table."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:98
+msgid "Fixed wrong response message when handling non select queries."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:104
+msgid "Bite-Size fixes"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:106
+msgid "Removed unused libfixposix."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:107
+msgid "Fixed pagination issue when clicking too fast while fetching big data."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:113
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:124
+msgid "Bug fixes and improvements"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:115
+msgid "Rewritten pagination to use LIMIT and OFFSET."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:116
+msgid "Faster pagination and content viewing for big data."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:117
+msgid "Show records count in table's list."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:118
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:151
+msgid "Bug fixes and other improvements."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:126
+msgid "Properly handle EXPLAIN SQL statement."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:127
+msgid "Properly handle querying capitlized PostgreSQL tables."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:128
+msgid "Improved async methods for internal views."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:129
+msgid "Updated translations."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:135
+msgid "Critical bug fix!"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:137
+msgid "CRITICAL: Fixes missing GSettings Schema, restore lost connections."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:138
+msgid "Other small bug fixes and improvements."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:144
+msgid "Implemented SSH tunneling"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:146
+msgid ""
+"WARNING: This release packs many updates and something could break. Please, "
+"backup your connections."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:147
+msgid "Connect via SSH to a remote Database."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:148
+msgid "Major code refactor to handle UI updates via async methods."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:149
+msgid ""
+"Use Stack container to show a loading Spinner during fetch or data "
+"processing methods."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:150
+msgid ""
+"Major performance improvements to the table search and dropdown schema "
+"switcher."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:157
+msgid "Fancy New Icon!"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:159
+msgid "New fancy Icon."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:160
+msgid "Use GtkNativeDialog."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:161
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:171
+msgid "Bug fixes and Improvements."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:167
+msgid "Open SQLite files"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:169
+msgid "Open SQLite files directly in Sequeler."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:170
+msgid "Right click to copy data inside a column."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:177
+msgid "UI Fixes and Performance Improvements"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:179
+msgid "UI fix for logout button."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:180
+msgid "View shortcuts on preferences dropdown."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:181
+msgid "Performance Improvements."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:182
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:250
+msgid "Italian translation."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:188
+msgid "Export all the things!"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:190
+msgid "Export results from Query Tab."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:191
+msgid "Export in CSV or Plain Text format."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:192
+msgid "Sort Columns order everywhere."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:193
+msgid "Brazilian translation."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:199
+msgid "Here comes the power of Pagination!!!"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:201
+msgid "Paginate results in the Content tab."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:202
+msgid "Query messages UI improvements."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:203
+msgid "Relations table bug fixes."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:209
+msgid "We got Multi SQL Query support."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:211
+msgid "Ability to handle multiple SQL queries."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:212
+msgid "Execute the currently highlighted query."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:213
+msgid "Improved Library Popover UI."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:214
+msgid "Use native GTK+ CSS attributes for better Light/Dark mode."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:215
+msgid "Random UI improvements."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:221
+msgid "Urgent! Fixed broken Tabs for translated version."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:226
+msgid "Light and Dark Mode Switch!"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:228
+msgid "Better Dark/Light mode switch in header bar."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:229
+msgid "Add Russian translation."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:230
+msgid "Updated Welcome screen with New Window command."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:231
+msgid "Code cleanup."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:237
+msgid "Official Juno release!"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:239
+msgid "Missing filter name on SQLite File Dialog."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:245
+msgid "We got Search!"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:247
+msgid "Search table names in sidebar."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:248
+msgid "Fixes issue in connecting directly on a non saved connection."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:249
+msgid "Updated Lithuanian translation."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:256
+msgid "Improved Password Security."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:258
+msgid "Safely store passwords in LibSecret."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:259
+msgid "Auto upgrade on startup to remove passwords from GSettings."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:260
+msgid ""
+"Fixes issues with identical table names from other database in the same "
+"connection."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:261
+msgid "Alphabetically ordered tables."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:262
+msgid "Improvements in showing MySql/MariaDB Table Structure."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:263
+msgid "Many more bugs for you to discover."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:269
+msgid "New Icon and Import/Export Library."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:271
+msgid "Fancy new icon."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:272
+msgid "Import and Export connections library."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:273
+msgid "Fixed random crash when opening and closing multiple connections."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:274
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:280
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:292
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:315
+msgid "Bug fixes and improvements."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:282
+msgid "Fixed PostgreSQL Schema show options."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:283
+msgid ""
+"Fixed crash on new connection dialog when opening the connection before "
+"saving."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:289
+msgid "Little side dish update."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:291
+msgid "Fixed save window state on close."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:298
+msgid "Alternate coloured rows!"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:300
+msgid "Manually reload Content, Structure, and Relations."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:301
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:312
+msgid "Show Table schema, content, and constraint relationships."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:302
+msgid "Properly handle compound queries."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:303
+msgid "Fix PostgreSQL table switch."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:309
+msgid "Complete rewrite of the entire code base!"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:311
+msgid "Handle multiple Windows/Instances and multiple open connections."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:313
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:325
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:337
+msgid "Quicker response on big select queries"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:314
+msgid "Better error handling."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:321
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:333
+msgid "Better error handling, less crashes!"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:323
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:335
+msgid "The app doesn't crash when dealing with big values"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:324
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:336
+msgid "Handling errors related to columns"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:326
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:338
+msgid "Some small clean up"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:327
+msgid "Fixes issue with SQL Lite encrypted path"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:344
+msgid "New Icon, Better error messages!"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:346
+msgid "New shiny icon"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:347
+msgid "View SQL error message on error"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:348
+msgid "FIX: Show proper PostgreSql Schema Table in Sidebar"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:349
+msgid "Snappiest query execution ever for local databases"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:350
+msgid "The usual bundle of bugs for you to discover"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:356
+msgid "Summoning the power of async methods!"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:358
+msgid "All DataBase queries are now async methods, super fast."
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:359
+msgid "The UI doesn't freeze anymore during a long process"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:360
+msgid "Granite SourceList to display list of tables"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:361
+msgid "Tabs to switch between the Query Builder and the Table Structure"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:362
+msgid "ComboBox to select table schemas from the open connection"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:363
+msgid "Many more bugs and issues for you to have fun with"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:369
+msgid "Bug Fixes and Improvements"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:371
+msgid "Display Table lists for SQLite and PostgreSQL"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:372
+msgid "Refresh Table List view if tables change"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:373
+msgid "Removed unused GSettings"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:379
+msgid ""
+"This is so good you won't believe it. New Library UI, Schema Table, Custom "
+"Port, and more"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:381
+msgid ""
+"A brand new Library View directly in your home screen, super tight and "
+"organized"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:382
+msgid "Custom Port field for those snazzy geeks who don't just use 3306"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:383
+msgid "A shiny new Sidebar View to list all your DataBase Tables"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:384
+msgid "Code cleanup and speed improvements"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:385
+msgid "Usual abundance of bugs and issues for you to have fun with!"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:391
+msgid "Major Update: Releasing a sweet table to view Query Results!"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:393
+msgid "Did I say we got a sweet table to view query results?"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:394
+msgid "New shortcut (ctrl+enter) to execute query"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:395
+msgid "Solved bug while connecting to DB directly from the Connection Dialog"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:396
+msgid "UI Improvements to Connection Dialog"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:397
+msgid "Added Spanish and Lithuanian translations"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:403
+msgid "UI fixes"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:405
+msgid "Visual improvements to the library view"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:411
+msgid "Initial Release"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:413
+msgid "Store your Database connections"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:414
+msgid "Quickly connect to a Local or Remote Database"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:415
+msgid "Write SQL queries in the built-in code editor"
+msgstr ""
+
+#: data/com.github.alecaddd.sequeler.appdata.xml.in.in:437
+msgid "Alessandro Castellani"
+msgstr ""
