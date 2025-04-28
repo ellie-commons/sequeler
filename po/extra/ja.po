@@ -8,18 +8,21 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-11 12:37+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-04-29 01:01+0000\n"
+"Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/sequeler/"
+"metainfo/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #: data/com.github.alecaddd.sequeler.desktop.in.in:3
 #: data/com.github.alecaddd.sequeler.appdata.xml.in.in:7
 msgid "Sequeler"
-msgstr ""
+msgstr "Sequeler"
 
 #: data/com.github.alecaddd.sequeler.desktop.in.in:4
 msgid "Sequeler App"
@@ -28,7 +31,7 @@ msgstr ""
 #: data/com.github.alecaddd.sequeler.desktop.in.in:5
 #: data/com.github.alecaddd.sequeler.appdata.xml.in.in:8
 msgid "Friendly SQL Client"
-msgstr ""
+msgstr "フレンドリーな SQL クライアント"
 
 #: data/com.github.alecaddd.sequeler.desktop.in.in:9
 msgid "@icon@"
@@ -36,11 +39,11 @@ msgstr ""
 
 #: data/com.github.alecaddd.sequeler.desktop.in.in:12
 msgid "SQL;MySql;Database;MariaDB;S3;PostgreSQL;"
-msgstr ""
+msgstr "SQL;MySql;Database;MariaDB;S3;PostgreSQL;データベース;"
 
 #: data/com.github.alecaddd.sequeler.appdata.xml.in.in:10
 msgid "Easily connect to your local or remote database"
-msgstr ""
+msgstr "ローカルまたはリモートのデータベースに簡単に接続します"
 
 #: data/com.github.alecaddd.sequeler.appdata.xml.in.in:13
 msgid ""
@@ -48,52 +51,58 @@ msgid ""
 "type and execute SQL commands directly in the app, and do everything you "
 "need to do without the necessity of opening the terminal."
 msgstr ""
+"データベースへの接続情報をライブラリに保存したり、SSH "
+"トンネル経由で接続したり、SQL "
+"コマンドをアプリ内で直接入力・実行したり。必要なことはすべて、ターミナルを開"
+"かずに完結します。"
 
 #: data/com.github.alecaddd.sequeler.appdata.xml.in.in:16
 msgid "Supported Databases:"
-msgstr ""
+msgstr "対応しているデータベース:"
 
 #: data/com.github.alecaddd.sequeler.appdata.xml.in.in:20
 msgid "SQLite"
-msgstr ""
+msgstr "SQLite"
 
 #: data/com.github.alecaddd.sequeler.appdata.xml.in.in:21
 msgid "MySQL"
-msgstr ""
+msgstr "MySQL"
 
 #: data/com.github.alecaddd.sequeler.appdata.xml.in.in:22
 msgid "MariaDB"
-msgstr ""
+msgstr "MariaDB"
 
 #: data/com.github.alecaddd.sequeler.appdata.xml.in.in:23
 msgid "PostgreSQL"
-msgstr ""
+msgstr "PostgreSQL"
 
 #: data/com.github.alecaddd.sequeler.appdata.xml.in.in:25
 msgid "Features Include:"
-msgstr ""
+msgstr "含まれる機能:"
 
 #: data/com.github.alecaddd.sequeler.appdata.xml.in.in:29
 msgid "Test Connections before saving them"
-msgstr ""
+msgstr "保存前の接続確認"
 
 #: data/com.github.alecaddd.sequeler.appdata.xml.in.in:30
 msgid "View Table structure, content, and relations"
-msgstr ""
+msgstr "テーブルの構造・内容・リレーションの表示"
 
 #: data/com.github.alecaddd.sequeler.appdata.xml.in.in:31
 msgid "Write multiple custom SQL Queries"
-msgstr ""
+msgstr "カスタム SQL クエリの複数記述"
 
 #: data/com.github.alecaddd.sequeler.appdata.xml.in.in:32
 msgid "Switch between light and dark mode"
-msgstr ""
+msgstr "ライトモードとダークモードの切り替え"
 
 #: data/com.github.alecaddd.sequeler.appdata.xml.in.in:33
 msgid ""
 "Handy keyboard shortcuts to quit (ctrl+q), create new connection (ctrl+shift"
 "+n), open a new window (ctrl+n)"
 msgstr ""
+"便利なキーボードショートカット: 終了 (Ctrl+Q)、新しい接続を作成 "
+"(Ctrl+Shift+N)、新しいウィンドウを開く (Ctrl+N)"
 
 #: data/com.github.alecaddd.sequeler.appdata.xml.in.in:42
 msgid "Query Tab Bonanza!"
@@ -732,4 +741,4 @@ msgstr ""
 
 #: data/com.github.alecaddd.sequeler.appdata.xml.in.in:437
 msgid "Alessandro Castellani"
-msgstr ""
+msgstr "Alessandro Castellani"
