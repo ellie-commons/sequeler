@@ -1,6 +1,7 @@
 conf_data = configuration_data()
 conf_data.set('PROJECT_NAME', application_id)
 conf_data.set('GETTEXT_PACKAGE', meson.project_name())
+conf_data.set('LOCALEDIR', join_paths(get_option('prefix'), get_option('localedir')))
 conf_data.set('VERSION', meson.project_version())
 
 config_header = configure_file(
@@ -63,7 +64,7 @@ executable(
         dependency('libgda-5.0'),
         dependency('libssh2'),
         dependency('libsecret-1'),
-        dependency('gtksourceview-3.0'),
+        dependency('gtksourceview-4'),
         m_dep,
         linux_dep
     ],

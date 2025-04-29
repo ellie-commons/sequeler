@@ -33,6 +33,11 @@ public class Sequeler.Application : Gtk.Application {
         application_id = Constants.PROJECT_NAME;
         flags |= ApplicationFlags.HANDLES_OPEN;
 
+        GLib.Intl.setlocale (LocaleCategory.ALL, "");
+        GLib.Intl.bindtextdomain (Constants.GETTEXT_PACKAGE, Constants.LOCALEDIR);
+        GLib.Intl.bind_textdomain_codeset (Constants.GETTEXT_PACKAGE, "UTF-8");
+        GLib.Intl.textdomain (Constants.GETTEXT_PACKAGE);
+
         schema = new Secret.Schema (Constants.PROJECT_NAME, Secret.SchemaFlags.NONE,
                                  "id", Secret.SchemaAttributeType.INTEGER,
                                  "schema", Secret.SchemaAttributeType.STRING);

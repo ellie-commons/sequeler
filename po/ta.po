@@ -1,584 +1,585 @@
-# Portuguese translations for com.github.alecaddd.sequeler package.
-# Copyright (C) 2020 THE com.github.alecaddd.sequeler'S COPYRIGHT HOLDER
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the com.github.alecaddd.sequeler package.
-# Everson Santos Araujo <everson@everson.com.br>, 2020.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: com.github.alecaddd.sequeler\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-11 12:37+0200\n"
-"PO-Revision-Date: 2025-01-10 13:00+0000\n"
-"Last-Translator: aquila0101 <aquila.santos@ba.estudante.senai.br>\n"
-"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
-"sequeler/translations/pt_BR/>\n"
-"Language: pt_BR\n"
+"PO-Revision-Date: 2025-04-21 15:01+0000\n"
+"Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
+"Language-Team: Tamil <https://hosted.weblate.org/projects/sequeler/"
+"translations/ta/>\n"
+"Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.10-dev\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.11.1-dev\n"
 
 #: src/Application.vala:62
 msgid "Directories are not supported"
-msgstr "Diretórios não são suportados"
+msgstr "கோப்பகங்கள் ஆதரிக்கப்படவில்லை"
 
 #: src/Application.vala:68
 msgid "Don't know what to do"
-msgstr "Não sei o que fazer"
+msgstr "என்ன செய்வது என்று தெரியவில்லை"
 
 #: src/Application.vala:80
 msgid "Something completely unexpected happened"
-msgstr "Algo completamente inesperado ocorreu"
+msgstr "முற்றிலும் எதிர்பாராத ஒன்று நடந்தது"
 
 #: src/Layouts/HeaderBar.vala:46 src/Layouts/HeaderBar.vala:53
 msgid "Logout"
-msgstr "Desconectar"
+msgstr "வெளியேற்றம்"
 
 #: src/Layouts/HeaderBar.vala:56
 msgid "Light background"
-msgstr "Fundo claro"
+msgstr "ஒளி பின்னணி"
 
 #: src/Layouts/HeaderBar.vala:57
 msgid "Dark background"
-msgstr "Fundo escuro"
+msgstr "இருண்ட பின்னணி"
 
 #: src/Layouts/HeaderBar.vala:68 src/Layouts/Welcome.vala:39
 msgid "New Window"
-msgstr "Nova Janela"
+msgstr "புதிய சாளரம்"
 
 #: src/Layouts/HeaderBar.vala:71 src/Widgets/ConnectionDialog.vala:130
 #: src/Widgets/ConnectionDialog.vala:165
 msgid "New Connection"
-msgstr "Nova Conexão"
+msgstr "புதிய இணைப்பு"
 
 #: src/Layouts/HeaderBar.vala:74
 msgid "Quit"
-msgstr "Sair"
+msgstr "வெளியேறு"
 
 #: src/Layouts/HeaderBar.vala:94
 msgid "Menu"
-msgstr "Menu"
+msgstr "பட்டியல்"
 
 #: src/Layouts/Main.vala:77
 #, c-format
 msgid "Connected to %s"
-msgstr "Conectado a %s"
+msgstr "%s உடன் இணைக்கப்பட்டுள்ளது"
 
 #: src/Layouts/Library.vala:65
 msgid "SAVED CONNECTIONS"
-msgstr "CONEXÕES SALVAS"
+msgstr "சேமித்த இணைப்புகள்"
 
 #: src/Layouts/Library.vala:74
 msgid "Delete All"
-msgstr "Apagar Tudo"
+msgstr "அனைத்தையும் நீக்கு"
 
 #: src/Layouts/Library.vala:81
 msgid "Reload Library"
-msgstr "Recarregar Biblioteca"
+msgstr "நூலகத்தை மீண்டும் ஏற்றவும்"
 
 #: src/Layouts/Library.vala:84
 msgid "Export Library"
-msgstr "Exportar Biblioteca"
+msgstr "ஏற்றுமதி நூலகம்"
 
 #: src/Layouts/Library.vala:215 src/Layouts/Library.vala:233
 msgid "Are you sure you want to proceed?"
-msgstr "Tem certeza que deseja prosseguir?"
+msgstr "நீங்கள் தொடர விரும்புகிறீர்களா?"
 
 #: src/Layouts/Library.vala:215
 msgid "By deleting this connection you won’t be able to recover this data."
-msgstr "Ao excluir esta conexão, você não será capaz de recuperar estes dados."
+msgstr "இந்த இணைப்பை நீக்குவதன் மூலம் இந்தத் தரவை மீட்டெடுக்க முடியாது."
 
 #: src/Layouts/Library.vala:218
 msgid "Yes, Delete!"
-msgstr "Sim, Apague!"
+msgstr "ஆம், நீக்கு!"
 
 #: src/Layouts/Library.vala:233
 msgid "All the data will be deleted and you won’t be able to recover it."
-msgstr "Todos os dados serão apagados e você não será capaz de recuperá-los."
+msgstr "எல்லா தரவுகளும் நீக்கப்படும், அதை நீங்கள் மீட்டெடுக்க முடியாது."
 
 #: src/Layouts/Library.vala:236
 msgid "Yes, Delete All!"
-msgstr "Sim, Apague Tudo!"
+msgstr "ஆம், அனைத்தையும் நீக்கு!"
 
 #: src/Layouts/Library.vala:330 src/Widgets/ConnectionDialog.vala:575
 #: src/Widgets/ConnectionDialog.vala:596
 msgid "A username is required in order to connect!"
-msgstr "Um nome de usuário é necessário para conectar!"
+msgstr "இணைக்க பயனர்பெயர் தேவை!"
 
 #: src/Layouts/Library.vala:404 src/Layouts/Views/Query.vala:528
 msgid "Pick a file"
-msgstr "Escolha um arquivo"
+msgstr "ஒரு கோப்பை எடு"
 
 #: src/Layouts/Library.vala:407 src/Layouts/Views/Query.vala:531
 msgid "_Save"
-msgstr "_Salvar"
+msgstr "_சேவ்"
 
 #: src/Layouts/Library.vala:408 src/Layouts/Welcome.vala:62
 #: src/Layouts/Views/Query.vala:532
 msgid "_Cancel"
-msgstr "_Cancelar"
+msgstr "_CANCEL"
 
 #: src/Layouts/Library.vala:467
 #, c-format
 msgid "Unable to Connect to %s"
-msgstr "Não é possível conectar-se a %s"
+msgstr "%s உடன் இணைக்க முடியவில்லை"
 
 #: src/Layouts/Library.vala:480
 msgid "Unable to Export Library "
-msgstr "Não é Possível Exportar a Biblioteca "
+msgstr "நூலகத்தை ஏற்றுமதி செய்ய முடியவில்லை "
 
 #: src/Layouts/Welcome.vala:28
 msgid "Welcome to Sequeler"
-msgstr "Bem-vindo ao Sequeler"
+msgstr "தொடர்ச்சிக்கு வருக"
 
 #: src/Layouts/Welcome.vala:29
 msgid "Connect to Any Local or Remote Database."
-msgstr "Conecte-se a qualquer banco de dados local ou remoto."
+msgstr "எந்த உள்ளக அல்லது தொலைநிலை தரவுத்தளத்துடன் இணைக்கவும்."
 
 #: src/Layouts/Welcome.vala:38
 msgid "Add a New Database"
-msgstr "Adicionar um Novo Banco de Dados"
+msgstr "புதிய தரவுத்தளத்தைச் சேர்க்கவும்"
 
 #: src/Layouts/Welcome.vala:38
 msgid "Connect to a Database and Save It in Your Library"
-msgstr "Conecte-se a um Banco de Dados e Salve ele em sua Biblioteca"
+msgstr "ஒரு தரவுத்தளத்துடன் இணைத்து உங்கள் நூலகத்தில் சேமிக்கவும்"
 
 #: src/Layouts/Welcome.vala:39
 msgid "Open a New Sequeler Window"
-msgstr "Abrir uma nova janela do Sequeler"
+msgstr "புதிய தொடர்ச்சியான சாளரத்தைத் திறக்கவும்"
 
 #: src/Layouts/Welcome.vala:40
 msgid "Import Connections"
-msgstr "Importar Conexões"
+msgstr "இணைப்புகளை இறக்குமதி செய்யுங்கள்"
 
 #: src/Layouts/Welcome.vala:40
 msgid "Import Previously Exported Sequeler Connections"
-msgstr "Importar Conexões do Sequeler Exportadas Anteriormente"
+msgstr ""
+"முன்னர் ஏற்றுமதி செய்யப்பட்ட தொடர்ச்சியான இணைப்புகளை இறக்குமதி செய்யுங்கள்"
 
 #: src/Layouts/Welcome.vala:58
 msgid "Select a file"
-msgstr "Selecione um arquivo"
+msgstr "ஒரு கோப்பைத் தேர்ந்தெடு"
 
 #: src/Layouts/Welcome.vala:61
 msgid "_Open"
-msgstr "_Abrir"
+msgstr "_OPEN"
 
 #: src/Layouts/Welcome.vala:107
 msgid "Unable to Import Library "
-msgstr "Não é Possível Importar a Biblioteca "
+msgstr "நூலகத்தை இறக்குமதி செய்ய முடியவில்லை "
 
 #: src/Layouts/DataBaseSchema.vala:66 src/Layouts/DataBaseSchema.vala:167
 msgid "- Select Database -"
-msgstr "- Selecione o Banco de Dados -"
+msgstr "- தரவுத்தளத்தைத் தேர்ந்தெடுக்கவும் -"
 
 #: src/Layouts/DataBaseSchema.vala:87
 msgid "Search Tables"
-msgstr "Buscar Tabelas"
+msgstr "அட்டவணைகளைத் தேடுங்கள்"
 
 #: src/Layouts/DataBaseSchema.vala:98
 msgid "Search Tables…"
-msgstr "Buscar Tabelas…"
+msgstr "அட்டவணைகளைத் தேடுங்கள்…"
 
 #: src/Layouts/DataBaseSchema.vala:120
 msgid "Reload Tables"
-msgstr "Recarregar as Tabelas"
+msgstr "அட்டவணைகளை மீண்டும் ஏற்றவும்"
 
 #: src/Layouts/DataBaseSchema.vala:125
 msgid "Add Table"
-msgstr "Adicionar Tabela"
+msgstr "அட்டவணை சேர்க்கவும்"
 
 #: src/Layouts/DataBaseSchema.vala:289
 msgid "TABLES"
-msgstr "TABELAS"
+msgstr "அட்டவணைகள்"
 
 #: src/Layouts/DataBaseView.vala:49
 msgid "Structure"
-msgstr "Estrutura"
+msgstr "கட்டமைப்பு"
 
 #: src/Layouts/DataBaseView.vala:50
 msgid "Content"
-msgstr "Conteúdo"
+msgstr "உள்ளடக்கம்"
 
 #: src/Layouts/DataBaseView.vala:51
 msgid "Relations"
-msgstr "Relacionamentos"
+msgstr "உறவுகள்"
 
 #: src/Layouts/DataBaseView.vala:52 src/Layouts/DataBaseView.vala:229
 #: src/Layouts/DataBaseView.vala:253
 msgid "Query"
-msgstr "Consultar"
+msgstr "வினவல்"
 
 #: src/Layouts/DataBaseView.vala:101
 msgid "Zoom Out"
-msgstr "Diminuir zoom"
+msgstr "சிறிதாக்கு"
 
 #: src/Layouts/DataBaseView.vala:107
 msgid "Zoom 1:1"
-msgstr "Zoom 1:1"
+msgstr "பெரிதாக்கு 1: 1"
 
 #: src/Layouts/DataBaseView.vala:111
 msgid "Zoom In"
-msgstr "Aumentar Zoom"
+msgstr "பெரிதாக்கு"
 
 #: src/Layouts/DataBaseView.vala:124
 msgid "High Contrast"
-msgstr "Alto Contraste"
+msgstr "உயர் வேறுபாடு"
 
 #: src/Layouts/DataBaseView.vala:132
 msgid "Solarized Light"
-msgstr "Claro Solarizado"
+msgstr "சோலரிச் லைட்"
 
 #: src/Layouts/DataBaseView.vala:140
 msgid "Solarized Dark"
-msgstr "Escuro Solarizado"
+msgstr "சோலரிச் இருண்ட"
 
 #: src/Layouts/DataBaseView.vala:163
 msgid "Change Text Style"
-msgstr "Mudar Estilo do Texto"
+msgstr "உரை பாணியை மாற்றவும்"
 
 #: src/Layouts/DataBaseView.vala:222
 msgid "Create a new Query Tab"
-msgstr "Criar uma nova Aba de Consultas"
+msgstr "புதிய வினவல் தாவலை உருவாக்கவும்"
 
 #: src/Layouts/DataBaseView.vala:240
 #, c-format
 msgid "Query %i"
-msgstr "Consulta %i"
+msgstr "வினவல் %i"
 
 #: src/Layouts/Views/Structure.vala:79 src/Layouts/Views/Content.vala:90
 #: src/Layouts/Views/Relations.vala:78
 msgid "Select Table"
-msgstr "Selecionar Tabela"
+msgstr "அட்டவணையைத் தேர்ந்தெடுக்கவும்"
 
 #: src/Layouts/Views/Structure.vala:79 src/Layouts/Views/Content.vala:90
 #: src/Layouts/Views/Relations.vala:78
 msgid "Select a table from the left sidebar to activate this view."
 msgstr ""
-"Selecione uma tabela da barra lateral esquerda para ativar esta exibição."
+"இந்த பார்வையை செயல்படுத்த இடது பக்கப்பட்டியில் இருந்து ஒரு அட்டவணையைத் தேர்ந்தெடுக்கவும்."
 
 #: src/Layouts/Views/Structure.vala:107 src/Layouts/Views/Structure.vala:145
 #: src/Layouts/Views/Content.vala:179 src/Layouts/Views/Content.vala:218
 #: src/Layouts/Views/Relations.vala:106 src/Layouts/Views/Relations.vala:144
 #: src/Layouts/Views/Query.vala:323
 msgid "No Results Available"
-msgstr "Não Há Resultados Disponíveis"
+msgstr "முடிவுகள் எதுவும் கிடைக்கவில்லை"
 
 #: src/Layouts/Views/Structure.vala:118 src/Layouts/Views/Content.vala:191
 #: src/Layouts/Views/Relations.vala:117
 msgid "Reload Results"
-msgstr "Recarregar Resultados"
+msgstr "முடிவுகளை மீண்டும் ஏற்றவும்"
 
 #: src/Layouts/Views/Structure.vala:197
 msgid " Fields"
-msgstr " Campos"
+msgstr " புலங்கள்"
 
 #: src/Layouts/Views/Content.vala:121
 msgid "Previous Page"
-msgstr "Página Anterior"
+msgstr "முந்தைய பக்கம்"
 
 #: src/Layouts/Views/Content.vala:126
 msgid "Next Page"
-msgstr "Próxima Página"
+msgstr "அடுத்த பக்கம்"
 
 #: src/Layouts/Views/Content.vala:131
 #, c-format
 msgid "%d Pages"
-msgstr "%d Páginas"
+msgstr "%d பக்கங்கள்"
 
 #: src/Layouts/Views/Content.vala:134
 msgid "Jump to page…"
-msgstr "Ir para página…"
+msgstr "பக்கத்திற்கு செல்லவும்…"
 
 #: src/Layouts/Views/Content.vala:165
 msgid "1 Page"
-msgstr "1 Página"
+msgstr "1 பக்கம்"
 
 #: src/Layouts/Views/Content.vala:171
 #, c-format
 msgid "%d of %d Pages"
-msgstr "%d de %d Páginas"
+msgstr "%d பக்கங்களின் %d"
 
 #: src/Layouts/Views/Content.vala:275
 #, c-format
 msgid "%d Entries"
-msgstr "%d Entradas"
+msgstr "%d உள்ளீடுகள்"
 
 #: src/Layouts/Views/Relations.vala:197
 msgid " Constraints"
-msgstr " Restrições"
+msgstr " தடைகள்"
 
 #: src/Layouts/Views/Query.vala:279
 msgid "Running Query…"
-msgstr "Executando Consulta…"
+msgstr "இயங்கும் வினவல்…"
 
 #: src/Layouts/Views/Query.vala:295 src/Layouts/Views/Query.vala:304
 msgid "Run Query"
-msgstr "Executar Consulta"
+msgstr "வினவலை இயக்கவும்"
 
 #: src/Layouts/Views/Query.vala:356
 msgid "Export Results"
-msgstr "Exportar Resultados"
+msgstr "ஏற்றுமதி முடிவுகள்"
 
 #: src/Layouts/Views/Query.vala:369
 msgid "Export as CSV"
-msgstr "Exportar como CSV"
+msgstr "காபிம ஆக ஏற்றுமதி"
 
 #: src/Layouts/Views/Query.vala:377
 msgid "Export as Text"
-msgstr "Exportar como Texto"
+msgstr "உரையாக ஏற்றுமதி"
 
 #: src/Layouts/Views/Query.vala:436 src/Layouts/Views/Query.vala:482
 msgid "Unable to process Query!"
-msgstr "Não é possível processar a consulta!"
+msgstr "வினவலை செயலாக்க முடியவில்லை!"
 
 #: src/Layouts/Views/Query.vala:457
 #, c-format
 msgid "%d Total Results"
-msgstr "Total de %d Resultados"
+msgstr "%d மொத்த முடிவுகள்"
 
 #: src/Layouts/Views/Query.vala:492
 #, c-format
 msgid "Query Successfully Executed! Rows Affected: %s"
-msgstr "Consulta executada com sucesso! Linhas afetadas: %s"
+msgstr "வினவல் வெற்றிகரமாக செயல்படுத்தப்பட்டது! பாதிக்கப்பட்ட வரிசைகள்: %s"
 
 #: src/Layouts/Views/Query.vala:495
 msgid "Query Executed!"
-msgstr "Consulta Executada!"
+msgstr "வினவல் செயல்படுத்தப்பட்டது!"
 
 #: src/Partials/LibraryItem.vala:107 src/Widgets/ConnectionDialog.vala:431
 msgid "Connect"
-msgstr "Conectar"
+msgstr "இணை"
 
 #: src/Partials/LibraryItem.vala:110
 msgid "Edit Connection"
-msgstr "Editar Conexão"
+msgstr "இணைப்பைத் திருத்து"
 
 #: src/Partials/LibraryItem.vala:113
 msgid "Duplicate Connection"
-msgstr "Duplicar Conexão"
+msgstr "நகல் இணைப்பு"
 
 #: src/Partials/LibraryItem.vala:116
 msgid "Delete Connection"
-msgstr "Remover Conexão"
+msgstr "இணைப்பை நீக்கு"
 
 #: src/Partials/LibraryItem.vala:126
 msgid "Options"
-msgstr "Opções"
+msgstr "விருப்பங்கள்"
 
 #: src/Partials/TreeBuilder.vala:131
 msgid "Error"
-msgstr "Erro"
+msgstr "பிழை"
 
 #: src/Partials/TreeBuilder.vala:131
 msgid "on Column"
-msgstr "na Coluna"
+msgstr "நெடுவரிசையில்"
 
 #: src/Partials/TreeBuilder.vala:172
 #, c-format
 msgid "Copy %s"
-msgstr "Copiar %s"
+msgstr "%s நகல்"
 
 #: src/Services/Settings.vala:106
 #, c-format
 msgid "%s (copy)"
-msgstr "%s (cópia)"
+msgstr "%s (நகல்)"
 
 #: src/Services/ConnectionManager.vala:193
 #, c-format
 msgid "Libssh2 initialization failed (%d)"
-msgstr "Falha ao iniciar libssh2 (%d)"
+msgstr "Libssh2 துவக்கம் தோல்வியடைந்தது (%d)"
 
 #: src/Services/ConnectionManager.vala:202
 msgid "Failed to open socket"
-msgstr "Falha ao abrir socket"
+msgstr "சாக்கெட் திறக்கத் தவறிவிட்டது"
 
 #: src/Services/ConnectionManager.vala:211
 msgid "Failed to connect!"
-msgstr "Falha ao conectar!"
+msgstr "இணைக்கத் தவறிவிட்டது!"
 
 #: src/Services/ConnectionManager.vala:223
 #, c-format
 msgid "Error when starting up SSH session: %d"
-msgstr "Erro ao iniciar sessão SSH: %d"
+msgstr "பாஓடு அமர்வைத் தொடங்கும்போது பிழை: %d"
 
 #: src/Services/ConnectionManager.vala:242
 msgid "Authentication by password failed!"
-msgstr "Falha na autenticação por senha!"
+msgstr "கடவுச்சொல் மூலம் ஏற்பு தோல்வியடைந்தது!"
 
 #: src/Services/ConnectionManager.vala:252
 msgid "Authentication by public key failed!"
-msgstr "Autenticação via chave pública falhou!"
+msgstr "பொது விசையின் ஏற்பு தோல்வியடைந்தது!"
 
 #: src/Services/ConnectionManager.vala:259
 msgid "No supported authentication methods found!"
-msgstr "Não foi encontrado nenhum método de autenticação suportado!"
+msgstr "உதவி அங்கீகார முறைகள் எதுவும் கிடைக்கவில்லை!"
 
 #: src/Services/ConnectionManager.vala:266
 msgid "Failed to open listen socket"
-msgstr "Falha ao abrir o socket"
+msgstr "கேட்கும் சாக்கெட் திறக்கத் தவறிவிட்டது"
 
 #: src/Services/ConnectionManager.vala:281
 msgid "Failed to bind. Your Database Port may be wrong!"
-msgstr "Falha ao conectar. A porta do banco de dados pode estar errada!"
+msgstr "பிணைக்கத் தவறிவிட்டது. உங்கள் தரவுத்தள துறைமுகம் தவறாக இருக்கலாம்!"
 
 #: src/Services/ConnectionManager.vala:287
 msgid "Failed to listen!"
-msgstr "Falha ao iniciar!"
+msgstr "கேட்கத் தவறிவிட்டது!"
 
 #: src/Services/ConnectionManager.vala:314
 msgid "Failed to accept remote connection!"
-msgstr "Falha ao aceitar a conexão remota!"
+msgstr "தொலை இணைப்பை ஏற்கத் தவறிவிட்டது!"
 
 #: src/Services/ConnectionManager.vala:323
 msgid ""
 "Could not open the direct-tcpip channel! (Note that this can be a problem at "
 "the server! Please review the server logs.)"
 msgstr ""
-"Não foi possível abrir o canal direct-tcpip! (Note que isso pode ser um "
-"problema no servidor! Por favor, verifique os logs do servidor.)"
+"நேரடி-TCPIP சேனலைத் திறக்க முடியவில்லை! (இது சேவையகத்தில் ஒரு சிக்கலாக இருக்கலாம் "
+"என்பதை நினைவில் கொள்க! சேவையக பதிவுகளை மதிப்பாய்வு செய்யவும்.)"
 
 #: src/Services/ConnectionManager.vala:566
 msgid "Error!"
-msgstr "Erro!"
+msgstr "பிழை!"
 
 #: src/Widgets/ConnectionDialog.vala:33
 msgid "Missing SSH Key file!"
-msgstr "Arquivo de chave SSH não encontrada!"
+msgstr "பாஓடு விசை கோப்பு இல்லை!"
 
 #: src/Widgets/ConnectionDialog.vala:34
 msgid "Missing SSH public key!"
-msgstr "Chave pública SSH não encontrada!"
+msgstr "பாஓடு பொது விசையை காணவில்லை!"
 
 #: src/Widgets/ConnectionDialog.vala:89 src/Widgets/ConnectionDialog.vala:355
 msgid "Connection"
-msgstr "Conexão"
+msgstr "இணைப்பு"
 
 #: src/Widgets/ConnectionDialog.vala:141
 msgid "Select connection color"
-msgstr "Escolha a cor da conexão"
+msgstr "இணைப்பு வண்ணத்தைத் தேர்ந்தெடுக்கவும்"
 
 #: src/Widgets/ConnectionDialog.vala:164
 msgid "Connection Name:"
-msgstr "Nome da Conexão:"
+msgstr "இணைப்பு பெயர்:"
 
 #: src/Widgets/ConnectionDialog.vala:165
 msgid "Connection's name"
-msgstr "Nome da Conexão"
+msgstr "இணைப்பின் பெயர்"
 
 #: src/Widgets/ConnectionDialog.vala:172
 msgid "Database Type:"
-msgstr "Tipo de Banco de Dados:"
+msgstr "தரவுத்தள வகை:"
 
 #: src/Widgets/ConnectionDialog.vala:194
 msgid "Host:"
-msgstr "Host:"
+msgstr "புரவலன்:"
 
 #: src/Widgets/ConnectionDialog.vala:200
 msgid "Database Name:"
-msgstr "Nome do Banco de Dados:"
+msgstr "தரவுத்தள பெயர்:"
 
 #: src/Widgets/ConnectionDialog.vala:207
 msgid "Username:"
-msgstr "Usuário:"
+msgstr "பயனர்பெயர்:"
 
 #: src/Widgets/ConnectionDialog.vala:213
 msgid "Password:"
-msgstr "Senha:"
+msgstr "கடவுச்சொல்:"
 
 #: src/Widgets/ConnectionDialog.vala:217 src/Widgets/ConnectionDialog.vala:227
 #: src/Widgets/ConnectionDialog.vala:285 src/Widgets/ConnectionDialog.vala:295
 msgid "Show password"
-msgstr "Exibir senha"
+msgstr "கடவுச்சொல்லைக் காட்டு"
 
 #: src/Widgets/ConnectionDialog.vala:224 src/Widgets/ConnectionDialog.vala:292
 msgid "Hide password"
-msgstr "Ocultar senha"
+msgstr "கடவுச்சொல்லை மறைக்கவும்"
 
 #: src/Widgets/ConnectionDialog.vala:234
 msgid "Port:"
-msgstr "Porta:"
+msgstr "போர்ட்:"
 
 #: src/Widgets/ConnectionDialog.vala:240
 msgid "File Path:"
-msgstr "Caminho do Arquivo:"
+msgstr "கோப்பு பாதை:"
 
 #: src/Widgets/ConnectionDialog.vala:241
 msgid "Select Your SQLite File…"
-msgstr "Selecione seu Arquivo SQLite…"
+msgstr "உங்கள் SQLite கோப்பைத் தேர்ந்தெடுக்கவும்…"
 
 #: src/Widgets/ConnectionDialog.vala:261
 msgid "Connect via SSH Tunnel:"
-msgstr "Conectar-se através de um Túnel SSH"
+msgstr "பாஓடு சுரங்கப்பாதை வழியாக இணைக்கவும்:"
 
 #: src/Widgets/ConnectionDialog.vala:271
 msgid "SSH Host:"
-msgstr "Servidor SSH:"
+msgstr "பாஓடு ஓச்ட்:"
 
 #: src/Widgets/ConnectionDialog.vala:276
 msgid "SSH Username:"
-msgstr "Usuário SSH:"
+msgstr "பாஓடு பயனர்பெயர்:"
 
 #: src/Widgets/ConnectionDialog.vala:281
 msgid "SSH Password:"
-msgstr "Senha SSH:"
+msgstr "பாஓடு கடவுச்சொல்:"
 
 #: src/Widgets/ConnectionDialog.vala:301
 msgid "SSH Port:"
-msgstr "Porta SSH:"
+msgstr "பாஓடு போர்ட்:"
 
 #: src/Widgets/ConnectionDialog.vala:302
 msgid "Optional"
-msgstr "Opcional"
+msgstr "விரும்பினால்"
 
 #: src/Widgets/ConnectionDialog.vala:306
 msgid "SSH Identity"
-msgstr "Identidade SSH"
+msgstr "பாஓடு அடையாளம்"
 
 #: src/Widgets/ConnectionDialog.vala:308
 msgid "Select Your Identity File…"
-msgstr "Selecione o seu arquivo de identificação…"
+msgstr "உங்கள் அடையாள கோப்பைத் தேர்ந்தெடுக்கவும்…"
 
 #: src/Widgets/ConnectionDialog.vala:324
 msgid "Generate SSH Key"
-msgstr "Gerar chave SSH"
+msgstr "பாஓடு விசையை உருவாக்குங்கள்"
 
 #: src/Widgets/ConnectionDialog.vala:356
 msgid "SSH Tunnel"
-msgstr "Túnel SSH"
+msgstr "பாஓடு சுரங்கப்பாதை"
 
 #: src/Widgets/ConnectionDialog.vala:426
 msgid "Close"
-msgstr "Fechar"
+msgstr "மூடு"
 
 #: src/Widgets/ConnectionDialog.vala:427
 msgid "Save Connection"
-msgstr "Salvar Conexão"
+msgstr "இணைப்பைச் சேமிக்கவும்"
 
 #: src/Widgets/ConnectionDialog.vala:429
 msgid "Test Connection"
-msgstr "Testar Conexão"
+msgstr "சோதனை இணைப்பு"
 
 #: src/Widgets/ConnectionDialog.vala:620
 msgid "Opening SSH Tunnel…"
-msgstr "Abrindo túnel SSH…"
+msgstr "பாஓடு சுரங்கப்பாதை திறத்தல்…"
 
 #: src/Widgets/ConnectionDialog.vala:650
 msgid "Testing Connection…"
-msgstr "Testando Conexão…"
+msgstr "சோதனை இணைப்பு…"
 
 #: src/Widgets/ConnectionDialog.vala:661
 msgid "Successfully Connected!"
-msgstr "Conectado com Sucesso!"
+msgstr "வெற்றிகரமாக இணைக்கப்பட்டுள்ளது!"
 
 #: src/Widgets/ConnectionDialog.vala:679
 msgid "Saving Connection…"
-msgstr "Salvando Conexão…"
+msgstr "இணைப்பு சேமிப்பு…"
 
 #: src/Widgets/ConnectionDialog.vala:684
 msgid "Connection Saved!"
-msgstr "Conexão Salva!"
+msgstr "இணைப்பு சேமிக்கப்பட்டது!"
 
 #: src/Widgets/ConnectionDialog.vala:692
 msgid "Connecting…"
-msgstr "Conectando…"
+msgstr "இணைத்தல்…"

@@ -8,571 +8,575 @@ msgstr ""
 "Project-Id-Version: com.github.alecaddd.sequeler\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-11 12:37+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-10-05 02:47+0000\n"
+"Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/sequeler/"
+"translations/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.8-dev\n"
 
 #: src/Application.vala:62
 msgid "Directories are not supported"
-msgstr ""
+msgstr "ディレクトリは非対応です"
 
 #: src/Application.vala:68
 msgid "Don't know what to do"
-msgstr ""
+msgstr "非対応です"
 
 #: src/Application.vala:80
 msgid "Something completely unexpected happened"
-msgstr ""
+msgstr "一切予期していない事象が発生しました"
 
 #: src/Layouts/HeaderBar.vala:46 src/Layouts/HeaderBar.vala:53
 msgid "Logout"
-msgstr ""
+msgstr "ログアウト"
 
 #: src/Layouts/HeaderBar.vala:56
 msgid "Light background"
-msgstr ""
+msgstr "明るい背景"
 
 #: src/Layouts/HeaderBar.vala:57
 msgid "Dark background"
-msgstr ""
+msgstr "暗い背景"
 
 #: src/Layouts/HeaderBar.vala:68 src/Layouts/Welcome.vala:39
 msgid "New Window"
-msgstr ""
+msgstr "新しいウィンドウ"
 
 #: src/Layouts/HeaderBar.vala:71 src/Widgets/ConnectionDialog.vala:130
 #: src/Widgets/ConnectionDialog.vala:165
 msgid "New Connection"
-msgstr ""
+msgstr "新しい接続"
 
 #: src/Layouts/HeaderBar.vala:74
 msgid "Quit"
-msgstr ""
+msgstr "終了"
 
 #: src/Layouts/HeaderBar.vala:94
 msgid "Menu"
-msgstr ""
+msgstr "メニュー"
 
 #: src/Layouts/Main.vala:77
 #, c-format
 msgid "Connected to %s"
-msgstr ""
+msgstr "%s に接続済み"
 
 #: src/Layouts/Library.vala:65
 msgid "SAVED CONNECTIONS"
-msgstr ""
+msgstr "保存済みの接続"
 
 #: src/Layouts/Library.vala:74
 msgid "Delete All"
-msgstr ""
+msgstr "すべて削除"
 
 #: src/Layouts/Library.vala:81
 msgid "Reload Library"
-msgstr ""
+msgstr "ライブラリを再読み込み"
 
 #: src/Layouts/Library.vala:84
 msgid "Export Library"
-msgstr ""
+msgstr "ライブラリをエクスポート"
 
 #: src/Layouts/Library.vala:215 src/Layouts/Library.vala:233
 msgid "Are you sure you want to proceed?"
-msgstr ""
+msgstr "続行してもよろしいですか?"
 
 #: src/Layouts/Library.vala:215
 msgid "By deleting this connection you won’t be able to recover this data."
-msgstr ""
+msgstr "この接続を削除すると、このデータは復元できません。"
 
 #: src/Layouts/Library.vala:218
 msgid "Yes, Delete!"
-msgstr ""
+msgstr "了解して削除"
 
 #: src/Layouts/Library.vala:233
 msgid "All the data will be deleted and you won’t be able to recover it."
-msgstr ""
+msgstr "すべてのデータが削除されます。復元はできません。"
 
 #: src/Layouts/Library.vala:236
 msgid "Yes, Delete All!"
-msgstr ""
+msgstr "了解してすべて削除"
 
 #: src/Layouts/Library.vala:330 src/Widgets/ConnectionDialog.vala:575
 #: src/Widgets/ConnectionDialog.vala:596
 msgid "A username is required in order to connect!"
-msgstr ""
+msgstr "接続するにはユーザー名が必要です"
 
 #: src/Layouts/Library.vala:404 src/Layouts/Views/Query.vala:528
 msgid "Pick a file"
-msgstr ""
+msgstr "ファイルを選択"
 
 #: src/Layouts/Library.vala:407 src/Layouts/Views/Query.vala:531
 msgid "_Save"
-msgstr ""
+msgstr "保存(_S)"
 
 #: src/Layouts/Library.vala:408 src/Layouts/Welcome.vala:62
 #: src/Layouts/Views/Query.vala:532
 msgid "_Cancel"
-msgstr ""
+msgstr "キャンセル(_C)"
 
 #: src/Layouts/Library.vala:467
 #, c-format
 msgid "Unable to Connect to %s"
-msgstr ""
+msgstr "%s に接続できません"
 
 #: src/Layouts/Library.vala:480
 msgid "Unable to Export Library "
-msgstr ""
+msgstr "ライブラリをエクスポートできません "
 
 #: src/Layouts/Welcome.vala:28
 msgid "Welcome to Sequeler"
-msgstr ""
+msgstr "Sequeler へようこそ"
 
 #: src/Layouts/Welcome.vala:29
 msgid "Connect to Any Local or Remote Database."
-msgstr ""
+msgstr "ローカルまたはリモートのデータベースに接続できます。"
 
 #: src/Layouts/Welcome.vala:38
 msgid "Add a New Database"
-msgstr ""
+msgstr "新しいデータベースを追加"
 
 #: src/Layouts/Welcome.vala:38
 msgid "Connect to a Database and Save It in Your Library"
-msgstr ""
+msgstr "データベースに接続して、ライブラリに保存します"
 
 #: src/Layouts/Welcome.vala:39
 msgid "Open a New Sequeler Window"
-msgstr ""
+msgstr "新しい Sequeler のウィンドウを開きます"
 
 #: src/Layouts/Welcome.vala:40
 msgid "Import Connections"
-msgstr ""
+msgstr "接続をインポート"
 
 #: src/Layouts/Welcome.vala:40
 msgid "Import Previously Exported Sequeler Connections"
-msgstr ""
+msgstr "以前にエクスポートした Sequeler の接続をインポートします"
 
 #: src/Layouts/Welcome.vala:58
 msgid "Select a file"
-msgstr ""
+msgstr "ファイルを選択"
 
 #: src/Layouts/Welcome.vala:61
 msgid "_Open"
-msgstr ""
+msgstr "開く(_O)"
 
 #: src/Layouts/Welcome.vala:107
 msgid "Unable to Import Library "
-msgstr ""
+msgstr "ライブラリをインポートできません "
 
 #: src/Layouts/DataBaseSchema.vala:66 src/Layouts/DataBaseSchema.vala:167
 msgid "- Select Database -"
-msgstr ""
+msgstr "- データベースを選択 -"
 
 #: src/Layouts/DataBaseSchema.vala:87
 msgid "Search Tables"
-msgstr ""
+msgstr "テーブルを検索"
 
 #: src/Layouts/DataBaseSchema.vala:98
 msgid "Search Tables…"
-msgstr ""
+msgstr "テーブルを検索…"
 
 #: src/Layouts/DataBaseSchema.vala:120
 msgid "Reload Tables"
-msgstr ""
+msgstr "テーブルを再読み込み"
 
 #: src/Layouts/DataBaseSchema.vala:125
 msgid "Add Table"
-msgstr ""
+msgstr "テーブルを追加"
 
 #: src/Layouts/DataBaseSchema.vala:289
 msgid "TABLES"
-msgstr ""
+msgstr "テーブル"
 
 #: src/Layouts/DataBaseView.vala:49
 msgid "Structure"
-msgstr ""
+msgstr "構造"
 
 #: src/Layouts/DataBaseView.vala:50
 msgid "Content"
-msgstr ""
+msgstr "内容"
 
 #: src/Layouts/DataBaseView.vala:51
 msgid "Relations"
-msgstr ""
+msgstr "関係"
 
 #: src/Layouts/DataBaseView.vala:52 src/Layouts/DataBaseView.vala:229
 #: src/Layouts/DataBaseView.vala:253
 msgid "Query"
-msgstr ""
+msgstr "クエリ"
 
 #: src/Layouts/DataBaseView.vala:101
 msgid "Zoom Out"
-msgstr ""
+msgstr "縮小"
 
 #: src/Layouts/DataBaseView.vala:107
 msgid "Zoom 1:1"
-msgstr ""
+msgstr "100% 表示"
 
 #: src/Layouts/DataBaseView.vala:111
 msgid "Zoom In"
-msgstr ""
+msgstr "拡大"
 
 #: src/Layouts/DataBaseView.vala:124
 msgid "High Contrast"
-msgstr ""
+msgstr "ハイコントラスト"
 
 #: src/Layouts/DataBaseView.vala:132
 msgid "Solarized Light"
-msgstr ""
+msgstr "Solarized Light"
 
 #: src/Layouts/DataBaseView.vala:140
 msgid "Solarized Dark"
-msgstr ""
+msgstr "Solarized Dark"
 
 #: src/Layouts/DataBaseView.vala:163
 msgid "Change Text Style"
-msgstr ""
+msgstr "テキストスタイルを変更"
 
 #: src/Layouts/DataBaseView.vala:222
 msgid "Create a new Query Tab"
-msgstr ""
+msgstr "新しいクエリタブを作成"
 
 #: src/Layouts/DataBaseView.vala:240
 #, c-format
 msgid "Query %i"
-msgstr ""
+msgstr "クエリ %i"
 
 #: src/Layouts/Views/Structure.vala:79 src/Layouts/Views/Content.vala:90
 #: src/Layouts/Views/Relations.vala:78
 msgid "Select Table"
-msgstr ""
+msgstr "テーブルを選択"
 
 #: src/Layouts/Views/Structure.vala:79 src/Layouts/Views/Content.vala:90
 #: src/Layouts/Views/Relations.vala:78
 msgid "Select a table from the left sidebar to activate this view."
-msgstr ""
+msgstr "左のサイドバーからテーブルを選んで、このビューに表示します。"
 
 #: src/Layouts/Views/Structure.vala:107 src/Layouts/Views/Structure.vala:145
 #: src/Layouts/Views/Content.vala:179 src/Layouts/Views/Content.vala:218
 #: src/Layouts/Views/Relations.vala:106 src/Layouts/Views/Relations.vala:144
 #: src/Layouts/Views/Query.vala:323
 msgid "No Results Available"
-msgstr ""
+msgstr "結果なし"
 
 #: src/Layouts/Views/Structure.vala:118 src/Layouts/Views/Content.vala:191
 #: src/Layouts/Views/Relations.vala:117
 msgid "Reload Results"
-msgstr ""
+msgstr "結果を再読み込み"
 
 #: src/Layouts/Views/Structure.vala:197
 msgid " Fields"
-msgstr ""
+msgstr " フィールド"
 
 #: src/Layouts/Views/Content.vala:121
 msgid "Previous Page"
-msgstr ""
+msgstr "前のページ"
 
 #: src/Layouts/Views/Content.vala:126
 msgid "Next Page"
-msgstr ""
+msgstr "次のページ"
 
 #: src/Layouts/Views/Content.vala:131
 #, c-format
 msgid "%d Pages"
-msgstr ""
+msgstr "%d ページ"
 
 #: src/Layouts/Views/Content.vala:134
 msgid "Jump to page…"
-msgstr ""
+msgstr "ページに移動…"
 
 #: src/Layouts/Views/Content.vala:165
 msgid "1 Page"
-msgstr ""
+msgstr "1 ページ"
 
 #: src/Layouts/Views/Content.vala:171
 #, c-format
 msgid "%d of %d Pages"
-msgstr ""
+msgstr "%d / %d ページ中"
 
 #: src/Layouts/Views/Content.vala:275
 #, c-format
 msgid "%d Entries"
-msgstr ""
+msgstr "%d エントリ"
 
 #: src/Layouts/Views/Relations.vala:197
 msgid " Constraints"
-msgstr ""
+msgstr " 制約"
 
 #: src/Layouts/Views/Query.vala:279
 msgid "Running Query…"
-msgstr ""
+msgstr "クエリを実行しています…"
 
 #: src/Layouts/Views/Query.vala:295 src/Layouts/Views/Query.vala:304
 msgid "Run Query"
-msgstr ""
+msgstr "クエリを実行"
 
 #: src/Layouts/Views/Query.vala:356
 msgid "Export Results"
-msgstr ""
+msgstr "結果をエクスポート"
 
 #: src/Layouts/Views/Query.vala:369
 msgid "Export as CSV"
-msgstr ""
+msgstr "CSV 形式でエクスポート"
 
 #: src/Layouts/Views/Query.vala:377
 msgid "Export as Text"
-msgstr ""
+msgstr "テキスト形式でエクスポート"
 
 #: src/Layouts/Views/Query.vala:436 src/Layouts/Views/Query.vala:482
 msgid "Unable to process Query!"
-msgstr ""
+msgstr "クエリを処理できません"
 
 #: src/Layouts/Views/Query.vala:457
 #, c-format
 msgid "%d Total Results"
-msgstr ""
+msgstr "%d 件の全結果"
 
 #: src/Layouts/Views/Query.vala:492
 #, c-format
 msgid "Query Successfully Executed! Rows Affected: %s"
-msgstr ""
+msgstr "クエリの実行に成功しました。影響を受ける行: %s"
 
 #: src/Layouts/Views/Query.vala:495
 msgid "Query Executed!"
-msgstr ""
+msgstr "クエリを実行しました"
 
 #: src/Partials/LibraryItem.vala:107 src/Widgets/ConnectionDialog.vala:431
 msgid "Connect"
-msgstr ""
+msgstr "接続"
 
 #: src/Partials/LibraryItem.vala:110
 msgid "Edit Connection"
-msgstr ""
+msgstr "接続を編集"
 
 #: src/Partials/LibraryItem.vala:113
 msgid "Duplicate Connection"
-msgstr ""
+msgstr "接続を複製"
 
 #: src/Partials/LibraryItem.vala:116
 msgid "Delete Connection"
-msgstr ""
+msgstr "接続を削除"
 
 #: src/Partials/LibraryItem.vala:126
 msgid "Options"
-msgstr ""
+msgstr "オプション"
 
 #: src/Partials/TreeBuilder.vala:131
 msgid "Error"
-msgstr ""
+msgstr "エラー"
 
 #: src/Partials/TreeBuilder.vala:131
 msgid "on Column"
-msgstr ""
+msgstr "カラム"
 
 #: src/Partials/TreeBuilder.vala:172
 #, c-format
 msgid "Copy %s"
-msgstr ""
+msgstr "%s をコピー"
 
 #: src/Services/Settings.vala:106
 #, c-format
 msgid "%s (copy)"
-msgstr ""
+msgstr "%s (コピー)"
 
 #: src/Services/ConnectionManager.vala:193
 #, c-format
 msgid "Libssh2 initialization failed (%d)"
-msgstr ""
+msgstr "Libssh2 の初期化に失敗しました (%d)"
 
 #: src/Services/ConnectionManager.vala:202
 msgid "Failed to open socket"
-msgstr ""
+msgstr "ソケットの open に失敗しました"
 
 #: src/Services/ConnectionManager.vala:211
 msgid "Failed to connect!"
-msgstr ""
+msgstr "connect に失敗しました"
 
 #: src/Services/ConnectionManager.vala:223
 #, c-format
 msgid "Error when starting up SSH session: %d"
-msgstr ""
+msgstr "SSH セッションの起動中にエラーが発生しました: %d"
 
 #: src/Services/ConnectionManager.vala:242
 msgid "Authentication by password failed!"
-msgstr ""
+msgstr "パスワード認証に失敗しました"
 
 #: src/Services/ConnectionManager.vala:252
 msgid "Authentication by public key failed!"
-msgstr ""
+msgstr "公開鍵認証に失敗しました"
 
 #: src/Services/ConnectionManager.vala:259
 msgid "No supported authentication methods found!"
-msgstr ""
+msgstr "対応する認証方法が見つかりませんでした"
 
 #: src/Services/ConnectionManager.vala:266
 msgid "Failed to open listen socket"
-msgstr ""
+msgstr "listen 中のソケットの open に失敗しました"
 
 #: src/Services/ConnectionManager.vala:281
 msgid "Failed to bind. Your Database Port may be wrong!"
-msgstr ""
+msgstr "bind に失敗しました。データベースのポート番号が間違っている可能性があります"
 
 #: src/Services/ConnectionManager.vala:287
 msgid "Failed to listen!"
-msgstr ""
+msgstr "listen に失敗しました"
 
 #: src/Services/ConnectionManager.vala:314
 msgid "Failed to accept remote connection!"
-msgstr ""
+msgstr "リモート接続の accept に失敗しました"
 
 #: src/Services/ConnectionManager.vala:323
 msgid ""
 "Could not open the direct-tcpip channel! (Note that this can be a problem at "
 "the server! Please review the server logs.)"
-msgstr ""
+msgstr "direct-tcpip チャネルを open できませんでした "
+"(サーバー側の問題の可能性があります。サーバーのログをご確認ください。)"
 
 #: src/Services/ConnectionManager.vala:566
 msgid "Error!"
-msgstr ""
+msgstr "エラー"
 
 #: src/Widgets/ConnectionDialog.vala:33
 msgid "Missing SSH Key file!"
-msgstr ""
+msgstr "SSH 鍵ファイルがありません"
 
 #: src/Widgets/ConnectionDialog.vala:34
 msgid "Missing SSH public key!"
-msgstr ""
+msgstr "SSH 公開鍵がありません"
 
 #: src/Widgets/ConnectionDialog.vala:89 src/Widgets/ConnectionDialog.vala:355
 msgid "Connection"
-msgstr ""
+msgstr "接続"
 
 #: src/Widgets/ConnectionDialog.vala:141
 msgid "Select connection color"
-msgstr ""
+msgstr "接続の色を選択"
 
 #: src/Widgets/ConnectionDialog.vala:164
 msgid "Connection Name:"
-msgstr ""
+msgstr "接続名:"
 
 #: src/Widgets/ConnectionDialog.vala:165
 msgid "Connection's name"
-msgstr ""
+msgstr "接続の名前"
 
 #: src/Widgets/ConnectionDialog.vala:172
 msgid "Database Type:"
-msgstr ""
+msgstr "データベースの種類:"
 
 #: src/Widgets/ConnectionDialog.vala:194
 msgid "Host:"
-msgstr ""
+msgstr "ホスト:"
 
 #: src/Widgets/ConnectionDialog.vala:200
 msgid "Database Name:"
-msgstr ""
+msgstr "データベース名:"
 
 #: src/Widgets/ConnectionDialog.vala:207
 msgid "Username:"
-msgstr ""
+msgstr "ユーザー名:"
 
 #: src/Widgets/ConnectionDialog.vala:213
 msgid "Password:"
-msgstr ""
+msgstr "パスワード:"
 
 #: src/Widgets/ConnectionDialog.vala:217 src/Widgets/ConnectionDialog.vala:227
 #: src/Widgets/ConnectionDialog.vala:285 src/Widgets/ConnectionDialog.vala:295
 msgid "Show password"
-msgstr ""
+msgstr "パスワードを表示"
 
 #: src/Widgets/ConnectionDialog.vala:224 src/Widgets/ConnectionDialog.vala:292
 msgid "Hide password"
-msgstr ""
+msgstr "パスワードを非表示"
 
 #: src/Widgets/ConnectionDialog.vala:234
 msgid "Port:"
-msgstr ""
+msgstr "ポート番号:"
 
 #: src/Widgets/ConnectionDialog.vala:240
 msgid "File Path:"
-msgstr ""
+msgstr "ファイルパス:"
 
 #: src/Widgets/ConnectionDialog.vala:241
 msgid "Select Your SQLite File…"
-msgstr ""
+msgstr "SQLite ファイルを選択…"
 
 #: src/Widgets/ConnectionDialog.vala:261
 msgid "Connect via SSH Tunnel:"
-msgstr ""
+msgstr "SSH トンネル経由で接続:"
 
 #: src/Widgets/ConnectionDialog.vala:271
 msgid "SSH Host:"
-msgstr ""
+msgstr "SSH ホスト:"
 
 #: src/Widgets/ConnectionDialog.vala:276
 msgid "SSH Username:"
-msgstr ""
+msgstr "SSH ユーザー名:"
 
 #: src/Widgets/ConnectionDialog.vala:281
 msgid "SSH Password:"
-msgstr ""
+msgstr "SSH パスワード:"
 
 #: src/Widgets/ConnectionDialog.vala:301
 msgid "SSH Port:"
-msgstr ""
+msgstr "SSH ポート番号:"
 
 #: src/Widgets/ConnectionDialog.vala:302
 msgid "Optional"
-msgstr ""
+msgstr "省略可"
 
 #: src/Widgets/ConnectionDialog.vala:306
 msgid "SSH Identity"
-msgstr ""
+msgstr "SSH 認証情報"
 
 #: src/Widgets/ConnectionDialog.vala:308
 msgid "Select Your Identity File…"
-msgstr ""
+msgstr "認証情報ファイルを選択…"
 
 #: src/Widgets/ConnectionDialog.vala:324
 msgid "Generate SSH Key"
-msgstr ""
+msgstr "SSH キーを生成"
 
 #: src/Widgets/ConnectionDialog.vala:356
 msgid "SSH Tunnel"
-msgstr ""
+msgstr "SSH トンネル"
 
 #: src/Widgets/ConnectionDialog.vala:426
 msgid "Close"
-msgstr ""
+msgstr "閉じる"
 
 #: src/Widgets/ConnectionDialog.vala:427
 msgid "Save Connection"
-msgstr ""
+msgstr "接続を保存"
 
 #: src/Widgets/ConnectionDialog.vala:429
 msgid "Test Connection"
-msgstr ""
+msgstr "接続を確認"
 
 #: src/Widgets/ConnectionDialog.vala:620
 msgid "Opening SSH Tunnel…"
-msgstr ""
+msgstr "SSH トンネルを開いています…"
 
 #: src/Widgets/ConnectionDialog.vala:650
 msgid "Testing Connection…"
-msgstr ""
+msgstr "接続を確認しています…"
 
 #: src/Widgets/ConnectionDialog.vala:661
 msgid "Successfully Connected!"
-msgstr ""
+msgstr "接続に成功しました"
 
 #: src/Widgets/ConnectionDialog.vala:679
 msgid "Saving Connection…"
-msgstr ""
+msgstr "接続を保存しています…"
 
 #: src/Widgets/ConnectionDialog.vala:684
 msgid "Connection Saved!"
-msgstr ""
+msgstr "接続を保存しました"
 
 #: src/Widgets/ConnectionDialog.vala:692
 msgid "Connecting…"
-msgstr ""
+msgstr "接続試行中…"

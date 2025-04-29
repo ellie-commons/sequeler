@@ -6,12 +6,12 @@ name: CI
 jobs:
   flatpak-builder:
     name: "Flatpak Builder"
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     container:
-      image: bilelmoussaoui/flatpak-github-actions:elementary-juno
+      image: ghcr.io/flathub-infra/flatpak-github-actions:gnome-48
       options: --privileged
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - uses: bilelmoussaoui/flatpak-github-actions/flatpak-builder@master
         with:
           bundle: "sequeler-nightly.flatpak"

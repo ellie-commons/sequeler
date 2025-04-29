@@ -1,5 +1,6 @@
 namespace Constants {
 	public const string PROJECT_NAME = "@PROJECT_NAME@";
 	public const string GETTEXT_PACKAGE = "@GETTEXT_PACKAGE@";
+	public const string LOCALEDIR = "@LOCALEDIR@";
 	public const string VERSION = "@VERSION@";
 }
