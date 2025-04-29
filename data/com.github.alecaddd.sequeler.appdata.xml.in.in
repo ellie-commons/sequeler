@@ -1,563 +1,535 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Copyright (c) 2017 Alessandro Castellani (https://github.com/Alecaddd/sequeler) -->
+<!-- Copyright (c) 2017 Alessandro Castellani (https://github.com/Alecaddd) -->
 <component type="desktop">
-	<id>@appid@</id>
-	<metadata_license>CC0-1.0</metadata_license>
-	<project_license>GPL-3.0+</project_license>
-	<name>Sequeler</name>
-	<summary>Friendly SQL Client</summary>
-	<description>
-		<p>
-			Easily connect to your local or remote database
-		</p>
-		<p>
-			Store your Database Connections in the library, connect over SSH tunnel, type and execute SQL commands directly in the app, and do everything you need to do without the necessity of opening the terminal.
-		</p>
-		<p>
-			Supported Databases:
-		</p>
-		<ul>
-			<li>SQLite</li>
-			<li>MySQL</li>
-			<li>MariaDB</li>
-			<li>PostgreSQL</li>
-		</ul>
-		<p>
-			Features Include:
-		</p>
-		<ul>
-			<li>Test Connections before saving them</li>
-			<li>View Table structure, content, and relations</li>
-			<li>Write multiple custom SQL Queries</li>
-			<li>Switch between light and dark mode</li>
-			<li>Handy keyboard shortcuts to quit (ctrl+q), create new connection (ctrl+shift+n), open a new window (ctrl+n)</li>
-		</ul>
-	</description>
-	<provides>
-		<binary>@appid@</binary>
-	</provides>
-	<releases>
-        <release version="0.8.2" date="2021-08-10">
-			<description>
-				<p>Odin release</p>
-                <ul>
-                    <li>Update elementary OS Platform runtime.</li>
-                    <li>Update screenshots.</li>
-                </ul>
-			</description>
-		</release>
-        <release version="0.8.1" date="2021-05-15">
-			<description>
-				<p>Odin release</p>
-                <ul>
-                    <li>Updated translations for Ukranian, Russian, Indonisian, Chinese, Lithuanian, Portugese, Turkish, and Arabic.</li>
-                </ul>
-			</description>
-		</release>
-        <release version="0.8.0" date="2020-06-25">
-			<description>
-				<p>New Features</p>
-                <ul>
-                    <li>Create, Edit, and Delete databases.</li>
-                    <li>New context menu to copy and edit tables.</li>
-                    <li>Support unencrypted connections.</li>
-                </ul>
-				<p>Bug Fixes</p>
-                <ul>
-                    <li>Fix copy column data.</li>
-                </ul>
-				<p>Translations</p>
-                <ul>
-                    <li>Updated translations for Ukranian, Russian, French, and German.</li>
-                </ul>
-			</description>
-		</release>
-        <release version="0.7.91" date="2020-05-12">
-			<description>
-				<p>Reduced CPU usage by 2%.</p>
-				<p>Update translations for Italian, Spanish, Catalan, French, Hindi, Russian, and Turkish.</p>
-			</description>
-		</release>
-        <release version="0.7.9" date="2020-04-11">
-			<description>
-				<p>More fixes!</p>
-                <p>0.7.8 changelog</p>
-                <ul>
-					<li>Fixed usage attempt of wrong Vala method.</li>
-				</ul>
-                <p>0.7.7 changelog</p>
-				<ul>
-					<li>Fix nasty GSettings bug causing the app to crash.</li>
-					<li>Implement GDA Placeholder statement.</li>
-					<li>Improve Query Tab iconography.</li>
-				</ul>
-                <p>0.7.6 changelog</p>
-				<ul>
-					<li>Fix ORDER BY in PostgreSQL Relationship view.</li>
-					<li>Improve MySQL structure view.</li>
-					<li>Drop Granite.Settings in favour of GLib.Settings.</li>
-					<li>Implement Granite.Notebook on the Query tab.</li>
-					<li>Show query error messages inline.</li>
-				</ul>
-			</description>
-		</release>
-		<release version="0.7.8" date="2020-04-11">
-			<description>
-				<p>More fixes!</p>
-                <ul>
-					<li>Fixed usage attempt of wrong Vala method.</li>
-				</ul>
-			</description>
-		</release>
-		<release version="0.7.7" date="2020-04-11">
-			<description>
-				<p>Because 0.7.6 never happened!</p>
-				<ul>
-					<li>Fix nasty GSettings bug causing the app to crash.</li>
-					<li>Implement GDA Placeholder statement.</li>
-					<li>Improve Query Tab iconography.</li>
-				</ul>
-			</description>
-		</release>
-		<release version="0.7.6" date="2020-04-09">
-			<description>
-				<p>Query Tab Bonanza!</p>
-				<ul>
-					<li>Fix ORDER BY in PostgreSQL Relationship view.</li>
-					<li>Improve MySQL structure view.</li>
-					<li>Drop Granite.Settings in favour of GLib.Settings.</li>
-					<li>Implement Granite.Notebook on the Query tab.</li>
-					<li>Show query error messages inline.</li>
-				</ul>
-			</description>
-		</release>
-		<release version="0.7.5" date="2020-04-04">
-			<description>
-				<p>New features and improvements</p>
-				<ul>
-					<li>You can now duplicate connections.</li>
-					<li>Sorting columns now works as expected by actually running the ORDER BY query.</li>
-					<li>Quickly jump to a specific result page with the handy dandy pagination popover.</li>
-					<li>Show Comment Column inside table structure view.</li>
-				</ul>
-			</description>
-		</release>
-		<release version="0.7.4" date="2020-03-31">
-			<description>
-				<p>The 2020 release!</p>
-				<ul>
-					<li>Manually reorder saved connection.</li>
-					<li>Allow selecting a custom SSH public key.</li>
-					<li>Fix SSH tunnel crashes.</li>
-				</ul>
-			</description>
-		</release>
-		<release version="0.7.3" date="2019-09-01">
-			<description>
-				<p>Raw Query Improvements</p>
-				<ul>
-					<li>Strip comments from SQL raw queries.</li>
-					<li>Better handle complex queries on multiple lines.</li>
-					<li>Speed up query rendering.</li>
-				</ul>
-			</description>
-		</release>
-		<release version="0.7.2" date="2019-08-05">
-			<description>
-				<p>Sweet Query Tab Improvements</p>
-				<ul>
-					<li>Edit font size of the Query Tab.</li>
-					<li>Edit background style of the Query Tab.</li>
-					<li>Save and remember the Query Tab size.</li>
-				</ul>
-			</description>
-		</release>
-		<release version="0.7.1" date="2019-08-02">
-			<description>
-				<p>PostgreSQL Fixes</p>
-				<ul>
-					<li>Fixed PostgreSQL relationship table.</li>
-					<li>Fixed wrong response message when handling non select queries.</li>
-				</ul>
-			</description>
-		</release>
-		<release version="0.7.0" date="2019-04-07">
-			<description>
-				<p>Bite-Size fixes</p>
-				<ul>
-					<li>Removed unused libfixposix.</li>
-					<li>Fixed pagination issue when clicking too fast while fetching big data.</li>
-				</ul>
-			</description>
-		</release>
-		<release version="0.6.9" date="2019-04-02">
-			<description>
-				<p>Bug fixes and improvements</p>
-				<ul>
-					<li>Rewritten pagination to use LIMIT and OFFSET.</li>
-					<li>Faster pagination and content viewing for big data.</li>
-					<li>Show records count in table's list.</li>
-					<li>Bug fixes and other improvements.</li>
-				</ul>
-			</description>
-		</release>
-		<release version="0.6.8" date="2019-03-19">
-			<description>
-				<p>Bug fixes and improvements</p>
-				<ul>
-					<li>Properly handle EXPLAIN SQL statement.</li>
-					<li>Properly handle querying capitlized PostgreSQL tables.</li>
-					<li>Improved async methods for internal views.</li>
-					<li>Updated translations.</li>
-				</ul>
-			</description>
-		</release>
-		<release version="0.6.7" date="2019-01-02">
-			<description>
-				<p>Critical bug fix!</p>
-				<ul>
-					<li>CRITICAL: Fixes missing GSettings Schema, restore lost connections.</li>
-					<li>Other small bug fixes and improvements.</li>
-				</ul>
-			</description>
-		</release>
-		<release version="0.6.6" date="2018-12-29">
-			<description>
-				<p>Implemented SSH tunneling</p>
-				<ul>
-					<li>WARNING: This release packs many updates and something could break. Please, backup your connections.</li>
-					<li>Connect via SSH to a remote Database.</li>
-					<li>Major code refactor to handle UI updates via async methods.</li>
-					<li>Use Stack container to show a loading Spinner during fetch or data processing methods.</li>
-					<li>Major performance improvements to the table search and dropdown schema switcher.</li>
-					<li>Bug fixes and other improvements.</li>
-				</ul>
-			</description>
-		</release>
-		<release version="0.6.5" date="2018-12-15">
-			<description>
-				<p>Fancy New Icon!</p>
-				<ul>
-					<li>New fancy Icon.</li>
-					<li>Use GtkNativeDialog.</li>
-					<li>Bug fixes and Improvements.</li>
-				</ul>
-			</description>
-		</release>
-		<release version="0.6.4" date="2018-12-09">
-			<description>
-				<p>Open SQLite files</p>
-				<ul>
-					<li>Open SQLite files directly in Sequeler.</li>
-					<li>Right click to copy data inside a column.</li>
-					<li>Bug fixes and Improvements.</li>
-				</ul>
-			</description>
-		</release>
-		<release version="0.6.3" date="2018-09-19">
-			<description>
-				<p>UI Fixes and Performance Improvements</p>
-				<ul>
-					<li>UI fix for logout button.</li>
-					<li>View shortcuts on preferences dropdown.</li>
-					<li>Performance Improvements.</li>
-					<li>Italian translation.</li>
-				</ul>
-			</description>
-		</release>
-		<release version="0.6.2" date="2018-09-11">
-			<description>
-				<p>Export all the things!</p>
-				<ul>
-					<li>Export results from Query Tab.</li>
-					<li>Export in CSV or Plain Text format.</li>
-					<li>Sort Columns order everywhere.</li>
-					<li>Brazilian translation.</li>
-				</ul>
-			</description>
-		</release>
-		<release version="0.6.1" date="2018-09-07">
-			<description>
-				<p>Here comes the power of Pagination!!!</p>
-				<ul>
-					<li>Paginate results in the Content tab.</li>
-					<li>Query messages UI improvements.</li>
-					<li>Relations table bug fixes.</li>
-				</ul>
-			</description>
-		</release>
-		<release version="0.6.0" date="2018-08-24">
-			<description>
-				<p>We got Multi SQL Query support.</p>
-				<ul>
-					<li>Ability to handle multiple SQL queries.</li>
-					<li>Execute the currently highlighted query.</li>
-					<li>Improved Library Popover UI.</li>
-					<li>Use native GTK+ CSS attributes for better Light/Dark mode.</li>
-					<li>Random UI improvements.</li>
-				</ul>
-			</description>
-		</release>
-		<release version="0.5.9" date="2018-07-17">
-			<description>
-				<p>Urgent! Fixed broken Tabs for translated version.</p>
-			</description>
-		</release>
-		<release version="0.5.8" date="2018-07-16">
-			<description>
-				<p>Light and Dark Mode Switch!</p>
-				<ul>
-					<li>Better Dark/Light mode switch in header bar.</li>
-					<li>Add Russian translation.</li>
-					<li>Updated Welcome screen with New Window command.</li>
-					<li>Code cleanup.</li>
-				</ul>
-			</description>
-		</release>
-		<release version="0.5.7" date="2018-07-06">
-			<description>
-				<p>Official Juno release!</p>
-				<ul>
-					<li>Missing filter name on SQLite File Dialog.</li>
-				</ul>
-			</description>
-		</release>
-		<release version="0.5.6" date="2018-06-25">
-			<description>
-				<p>We got Search!</p>
-				<ul>
-					<li>Search table names in sidebar.</li>
-					<li>Fixes issue in connecting directly on a non saved connection.</li>
-					<li>Updated Lithuanian translation.</li>
-					<li>Italian translation.</li>
-				</ul>
-			</description>
-		</release>
-		<release version="0.5.5" date="2018-06-09">
-			<description>
-				<p>Improved Password Security.</p>
-				<ul>
-					<li>Safely store passwords in LibSecret.</li>
-					<li>Auto upgrade on startup to remove passwords from GSettings.</li>
-					<li>Fixes issues with identical table names from other database in the same connection.</li>
-					<li>Alphabetically ordered tables.</li>
-					<li>Improvements in showing MySql/MariaDB Table Structure.</li>
-					<li>Many more bugs for you to discover.</li>
-				</ul>
-			</description>
-		</release>
-		<release version="0.5.4" date="2018-02-24">
-			<description>
-				<p>New Icon and Import/Export Library.</p>
-				<ul>
-					<li>Fancy new icon.</li>
-					<li>Import and Export connections library.</li>
-					<li>Fixed random crash when opening and closing multiple connections.</li>
-					<li>Bug fixes and improvements.</li>
-				</ul>
-			</description>
-		</release>
-		<release version="0.5.3" date="2018-02-23">
-			<description>
-				<p>Bug fixes and improvements.</p>
-				<ul>
-					<li>Fixed PostgreSQL Schema show options.</li>
-					<li>Fixed crash on new connection dialog when opening the connection before saving.</li>
-				</ul>
-			</description>
-		</release>
-		<release version="0.5.2" date="2018-02-20">
-			<description>
-				<p>Little side dish update.</p>
-				<ul>
-					<li>Fixed save window state on close.</li>
-					<li>Bug fixes and improvements.</li>
-				</ul>
-			</description>
-		</release>
-		<release version="0.5.1" date="2018-02-19">
-			<description>
-				<p>Alternate coloured rows!</p>
-				<ul>
-					<li>Manually reload Content, Structure, and Relations.</li>
-					<li>Show Table schema, content, and constraint relationships.</li>
-					<li>Properly handle compound queries.</li>
-					<li>Fix PostgreSQL table switch.</li>
-				</ul>
-			</description>
-		</release>
-		<release version="0.5.0" date="2018-02-18">
-			<description>
-				<p>Complete rewrite of the entire code base!</p>
-				<ul>
-					<li>Handle multiple Windows/Instances and multiple open connections.</li>
-					<li>Show Table schema, content, and constraint relationships.</li>
-					<li>Quicker response on big select queries</li>
-					<li>Better error handling.</li>
-					<li>Bug fixes and improvements.</li>
-				</ul>
-			</description>
-		</release>
-		<release version="0.4.3" date="2018-01-23">
-			<description>
-				<p>Better error handling, less crashes!</p>
-				<ul>
-					<li>The app doesn't crash when dealing with big values</li>
-					<li>Handling errors related to columns</li>
-					<li>Quicker response on big select queries</li>
-					<li>Some small clean up</li>
-					<li>Fixes issue with SQL Lite encrypted path</li>
-				</ul>
-			</description>
-		</release>
-		<release version="0.4.2" date="2018-01-22">
-			<description>
-				<p>Better error handling, less crashes!</p>
-				<ul>
-					<li>The app doesn't crash when dealing with big values</li>
-					<li>Handling errors related to columns</li>
-					<li>Quicker response on big select queries</li>
-					<li>Some small clean up</li>
-				</ul>
-			</description>
-		</release>
-		<release version="0.4.1" date="2017-12-02">
-			<description>
-				<p>New Icon, Better error messages!</p>
-				<ul>
-					<li>New shiny icon</li>
-					<li>View SQL error message on error</li>
-					<li>FIX: Show proper PostgreSql Schema Table in Sidebar</li>
-					<li>Snappiest query execution ever for local databases</li>
-					<li>The usual bundle of bugs for you to discover</li>
-				</ul>
-			</description>
-		</release>
-		<release version="0.4.0" date="2017-11-10">
-			<description>
-				<p>Summoning the power of async methods!</p>
-				<ul>
-					<li>All DataBase queries are now async methods, super fast.</li>
-					<li>The UI doesn't freeze anymore during a long process</li>
-					<li>Granite SourceList to display list of tables</li>
-					<li>Tabs to switch between the Query Builder and the Table Structure</li>
-					<li>ComboBox to select table schemas from the open connection</li>
-					<li>Many more bugs and issues for you to have fun with</li>
-				</ul>
-			</description>
-		</release>
-		<release version="0.3.4" date="2017-10-23">
-			<description>
-				<p>Bug Fixes and Improvements</p>
-				<ul>
-					<li>Display Table lists for SQLite and PostgreSQL</li>
-					<li>Refresh Table List view if tables change</li>
-					<li>Removed unused GSettings</li>
-				</ul>
-			</description>
-		</release>
-		<release version="0.3.3" date="2017-10-20">
-			<description>
-				<p>This is so good you won't believe it. New Library UI, Schema Table, Custom Port, and more</p>
-				<ul>
-					<li>A brand new Library View directly in your home screen, super tight and organized</li>
-					<li>Custom Port field for those snazzy geeks who don't just use 3306</li>
-					<li>A shiny new Sidebar View to list all your DataBase Tables</li>
-					<li>Code cleanup and speed improvements</li>
-					<li>Usual abundance of bugs and issues for you to have fun with!</li>
-				</ul>
-			</description>
-		</release>
-		<release version="0.2.0" date="2017-10-10">
-			<description>
-				<p>Major Update: Releasing a sweet table to view Query Results!</p>
-				<ul>
-					<li>Did I say we got a sweet table to view query results?</li>
-					<li>New shortcut (ctrl+enter) to execute query</li>
-					<li>Solved bug while connecting to DB directly from the Connection Dialog</li>
-					<li>UI Improvements to Connection Dialog</li>
-					<li>Added Spanish and Lithuanian translations</li>
-				</ul>
-			</description>
-		</release>
-		<release version="0.1.5" date="2017-10-06">
-			<description>
-				<p>UI fixes</p>
-				<ul>
-					<li>Visual improvements to the library view</li>
-				</ul>
-			</description>
-		</release>
-		<release version="0.1.4" date="2017-10-05">
-			<description>
-				<p>Initial Release</p>
-				<ul>
-					<li>Store your Database connections</li>
-					<li>Quickly connect to a Local or Remote Database</li>
-					<li>Write SQL queries in the built-in code editor</li>
-				</ul>
-			</description>
-		</release>
-	</releases>
-	<screenshots>
-		<screenshot type="default">
-			<image>https://raw.githubusercontent.com/Alecaddd/sequeler/master/data/assets/screenshots/sequeler-screenshot.png</image>
-		</screenshot>
-		<screenshot>
-			<image>https://raw.githubusercontent.com/Alecaddd/sequeler/master/data/assets/screenshots/sequeler-screenshot1.png</image>
-		</screenshot>
-		<screenshot>
-			<image>https://raw.githubusercontent.com/Alecaddd/sequeler/master/data/assets/screenshots/sequeler-screenshot2.png</image>
-		</screenshot>
-	</screenshots>
-	<developer id="com.alecaddd">
-		<name>Alessandro Castellani</name>
-	</developer>
-	<launchable type="desktop-id">@appid@.desktop</launchable>
-	<url type="homepage">https://github.com/Alecaddd/sequeler</url>
-	<url type="donation">https://www.paypal.me/alecaddd</url>
-	<url type="bugtracker">https://github.com/Alecaddd/sequeler/issues</url>
-	<url type="help">https://github.com/Alecaddd/sequeler/issues</url>
-	<url type="translate">https://hosted.weblate.org/projects/sequeler</url>
-	<update_contact>castellani.ale@gmail.com</update_contact>
-	<content_rating type="oars-1.1">
-		<content_attribute id="violence-cartoon">none</content_attribute>
-		<content_attribute id="violence-fantasy">none</content_attribute>
-		<content_attribute id="violence-realistic">none</content_attribute>
-		<content_attribute id="violence-bloodshed">none</content_attribute>
-		<content_attribute id="violence-sexual">none</content_attribute>
-		<content_attribute id="violence-desecration">none</content_attribute>
-		<content_attribute id="violence-slavery">none</content_attribute>
-		<content_attribute id="violence-worship">none</content_attribute>
-		<content_attribute id="drugs-alcohol">none</content_attribute>
-		<content_attribute id="drugs-narcotics">none</content_attribute>
-		<content_attribute id="drugs-tobacco">none</content_attribute>
-		<content_attribute id="sex-nudity">none</content_attribute>
-		<content_attribute id="sex-themes">none</content_attribute>
-		<content_attribute id="sex-homosexuality">none</content_attribute>
-		<content_attribute id="sex-prostitution">none</content_attribute>
-		<content_attribute id="sex-adultery">none</content_attribute>
-		<content_attribute id="sex-appearance">none</content_attribute>
-		<content_attribute id="language-profanity">none</content_attribute>
-		<content_attribute id="language-humor">none</content_attribute>
-		<content_attribute id="language-discrimination">none</content_attribute>
-		<content_attribute id="social-chat">none</content_attribute>
-		<content_attribute id="social-info">none</content_attribute>
-		<content_attribute id="social-audio">none</content_attribute>
-		<content_attribute id="social-location">none</content_attribute>
-		<content_attribute id="social-contacts">none</content_attribute>
-		<content_attribute id="money-purchasing">none</content_attribute>
-		<content_attribute id="money-gambling">none</content_attribute>
-	</content_rating>
-	<custom>
-		<value key="x-appcenter-color-primary">#3f3f3f</value>
-		<value key="x-appcenter-color-primary-text">#ffffff</value>
-		<value key="x-appcenter-suggested-price">25</value>
-		<value key="x-appcenter-stripe">pk_live_Arrxw947rfYpLQK7VcSv4766</value>
-	</custom>
-	<kudos>
-		<kudo>HiDpiIcon</kudo>
-		<kudo>HighContrast</kudo>
-		<kudo>ModernToolkit</kudo>
-	</kudos>
+  <id>@appid@</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <name>Sequeler</name>
+  <summary>Friendly SQL Client</summary>
+  <description>
+    <p>
+      Easily connect to your local or remote database
+    </p>
+    <p>
+      Store your Database Connections in the library, connect over SSH tunnel, type and execute SQL commands directly in the app, and do everything you need to do without the necessity of opening the terminal.
+    </p>
+    <p>
+      Supported Databases:
+    </p>
+    <ul>
+      <li>SQLite</li>
+      <li>MySQL</li>
+      <li>MariaDB</li>
+      <li>PostgreSQL</li>
+    </ul>
+    <p>
+      Features Include:
+    </p>
+    <ul>
+      <li>Test Connections before saving them</li>
+      <li>View Table structure, content, and relations</li>
+      <li>Write multiple custom SQL Queries</li>
+      <li>Switch between light and dark mode</li>
+      <li>Handy keyboard shortcuts to quit (ctrl+q), create new connection (ctrl+shift+n), open a new window (ctrl+n)</li>
+    </ul>
+  </description>
+  <provides>
+    <binary>@appid@</binary>
+  </provides>
+  <releases>
+    <release version="0.8.2" date="2021-08-10">
+      <description>
+        <p>Odin release</p>
+        <ul>
+          <li>Update elementary OS Platform runtime.</li>
+          <li>Update screenshots.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.8.1" date="2021-05-15">
+      <description>
+        <p>Odin release</p>
+        <ul>
+          <li>Updated translations for Ukranian, Russian, Indonisian, Chinese, Lithuanian, Portugese, Turkish, and Arabic.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.8.0" date="2020-06-25">
+      <description>
+        <p>New Features</p>
+        <ul>
+          <li>Create, Edit, and Delete databases.</li>
+          <li>New context menu to copy and edit tables.</li>
+          <li>Support unencrypted connections.</li>
+        </ul>
+        <p>Bug Fixes</p>
+        <ul>
+          <li>Fix copy column data.</li>
+        </ul>
+        <p>Translations</p>
+        <ul>
+          <li>Updated translations for Ukranian, Russian, French, and German.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.7.91" date="2020-05-12">
+      <description>
+        <p>Reduced CPU usage by 2%.</p>
+        <p>Update translations for Italian, Spanish, Catalan, French, Hindi, Russian, and Turkish.</p>
+      </description>
+    </release>
+    <release version="0.7.9" date="2020-04-11">
+      <description>
+        <p>More fixes!</p>
+        <p>0.7.8 changelog</p>
+        <ul>
+          <li>Fixed usage attempt of wrong Vala method.</li>
+        </ul>
+        <p>0.7.7 changelog</p>
+        <ul>
+          <li>Fix nasty GSettings bug causing the app to crash.</li>
+          <li>Implement GDA Placeholder statement.</li>
+          <li>Improve Query Tab iconography.</li>
+        </ul>
+        <p>0.7.6 changelog</p>
+        <ul>
+          <li>Fix ORDER BY in PostgreSQL Relationship view.</li>
+          <li>Improve MySQL structure view.</li>
+          <li>Drop Granite.Settings in favour of GLib.Settings.</li>
+          <li>Implement Granite.Notebook on the Query tab.</li>
+          <li>Show query error messages inline.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.7.8" date="2020-04-11">
+      <description>
+        <p>More fixes!</p>
+        <ul>
+          <li>Fixed usage attempt of wrong Vala method.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.7.7" date="2020-04-11">
+      <description>
+        <p>Because 0.7.6 never happened!</p>
+        <ul>
+          <li>Fix nasty GSettings bug causing the app to crash.</li>
+          <li>Implement GDA Placeholder statement.</li>
+          <li>Improve Query Tab iconography.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.7.6" date="2020-04-09">
+      <description>
+        <p>Query Tab Bonanza!</p>
+        <ul>
+          <li>Fix ORDER BY in PostgreSQL Relationship view.</li>
+          <li>Improve MySQL structure view.</li>
+          <li>Drop Granite.Settings in favour of GLib.Settings.</li>
+          <li>Implement Granite.Notebook on the Query tab.</li>
+          <li>Show query error messages inline.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.7.5" date="2020-04-04">
+      <description>
+        <p>New features and improvements</p>
+        <ul>
+          <li>You can now duplicate connections.</li>
+          <li>Sorting columns now works as expected by actually running the ORDER BY query.</li>
+          <li>Quickly jump to a specific result page with the handy dandy pagination popover.</li>
+          <li>Show Comment Column inside table structure view.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.7.4" date="2020-03-31">
+      <description>
+        <p>The 2020 release!</p>
+        <ul>
+          <li>Manually reorder saved connection.</li>
+          <li>Allow selecting a custom SSH public key.</li>
+          <li>Fix SSH tunnel crashes.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.7.3" date="2019-09-01">
+      <description>
+        <p>Raw Query Improvements</p>
+        <ul>
+          <li>Strip comments from SQL raw queries.</li>
+          <li>Better handle complex queries on multiple lines.</li>
+          <li>Speed up query rendering.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.7.2" date="2019-08-05">
+      <description>
+        <p>Sweet Query Tab Improvements</p>
+        <ul>
+          <li>Edit font size of the Query Tab.</li>
+          <li>Edit background style of the Query Tab.</li>
+          <li>Save and remember the Query Tab size.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.7.1" date="2019-08-02">
+      <description>
+        <p>PostgreSQL Fixes</p>
+        <ul>
+          <li>Fixed PostgreSQL relationship table.</li>
+          <li>Fixed wrong response message when handling non select queries.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.7.0" date="2019-04-07">
+      <description>
+        <p>Bite-Size fixes</p>
+        <ul>
+          <li>Removed unused libfixposix.</li>
+          <li>Fixed pagination issue when clicking too fast while fetching big data.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.6.9" date="2019-04-02">
+      <description>
+        <p>Bug fixes and improvements</p>
+        <ul>
+          <li>Rewritten pagination to use LIMIT and OFFSET.</li>
+          <li>Faster pagination and content viewing for big data.</li>
+          <li>Show records count in table's list.</li>
+          <li>Bug fixes and other improvements.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.6.8" date="2019-03-19">
+      <description>
+        <p>Bug fixes and improvements</p>
+        <ul>
+          <li>Properly handle EXPLAIN SQL statement.</li>
+          <li>Properly handle querying capitlized PostgreSQL tables.</li>
+          <li>Improved async methods for internal views.</li>
+          <li>Updated translations.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.6.7" date="2019-01-02">
+      <description>
+        <p>Critical bug fix!</p>
+        <ul>
+          <li>CRITICAL: Fixes missing GSettings Schema, restore lost connections.</li>
+          <li>Other small bug fixes and improvements.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.6.6" date="2018-12-29">
+      <description>
+        <p>Implemented SSH tunneling</p>
+        <ul>
+          <li>WARNING: This release packs many updates and something could break. Please, backup your connections.</li>
+          <li>Connect via SSH to a remote Database.</li>
+          <li>Major code refactor to handle UI updates via async methods.</li>
+          <li>Use Stack container to show a loading Spinner during fetch or data processing methods.</li>
+          <li>Major performance improvements to the table search and dropdown schema switcher.</li>
+          <li>Bug fixes and other improvements.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.6.5" date="2018-12-15">
+      <description>
+        <p>Fancy New Icon!</p>
+        <ul>
+          <li>New fancy Icon.</li>
+          <li>Use GtkNativeDialog.</li>
+          <li>Bug fixes and Improvements.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.6.4" date="2018-12-09">
+      <description>
+        <p>Open SQLite files</p>
+        <ul>
+          <li>Open SQLite files directly in Sequeler.</li>
+          <li>Right click to copy data inside a column.</li>
+          <li>Bug fixes and Improvements.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.6.3" date="2018-09-19">
+      <description>
+        <p>UI Fixes and Performance Improvements</p>
+        <ul>
+          <li>UI fix for logout button.</li>
+          <li>View shortcuts on preferences dropdown.</li>
+          <li>Performance Improvements.</li>
+          <li>Italian translation.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.6.2" date="2018-09-11">
+      <description>
+        <p>Export all the things!</p>
+        <ul>
+          <li>Export results from Query Tab.</li>
+          <li>Export in CSV or Plain Text format.</li>
+          <li>Sort Columns order everywhere.</li>
+          <li>Brazilian translation.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.6.1" date="2018-09-07">
+      <description>
+        <p>Here comes the power of Pagination!!!</p>
+        <ul>
+          <li>Paginate results in the Content tab.</li>
+          <li>Query messages UI improvements.</li>
+          <li>Relations table bug fixes.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.6.0" date="2018-08-24">
+      <description>
+        <p>We got Multi SQL Query support.</p>
+        <ul>
+          <li>Ability to handle multiple SQL queries.</li>
+          <li>Execute the currently highlighted query.</li>
+          <li>Improved Library Popover UI.</li>
+          <li>Use native GTK+ CSS attributes for better Light/Dark mode.</li>
+          <li>Random UI improvements.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.5.9" date="2018-07-17">
+      <description>
+        <p>Urgent! Fixed broken Tabs for translated version.</p>
+      </description>
+    </release>
+    <release version="0.5.8" date="2018-07-16">
+      <description>
+        <p>Light and Dark Mode Switch!</p>
+        <ul>
+          <li>Better Dark/Light mode switch in header bar.</li>
+          <li>Add Russian translation.</li>
+          <li>Updated Welcome screen with New Window command.</li>
+          <li>Code cleanup.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.5.7" date="2018-07-06">
+      <description>
+        <p>Official Juno release!</p>
+        <ul>
+          <li>Missing filter name on SQLite File Dialog.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.5.6" date="2018-06-25">
+      <description>
+        <p>We got Search!</p>
+        <ul>
+          <li>Search table names in sidebar.</li>
+          <li>Fixes issue in connecting directly on a non saved connection.</li>
+          <li>Updated Lithuanian translation.</li>
+          <li>Italian translation.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.5.5" date="2018-06-09">
+      <description>
+        <p>Improved Password Security.</p>
+        <ul>
+          <li>Safely store passwords in LibSecret.</li>
+          <li>Auto upgrade on startup to remove passwords from GSettings.</li>
+          <li>Fixes issues with identical table names from other database in the same connection.</li>
+          <li>Alphabetically ordered tables.</li>
+          <li>Improvements in showing MySql/MariaDB Table Structure.</li>
+          <li>Many more bugs for you to discover.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.5.4" date="2018-02-24">
+      <description>
+        <p>New Icon and Import/Export Library.</p>
+        <ul>
+          <li>Fancy new icon.</li>
+          <li>Import and Export connections library.</li>
+          <li>Fixed random crash when opening and closing multiple connections.</li>
+          <li>Bug fixes and improvements.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.5.3" date="2018-02-23">
+      <description>
+        <p>Bug fixes and improvements.</p>
+        <ul>
+          <li>Fixed PostgreSQL Schema show options.</li>
+          <li>Fixed crash on new connection dialog when opening the connection before saving.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.5.2" date="2018-02-20">
+      <description>
+        <p>Little side dish update.</p>
+        <ul>
+          <li>Fixed save window state on close.</li>
+          <li>Bug fixes and improvements.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.5.1" date="2018-02-19">
+      <description>
+        <p>Alternate coloured rows!</p>
+        <ul>
+          <li>Manually reload Content, Structure, and Relations.</li>
+          <li>Show Table schema, content, and constraint relationships.</li>
+          <li>Properly handle compound queries.</li>
+          <li>Fix PostgreSQL table switch.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.5.0" date="2018-02-18">
+      <description>
+        <p>Complete rewrite of the entire code base!</p>
+        <ul>
+          <li>Handle multiple Windows/Instances and multiple open connections.</li>
+          <li>Show Table schema, content, and constraint relationships.</li>
+          <li>Quicker response on big select queries</li>
+          <li>Better error handling.</li>
+          <li>Bug fixes and improvements.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.4.3" date="2018-01-23">
+      <description>
+        <p>Better error handling, less crashes!</p>
+        <ul>
+          <li>The app doesn't crash when dealing with big values</li>
+          <li>Handling errors related to columns</li>
+          <li>Quicker response on big select queries</li>
+          <li>Some small clean up</li>
+          <li>Fixes issue with SQL Lite encrypted path</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.4.2" date="2018-01-22">
+      <description>
+        <p>Better error handling, less crashes!</p>
+        <ul>
+          <li>The app doesn't crash when dealing with big values</li>
+          <li>Handling errors related to columns</li>
+          <li>Quicker response on big select queries</li>
+          <li>Some small clean up</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.4.1" date="2017-12-02">
+      <description>
+        <p>New Icon, Better error messages!</p>
+        <ul>
+          <li>New shiny icon</li>
+          <li>View SQL error message on error</li>
+          <li>FIX: Show proper PostgreSql Schema Table in Sidebar</li>
+          <li>Snappiest query execution ever for local databases</li>
+          <li>The usual bundle of bugs for you to discover</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.4.0" date="2017-11-10">
+      <description>
+        <p>Summoning the power of async methods!</p>
+        <ul>
+          <li>All DataBase queries are now async methods, super fast.</li>
+          <li>The UI doesn't freeze anymore during a long process</li>
+          <li>Granite SourceList to display list of tables</li>
+          <li>Tabs to switch between the Query Builder and the Table Structure</li>
+          <li>ComboBox to select table schemas from the open connection</li>
+          <li>Many more bugs and issues for you to have fun with</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.3.4" date="2017-10-23">
+      <description>
+        <p>Bug Fixes and Improvements</p>
+        <ul>
+          <li>Display Table lists for SQLite and PostgreSQL</li>
+          <li>Refresh Table List view if tables change</li>
+          <li>Removed unused GSettings</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.3.3" date="2017-10-20">
+      <description>
+        <p>This is so good you won't believe it. New Library UI, Schema Table, Custom Port, and more</p>
+        <ul>
+          <li>A brand new Library View directly in your home screen, super tight and organized</li>
+          <li>Custom Port field for those snazzy geeks who don't just use 3306</li>
+          <li>A shiny new Sidebar View to list all your DataBase Tables</li>
+          <li>Code cleanup and speed improvements</li>
+          <li>Usual abundance of bugs and issues for you to have fun with!</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.2.0" date="2017-10-10">
+      <description>
+        <p>Major Update: Releasing a sweet table to view Query Results!</p>
+        <ul>
+          <li>Did I say we got a sweet table to view query results?</li>
+          <li>New shortcut (ctrl+enter) to execute query</li>
+          <li>Solved bug while connecting to DB directly from the Connection Dialog</li>
+          <li>UI Improvements to Connection Dialog</li>
+          <li>Added Spanish and Lithuanian translations</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.5" date="2017-10-06">
+      <description>
+        <p>UI fixes</p>
+        <ul>
+          <li>Visual improvements to the library view</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.1.4" date="2017-10-05">
+      <description>
+        <p>Initial Release</p>
+        <ul>
+          <li>Store your Database connections</li>
+          <li>Quickly connect to a Local or Remote Database</li>
+          <li>Write SQL queries in the built-in code editor</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/ellie-commons/sequeler/master/data/assets/screenshots/sequeler-screenshot.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/ellie-commons/sequeler/master/data/assets/screenshots/sequeler-screenshot1.png</image>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/ellie-commons/sequeler/master/data/assets/screenshots/sequeler-screenshot2.png</image>
+    </screenshot>
+  </screenshots>
+  <developer id="com.alecaddd">
+    <name>Alessandro Castellani</name>
+  </developer>
+  <launchable type="desktop-id">@appid@.desktop</launchable>
+  <url type="homepage">https://github.com/ellie-commons/sequeler</url>
+  <url type="donation">https://www.paypal.me/alecaddd</url>
+  <url type="bugtracker">https://github.com/ellie-commons/sequeler/issues</url>
+  <url type="help">https://github.com/ellie-commons/sequeler/issues</url>
+  <url type="translate">https://hosted.weblate.org/projects/sequeler</url>
+  <update_contact>castellani.ale@gmail.com</update_contact>
+  <content_rating type="oars-1.1" />
+  <custom>
+    <value key="x-appcenter-color-primary">#3f3f3f</value>
+    <value key="x-appcenter-color-primary-text">#ffffff</value>
+    <value key="x-appcenter-suggested-price">25</value>
+    <value key="x-appcenter-stripe">pk_live_Arrxw947rfYpLQK7VcSv4766</value>
+  </custom>
+  <kudos>
+    <kudo>HiDpiIcon</kudo>
+    <kudo>HighContrast</kudo>
+    <kudo>ModernToolkit</kudo>
+  </kudos>
 </component>
