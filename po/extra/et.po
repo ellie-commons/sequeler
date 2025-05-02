@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-11 12:37+0200\n"
-"PO-Revision-Date: 2025-05-01 15:23+0000\n"
+"PO-Revision-Date: 2025-05-03 16:19+0000\n"
 "Last-Translator: Priit Jõerüüt <hwlate@joeruut.com>\n"
 "Language-Team: Estonian <https://hosted.weblate.org/projects/sequeler/"
 "metainfo/et/>\n"
@@ -51,89 +51,96 @@ msgid ""
 "type and execute SQL commands directly in the app, and do everything you "
 "need to do without the necessity of opening the terminal."
 msgstr ""
+"Salvesta andmebaasiühendused oma kogumikku, loo ühendus SSH tunneli abil, "
+"sisesta ja käivita SQL-i käske otse rakendusest ning tee kõike seda "
+"vajalikku ilma terminali avamata."
 
 #: data/com.github.alecaddd.sequeler.appdata.xml.in.in:16
 msgid "Supported Databases:"
-msgstr ""
+msgstr "Toetatud andmebaasid:"
 
 #: data/com.github.alecaddd.sequeler.appdata.xml.in.in:20
 msgid "SQLite"
-msgstr ""
+msgstr "SQLite"
 
 #: data/com.github.alecaddd.sequeler.appdata.xml.in.in:21
 msgid "MySQL"
-msgstr ""
+msgstr "MySQL"
 
 #: data/com.github.alecaddd.sequeler.appdata.xml.in.in:22
 msgid "MariaDB"
-msgstr ""
+msgstr "MariaDB"
 
 #: data/com.github.alecaddd.sequeler.appdata.xml.in.in:23
 msgid "PostgreSQL"
-msgstr ""
+msgstr "PostgreSQL"
 
 #: data/com.github.alecaddd.sequeler.appdata.xml.in.in:25
 msgid "Features Include:"
-msgstr ""
+msgstr "Rakenduse funktsionaalsused:"
 
 #: data/com.github.alecaddd.sequeler.appdata.xml.in.in:29
 msgid "Test Connections before saving them"
-msgstr ""
+msgstr "Enne salvestamist testi ühendusi"
 
 #: data/com.github.alecaddd.sequeler.appdata.xml.in.in:30
 msgid "View Table structure, content, and relations"
-msgstr ""
+msgstr "Vaata tabelite struktuuri, sisu ja relatsioone"
 
 #: data/com.github.alecaddd.sequeler.appdata.xml.in.in:31
 msgid "Write multiple custom SQL Queries"
-msgstr ""
+msgstr "Kirjuta SQL-päringuid vastavalt omavajadustele"
 
 #: data/com.github.alecaddd.sequeler.appdata.xml.in.in:32
 msgid "Switch between light and dark mode"
-msgstr ""
+msgstr "Kasuta heledat või tumedat kujundust"
 
 #: data/com.github.alecaddd.sequeler.appdata.xml.in.in:33
 msgid ""
 "Handy keyboard shortcuts to quit (ctrl+q), create new connection (ctrl+shift"
 "+n), open a new window (ctrl+n)"
 msgstr ""
+"Mugavad kiirklahvid väljumiseks (ctrl+q), uue ühenduse loomiseks "
+"(ctrl+shift+n) ja uue akna avamiseks (ctrl+n)"
 
 #: data/com.github.alecaddd.sequeler.appdata.xml.in.in:42
 msgid "Query Tab Bonanza!"
-msgstr ""
+msgstr "Palju võimalusi päringute vahekaartide kasutamiseks!"
 
 #: data/com.github.alecaddd.sequeler.appdata.xml.in.in:44
 msgid "Fix ORDER BY in PostgreSQL Relationship view."
-msgstr ""
+msgstr "Parandsime ORDER BY vea PostgreSQL-i relatsioonide vaates."
 
 #: data/com.github.alecaddd.sequeler.appdata.xml.in.in:45
 msgid "Improve MySQL structure view."
-msgstr ""
+msgstr "Täiustasime MySQL-i struktuuri vaadet."
 
 #: data/com.github.alecaddd.sequeler.appdata.xml.in.in:46
 msgid "Drop Granite.Settings in favor of GLib.Settings."
-msgstr ""
+msgstr "Asendasime „Granite.Settings“- kasutasime „GLib.Settings“-iga."
 
 #: data/com.github.alecaddd.sequeler.appdata.xml.in.in:47
 msgid "Implement Granite.Notebook on the Query tab."
-msgstr ""
+msgstr "Lisasime „Granite.Notebook“-i päringute vahekaardile."
 
 #: data/com.github.alecaddd.sequeler.appdata.xml.in.in:48
 msgid "Show query error messages inline."
-msgstr ""
+msgstr "Näitame päringute veateateid lõimituna."
 
 #: data/com.github.alecaddd.sequeler.appdata.xml.in.in:54
 msgid "New features and improvements"
-msgstr ""
+msgstr "Uued funktsionaalsused ja täiendused"
 
 #: data/com.github.alecaddd.sequeler.appdata.xml.in.in:56
 msgid "You can now duplicate connections."
-msgstr ""
+msgstr "Nüüd saad teha ühendustest koopiaid."
 
 #: data/com.github.alecaddd.sequeler.appdata.xml.in.in:57
 msgid ""
 "Sorting columns now works as expected by actually running the ORDER BY query."
 msgstr ""
+"Veergude järjestamine toimib nüüd korrektselt, sest tõesti käivitame "
+"päringus ORDER BY tingimuse."
 
 #: data/com.github.alecaddd.sequeler.appdata.xml.in.in:58
 msgid ""
@@ -735,4 +742,4 @@ msgstr ""
 
 #: data/com.github.alecaddd.sequeler.appdata.xml.in.in:437
 msgid "Alessandro Castellani"
-msgstr ""
+msgstr "Alessandro Castellani"
