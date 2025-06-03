@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.alecaddd.sequeler\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-11 12:37+0200\n"
+"POT-Creation-Date: 2025-06-03 22:03+0900\n"
 "PO-Revision-Date: 2021-11-08 01:50+0000\n"
 "Last-Translator: Abdulrahman ☕️ <saanina@gmail.com>\n"
 "Language-Team: Arabic (Najdi) <https://hosted.weblate.org/projects/sequeler/"
@@ -21,44 +21,62 @@ msgstr ""
 "99) ? 4 : 5))));\n"
 "X-Generator: Weblate 4.9-dev\n"
 
-#: src/Application.vala:62
+#: src/Application.vala:67
 msgid "Directories are not supported"
 msgstr "المجلدات غير مدعومة"
 
-#: src/Application.vala:68
+#: src/Application.vala:73
 msgid "Don't know what to do"
 msgstr "ما أدري وش أسوي"
 
-#: src/Application.vala:80
+#: src/Application.vala:85
 msgid "Something completely unexpected happened"
 msgstr "صار شيء غير متوقع أبداً"
 
-#: src/Layouts/HeaderBar.vala:46 src/Layouts/HeaderBar.vala:53
+#: src/Layouts/HeaderBar.vala:52
 msgid "Logout"
 msgstr "خروج"
 
-#: src/Layouts/HeaderBar.vala:56
+#: src/Layouts/HeaderBar.vala:57
+#, fuzzy
+#| msgid "Create a new Query Tab"
+msgid "Create a new database"
+msgstr "سوي مبوبة استعلام جديدة"
+
+#: src/Layouts/HeaderBar.vala:66
+#, fuzzy
+#| msgid "- Select Database -"
+msgid "Delete database"
+msgstr "- حدد قاعدة -"
+
+#: src/Layouts/HeaderBar.vala:75
+#, fuzzy
+#| msgid "Database Type:"
+msgid "Database properties"
+msgstr "نوع القاعدة:"
+
+#: src/Layouts/HeaderBar.vala:89
 msgid "Light background"
 msgstr "خلفية فاتحة"
 
-#: src/Layouts/HeaderBar.vala:57
+#: src/Layouts/HeaderBar.vala:90
 msgid "Dark background"
 msgstr "خلفية غامقة"
 
-#: src/Layouts/HeaderBar.vala:68 src/Layouts/Welcome.vala:39
+#: src/Layouts/HeaderBar.vala:101 src/Layouts/Welcome.vala:39
 msgid "New Window"
 msgstr "نافذة جديدة"
 
-#: src/Layouts/HeaderBar.vala:71 src/Widgets/ConnectionDialog.vala:130
-#: src/Widgets/ConnectionDialog.vala:165
+#: src/Layouts/HeaderBar.vala:104 src/Widgets/ConnectionDialog.vala:135
+#: src/Widgets/ConnectionDialog.vala:170
 msgid "New Connection"
 msgstr "اتصال جديد"
 
-#: src/Layouts/HeaderBar.vala:74
+#: src/Layouts/HeaderBar.vala:107
 msgid "Quit"
 msgstr "إنهاء"
 
-#: src/Layouts/HeaderBar.vala:94
+#: src/Layouts/HeaderBar.vala:127
 msgid "Menu"
 msgstr "القائمة"
 
@@ -91,7 +109,7 @@ msgstr "متأكد أنك ودك تكمل؟"
 msgid "By deleting this connection you won’t be able to recover this data."
 msgstr "ترا لما تحذف هالاتصال ماراح تقدر ترجع بياناته."
 
-#: src/Layouts/Library.vala:218
+#: src/Layouts/Library.vala:218 src/Services/ActionManager.vala:257
 msgid "Yes, Delete!"
 msgstr "ايه، احذف!"
 
@@ -103,30 +121,30 @@ msgstr "كل البيانات راح تنحذف وماراح تقدر ترجعه
 msgid "Yes, Delete All!"
 msgstr "ايه، احذف كل شي!"
 
-#: src/Layouts/Library.vala:330 src/Widgets/ConnectionDialog.vala:575
-#: src/Widgets/ConnectionDialog.vala:596
+#: src/Layouts/Library.vala:335 src/Widgets/ConnectionDialog.vala:602
+#: src/Widgets/ConnectionDialog.vala:623
 msgid "A username is required in order to connect!"
 msgstr "اسم المستخدم مطلوب عشان تقدر تتصل!"
 
-#: src/Layouts/Library.vala:404 src/Layouts/Views/Query.vala:528
+#: src/Layouts/Library.vala:409 src/Layouts/Views/Query.vala:555
 msgid "Pick a file"
 msgstr "اختر ملف"
 
-#: src/Layouts/Library.vala:407 src/Layouts/Views/Query.vala:531
+#: src/Layouts/Library.vala:412 src/Layouts/Views/Query.vala:558
 msgid "_Save"
 msgstr "_حفظ"
 
-#: src/Layouts/Library.vala:408 src/Layouts/Welcome.vala:62
-#: src/Layouts/Views/Query.vala:532
+#: src/Layouts/Library.vala:413 src/Layouts/Welcome.vala:62
+#: src/Layouts/Views/Query.vala:559
 msgid "_Cancel"
 msgstr "_الغاء"
 
-#: src/Layouts/Library.vala:467
+#: src/Layouts/Library.vala:472
 #, c-format
 msgid "Unable to Connect to %s"
 msgstr "موب قادر يتصل ب %s"
 
-#: src/Layouts/Library.vala:480
+#: src/Layouts/Library.vala:485
 msgid "Unable to Export Library "
 msgstr "موب قادر يصدر المكنبة "
 
@@ -170,27 +188,27 @@ msgstr "_افتح"
 msgid "Unable to Import Library "
 msgstr "موب قادر يستورد مكتبة "
 
-#: src/Layouts/DataBaseSchema.vala:66 src/Layouts/DataBaseSchema.vala:167
-msgid "- Select Database -"
-msgstr "- حدد قاعدة -"
-
-#: src/Layouts/DataBaseSchema.vala:87
+#: src/Layouts/DataBaseSchema.vala:80
 msgid "Search Tables"
 msgstr "ابحث بالجداول"
 
-#: src/Layouts/DataBaseSchema.vala:98
+#: src/Layouts/DataBaseSchema.vala:92
 msgid "Search Tables…"
 msgstr "ابحث بالجداول…"
 
-#: src/Layouts/DataBaseSchema.vala:120
+#: src/Layouts/DataBaseSchema.vala:114
 msgid "Reload Tables"
 msgstr "اعادة تحميل الجداول"
 
-#: src/Layouts/DataBaseSchema.vala:125
+#: src/Layouts/DataBaseSchema.vala:119
 msgid "Add Table"
 msgstr "اضف جدول"
 
-#: src/Layouts/DataBaseSchema.vala:289
+#: src/Layouts/DataBaseSchema.vala:176
+msgid "- Select Database -"
+msgstr "- حدد قاعدة -"
+
+#: src/Layouts/DataBaseSchema.vala:298
 msgid "TABLES"
 msgstr "جداول"
 
@@ -206,148 +224,148 @@ msgstr "المحتوى"
 msgid "Relations"
 msgstr "العلاقات"
 
-#: src/Layouts/DataBaseView.vala:52 src/Layouts/DataBaseView.vala:229
-#: src/Layouts/DataBaseView.vala:253
+#: src/Layouts/DataBaseView.vala:52 src/Layouts/DataBaseView.vala:228
+#: src/Layouts/DataBaseView.vala:256
 msgid "Query"
 msgstr "الاستعلام"
 
-#: src/Layouts/DataBaseView.vala:101
+#: src/Layouts/DataBaseView.vala:100
 msgid "Zoom Out"
 msgstr "سوي تصغير"
 
-#: src/Layouts/DataBaseView.vala:107
+#: src/Layouts/DataBaseView.vala:106
 msgid "Zoom 1:1"
 msgstr "خلي العرض طبيعي"
 
-#: src/Layouts/DataBaseView.vala:111
+#: src/Layouts/DataBaseView.vala:110
 msgid "Zoom In"
 msgstr "سوي تكبير"
 
-#: src/Layouts/DataBaseView.vala:124
+#: src/Layouts/DataBaseView.vala:123
 msgid "High Contrast"
 msgstr "سطوع عالي"
 
-#: src/Layouts/DataBaseView.vala:132
+#: src/Layouts/DataBaseView.vala:131
 msgid "Solarized Light"
 msgstr "شمسي فاتح"
 
-#: src/Layouts/DataBaseView.vala:140
+#: src/Layouts/DataBaseView.vala:139
 msgid "Solarized Dark"
 msgstr "شمسي غامق"
 
-#: src/Layouts/DataBaseView.vala:163
+#: src/Layouts/DataBaseView.vala:162
 msgid "Change Text Style"
 msgstr "غير شكل الكتابة"
 
-#: src/Layouts/DataBaseView.vala:222
+#: src/Layouts/DataBaseView.vala:221
 msgid "Create a new Query Tab"
 msgstr "سوي مبوبة استعلام جديدة"
 
-#: src/Layouts/DataBaseView.vala:240
+#: src/Layouts/DataBaseView.vala:241
 #, c-format
 msgid "Query %i"
 msgstr "استعلام %i"
 
-#: src/Layouts/Views/Structure.vala:79 src/Layouts/Views/Content.vala:90
-#: src/Layouts/Views/Relations.vala:78
+#: src/Layouts/Views/Structure.vala:78 src/Layouts/Views/Content.vala:89
+#: src/Layouts/Views/Relations.vala:77
 msgid "Select Table"
 msgstr "حدد جدول"
 
-#: src/Layouts/Views/Structure.vala:79 src/Layouts/Views/Content.vala:90
-#: src/Layouts/Views/Relations.vala:78
+#: src/Layouts/Views/Structure.vala:78 src/Layouts/Views/Content.vala:89
+#: src/Layouts/Views/Relations.vala:77
 msgid "Select a table from the left sidebar to activate this view."
 msgstr "جدد جدول من الجنب اليسار عشان تفعل العرض هذا."
 
-#: src/Layouts/Views/Structure.vala:107 src/Layouts/Views/Structure.vala:145
-#: src/Layouts/Views/Content.vala:179 src/Layouts/Views/Content.vala:218
-#: src/Layouts/Views/Relations.vala:106 src/Layouts/Views/Relations.vala:144
-#: src/Layouts/Views/Query.vala:323
+#: src/Layouts/Views/Structure.vala:108 src/Layouts/Views/Structure.vala:146
+#: src/Layouts/Views/Content.vala:180 src/Layouts/Views/Content.vala:219
+#: src/Layouts/Views/Relations.vala:107 src/Layouts/Views/Relations.vala:145
+#: src/Layouts/Views/Query.vala:317
 msgid "No Results Available"
 msgstr "مافي أي نتايج متوفرة"
 
-#: src/Layouts/Views/Structure.vala:118 src/Layouts/Views/Content.vala:191
-#: src/Layouts/Views/Relations.vala:117
+#: src/Layouts/Views/Structure.vala:119 src/Layouts/Views/Content.vala:192
+#: src/Layouts/Views/Relations.vala:118
 msgid "Reload Results"
 msgstr "اعادة تحميل النتايج"
 
-#: src/Layouts/Views/Structure.vala:197
+#: src/Layouts/Views/Structure.vala:198
 msgid " Fields"
 msgstr " حقول"
 
-#: src/Layouts/Views/Content.vala:121
+#: src/Layouts/Views/Content.vala:122
 msgid "Previous Page"
 msgstr "الصفحة اللي قبل"
 
-#: src/Layouts/Views/Content.vala:126
+#: src/Layouts/Views/Content.vala:127
 msgid "Next Page"
 msgstr "الصفحة اللي بعده"
 
-#: src/Layouts/Views/Content.vala:131
+#: src/Layouts/Views/Content.vala:132
 #, c-format
 msgid "%d Pages"
 msgstr "%d صفحات"
 
-#: src/Layouts/Views/Content.vala:134
+#: src/Layouts/Views/Content.vala:135
 msgid "Jump to page…"
 msgstr "انقز لصفحة…"
 
-#: src/Layouts/Views/Content.vala:165
+#: src/Layouts/Views/Content.vala:166
 msgid "1 Page"
 msgstr "صفحة وحدة"
 
-#: src/Layouts/Views/Content.vala:171
+#: src/Layouts/Views/Content.vala:172
 #, c-format
 msgid "%d of %d Pages"
 msgstr "%d من اصل %d صفحات"
 
-#: src/Layouts/Views/Content.vala:275
+#: src/Layouts/Views/Content.vala:276
 #, c-format
 msgid "%d Entries"
 msgstr "%d ادخالات"
 
-#: src/Layouts/Views/Relations.vala:197
+#: src/Layouts/Views/Relations.vala:198
 msgid " Constraints"
 msgstr " قيود"
 
-#: src/Layouts/Views/Query.vala:279
+#: src/Layouts/Views/Query.vala:280
 msgid "Running Query…"
 msgstr "استعلام جالس يشتغل…"
 
-#: src/Layouts/Views/Query.vala:295 src/Layouts/Views/Query.vala:304
-msgid "Run Query"
-msgstr "شغل استعلام"
-
-#: src/Layouts/Views/Query.vala:356
+#: src/Layouts/Views/Query.vala:350
 msgid "Export Results"
 msgstr "صدر النتايج"
 
-#: src/Layouts/Views/Query.vala:369
+#: src/Layouts/Views/Query.vala:363
 msgid "Export as CSV"
 msgstr "صدر بصيغة CSV"
 
-#: src/Layouts/Views/Query.vala:377
+#: src/Layouts/Views/Query.vala:371
 msgid "Export as Text"
 msgstr "صدر بصيغة نصية"
 
-#: src/Layouts/Views/Query.vala:436 src/Layouts/Views/Query.vala:482
+#: src/Layouts/Views/Query.vala:463 src/Layouts/Views/Query.vala:509
 msgid "Unable to process Query!"
 msgstr "موب قادر يشغل الاستعلام!"
 
-#: src/Layouts/Views/Query.vala:457
+#: src/Layouts/Views/Query.vala:484
 #, c-format
 msgid "%d Total Results"
 msgstr "%d اجمالي النتايج"
 
-#: src/Layouts/Views/Query.vala:492
+#: src/Layouts/Views/Query.vala:519
 #, c-format
 msgid "Query Successfully Executed! Rows Affected: %s"
 msgstr "الاستعلام تنفذ بشكل ممتاز! الصفوف اللي تأثرت: %s"
 
-#: src/Layouts/Views/Query.vala:495
+#: src/Layouts/Views/Query.vala:522
 msgid "Query Executed!"
 msgstr "الاستعلام تنفذ!"
 
-#: src/Partials/LibraryItem.vala:107 src/Widgets/ConnectionDialog.vala:431
+#: src/Partials/Helpers.vala:130 src/Partials/Helpers.vala:136
+msgid "Run Query"
+msgstr "شغل استعلام"
+
+#: src/Partials/LibraryItem.vala:107 src/Widgets/ConnectionDialog.vala:443
 msgid "Connect"
 msgstr "اتصل"
 
@@ -367,23 +385,36 @@ msgstr "احذف الاتصال"
 msgid "Options"
 msgstr "خيارات"
 
-#: src/Partials/TreeBuilder.vala:131
+#: src/Partials/TreeBuilder.vala:132
 msgid "Error"
 msgstr "خطأ"
 
-#: src/Partials/TreeBuilder.vala:131
+#: src/Partials/TreeBuilder.vala:132
 msgid "on Column"
 msgstr "على العمود"
 
-#: src/Partials/TreeBuilder.vala:172
+#: src/Partials/TreeBuilder.vala:173
 #, c-format
 msgid "Copy %s"
 msgstr "انسخ %s"
 
-#: src/Services/Settings.vala:106
+#: src/Services/Settings.vala:103
 #, c-format
 msgid "%s (copy)"
 msgstr "%s (نسخة)"
+
+#: src/Services/ActionManager.vala:254
+#, fuzzy
+#| msgid "Are you sure you want to proceed?"
+msgid "Are you sure you want to delete this Database?"
+msgstr "متأكد أنك ودك تكمل؟"
+
+#: src/Services/ActionManager.vala:254
+#, fuzzy
+#| msgid "All the data will be deleted and you won’t be able to recover it."
+msgid ""
+"All the tables and data will be deleted and you won’t be able to recover it."
+msgstr "كل البيانات راح تنحذف وماراح تقدر ترجعها."
 
 #: src/Services/ConnectionManager.vala:193
 #, c-format
@@ -439,147 +470,151 @@ msgstr ""
 "ماقدرنا نفتح قناة direct-tcpip! (ترا يمكن هذي مشكلة بالخادم نفسه! راجع لوقات "
 "السيرفر وشوف)"
 
-#: src/Services/ConnectionManager.vala:566
+#: src/Services/ConnectionManager.vala:578
 msgid "Error!"
 msgstr "خطأ!"
 
-#: src/Widgets/ConnectionDialog.vala:33
+#: src/Widgets/ConnectionDialog.vala:35
 msgid "Missing SSH Key file!"
 msgstr "مالقينا ملف SSH Key!"
 
-#: src/Widgets/ConnectionDialog.vala:34
+#: src/Widgets/ConnectionDialog.vala:36
 msgid "Missing SSH public key!"
 msgstr "مالقينا SSH public key!"
 
-#: src/Widgets/ConnectionDialog.vala:89 src/Widgets/ConnectionDialog.vala:355
+#: src/Widgets/ConnectionDialog.vala:94 src/Widgets/ConnectionDialog.vala:369
 msgid "Connection"
 msgstr "اتصال"
 
-#: src/Widgets/ConnectionDialog.vala:141
+#: src/Widgets/ConnectionDialog.vala:146
 msgid "Select connection color"
 msgstr "حدد لون للاتصال"
 
-#: src/Widgets/ConnectionDialog.vala:164
+#: src/Widgets/ConnectionDialog.vala:169
 msgid "Connection Name:"
 msgstr "اسم الاتصال:"
 
-#: src/Widgets/ConnectionDialog.vala:165
+#: src/Widgets/ConnectionDialog.vala:170
 msgid "Connection's name"
 msgstr "اسم الاتصال"
 
-#: src/Widgets/ConnectionDialog.vala:172
+#: src/Widgets/ConnectionDialog.vala:177
 msgid "Database Type:"
 msgstr "نوع القاعدة:"
 
-#: src/Widgets/ConnectionDialog.vala:194
+#: src/Widgets/ConnectionDialog.vala:199
 msgid "Host:"
 msgstr "المستضيف:"
 
-#: src/Widgets/ConnectionDialog.vala:200
+#: src/Widgets/ConnectionDialog.vala:205
 msgid "Database Name:"
 msgstr "اسم القاعدة:"
 
-#: src/Widgets/ConnectionDialog.vala:207
+#: src/Widgets/ConnectionDialog.vala:212
 msgid "Username:"
 msgstr "اسم المستخدم:"
 
-#: src/Widgets/ConnectionDialog.vala:213
+#: src/Widgets/ConnectionDialog.vala:218
 msgid "Password:"
 msgstr "كلمة المرور:"
 
-#: src/Widgets/ConnectionDialog.vala:217 src/Widgets/ConnectionDialog.vala:227
-#: src/Widgets/ConnectionDialog.vala:285 src/Widgets/ConnectionDialog.vala:295
+#: src/Widgets/ConnectionDialog.vala:222 src/Widgets/ConnectionDialog.vala:232
+#: src/Widgets/ConnectionDialog.vala:299 src/Widgets/ConnectionDialog.vala:309
 msgid "Show password"
 msgstr "اعرض كلمة المرور"
 
-#: src/Widgets/ConnectionDialog.vala:224 src/Widgets/ConnectionDialog.vala:292
+#: src/Widgets/ConnectionDialog.vala:229 src/Widgets/ConnectionDialog.vala:306
 msgid "Hide password"
 msgstr "خبي كلمة المرور"
 
-#: src/Widgets/ConnectionDialog.vala:234
+#: src/Widgets/ConnectionDialog.vala:239
 msgid "Port:"
 msgstr "المنفذ:"
 
-#: src/Widgets/ConnectionDialog.vala:240
+#: src/Widgets/ConnectionDialog.vala:245
+msgid "Use SSL:"
+msgstr ""
+
+#: src/Widgets/ConnectionDialog.vala:254
 msgid "File Path:"
 msgstr "مسار الملف:"
 
-#: src/Widgets/ConnectionDialog.vala:241
+#: src/Widgets/ConnectionDialog.vala:255
 msgid "Select Your SQLite File…"
 msgstr "حدد الملف حق قاعدة SQLite…"
 
-#: src/Widgets/ConnectionDialog.vala:261
+#: src/Widgets/ConnectionDialog.vala:275
 msgid "Connect via SSH Tunnel:"
 msgstr "اتصال عن طريق SSH Tunnel:"
 
-#: src/Widgets/ConnectionDialog.vala:271
+#: src/Widgets/ConnectionDialog.vala:285
 msgid "SSH Host:"
 msgstr "مستضيف SSH:"
 
-#: src/Widgets/ConnectionDialog.vala:276
+#: src/Widgets/ConnectionDialog.vala:290
 msgid "SSH Username:"
 msgstr "اسم مستخدم SSH:"
 
-#: src/Widgets/ConnectionDialog.vala:281
+#: src/Widgets/ConnectionDialog.vala:295
 msgid "SSH Password:"
 msgstr "كلمة مرور SSH:"
 
-#: src/Widgets/ConnectionDialog.vala:301
+#: src/Widgets/ConnectionDialog.vala:315
 msgid "SSH Port:"
 msgstr "منفذ SSH:"
 
-#: src/Widgets/ConnectionDialog.vala:302
+#: src/Widgets/ConnectionDialog.vala:316
 msgid "Optional"
 msgstr "اختياري"
 
-#: src/Widgets/ConnectionDialog.vala:306
+#: src/Widgets/ConnectionDialog.vala:320
 msgid "SSH Identity"
 msgstr "هوية SSH (Identity)"
 
-#: src/Widgets/ConnectionDialog.vala:308
+#: src/Widgets/ConnectionDialog.vala:322
 msgid "Select Your Identity File…"
 msgstr "حدد ملف الهوية (Identity)…"
 
-#: src/Widgets/ConnectionDialog.vala:324
+#: src/Widgets/ConnectionDialog.vala:338
 msgid "Generate SSH Key"
 msgstr "سوي مفتاح SSH"
 
-#: src/Widgets/ConnectionDialog.vala:356
+#: src/Widgets/ConnectionDialog.vala:370
 msgid "SSH Tunnel"
 msgstr "قناة SSH (Tunnel)"
 
-#: src/Widgets/ConnectionDialog.vala:426
+#: src/Widgets/ConnectionDialog.vala:440
 msgid "Close"
 msgstr "اغلاق"
 
-#: src/Widgets/ConnectionDialog.vala:427
+#: src/Widgets/ConnectionDialog.vala:441
 msgid "Save Connection"
 msgstr "خزن الاتصال"
 
-#: src/Widgets/ConnectionDialog.vala:429
+#: src/Widgets/ConnectionDialog.vala:442
 msgid "Test Connection"
 msgstr "جرب الاتصال"
 
-#: src/Widgets/ConnectionDialog.vala:620
+#: src/Widgets/ConnectionDialog.vala:647
 msgid "Opening SSH Tunnel…"
 msgstr "جالس يفتح قناة SSH (Tunnel)…"
 
-#: src/Widgets/ConnectionDialog.vala:650
+#: src/Widgets/ConnectionDialog.vala:683
 msgid "Testing Connection…"
 msgstr "جالس يجرب الاتصال…"
 
-#: src/Widgets/ConnectionDialog.vala:661
+#: src/Widgets/ConnectionDialog.vala:705
 msgid "Successfully Connected!"
 msgstr "اتصل بشكل مضبوط!"
 
-#: src/Widgets/ConnectionDialog.vala:679
+#: src/Widgets/ConnectionDialog.vala:714
 msgid "Saving Connection…"
 msgstr "جالس يخزن الاتصال…"
 
-#: src/Widgets/ConnectionDialog.vala:684
+#: src/Widgets/ConnectionDialog.vala:719
 msgid "Connection Saved!"
 msgstr "الاتصال تخزن!"
 
-#: src/Widgets/ConnectionDialog.vala:692
+#: src/Widgets/ConnectionDialog.vala:727
 msgid "Connecting…"
 msgstr "جالس يتصل…"

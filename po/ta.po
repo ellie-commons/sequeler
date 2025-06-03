@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.alecaddd.sequeler\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-11 12:37+0200\n"
+"POT-Creation-Date: 2025-06-03 22:03+0900\n"
 "PO-Revision-Date: 2025-04-21 15:01+0000\n"
 "Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/sequeler/"
@@ -19,44 +19,62 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.11.1-dev\n"
 
-#: src/Application.vala:62
+#: src/Application.vala:67
 msgid "Directories are not supported"
 msgstr "கோப்பகங்கள் ஆதரிக்கப்படவில்லை"
 
-#: src/Application.vala:68
+#: src/Application.vala:73
 msgid "Don't know what to do"
 msgstr "என்ன செய்வது என்று தெரியவில்லை"
 
-#: src/Application.vala:80
+#: src/Application.vala:85
 msgid "Something completely unexpected happened"
 msgstr "முற்றிலும் எதிர்பாராத ஒன்று நடந்தது"
 
-#: src/Layouts/HeaderBar.vala:46 src/Layouts/HeaderBar.vala:53
+#: src/Layouts/HeaderBar.vala:52
 msgid "Logout"
 msgstr "வெளியேற்றம்"
 
-#: src/Layouts/HeaderBar.vala:56
+#: src/Layouts/HeaderBar.vala:57
+#, fuzzy
+#| msgid "Create a new Query Tab"
+msgid "Create a new database"
+msgstr "புதிய வினவல் தாவலை உருவாக்கவும்"
+
+#: src/Layouts/HeaderBar.vala:66
+#, fuzzy
+#| msgid "- Select Database -"
+msgid "Delete database"
+msgstr "- தரவுத்தளத்தைத் தேர்ந்தெடுக்கவும் -"
+
+#: src/Layouts/HeaderBar.vala:75
+#, fuzzy
+#| msgid "Database Type:"
+msgid "Database properties"
+msgstr "தரவுத்தள வகை:"
+
+#: src/Layouts/HeaderBar.vala:89
 msgid "Light background"
 msgstr "ஒளி பின்னணி"
 
-#: src/Layouts/HeaderBar.vala:57
+#: src/Layouts/HeaderBar.vala:90
 msgid "Dark background"
 msgstr "இருண்ட பின்னணி"
 
-#: src/Layouts/HeaderBar.vala:68 src/Layouts/Welcome.vala:39
+#: src/Layouts/HeaderBar.vala:101 src/Layouts/Welcome.vala:39
 msgid "New Window"
 msgstr "புதிய சாளரம்"
 
-#: src/Layouts/HeaderBar.vala:71 src/Widgets/ConnectionDialog.vala:130
-#: src/Widgets/ConnectionDialog.vala:165
+#: src/Layouts/HeaderBar.vala:104 src/Widgets/ConnectionDialog.vala:135
+#: src/Widgets/ConnectionDialog.vala:170
 msgid "New Connection"
 msgstr "புதிய இணைப்பு"
 
-#: src/Layouts/HeaderBar.vala:74
+#: src/Layouts/HeaderBar.vala:107
 msgid "Quit"
 msgstr "வெளியேறு"
 
-#: src/Layouts/HeaderBar.vala:94
+#: src/Layouts/HeaderBar.vala:127
 msgid "Menu"
 msgstr "பட்டியல்"
 
@@ -89,7 +107,7 @@ msgstr "நீங்கள் தொடர விரும்புகிறீ�
 msgid "By deleting this connection you won’t be able to recover this data."
 msgstr "இந்த இணைப்பை நீக்குவதன் மூலம் இந்தத் தரவை மீட்டெடுக்க முடியாது."
 
-#: src/Layouts/Library.vala:218
+#: src/Layouts/Library.vala:218 src/Services/ActionManager.vala:257
 msgid "Yes, Delete!"
 msgstr "ஆம், நீக்கு!"
 
@@ -101,30 +119,30 @@ msgstr "எல்லா தரவுகளும் நீக்கப்பட�
 msgid "Yes, Delete All!"
 msgstr "ஆம், அனைத்தையும் நீக்கு!"
 
-#: src/Layouts/Library.vala:330 src/Widgets/ConnectionDialog.vala:575
-#: src/Widgets/ConnectionDialog.vala:596
+#: src/Layouts/Library.vala:335 src/Widgets/ConnectionDialog.vala:602
+#: src/Widgets/ConnectionDialog.vala:623
 msgid "A username is required in order to connect!"
 msgstr "இணைக்க பயனர்பெயர் தேவை!"
 
-#: src/Layouts/Library.vala:404 src/Layouts/Views/Query.vala:528
+#: src/Layouts/Library.vala:409 src/Layouts/Views/Query.vala:555
 msgid "Pick a file"
 msgstr "ஒரு கோப்பை எடு"
 
-#: src/Layouts/Library.vala:407 src/Layouts/Views/Query.vala:531
+#: src/Layouts/Library.vala:412 src/Layouts/Views/Query.vala:558
 msgid "_Save"
 msgstr "_சேவ்"
 
-#: src/Layouts/Library.vala:408 src/Layouts/Welcome.vala:62
-#: src/Layouts/Views/Query.vala:532
+#: src/Layouts/Library.vala:413 src/Layouts/Welcome.vala:62
+#: src/Layouts/Views/Query.vala:559
 msgid "_Cancel"
 msgstr "_CANCEL"
 
-#: src/Layouts/Library.vala:467
+#: src/Layouts/Library.vala:472
 #, c-format
 msgid "Unable to Connect to %s"
 msgstr "%s உடன் இணைக்க முடியவில்லை"
 
-#: src/Layouts/Library.vala:480
+#: src/Layouts/Library.vala:485
 msgid "Unable to Export Library "
 msgstr "நூலகத்தை ஏற்றுமதி செய்ய முடியவில்லை "
 
@@ -168,27 +186,27 @@ msgstr "_OPEN"
 msgid "Unable to Import Library "
 msgstr "நூலகத்தை இறக்குமதி செய்ய முடியவில்லை "
 
-#: src/Layouts/DataBaseSchema.vala:66 src/Layouts/DataBaseSchema.vala:167
-msgid "- Select Database -"
-msgstr "- தரவுத்தளத்தைத் தேர்ந்தெடுக்கவும் -"
-
-#: src/Layouts/DataBaseSchema.vala:87
+#: src/Layouts/DataBaseSchema.vala:80
 msgid "Search Tables"
 msgstr "அட்டவணைகளைத் தேடுங்கள்"
 
-#: src/Layouts/DataBaseSchema.vala:98
+#: src/Layouts/DataBaseSchema.vala:92
 msgid "Search Tables…"
 msgstr "அட்டவணைகளைத் தேடுங்கள்…"
 
-#: src/Layouts/DataBaseSchema.vala:120
+#: src/Layouts/DataBaseSchema.vala:114
 msgid "Reload Tables"
 msgstr "அட்டவணைகளை மீண்டும் ஏற்றவும்"
 
-#: src/Layouts/DataBaseSchema.vala:125
+#: src/Layouts/DataBaseSchema.vala:119
 msgid "Add Table"
 msgstr "அட்டவணை சேர்க்கவும்"
 
-#: src/Layouts/DataBaseSchema.vala:289
+#: src/Layouts/DataBaseSchema.vala:176
+msgid "- Select Database -"
+msgstr "- தரவுத்தளத்தைத் தேர்ந்தெடுக்கவும் -"
+
+#: src/Layouts/DataBaseSchema.vala:298
 msgid "TABLES"
 msgstr "அட்டவணைகள்"
 
@@ -204,149 +222,149 @@ msgstr "உள்ளடக்கம்"
 msgid "Relations"
 msgstr "உறவுகள்"
 
-#: src/Layouts/DataBaseView.vala:52 src/Layouts/DataBaseView.vala:229
-#: src/Layouts/DataBaseView.vala:253
+#: src/Layouts/DataBaseView.vala:52 src/Layouts/DataBaseView.vala:228
+#: src/Layouts/DataBaseView.vala:256
 msgid "Query"
 msgstr "வினவல்"
 
-#: src/Layouts/DataBaseView.vala:101
+#: src/Layouts/DataBaseView.vala:100
 msgid "Zoom Out"
 msgstr "சிறிதாக்கு"
 
-#: src/Layouts/DataBaseView.vala:107
+#: src/Layouts/DataBaseView.vala:106
 msgid "Zoom 1:1"
 msgstr "பெரிதாக்கு 1: 1"
 
-#: src/Layouts/DataBaseView.vala:111
+#: src/Layouts/DataBaseView.vala:110
 msgid "Zoom In"
 msgstr "பெரிதாக்கு"
 
-#: src/Layouts/DataBaseView.vala:124
+#: src/Layouts/DataBaseView.vala:123
 msgid "High Contrast"
 msgstr "உயர் வேறுபாடு"
 
-#: src/Layouts/DataBaseView.vala:132
+#: src/Layouts/DataBaseView.vala:131
 msgid "Solarized Light"
 msgstr "சோலரிச் லைட்"
 
-#: src/Layouts/DataBaseView.vala:140
+#: src/Layouts/DataBaseView.vala:139
 msgid "Solarized Dark"
 msgstr "சோலரிச் இருண்ட"
 
-#: src/Layouts/DataBaseView.vala:163
+#: src/Layouts/DataBaseView.vala:162
 msgid "Change Text Style"
 msgstr "உரை பாணியை மாற்றவும்"
 
-#: src/Layouts/DataBaseView.vala:222
+#: src/Layouts/DataBaseView.vala:221
 msgid "Create a new Query Tab"
 msgstr "புதிய வினவல் தாவலை உருவாக்கவும்"
 
-#: src/Layouts/DataBaseView.vala:240
+#: src/Layouts/DataBaseView.vala:241
 #, c-format
 msgid "Query %i"
 msgstr "வினவல் %i"
 
-#: src/Layouts/Views/Structure.vala:79 src/Layouts/Views/Content.vala:90
-#: src/Layouts/Views/Relations.vala:78
+#: src/Layouts/Views/Structure.vala:78 src/Layouts/Views/Content.vala:89
+#: src/Layouts/Views/Relations.vala:77
 msgid "Select Table"
 msgstr "அட்டவணையைத் தேர்ந்தெடுக்கவும்"
 
-#: src/Layouts/Views/Structure.vala:79 src/Layouts/Views/Content.vala:90
-#: src/Layouts/Views/Relations.vala:78
+#: src/Layouts/Views/Structure.vala:78 src/Layouts/Views/Content.vala:89
+#: src/Layouts/Views/Relations.vala:77
 msgid "Select a table from the left sidebar to activate this view."
 msgstr ""
 "இந்த பார்வையை செயல்படுத்த இடது பக்கப்பட்டியில் இருந்து ஒரு அட்டவணையைத் தேர்ந்தெடுக்கவும்."
 
-#: src/Layouts/Views/Structure.vala:107 src/Layouts/Views/Structure.vala:145
-#: src/Layouts/Views/Content.vala:179 src/Layouts/Views/Content.vala:218
-#: src/Layouts/Views/Relations.vala:106 src/Layouts/Views/Relations.vala:144
-#: src/Layouts/Views/Query.vala:323
+#: src/Layouts/Views/Structure.vala:108 src/Layouts/Views/Structure.vala:146
+#: src/Layouts/Views/Content.vala:180 src/Layouts/Views/Content.vala:219
+#: src/Layouts/Views/Relations.vala:107 src/Layouts/Views/Relations.vala:145
+#: src/Layouts/Views/Query.vala:317
 msgid "No Results Available"
 msgstr "முடிவுகள் எதுவும் கிடைக்கவில்லை"
 
-#: src/Layouts/Views/Structure.vala:118 src/Layouts/Views/Content.vala:191
-#: src/Layouts/Views/Relations.vala:117
+#: src/Layouts/Views/Structure.vala:119 src/Layouts/Views/Content.vala:192
+#: src/Layouts/Views/Relations.vala:118
 msgid "Reload Results"
 msgstr "முடிவுகளை மீண்டும் ஏற்றவும்"
 
-#: src/Layouts/Views/Structure.vala:197
+#: src/Layouts/Views/Structure.vala:198
 msgid " Fields"
 msgstr " புலங்கள்"
 
-#: src/Layouts/Views/Content.vala:121
+#: src/Layouts/Views/Content.vala:122
 msgid "Previous Page"
 msgstr "முந்தைய பக்கம்"
 
-#: src/Layouts/Views/Content.vala:126
+#: src/Layouts/Views/Content.vala:127
 msgid "Next Page"
 msgstr "அடுத்த பக்கம்"
 
-#: src/Layouts/Views/Content.vala:131
+#: src/Layouts/Views/Content.vala:132
 #, c-format
 msgid "%d Pages"
 msgstr "%d பக்கங்கள்"
 
-#: src/Layouts/Views/Content.vala:134
+#: src/Layouts/Views/Content.vala:135
 msgid "Jump to page…"
 msgstr "பக்கத்திற்கு செல்லவும்…"
 
-#: src/Layouts/Views/Content.vala:165
+#: src/Layouts/Views/Content.vala:166
 msgid "1 Page"
 msgstr "1 பக்கம்"
 
-#: src/Layouts/Views/Content.vala:171
+#: src/Layouts/Views/Content.vala:172
 #, c-format
 msgid "%d of %d Pages"
 msgstr "%d பக்கங்களின் %d"
 
-#: src/Layouts/Views/Content.vala:275
+#: src/Layouts/Views/Content.vala:276
 #, c-format
 msgid "%d Entries"
 msgstr "%d உள்ளீடுகள்"
 
-#: src/Layouts/Views/Relations.vala:197
+#: src/Layouts/Views/Relations.vala:198
 msgid " Constraints"
 msgstr " தடைகள்"
 
-#: src/Layouts/Views/Query.vala:279
+#: src/Layouts/Views/Query.vala:280
 msgid "Running Query…"
 msgstr "இயங்கும் வினவல்…"
 
-#: src/Layouts/Views/Query.vala:295 src/Layouts/Views/Query.vala:304
-msgid "Run Query"
-msgstr "வினவலை இயக்கவும்"
-
-#: src/Layouts/Views/Query.vala:356
+#: src/Layouts/Views/Query.vala:350
 msgid "Export Results"
 msgstr "ஏற்றுமதி முடிவுகள்"
 
-#: src/Layouts/Views/Query.vala:369
+#: src/Layouts/Views/Query.vala:363
 msgid "Export as CSV"
 msgstr "காபிம ஆக ஏற்றுமதி"
 
-#: src/Layouts/Views/Query.vala:377
+#: src/Layouts/Views/Query.vala:371
 msgid "Export as Text"
 msgstr "உரையாக ஏற்றுமதி"
 
-#: src/Layouts/Views/Query.vala:436 src/Layouts/Views/Query.vala:482
+#: src/Layouts/Views/Query.vala:463 src/Layouts/Views/Query.vala:509
 msgid "Unable to process Query!"
 msgstr "வினவலை செயலாக்க முடியவில்லை!"
 
-#: src/Layouts/Views/Query.vala:457
+#: src/Layouts/Views/Query.vala:484
 #, c-format
 msgid "%d Total Results"
 msgstr "%d மொத்த முடிவுகள்"
 
-#: src/Layouts/Views/Query.vala:492
+#: src/Layouts/Views/Query.vala:519
 #, c-format
 msgid "Query Successfully Executed! Rows Affected: %s"
 msgstr "வினவல் வெற்றிகரமாக செயல்படுத்தப்பட்டது! பாதிக்கப்பட்ட வரிசைகள்: %s"
 
-#: src/Layouts/Views/Query.vala:495
+#: src/Layouts/Views/Query.vala:522
 msgid "Query Executed!"
 msgstr "வினவல் செயல்படுத்தப்பட்டது!"
 
-#: src/Partials/LibraryItem.vala:107 src/Widgets/ConnectionDialog.vala:431
+#: src/Partials/Helpers.vala:130 src/Partials/Helpers.vala:136
+msgid "Run Query"
+msgstr "வினவலை இயக்கவும்"
+
+#: src/Partials/LibraryItem.vala:107 src/Widgets/ConnectionDialog.vala:443
 msgid "Connect"
 msgstr "இணை"
 
@@ -366,23 +384,36 @@ msgstr "இணைப்பை நீக்கு"
 msgid "Options"
 msgstr "விருப்பங்கள்"
 
-#: src/Partials/TreeBuilder.vala:131
+#: src/Partials/TreeBuilder.vala:132
 msgid "Error"
 msgstr "பிழை"
 
-#: src/Partials/TreeBuilder.vala:131
+#: src/Partials/TreeBuilder.vala:132
 msgid "on Column"
 msgstr "நெடுவரிசையில்"
 
-#: src/Partials/TreeBuilder.vala:172
+#: src/Partials/TreeBuilder.vala:173
 #, c-format
 msgid "Copy %s"
 msgstr "%s நகல்"
 
-#: src/Services/Settings.vala:106
+#: src/Services/Settings.vala:103
 #, c-format
 msgid "%s (copy)"
 msgstr "%s (நகல்)"
+
+#: src/Services/ActionManager.vala:254
+#, fuzzy
+#| msgid "Are you sure you want to proceed?"
+msgid "Are you sure you want to delete this Database?"
+msgstr "நீங்கள் தொடர விரும்புகிறீர்களா?"
+
+#: src/Services/ActionManager.vala:254
+#, fuzzy
+#| msgid "All the data will be deleted and you won’t be able to recover it."
+msgid ""
+"All the tables and data will be deleted and you won’t be able to recover it."
+msgstr "எல்லா தரவுகளும் நீக்கப்படும், அதை நீங்கள் மீட்டெடுக்க முடியாது."
 
 #: src/Services/ConnectionManager.vala:193
 #, c-format
@@ -438,147 +469,151 @@ msgstr ""
 "நேரடி-TCPIP சேனலைத் திறக்க முடியவில்லை! (இது சேவையகத்தில் ஒரு சிக்கலாக இருக்கலாம் "
 "என்பதை நினைவில் கொள்க! சேவையக பதிவுகளை மதிப்பாய்வு செய்யவும்.)"
 
-#: src/Services/ConnectionManager.vala:566
+#: src/Services/ConnectionManager.vala:578
 msgid "Error!"
 msgstr "பிழை!"
 
-#: src/Widgets/ConnectionDialog.vala:33
+#: src/Widgets/ConnectionDialog.vala:35
 msgid "Missing SSH Key file!"
 msgstr "பாஓடு விசை கோப்பு இல்லை!"
 
-#: src/Widgets/ConnectionDialog.vala:34
+#: src/Widgets/ConnectionDialog.vala:36
 msgid "Missing SSH public key!"
 msgstr "பாஓடு பொது விசையை காணவில்லை!"
 
-#: src/Widgets/ConnectionDialog.vala:89 src/Widgets/ConnectionDialog.vala:355
+#: src/Widgets/ConnectionDialog.vala:94 src/Widgets/ConnectionDialog.vala:369
 msgid "Connection"
 msgstr "இணைப்பு"
 
-#: src/Widgets/ConnectionDialog.vala:141
+#: src/Widgets/ConnectionDialog.vala:146
 msgid "Select connection color"
 msgstr "இணைப்பு வண்ணத்தைத் தேர்ந்தெடுக்கவும்"
 
-#: src/Widgets/ConnectionDialog.vala:164
+#: src/Widgets/ConnectionDialog.vala:169
 msgid "Connection Name:"
 msgstr "இணைப்பு பெயர்:"
 
-#: src/Widgets/ConnectionDialog.vala:165
+#: src/Widgets/ConnectionDialog.vala:170
 msgid "Connection's name"
 msgstr "இணைப்பின் பெயர்"
 
-#: src/Widgets/ConnectionDialog.vala:172
+#: src/Widgets/ConnectionDialog.vala:177
 msgid "Database Type:"
 msgstr "தரவுத்தள வகை:"
 
-#: src/Widgets/ConnectionDialog.vala:194
+#: src/Widgets/ConnectionDialog.vala:199
 msgid "Host:"
 msgstr "புரவலன்:"
 
-#: src/Widgets/ConnectionDialog.vala:200
+#: src/Widgets/ConnectionDialog.vala:205
 msgid "Database Name:"
 msgstr "தரவுத்தள பெயர்:"
 
-#: src/Widgets/ConnectionDialog.vala:207
+#: src/Widgets/ConnectionDialog.vala:212
 msgid "Username:"
 msgstr "பயனர்பெயர்:"
 
-#: src/Widgets/ConnectionDialog.vala:213
+#: src/Widgets/ConnectionDialog.vala:218
 msgid "Password:"
 msgstr "கடவுச்சொல்:"
 
-#: src/Widgets/ConnectionDialog.vala:217 src/Widgets/ConnectionDialog.vala:227
-#: src/Widgets/ConnectionDialog.vala:285 src/Widgets/ConnectionDialog.vala:295
+#: src/Widgets/ConnectionDialog.vala:222 src/Widgets/ConnectionDialog.vala:232
+#: src/Widgets/ConnectionDialog.vala:299 src/Widgets/ConnectionDialog.vala:309
 msgid "Show password"
 msgstr "கடவுச்சொல்லைக் காட்டு"
 
-#: src/Widgets/ConnectionDialog.vala:224 src/Widgets/ConnectionDialog.vala:292
+#: src/Widgets/ConnectionDialog.vala:229 src/Widgets/ConnectionDialog.vala:306
 msgid "Hide password"
 msgstr "கடவுச்சொல்லை மறைக்கவும்"
 
-#: src/Widgets/ConnectionDialog.vala:234
+#: src/Widgets/ConnectionDialog.vala:239
 msgid "Port:"
 msgstr "போர்ட்:"
 
-#: src/Widgets/ConnectionDialog.vala:240
+#: src/Widgets/ConnectionDialog.vala:245
+msgid "Use SSL:"
+msgstr ""
+
+#: src/Widgets/ConnectionDialog.vala:254
 msgid "File Path:"
 msgstr "கோப்பு பாதை:"
 
-#: src/Widgets/ConnectionDialog.vala:241
+#: src/Widgets/ConnectionDialog.vala:255
 msgid "Select Your SQLite File…"
 msgstr "உங்கள் SQLite கோப்பைத் தேர்ந்தெடுக்கவும்…"
 
-#: src/Widgets/ConnectionDialog.vala:261
+#: src/Widgets/ConnectionDialog.vala:275
 msgid "Connect via SSH Tunnel:"
 msgstr "பாஓடு சுரங்கப்பாதை வழியாக இணைக்கவும்:"
 
-#: src/Widgets/ConnectionDialog.vala:271
+#: src/Widgets/ConnectionDialog.vala:285
 msgid "SSH Host:"
 msgstr "பாஓடு ஓச்ட்:"
 
-#: src/Widgets/ConnectionDialog.vala:276
+#: src/Widgets/ConnectionDialog.vala:290
 msgid "SSH Username:"
 msgstr "பாஓடு பயனர்பெயர்:"
 
-#: src/Widgets/ConnectionDialog.vala:281
+#: src/Widgets/ConnectionDialog.vala:295
 msgid "SSH Password:"
 msgstr "பாஓடு கடவுச்சொல்:"
 
-#: src/Widgets/ConnectionDialog.vala:301
+#: src/Widgets/ConnectionDialog.vala:315
 msgid "SSH Port:"
 msgstr "பாஓடு போர்ட்:"
 
-#: src/Widgets/ConnectionDialog.vala:302
+#: src/Widgets/ConnectionDialog.vala:316
 msgid "Optional"
 msgstr "விரும்பினால்"
 
-#: src/Widgets/ConnectionDialog.vala:306
+#: src/Widgets/ConnectionDialog.vala:320
 msgid "SSH Identity"
 msgstr "பாஓடு அடையாளம்"
 
-#: src/Widgets/ConnectionDialog.vala:308
+#: src/Widgets/ConnectionDialog.vala:322
 msgid "Select Your Identity File…"
 msgstr "உங்கள் அடையாள கோப்பைத் தேர்ந்தெடுக்கவும்…"
 
-#: src/Widgets/ConnectionDialog.vala:324
+#: src/Widgets/ConnectionDialog.vala:338
 msgid "Generate SSH Key"
 msgstr "பாஓடு விசையை உருவாக்குங்கள்"
 
-#: src/Widgets/ConnectionDialog.vala:356
+#: src/Widgets/ConnectionDialog.vala:370
 msgid "SSH Tunnel"
 msgstr "பாஓடு சுரங்கப்பாதை"
 
-#: src/Widgets/ConnectionDialog.vala:426
+#: src/Widgets/ConnectionDialog.vala:440
 msgid "Close"
 msgstr "மூடு"
 
-#: src/Widgets/ConnectionDialog.vala:427
+#: src/Widgets/ConnectionDialog.vala:441
 msgid "Save Connection"
 msgstr "இணைப்பைச் சேமிக்கவும்"
 
-#: src/Widgets/ConnectionDialog.vala:429
+#: src/Widgets/ConnectionDialog.vala:442
 msgid "Test Connection"
 msgstr "சோதனை இணைப்பு"
 
-#: src/Widgets/ConnectionDialog.vala:620
+#: src/Widgets/ConnectionDialog.vala:647
 msgid "Opening SSH Tunnel…"
 msgstr "பாஓடு சுரங்கப்பாதை திறத்தல்…"
 
-#: src/Widgets/ConnectionDialog.vala:650
+#: src/Widgets/ConnectionDialog.vala:683
 msgid "Testing Connection…"
 msgstr "சோதனை இணைப்பு…"
 
-#: src/Widgets/ConnectionDialog.vala:661
+#: src/Widgets/ConnectionDialog.vala:705
 msgid "Successfully Connected!"
 msgstr "வெற்றிகரமாக இணைக்கப்பட்டுள்ளது!"
 
-#: src/Widgets/ConnectionDialog.vala:679
+#: src/Widgets/ConnectionDialog.vala:714
 msgid "Saving Connection…"
 msgstr "இணைப்பு சேமிப்பு…"
 
-#: src/Widgets/ConnectionDialog.vala:684
+#: src/Widgets/ConnectionDialog.vala:719
 msgid "Connection Saved!"
 msgstr "இணைப்பு சேமிக்கப்பட்டது!"
 
-#: src/Widgets/ConnectionDialog.vala:692
+#: src/Widgets/ConnectionDialog.vala:727
 msgid "Connecting…"
 msgstr "இணைத்தல்…"
