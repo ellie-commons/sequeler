@@ -98,8 +98,8 @@ msgstr "Zwischen dem hellen und dunklen Modus umschalten"
 #: data/com.github.alecaddd.sequeler.appdata.xml.in.in:33
 #, fuzzy
 msgid ""
-"Handy keyboard shortcuts to quit (ctrl+q), create new connection (ctrl+shift"
-"+n), open a new window (ctrl+n)"
+"Handy keyboard shortcuts to quit (ctrl+q), create new connection "
+"(ctrl+shift+n), open a new window (ctrl+n)"
 msgstr ""
 "Tastenkombinationen zum Beenden (Strg+q), Erstellen einer neuen Verbindung "
 "(Strg+Shift+n), mehrere Instanzen (Strg+n)"

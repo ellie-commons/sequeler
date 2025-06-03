@@ -97,8 +97,8 @@ msgstr "Kasuta heledat või tumedat kujundust"
 
 #: data/com.github.alecaddd.sequeler.appdata.xml.in.in:33
 msgid ""
-"Handy keyboard shortcuts to quit (ctrl+q), create new connection (ctrl+shift"
-"+n), open a new window (ctrl+n)"
+"Handy keyboard shortcuts to quit (ctrl+q), create new connection "
+"(ctrl+shift+n), open a new window (ctrl+n)"
 msgstr ""
 "Mugavad kiirklahvid väljumiseks (ctrl+q), uue ühenduse loomiseks "
 "(ctrl+shift+n) ja uue akna avamiseks (ctrl+n)"

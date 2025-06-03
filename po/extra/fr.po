@@ -100,11 +100,11 @@ msgstr "Changer entre le thème clair et le thème sombre"
 #: data/com.github.alecaddd.sequeler.appdata.xml.in.in:33
 #, fuzzy
 msgid ""
-"Handy keyboard shortcuts to quit (ctrl+q), create new connection (ctrl+shift"
-"+n), open a new window (ctrl+n)"
+"Handy keyboard shortcuts to quit (ctrl+q), create new connection "
+"(ctrl+shift+n), open a new window (ctrl+n)"
 msgstr ""
-"Raccourcis clavier pour quitter (Ctrl+Q), créer une nouvelle connexion(Ctrl"
-"+Maj+N), Ouvrir une nouvelle instance (Ctrl+N)"
+"Raccourcis clavier pour quitter (Ctrl+Q), créer une nouvelle "
+"connexion(Ctrl+Maj+N), Ouvrir une nouvelle instance (Ctrl+N)"
 
 #: data/com.github.alecaddd.sequeler.appdata.xml.in.in:42
 msgid "Query Tab Bonanza!"
