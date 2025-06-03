@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: com.github.alecaddd.sequeler\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-03 22:03+0900\n"
-"PO-Revision-Date: 2025-05-03 16:19+0000\n"
+"PO-Revision-Date: 2025-06-04 14:01+0000\n"
 "Last-Translator: Priit Jõerüüt <hwlate@joeruut.com>\n"
 "Language-Team: Estonian <https://hosted.weblate.org/projects/sequeler/"
 "translations/et/>\n"
@@ -36,22 +36,16 @@ msgid "Logout"
 msgstr "Logi välja"
 
 #: src/Layouts/HeaderBar.vala:57
-#, fuzzy
-#| msgid "Create a new Query Tab"
 msgid "Create a new database"
-msgstr "Loo uus päringu vahekaart"
+msgstr "Loo uus andmebaas"
 
 #: src/Layouts/HeaderBar.vala:66
-#, fuzzy
-#| msgid "- Select Database -"
 msgid "Delete database"
-msgstr "- Vali andmebaas -"
+msgstr "Kustuta andmebaas"
 
 #: src/Layouts/HeaderBar.vala:75
-#, fuzzy
-#| msgid "Database Type:"
 msgid "Database properties"
-msgstr "Andmebaasi tüüp:"
+msgstr "Andmebaasi omadused"
 
 #: src/Layouts/HeaderBar.vala:89
 msgid "Light background"
@@ -402,17 +396,13 @@ msgid "%s (copy)"
 msgstr "%s (koopia)"
 
 #: src/Services/ActionManager.vala:254
-#, fuzzy
-#| msgid "Are you sure you want to proceed?"
 msgid "Are you sure you want to delete this Database?"
-msgstr "Kas sa oled kindel, et soovid jätkata?"
+msgstr "Kas sa oled kindel, et soovid selle andmebaasi kustutada?"
 
 #: src/Services/ActionManager.vala:254
-#, fuzzy
-#| msgid "All the data will be deleted and you won’t be able to recover it."
 msgid ""
 "All the tables and data will be deleted and you won’t be able to recover it."
-msgstr "Kõik andmed kustutakse ja sa ei saa neid enam taastada."
+msgstr "Kõik tabelid ja andmed kustutakse ja sa ei saa neid taastada."
 
 #: src/Services/ConnectionManager.vala:193
 #, c-format
@@ -531,7 +521,7 @@ msgstr "Port:"
 
 #: src/Widgets/ConnectionDialog.vala:245
 msgid "Use SSL:"
-msgstr ""
+msgstr "Kasuta SSL-i:"
 
 #: src/Widgets/ConnectionDialog.vala:254
 msgid "File Path:"
