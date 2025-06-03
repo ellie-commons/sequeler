@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: com.github.alecaddd.sequeler\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-03 22:03+0900\n"
-"PO-Revision-Date: 2024-10-05 02:47+0000\n"
+"PO-Revision-Date: 2025-06-04 14:01+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/sequeler/"
 "translations/ja/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.8-dev\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #: src/Application.vala:67
 msgid "Directories are not supported"
@@ -36,22 +36,16 @@ msgid "Logout"
 msgstr "ログアウト"
 
 #: src/Layouts/HeaderBar.vala:57
-#, fuzzy
-#| msgid "Create a new Query Tab"
 msgid "Create a new database"
-msgstr "新しいクエリタブを作成"
+msgstr "新しいデータベースを作成"
 
 #: src/Layouts/HeaderBar.vala:66
-#, fuzzy
-#| msgid "- Select Database -"
 msgid "Delete database"
-msgstr "- データベースを選択 -"
+msgstr "データベースを削除"
 
 #: src/Layouts/HeaderBar.vala:75
-#, fuzzy
-#| msgid "Database Type:"
 msgid "Database properties"
-msgstr "データベースの種類:"
+msgstr "データベースのプロパティ"
 
 #: src/Layouts/HeaderBar.vala:89
 msgid "Light background"
@@ -402,17 +396,13 @@ msgid "%s (copy)"
 msgstr "%s (コピー)"
 
 #: src/Services/ActionManager.vala:254
-#, fuzzy
-#| msgid "Are you sure you want to proceed?"
 msgid "Are you sure you want to delete this Database?"
-msgstr "続行してもよろしいですか?"
+msgstr "このデータベースを削除してもよろしいですか?"
 
 #: src/Services/ActionManager.vala:254
-#, fuzzy
-#| msgid "All the data will be deleted and you won’t be able to recover it."
 msgid ""
 "All the tables and data will be deleted and you won’t be able to recover it."
-msgstr "すべてのデータが削除されます。復元はできません。"
+msgstr "すべてのテーブルとデータが削除されます。復元はできません。"
 
 #: src/Services/ConnectionManager.vala:193
 #, c-format
@@ -532,7 +522,7 @@ msgstr "ポート番号:"
 
 #: src/Widgets/ConnectionDialog.vala:245
 msgid "Use SSL:"
-msgstr ""
+msgstr "SSL を使う:"
 
 #: src/Widgets/ConnectionDialog.vala:254
 msgid "File Path:"
