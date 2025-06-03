@@ -419,7 +419,8 @@ msgstr "listen 中のソケットの open に失敗しました"
 
 #: src/Services/ConnectionManager.vala:281
 msgid "Failed to bind. Your Database Port may be wrong!"
-msgstr "bind に失敗しました。データベースのポート番号が間違っている可能性があります"
+msgstr ""
+"bind に失敗しました。データベースのポート番号が間違っている可能性があります"
 
 #: src/Services/ConnectionManager.vala:287
 msgid "Failed to listen!"
@@ -433,8 +434,9 @@ msgstr "リモート接続の accept に失敗しました"
 msgid ""
 "Could not open the direct-tcpip channel! (Note that this can be a problem at "
 "the server! Please review the server logs.)"
-msgstr "direct-tcpip チャネルを open できませんでした "
-"(サーバー側の問題の可能性があります。サーバーのログをご確認ください。)"
+msgstr ""
+"direct-tcpip チャネルを open できませんでした (サーバー側の問題の可能性があり"
+"ます。サーバーのログをご確認ください。)"
 
 #: src/Services/ConnectionManager.vala:566
 msgid "Error!"

@@ -433,7 +433,8 @@ msgstr "无法接受远程连接！"
 msgid ""
 "Could not open the direct-tcpip channel! (Note that this can be a problem at "
 "the server! Please review the server logs.)"
-msgstr "无法打开直接 tcpip 通道！(请注意，这可能是服务器上的问题！请查看服务器日志。)"
+msgstr ""
+"无法打开直接 tcpip 通道！(请注意，这可能是服务器上的问题！请查看服务器日志。)"
 
 #: src/Services/ConnectionManager.vala:566
 msgid "Error!"

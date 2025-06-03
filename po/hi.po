@@ -95,8 +95,7 @@ msgstr "हाँ, हटाएं!"
 
 #: src/Layouts/Library.vala:233
 msgid "All the data will be deleted and you won’t be able to recover it."
-msgstr ""
-"सम्पूर्ण डेटा हटा दिए जाएगा और आप इसे पुनर्प्राप्त करने में सक्षम नहीं होंगे।"
+msgstr "सम्पूर्ण डेटा हटा दिए जाएगा और आप इसे पुनर्प्राप्त करने में सक्षम नहीं होंगे।"
 
 #: src/Layouts/Library.vala:236
 msgid "Yes, Delete All!"
@@ -255,8 +254,7 @@ msgstr "तालिका का चयन करें"
 #: src/Layouts/Views/Structure.vala:79 src/Layouts/Views/Content.vala:90
 #: src/Layouts/Views/Relations.vala:78
 msgid "Select a table from the left sidebar to activate this view."
-msgstr ""
-"इस दृश्य को सक्रिय करने के लिए बाईं(left) साइडबार से एक तालिका का चयन करें।"
+msgstr "इस दृश्य को सक्रिय करने के लिए बाईं(left) साइडबार से एक तालिका का चयन करें।"
 
 #: src/Layouts/Views/Structure.vala:107 src/Layouts/Views/Structure.vala:145
 #: src/Layouts/Views/Content.vala:179 src/Layouts/Views/Content.vala:218
@@ -436,8 +434,8 @@ msgid ""
 "Could not open the direct-tcpip channel! (Note that this can be a problem at "
 "the server! Please review the server logs.)"
 msgstr ""
-"direct-tcpip चैनल नहीं खोल सका! (ध्यान दें कि यह सर्वर की समस्या हो सकती है! "
-"कृपया सर्वर लॉग की समीक्षा करें।)"
+"direct-tcpip चैनल नहीं खोल सका! (ध्यान दें कि यह सर्वर की समस्या हो सकती है! कृपया "
+"सर्वर लॉग की समीक्षा करें।)"
 
 #: src/Services/ConnectionManager.vala:566
 msgid "Error!"
