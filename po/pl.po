@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: com.github.alecaddd.sequeler\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-03 22:03+0900\n"
-"PO-Revision-Date: 2020-08-04 08:33+0000\n"
-"Last-Translator: Grzegorz Judas <grzegorz.judas@gmail.com>\n"
+"PO-Revision-Date: 2025-06-06 16:01+0000\n"
+"Last-Translator: Eryk Michalak <gnu.ewm@protonmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/sequeler/"
 "translations/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.2-dev\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #: src/Application.vala:67
 msgid "Directories are not supported"
@@ -37,22 +37,16 @@ msgid "Logout"
 msgstr "Wyloguj"
 
 #: src/Layouts/HeaderBar.vala:57
-#, fuzzy
-#| msgid "Create a new Query Tab"
 msgid "Create a new database"
-msgstr "Stwórz nową kartę zapytania"
+msgstr "Utwórz nową bazę danych"
 
 #: src/Layouts/HeaderBar.vala:66
-#, fuzzy
-#| msgid "- Select Database -"
 msgid "Delete database"
-msgstr "- Wybierz dazę danych -"
+msgstr "Usuń bazę danych"
 
 #: src/Layouts/HeaderBar.vala:75
-#, fuzzy
-#| msgid "Database Type:"
 msgid "Database properties"
-msgstr "Typ bazy danych:"
+msgstr "Właściwości bazy danych"
 
 #: src/Layouts/HeaderBar.vala:89
 msgid "Light background"
@@ -403,17 +397,15 @@ msgid "%s (copy)"
 msgstr "%s (kopia)"
 
 #: src/Services/ActionManager.vala:254
-#, fuzzy
-#| msgid "Are you sure you want to proceed?"
 msgid "Are you sure you want to delete this Database?"
-msgstr "Czy na pewno chcesz kontynuować?"
+msgstr "Czy na pewno chcesz usunąć tę bazę danych?"
 
 #: src/Services/ActionManager.vala:254
-#, fuzzy
-#| msgid "All the data will be deleted and you won’t be able to recover it."
 msgid ""
 "All the tables and data will be deleted and you won’t be able to recover it."
-msgstr "Wszystkie dane zostaną usunięte i nie będzie można ich przywrócić."
+msgstr ""
+"Wszystkie tabele oraz dane zostaną usunięte i nie będzie można ich "
+"przywrócić."
 
 #: src/Services/ConnectionManager.vala:193
 #, c-format
@@ -533,7 +525,7 @@ msgstr "Port:"
 
 #: src/Widgets/ConnectionDialog.vala:245
 msgid "Use SSL:"
-msgstr ""
+msgstr "Użyj SSL:"
 
 #: src/Widgets/ConnectionDialog.vala:254
 msgid "File Path:"
