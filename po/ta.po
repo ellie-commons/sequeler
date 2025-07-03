@@ -523,7 +523,7 @@ msgstr "போர்ட்:"
 
 #: src/Widgets/ConnectionDialog.vala:245
 msgid "Use SSL:"
-msgstr "பாகுஅ பயன்படுத்து"
+msgstr "பாகுஅ பயன்படுத்து:"
 
 #: src/Widgets/ConnectionDialog.vala:254
 msgid "File Path:"
