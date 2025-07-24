@@ -60,8 +60,6 @@ public class Sequeler.Window : Gtk.ApplicationWindow {
     }
 
     private void build_ui () {
-        Gtk.Settings.get_default ().gtk_application_prefer_dark_theme = settings.dark_theme;
-
         var css_provider = new Gtk.CssProvider ();
         css_provider.load_from_resource ("/com/github/alecaddd/sequeler/stylesheet.css");
 
