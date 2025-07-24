@@ -54,12 +54,6 @@
 			<description>Automatically Save a Quick Connections into the Database Library.</description>
 		</key>
 
-		<key name="dark-theme" type="b">
-			<default>false</default>
-			<summary>Use dark theme</summary>
-			<description>Switch between Light and Dark theme.</description>
-		</key>
-
 		<key name="version" type="s">
 			<default>""</default>
 			<summary>Current Version</summary>

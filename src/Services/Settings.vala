@@ -52,10 +52,6 @@ public class Sequeler.Services.Settings : GLib.Settings {
         get { return get_int ("limit-results"); }
         set { set_int ("limit-results", value); }
     }
-    public bool dark_theme {
-        get { return get_boolean ("dark-theme"); }
-        set { set_boolean ("dark-theme", value); }
-    }
     public bool save_quick {
         get { return get_boolean ("save-quick"); }
         set { set_boolean ("save-quick", value); }

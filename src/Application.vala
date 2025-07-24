@@ -99,6 +99,26 @@ public class Sequeler.Application : Gtk.Application {
         return window;
     }
 
+    private static bool granite_color_scheme_to_gtk_dark_theme (Binding binding, Value granite_prop, ref Value gtk_prop) {
+        gtk_prop.set_boolean ((Granite.Settings.ColorScheme) granite_prop == Granite.Settings.ColorScheme.DARK);
+        return true;
+    }
+
+    protected override void startup () {
+        base.startup ();
+
+        // Follow OS-wide dark preference
+        unowned var granite_settings = Granite.Settings.get_default ();
+        unowned var gtk_settings = Gtk.Settings.get_default ();
+
+        granite_settings.bind_property ("prefers-color-scheme", gtk_settings, "gtk-application-prefer-dark-theme",
+            BindingFlags.DEFAULT | BindingFlags.SYNC_CREATE,
+            // FIXME: Using the lambda expression here causes Window not being freed when it's destroyed.
+            // Maybe due to this issue in vala: https://gitlab.gnome.org/GNOME/vala/-/issues/957
+            (BindingTransformFunc) granite_color_scheme_to_gtk_dark_theme
+        );
+    }
+
     protected override void activate () {
         this.add_new_window ();
     }
