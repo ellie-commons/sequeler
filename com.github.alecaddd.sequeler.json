@@ -1,7 +1,7 @@
 {
   "id": "com.github.alecaddd.sequeler",
   "runtime": "io.elementary.Platform",
-  "runtime-version": "8.1",
+  "runtime-version": "8.2",
   "sdk": "io.elementary.Sdk",
   "command": "com.github.alecaddd.sequeler",
   "finish-args": [
