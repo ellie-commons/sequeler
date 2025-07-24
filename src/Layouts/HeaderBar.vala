@@ -26,7 +26,6 @@ public class Sequeler.Layouts.HeaderBar : Gtk.HeaderBar {
     private Gtk.Button new_db_button;
     private Gtk.Button delete_db_button;
     private Gtk.Button edit_db_button;
-    private Granite.ModeSwitch mode_switch;
     private Gtk.Popover menu_popover;
 
     public bool logged_out { get; set; }
@@ -85,19 +84,6 @@ public class Sequeler.Layouts.HeaderBar : Gtk.HeaderBar {
         delete_db_button.visible = false;
         delete_db_button.no_show_all = true;
 
-        mode_switch = new Granite.ModeSwitch.from_icon_name ("display-brightness-symbolic", "weather-clear-night-symbolic");
-        mode_switch.primary_icon_tooltip_text = _("Light background");
-        mode_switch.secondary_icon_tooltip_text = _("Dark background");
-        mode_switch.valign = Gtk.Align.CENTER;
-        mode_switch.bind_property ("active", settings, "dark-theme");
-        mode_switch.notify.connect (() => {
-            Gtk.Settings.get_default ().gtk_application_prefer_dark_theme = settings.dark_theme;
-        });
-
-        if (settings.dark_theme) {
-            mode_switch.active = true;
-        }
-
         var new_window_item = new_menuitem (_("New Window"), "<Control>n");
         new_window_item.action_name = Sequeler.Services.ActionManager.ACTION_PREFIX + Sequeler.Services.ActionManager.ACTION_NEW_WINDOW;
 
@@ -140,8 +126,6 @@ public class Sequeler.Layouts.HeaderBar : Gtk.HeaderBar {
         pack_start (delete_db_button);
 
         pack_end (open_menu);
-        pack_end (headerbar_separator ());
-        pack_end (mode_switch);
     }
 
     private Gtk.ModelButton new_menuitem (string label, string accels) {
