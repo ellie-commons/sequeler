@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: com.github.alecaddd.sequeler\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-03 22:03+0900\n"
-"PO-Revision-Date: 2020-11-05 23:27+0000\n"
-"Last-Translator: Ahmed744 <ahmed504730@gmail.com>\n"
+"PO-Revision-Date: 2025-08-04 16:02+0000\n"
+"Last-Translator: αɳαʂ ƙαɳԃιʅ <anasskandil952@gmail.com>\n"
 "Language-Team: Arabic (Egypt) <https://hosted.weblate.org/projects/sequeler/"
 "translations/ar_EG/>\n"
 "Language: ar_EG\n"
@@ -18,9 +18,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 4.3.2\n"
+"X-Generator: Weblate 5.13-dev\n"
 
 #: src/Application.vala:67
+#, fuzzy
 msgid "Directories are not supported"
 msgstr "الدلائل غير مدعومة"
 
