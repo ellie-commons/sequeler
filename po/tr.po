@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: com.github.alecaddd.sequeler\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-03 22:03+0900\n"
-"PO-Revision-Date: 2020-10-09 19:26+0000\n"
-"Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
+"PO-Revision-Date: 2025-10-11 09:10+0000\n"
+"Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/sequeler/"
 "translations/tr/>\n"
 "Language: tr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.3-dev\n"
+"X-Generator: Weblate 5.14-dev\n"
 
 #: src/Application.vala:67
 msgid "Directories are not supported"
@@ -36,22 +36,16 @@ msgid "Logout"
 msgstr "Çıkış"
 
 #: src/Layouts/HeaderBar.vala:57
-#, fuzzy
-#| msgid "Create a new Query Tab"
 msgid "Create a new database"
-msgstr "Yeni bir sorgu sekmesi oluşturun"
+msgstr "Yeni bir veri tabanı oluşturun"
 
 #: src/Layouts/HeaderBar.vala:66
-#, fuzzy
-#| msgid "- Select Database -"
 msgid "Delete database"
-msgstr "- Veri Tabanı Seç -"
+msgstr "Veri tabanını sil"
 
 #: src/Layouts/HeaderBar.vala:75
-#, fuzzy
-#| msgid "Database Type:"
 msgid "Database properties"
-msgstr "Veri Tabanı Türü:"
+msgstr "Veri tabanı özellikleri"
 
 #: src/Layouts/HeaderBar.vala:89
 msgid "Light background"
@@ -403,17 +397,13 @@ msgid "%s (copy)"
 msgstr "%s (kopyala)"
 
 #: src/Services/ActionManager.vala:254
-#, fuzzy
-#| msgid "Are you sure you want to proceed?"
 msgid "Are you sure you want to delete this Database?"
-msgstr "Devam etmek istediğinize emin misiniz?"
+msgstr "Bu veri tabanını silmek istediğinizden emin misiniz?"
 
 #: src/Services/ActionManager.vala:254
-#, fuzzy
-#| msgid "All the data will be deleted and you won’t be able to recover it."
 msgid ""
 "All the tables and data will be deleted and you won’t be able to recover it."
-msgstr "Tüm veriler silinecek ve bunları kurtaramayacaksınız."
+msgstr "Tüm tablolar ve veriler silinecek ve bunları kurtaramayacaksınız."
 
 #: src/Services/ConnectionManager.vala:193
 #, c-format
@@ -532,7 +522,7 @@ msgstr "Bağlantı Noktası:"
 
 #: src/Widgets/ConnectionDialog.vala:245
 msgid "Use SSL:"
-msgstr ""
+msgstr "SSL kullan:"
 
 #: src/Widgets/ConnectionDialog.vala:254
 msgid "File Path:"
