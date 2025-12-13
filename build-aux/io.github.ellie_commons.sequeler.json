@@ -4,7 +4,7 @@
   "runtime-version": "49",
   "sdk": "org.gnome.Sdk",
   "base": "io.elementary.BaseApp",
-  "base-version": "circe-24.08",
+  "base-version": "circe-25.08",
   "command": "io.github.ellie_commons.sequeler",
   "finish-args": [
     "--share=ipc",
