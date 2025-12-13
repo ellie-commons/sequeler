@@ -61,7 +61,7 @@ public class Sequeler.Window : Gtk.ApplicationWindow {
 
     private void build_ui () {
         var css_provider = new Gtk.CssProvider ();
-        css_provider.load_from_resource ("/com/github/alecaddd/sequeler/stylesheet.css");
+        css_provider.load_from_resource ("/io/github/ellie_commons/sequeler/stylesheet.css");
 
         Gtk.StyleContext.add_provider_for_screen (
             Gdk.Screen.get_default (), css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION

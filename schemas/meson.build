@@ -1,4 +1,4 @@
-schema_path = '/com/github/alecaddd/sequeler/'
+schema_path = '/io/github/ellie_commons/sequeler/'
 if get_option('profile') == 'development'
 	schema_path += 'Devel/'
 endif

@@ -1,11 +1,11 @@
-# Lithuanian translations for com.github.alecaddd.sequeler package.
-# Copyright (C) 2020 THE com.github.alecaddd.sequeler'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the com.github.alecaddd.sequeler package.
+# Lithuanian translations for io.github.ellie_commons.sequeler package.
+# Copyright (C) 2020 THE io.github.ellie_commons.sequeler'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the io.github.ellie_commons.sequeler package.
 # Moo, 2020.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: com.github.alecaddd.sequeler\n"
+"Project-Id-Version: io.github.ellie_commons.sequeler\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-03 22:03+0900\n"
 "PO-Revision-Date: 2021-06-28 12:33+0000\n"

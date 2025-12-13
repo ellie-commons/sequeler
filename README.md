@@ -16,12 +16,12 @@ Sequeler is a native Linux SQL client built in Vala and Gtk. It allows you to co
 ## Get it from the elementary OS AppCenter!
 Sequeler, is primarily available from the AppCenter of elementary OS. Download it from there!
 
-[![Get it on AppCenter](https://appcenter.elementary.io/badge.svg)](https://appcenter.elementary.io/com.github.alecaddd.sequeler)
+[![Get it on AppCenter](https://appcenter.elementary.io/badge.svg)](https://appcenter.elementary.io/io.github.ellie_commons.sequeler)
 
 ## Get it from Flathub!
 You can get Sequeler form Flathub no matter what distribution you're using. Download it or follow the instructions to install it from here!
 
-<a href="https://flathub.org/apps/details/com.github.alecaddd.sequeler" target="_blank"><img src="https://flathub.org/assets/badges/flathub-badge-i-en.svg" width="160px" alt="Get it from Flathub!"></a>
+<a href="https://flathub.org/apps/details/io.github.ellie_commons.sequeler" target="_blank"><img src="https://flathub.org/assets/badges/flathub-badge-i-en.svg" width="160px" alt="Get it from Flathub!"></a>
 
 ## Support the Project
 If you like Sequeler and you want to support its development, consider donating via [PayPal](https://www.paypal.me/alecaddd) or pledge on [Patreon](https://www.patreon.com/alecaddd).
@@ -57,7 +57,7 @@ sudo ninja -C build install
 
 You can run the application from terminal using
 ```
-com.github.alecaddd.sequelerDevel
+io.github.ellie_commons.sequelerDevel
 ```
 
 ### Help with the translation
