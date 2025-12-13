@@ -13,7 +13,7 @@
    width="24"
    version="1.1"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="com.github.alecaddd.sequeler.svg">
+   sodipodi:docname="io.github.ellie_commons.sequelerDevel.svg">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -28,8 +28,8 @@
      id="namedview46"
      showgrid="true"
      inkscape:zoom="45.254834"
-     inkscape:cx="21.839726"
-     inkscape:cy="14.890068"
+     inkscape:cx="13.531222"
+     inkscape:cy="14.536514"
      inkscape:window-x="0"
      inkscape:window-y="30"
      inkscape:window-maximized="1"
@@ -399,23 +399,23 @@
        id="linearGradient6007">
       <stop
          id="stop6003"
-         style="stop-color:#3689e6;stop-opacity:1"
+         style="stop-color:#a10705;stop-opacity:1"
          offset="0" />
       <stop
          offset="0.08751905"
-         style="stop-color:#8cd5ff;stop-opacity:1"
+         style="stop-color:#ff8c82;stop-opacity:1"
          id="stop6009" />
       <stop
          offset="0.5"
-         style="stop-color:#3d97e7;stop-opacity:1;"
+         style="stop-color:#c6262e;stop-opacity:1"
          id="stop6015" />
       <stop
          id="stop6011"
-         style="stop-color:#8cd5ff;stop-opacity:1"
+         style="stop-color:#ff8c82;stop-opacity:1"
          offset="0.91131365" />
       <stop
          id="stop6005"
-         style="stop-color:#3689e6;stop-opacity:1"
+         style="stop-color:#a10705;stop-opacity:1"
          offset="1" />
     </linearGradient>
     <filter
@@ -445,7 +445,7 @@
     </rdf:RDF>
   </metadata>
   <rect
-     style="opacity:0.4;fill:#104785;fill-opacity:1;stroke:none;stroke-width:0.99999988;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="opacity:0.4;fill:#7a0000;fill-opacity:1;stroke:none;stroke-width:0.99999988;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="rect1837"
      width="16"
      height="5"
@@ -528,7 +528,7 @@
          cy="-23.913687"
          cx="26.546686"
          id="ellipse979"
-         style="opacity:1;fill:#8cd5ff;fill-opacity:1;stroke:none;stroke-width:1.85213947;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="opacity:1;fill:#c6262e;fill-opacity:1;stroke:none;stroke-width:1.85213947;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          rx="1.8724533"
          ry="1.8321624" />
     </g>
@@ -626,7 +626,7 @@
       <ellipse
          ry="1.8321624"
          rx="1.8724533"
-         style="opacity:1;fill:#8cd5ff;fill-opacity:1;stroke:none;stroke-width:1.85213947;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="opacity:1;fill:#c6262e;fill-opacity:1;stroke:none;stroke-width:1.85213947;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="ellipse1127"
          cx="26.546686"
          cy="-23.913687" />
@@ -697,7 +697,7 @@
      height="1"
      width="7"
      id="rect1919"
-     style="opacity:0.8;fill:#8cd5ff;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter1091)" />
+     style="opacity:0.8;fill:#ff8c82;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter1091)" />
   <rect
      style="opacity:1;fill:url(#linearGradient1939);fill-opacity:1;stroke:none;stroke-width:0.99999988;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="rect1921"

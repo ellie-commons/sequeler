@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
-	<gresource prefix="/com/github/alecaddd/sequeler">
+	<gresource prefix="/io/github/ellie_commons/sequeler">
 		<file alias="stylesheet.css" compressed="true">stylesheet.css</file>
 	</gresource>
 </gresources>

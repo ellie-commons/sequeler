@@ -1,9 +1,9 @@
 {
-  "id": "com.github.alecaddd.sequeler",
+  "id": "io.github.ellie_commons.sequeler",
   "runtime": "io.elementary.Platform",
   "runtime-version": "8.2",
   "sdk": "io.elementary.Sdk",
-  "command": "com.github.alecaddd.sequeler",
+  "command": "io.github.ellie_commons.sequeler",
   "finish-args": [
     "--share=ipc",
     "--socket=fallback-x11",

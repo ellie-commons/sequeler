@@ -17,6 +17,6 @@ jobs:
       - uses: bilelmoussaoui/flatpak-github-actions/flatpak-builder@master
         with:
           bundle: "sequeler-nightly.flatpak"
-          manifest-path: "build-aux/com.github.alecaddd.sequeler.json"
+          manifest-path: "build-aux/io.github.ellie_commons.sequeler.json"
           run-tests: true
           cache-key: "flatpak-builder-${{ github.sha }}"
