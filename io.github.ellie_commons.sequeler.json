@@ -151,8 +151,8 @@
             {
               "type": "git",
               "url": "https://github.com/MariaDB/server.git",
-              "tag": "mariadb-10.11.7",
-              "commit": "87e13722a95af5d9378d990caf48cb6874439347"
+              "tag": "mariadb-10.11.15",
+              "commit": "cb0d6dd835023a7162ace471cd047161f205dd58"
             }
           ]
         },
