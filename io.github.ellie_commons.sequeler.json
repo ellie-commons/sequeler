@@ -56,6 +56,10 @@
           "type": "archive",
           "url": "https://download.gnome.org/sources/libgda/5.2/libgda-5.2.9.tar.xz",
           "sha256": "59caed8ca72b1ac6437c9844f0677f8a296d52cfd1c0049116026abfb1d87d9b"
+        },
+        {
+          "type": "patch",
+          "path": "build-aux/0001-Explicit-parameters-in-function-declaration.patch"
         }
       ],
       "modules": [
