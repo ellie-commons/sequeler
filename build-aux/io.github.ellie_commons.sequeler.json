@@ -1,7 +1,7 @@
 {
   "id": "io.github.ellie_commons.sequeler",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "48",
+  "runtime-version": "49",
   "sdk": "org.gnome.Sdk",
   "base": "io.elementary.BaseApp",
   "base-version": "circe-24.08",
