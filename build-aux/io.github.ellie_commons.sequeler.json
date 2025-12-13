@@ -70,14 +70,13 @@
               "--with-perl=no",
               "--with-libxml",
               "--with-openssl"
-            ],
-            "cflags": "-Wno-error=incompatible-pointer-types"
+            ]
           },
           "sources": [
             {
               "type": "archive",
-              "url": "https://ftp.postgresql.org/pub/source/v13.2/postgresql-13.2.tar.gz",
-              "sha256": "3386a40736332aceb055c7c9012ecc665188536d874d967fcc5a33e7992f8080"
+              "url": "https://ftp.postgresql.org/pub/source/v13.23/postgresql-13.23.tar.gz",
+              "sha256": "f5eb642f659d59a9a65df08a1364fed8e83db5df116eff17a2f063a02854069b"
             }
           ]
         },
