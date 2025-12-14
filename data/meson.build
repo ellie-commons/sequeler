@@ -84,6 +84,7 @@ endif
 # Install the AppData file
 appdata_conf = configuration_data()
 appdata_conf.set('appid', application_id)
+appdata_conf.set('version', meson.project_version())
 
 appdata_file = i18n.merge_file(
 		input: configure_file(
