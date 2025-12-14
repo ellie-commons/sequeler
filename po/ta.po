@@ -403,8 +403,7 @@ msgstr "நீங்கள் தரவுதளத்தை நீக்க வ
 #: src/Services/ActionManager.vala:254
 msgid ""
 "All the tables and data will be deleted and you won’t be able to recover it."
-msgstr ""
-"எல்லா அட்டவணைகளும் தரவுகளும் நீக்கப்படும், அதை நீங்கள் மீட்டெடுக்க முடியாது."
+msgstr "எல்லா அட்டவணைகளும் தரவுகளும் நீக்கப்படும், அதை நீங்கள் மீட்டெடுக்க முடியாது."
 
 #: src/Services/ConnectionManager.vala:193
 #, c-format

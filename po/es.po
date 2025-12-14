@@ -403,7 +403,8 @@ msgstr "¿Confirma que quiere eliminar esta base de datos?"
 #: src/Services/ActionManager.vala:254
 msgid ""
 "All the tables and data will be deleted and you won’t be able to recover it."
-msgstr "Se eliminarán todas las tablas y datos y no será capaz de recuperarlos."
+msgstr ""
+"Se eliminarán todas las tablas y datos y no será capaz de recuperarlos."
 
 #: src/Services/ConnectionManager.vala:193
 #, c-format
