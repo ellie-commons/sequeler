@@ -47,7 +47,8 @@
         "config-opts": [
           "--with-java=no",
           "--with-jni=no",
-          "--with-oracle=no"
+          "--with-oracle=no",
+          "--disable-gdaui-gi"
         ],
         "cflags": "-Wno-error=incompatible-pointer-types -Wno-error=implicit-function-declaration"
       },
