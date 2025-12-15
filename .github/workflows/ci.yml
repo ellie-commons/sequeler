@@ -1,22 +1,52 @@
+---
+
+name: CI
+
 on:
   pull_request:
     types:
       - opened
       - reopened
       - synchronize
-name: CI
+
 jobs:
-  flatpak-builder:
-    name: "Flatpak Builder"
+  flatpak:
+    name: Flatpak
     runs-on: ubuntu-latest
+
     container:
-      image: ghcr.io/flathub-infra/flatpak-github-actions:gnome-49
+      image: ghcr.io/elementary/flatpak-platform/runtime:8.2
       options: --privileged
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: bilelmoussaoui/flatpak-github-actions/flatpak-builder@master
+      - name: Install bzip2
+        run: |
+          apt-get update
+          apt-get install -y bzip2
+
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Build
+        uses: flatpak/flatpak-github-actions/flatpak-builder@v6.6
         with:
-          bundle: "sequeler-nightly.flatpak"
-          manifest-path: "build-aux/io.github.ellie_commons.sequeler.json"
+          bundle: sequeler-nightly.flatpak
+          manifest-path: io.github.ellie_commons.sequeler.json
           run-tests: true
+          repository-name: appcenter
+          repository-url: https://flatpak.elementary.io/repo.flatpakrepo
           cache-key: "flatpak-builder-${{ github.sha }}"
+
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+
+    container:
+      image: valalang/lint
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Lint
+        run: io.elementary.vala-lint -d .
