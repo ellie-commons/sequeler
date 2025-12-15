@@ -19,6 +19,11 @@ jobs:
       options: --privileged
 
     steps:
+      - name: Install bzip2
+        run: |
+          apt-get update
+          apt-get install -y bzip2
+
       - name: Checkout
         uses: actions/checkout@v6
 
