@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.github.ellie_commons.sequeler\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-03 22:03+0900\n"
+"POT-Creation-Date: 2025-12-16 14:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,44 +29,36 @@ msgstr ""
 msgid "Something completely unexpected happened"
 msgstr ""
 
-#: src/Layouts/HeaderBar.vala:52
+#: src/Layouts/HeaderBar.vala:51
 msgid "Logout"
 msgstr ""
 
-#: src/Layouts/HeaderBar.vala:57
+#: src/Layouts/HeaderBar.vala:56
 msgid "Create a new database"
 msgstr ""
 
-#: src/Layouts/HeaderBar.vala:66
+#: src/Layouts/HeaderBar.vala:65
 msgid "Delete database"
 msgstr ""
 
-#: src/Layouts/HeaderBar.vala:75
+#: src/Layouts/HeaderBar.vala:74
 msgid "Database properties"
 msgstr ""
 
-#: src/Layouts/HeaderBar.vala:89
-msgid "Light background"
-msgstr ""
-
-#: src/Layouts/HeaderBar.vala:90
-msgid "Dark background"
-msgstr ""
-
-#: src/Layouts/HeaderBar.vala:101 src/Layouts/Welcome.vala:39
+#: src/Layouts/HeaderBar.vala:87 src/Layouts/Welcome.vala:39
 msgid "New Window"
 msgstr ""
 
-#: src/Layouts/HeaderBar.vala:104 src/Widgets/ConnectionDialog.vala:135
+#: src/Layouts/HeaderBar.vala:90 src/Widgets/ConnectionDialog.vala:135
 #: src/Widgets/ConnectionDialog.vala:170
 msgid "New Connection"
 msgstr ""
 
-#: src/Layouts/HeaderBar.vala:107
+#: src/Layouts/HeaderBar.vala:93
 msgid "Quit"
 msgstr ""
 
-#: src/Layouts/HeaderBar.vala:127
+#: src/Layouts/HeaderBar.vala:113
 msgid "Menu"
 msgstr ""
 
@@ -388,7 +380,7 @@ msgstr ""
 msgid "Copy %s"
 msgstr ""
 
-#: src/Services/Settings.vala:103
+#: src/Services/Settings.vala:99
 #, c-format
 msgid "%s (copy)"
 msgstr ""
