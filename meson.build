@@ -1,6 +1,7 @@
 # project name and programming language
 project('io.github.ellie_commons.sequeler', 'vala', 'c',
-    version: '0.8.2')
+    version: '0.8.2',
+    meson_version: '>= 0.56.0')
 
 cc = meson.get_compiler('c')
 m_dep = cc.find_library('m', required: true)
@@ -40,7 +41,7 @@ if vala_lint.found()
     test (
         'Vala lint',
         vala_lint,
-        args: ['-d', join_paths(meson.source_root(), 'src')]
+        args: ['-d', join_paths(meson.project_source_root(), 'src')]
     )
 endif
 

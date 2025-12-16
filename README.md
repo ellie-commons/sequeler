@@ -40,7 +40,7 @@ You can install Sequeler by compiling from source, here's the list of dependenci
  - `gtksourceview-4`
  - `libsecret-1`
  - `libssh2`
- - `meson`
+ - `meson>=0.56.0`
 
 ## Building
 ```
