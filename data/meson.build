@@ -81,30 +81,30 @@ if desktop_file_validate.found()
 	)
 endif
 
-# Install the AppData file
-appdata_conf = configuration_data()
-appdata_conf.set('appid', application_id)
-appdata_conf.set('version', meson.project_version())
+# Install the MetaInfo file
+metainfo_conf = configuration_data()
+metainfo_conf.set('appid', application_id)
+metainfo_conf.set('version', meson.project_version())
 
-appdata_file = i18n.merge_file(
+metainfo_file = i18n.merge_file(
 		input: configure_file(
-			input: '@0@.appdata.xml.in.in'.format(meson.project_name()),
-			output: '@0@.appdata.xml.in'.format(application_id),
-			configuration: appdata_conf
+			input: '@0@.metainfo.xml.in.in'.format(meson.project_name()),
+			output: '@0@.metainfo.xml.in'.format(application_id),
+			configuration: metainfo_conf
 		),
-		output: '@0@.appdata.xml'.format(application_id),
+		output: '@0@.metainfo.xml'.format(application_id),
 		po_dir: join_paths(meson.project_source_root(), 'po'),
 		install: true,
 		install_dir: join_paths(get_option('datadir'), 'metainfo')
 )
 
-# Validate AppData file
+# Validate MetaInfo file
 appstream_util = find_program('appstream-util', required: false)
 if appstream_util.found()
 	test(
-		'validate-appdata', appstream_util,
+		'validate', appstream_util,
 		args: [
-			'validate-relax', appdata_file.full_path()
+			'validate-relax', metainfo_file.full_path()
 		]
 	)
 endif
