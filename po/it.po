@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.github.ellie_commons.sequeler\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-03 22:03+0900\n"
+"POT-Creation-Date: 2025-12-16 14:54+0000\n"
 "PO-Revision-Date: 2020-04-12 17:29+0000\n"
 "Last-Translator: Alessandro <castellani.ale@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/sequeler/"
@@ -31,50 +31,42 @@ msgstr "Non so cosa fare"
 msgid "Something completely unexpected happened"
 msgstr "Si é verificato un errore inaspettato"
 
-#: src/Layouts/HeaderBar.vala:52
+#: src/Layouts/HeaderBar.vala:51
 msgid "Logout"
 msgstr "Disconnetti"
 
-#: src/Layouts/HeaderBar.vala:57
+#: src/Layouts/HeaderBar.vala:56
 #, fuzzy
 #| msgid "Create a new Query Tab"
 msgid "Create a new database"
 msgstr "Aggiungi una nuova tab"
 
-#: src/Layouts/HeaderBar.vala:66
+#: src/Layouts/HeaderBar.vala:65
 #, fuzzy
 #| msgid "- Select Database -"
 msgid "Delete database"
 msgstr "- Selezionare un database -"
 
-#: src/Layouts/HeaderBar.vala:75
+#: src/Layouts/HeaderBar.vala:74
 #, fuzzy
 #| msgid "Database Type:"
 msgid "Database properties"
 msgstr "Tipo database:"
 
-#: src/Layouts/HeaderBar.vala:89
-msgid "Light background"
-msgstr "Sfondo chiaro"
-
-#: src/Layouts/HeaderBar.vala:90
-msgid "Dark background"
-msgstr "Sfondo scuro"
-
-#: src/Layouts/HeaderBar.vala:101 src/Layouts/Welcome.vala:39
+#: src/Layouts/HeaderBar.vala:87 src/Layouts/Welcome.vala:39
 msgid "New Window"
 msgstr "Nuova finestra"
 
-#: src/Layouts/HeaderBar.vala:104 src/Widgets/ConnectionDialog.vala:135
+#: src/Layouts/HeaderBar.vala:90 src/Widgets/ConnectionDialog.vala:135
 #: src/Widgets/ConnectionDialog.vala:170
 msgid "New Connection"
 msgstr "Nuova connessione"
 
-#: src/Layouts/HeaderBar.vala:107
+#: src/Layouts/HeaderBar.vala:93
 msgid "Quit"
 msgstr "Chiudi"
 
-#: src/Layouts/HeaderBar.vala:127
+#: src/Layouts/HeaderBar.vala:113
 msgid "Menu"
 msgstr "Menu"
 
@@ -399,7 +391,7 @@ msgstr "sulla colonna"
 msgid "Copy %s"
 msgstr "Copia %s"
 
-#: src/Services/Settings.vala:103
+#: src/Services/Settings.vala:99
 #, c-format
 msgid "%s (copy)"
 msgstr "%s (copia)"
@@ -621,3 +613,9 @@ msgstr "Connessione salvata!"
 #: src/Widgets/ConnectionDialog.vala:727
 msgid "Connecting…"
 msgstr "Connessione in corso…"
+
+#~ msgid "Light background"
+#~ msgstr "Sfondo chiaro"
+
+#~ msgid "Dark background"
+#~ msgstr "Sfondo scuro"

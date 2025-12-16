@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.github.ellie_commons.sequeler\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-03 22:03+0900\n"
+"POT-Creation-Date: 2025-12-16 14:54+0000\n"
 "PO-Revision-Date: 2020-09-16 20:36+0000\n"
 "Last-Translator: ihor_ck <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/sequeler/"
@@ -32,50 +32,42 @@ msgstr "Не знаю, що робити"
 msgid "Something completely unexpected happened"
 msgstr "Сталося дещо неочікуване"
 
-#: src/Layouts/HeaderBar.vala:52
+#: src/Layouts/HeaderBar.vala:51
 msgid "Logout"
 msgstr "Від'єднатися"
 
-#: src/Layouts/HeaderBar.vala:57
+#: src/Layouts/HeaderBar.vala:56
 #, fuzzy
 #| msgid "Create a new Query Tab"
 msgid "Create a new database"
 msgstr "Створити нову вкладку запитів"
 
-#: src/Layouts/HeaderBar.vala:66
+#: src/Layouts/HeaderBar.vala:65
 #, fuzzy
 #| msgid "- Select Database -"
 msgid "Delete database"
 msgstr "- Вибрати базу даних -"
 
-#: src/Layouts/HeaderBar.vala:75
+#: src/Layouts/HeaderBar.vala:74
 #, fuzzy
 #| msgid "Database Type:"
 msgid "Database properties"
 msgstr "Тип бази даних:"
 
-#: src/Layouts/HeaderBar.vala:89
-msgid "Light background"
-msgstr "Світле тло"
-
-#: src/Layouts/HeaderBar.vala:90
-msgid "Dark background"
-msgstr "Темне тло"
-
-#: src/Layouts/HeaderBar.vala:101 src/Layouts/Welcome.vala:39
+#: src/Layouts/HeaderBar.vala:87 src/Layouts/Welcome.vala:39
 msgid "New Window"
 msgstr "Нове вікно"
 
-#: src/Layouts/HeaderBar.vala:104 src/Widgets/ConnectionDialog.vala:135
+#: src/Layouts/HeaderBar.vala:90 src/Widgets/ConnectionDialog.vala:135
 #: src/Widgets/ConnectionDialog.vala:170
 msgid "New Connection"
 msgstr "Нове з'єднання"
 
-#: src/Layouts/HeaderBar.vala:107
+#: src/Layouts/HeaderBar.vala:93
 msgid "Quit"
 msgstr "Вийти"
 
-#: src/Layouts/HeaderBar.vala:127
+#: src/Layouts/HeaderBar.vala:113
 msgid "Menu"
 msgstr "Меню"
 
@@ -397,7 +389,7 @@ msgstr "на стовпці"
 msgid "Copy %s"
 msgstr "Копіювати %s"
 
-#: src/Services/Settings.vala:103
+#: src/Services/Settings.vala:99
 #, c-format
 msgid "%s (copy)"
 msgstr "%s (копія)"
@@ -617,3 +609,9 @@ msgstr "З'єднання збережено!"
 #: src/Widgets/ConnectionDialog.vala:727
 msgid "Connecting…"
 msgstr "З'єднання…"
+
+#~ msgid "Light background"
+#~ msgstr "Світле тло"
+
+#~ msgid "Dark background"
+#~ msgstr "Темне тло"

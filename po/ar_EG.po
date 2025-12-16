@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.github.ellie_commons.sequeler\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-03 22:03+0900\n"
+"POT-Creation-Date: 2025-12-16 14:54+0000\n"
 "PO-Revision-Date: 2025-09-18 06:01+0000\n"
 "Last-Translator: ناصر مصطفى <nasser144322@gmail.com>\n"
 "Language-Team: Arabic (Egypt) <https://hosted.weblate.org/projects/sequeler/"
@@ -33,46 +33,38 @@ msgstr "لا أعرف ما يجب القيام به"
 msgid "Something completely unexpected happened"
 msgstr "شئ غير متوقع قد حدث"
 
-#: src/Layouts/HeaderBar.vala:52
+#: src/Layouts/HeaderBar.vala:51
 msgid "Logout"
 msgstr "خروج"
 
-#: src/Layouts/HeaderBar.vala:57
+#: src/Layouts/HeaderBar.vala:56
 msgid "Create a new database"
 msgstr "إنشاء قاعدة بيانات جديدة"
 
-#: src/Layouts/HeaderBar.vala:66
+#: src/Layouts/HeaderBar.vala:65
 #, fuzzy
 #| msgid "- Select Database -"
 msgid "Delete database"
 msgstr "- حدد قاعدة البيانات -"
 
-#: src/Layouts/HeaderBar.vala:75
+#: src/Layouts/HeaderBar.vala:74
 msgid "Database properties"
 msgstr "نوع قاعدة البيانات"
 
-#: src/Layouts/HeaderBar.vala:89
-msgid "Light background"
-msgstr "خلفية مضيئة"
-
-#: src/Layouts/HeaderBar.vala:90
-msgid "Dark background"
-msgstr "خلفية داكنة"
-
-#: src/Layouts/HeaderBar.vala:101 src/Layouts/Welcome.vala:39
+#: src/Layouts/HeaderBar.vala:87 src/Layouts/Welcome.vala:39
 msgid "New Window"
 msgstr "نافذة جديدة"
 
-#: src/Layouts/HeaderBar.vala:104 src/Widgets/ConnectionDialog.vala:135
+#: src/Layouts/HeaderBar.vala:90 src/Widgets/ConnectionDialog.vala:135
 #: src/Widgets/ConnectionDialog.vala:170
 msgid "New Connection"
 msgstr "اتصال جديد"
 
-#: src/Layouts/HeaderBar.vala:107
+#: src/Layouts/HeaderBar.vala:93
 msgid "Quit"
 msgstr "انهاء"
 
-#: src/Layouts/HeaderBar.vala:127
+#: src/Layouts/HeaderBar.vala:113
 msgid "Menu"
 msgstr "القائمة"
 
@@ -396,7 +388,7 @@ msgstr "في العمود"
 msgid "Copy %s"
 msgstr "نسخ %s"
 
-#: src/Services/Settings.vala:103
+#: src/Services/Settings.vala:99
 #, c-format
 msgid "%s (copy)"
 msgstr "%s (نسخة)"
@@ -612,3 +604,9 @@ msgstr "تم حفظ الاتصال!"
 #: src/Widgets/ConnectionDialog.vala:727
 msgid "Connecting…"
 msgstr "توصيل…"
+
+#~ msgid "Light background"
+#~ msgstr "خلفية مضيئة"
+
+#~ msgid "Dark background"
+#~ msgstr "خلفية داكنة"

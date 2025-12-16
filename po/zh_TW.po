@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.github.ellie_commons.sequeler\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-03 22:03+0900\n"
+"POT-Creation-Date: 2025-12-16 14:54+0000\n"
 "PO-Revision-Date: 2021-04-10 13:27+0000\n"
 "Last-Translator: Yangfl <mmyangfl@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
@@ -31,50 +31,42 @@ msgstr "不知道做什麼"
 msgid "Something completely unexpected happened"
 msgstr "發生了完全出乎意料的事"
 
-#: src/Layouts/HeaderBar.vala:52
+#: src/Layouts/HeaderBar.vala:51
 msgid "Logout"
 msgstr "登出"
 
-#: src/Layouts/HeaderBar.vala:57
+#: src/Layouts/HeaderBar.vala:56
 #, fuzzy
 #| msgid "Create a new Query Tab"
 msgid "Create a new database"
 msgstr "建立新查詢選項卡"
 
-#: src/Layouts/HeaderBar.vala:66
+#: src/Layouts/HeaderBar.vala:65
 #, fuzzy
 #| msgid "- Select Database -"
 msgid "Delete database"
 msgstr "- 選擇資料庫 -"
 
-#: src/Layouts/HeaderBar.vala:75
+#: src/Layouts/HeaderBar.vala:74
 #, fuzzy
 #| msgid "Database Type:"
 msgid "Database properties"
 msgstr "資料庫型別："
 
-#: src/Layouts/HeaderBar.vala:89
-msgid "Light background"
-msgstr "淺色背景"
-
-#: src/Layouts/HeaderBar.vala:90
-msgid "Dark background"
-msgstr "深色背景"
-
-#: src/Layouts/HeaderBar.vala:101 src/Layouts/Welcome.vala:39
+#: src/Layouts/HeaderBar.vala:87 src/Layouts/Welcome.vala:39
 msgid "New Window"
 msgstr "新視窗"
 
-#: src/Layouts/HeaderBar.vala:104 src/Widgets/ConnectionDialog.vala:135
+#: src/Layouts/HeaderBar.vala:90 src/Widgets/ConnectionDialog.vala:135
 #: src/Widgets/ConnectionDialog.vala:170
 msgid "New Connection"
 msgstr "新連線"
 
-#: src/Layouts/HeaderBar.vala:107
+#: src/Layouts/HeaderBar.vala:93
 msgid "Quit"
 msgstr "退出"
 
-#: src/Layouts/HeaderBar.vala:127
+#: src/Layouts/HeaderBar.vala:113
 msgid "Menu"
 msgstr "目錄"
 
@@ -396,7 +388,7 @@ msgstr "於列"
 msgid "Copy %s"
 msgstr "複製 %s"
 
-#: src/Services/Settings.vala:103
+#: src/Services/Settings.vala:99
 #, c-format
 msgid "%s (copy)"
 msgstr "%s (複製)"
@@ -615,3 +607,9 @@ msgstr "連線已儲存！"
 #: src/Widgets/ConnectionDialog.vala:727
 msgid "Connecting…"
 msgstr "連線中…"
+
+#~ msgid "Light background"
+#~ msgstr "淺色背景"
+
+#~ msgid "Dark background"
+#~ msgstr "深色背景"

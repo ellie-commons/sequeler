@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.github.ellie_commons.sequeler\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-03 22:03+0900\n"
+"POT-Creation-Date: 2025-12-16 14:54+0000\n"
 "PO-Revision-Date: 2025-07-04 15:01+0000\n"
 "Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/sequeler/"
@@ -31,44 +31,36 @@ msgstr "என்ன செய்வது என்று தெரியவி
 msgid "Something completely unexpected happened"
 msgstr "முற்றிலும் எதிர்பாராத ஒன்று நடந்தது"
 
-#: src/Layouts/HeaderBar.vala:52
+#: src/Layouts/HeaderBar.vala:51
 msgid "Logout"
 msgstr "வெளியேற்றம்"
 
-#: src/Layouts/HeaderBar.vala:57
+#: src/Layouts/HeaderBar.vala:56
 msgid "Create a new database"
 msgstr "புதிய தரவுதளத்தை உருவாக்கு"
 
-#: src/Layouts/HeaderBar.vala:66
+#: src/Layouts/HeaderBar.vala:65
 msgid "Delete database"
 msgstr "தரவுத்தளத்தைத் நீக்கு"
 
-#: src/Layouts/HeaderBar.vala:75
+#: src/Layouts/HeaderBar.vala:74
 msgid "Database properties"
 msgstr "தரவுத்தள பண்புகள்"
 
-#: src/Layouts/HeaderBar.vala:89
-msgid "Light background"
-msgstr "ஒளி பின்னணி"
-
-#: src/Layouts/HeaderBar.vala:90
-msgid "Dark background"
-msgstr "இருண்ட பின்னணி"
-
-#: src/Layouts/HeaderBar.vala:101 src/Layouts/Welcome.vala:39
+#: src/Layouts/HeaderBar.vala:87 src/Layouts/Welcome.vala:39
 msgid "New Window"
 msgstr "புதிய சாளரம்"
 
-#: src/Layouts/HeaderBar.vala:104 src/Widgets/ConnectionDialog.vala:135
+#: src/Layouts/HeaderBar.vala:90 src/Widgets/ConnectionDialog.vala:135
 #: src/Widgets/ConnectionDialog.vala:170
 msgid "New Connection"
 msgstr "புதிய இணைப்பு"
 
-#: src/Layouts/HeaderBar.vala:107
+#: src/Layouts/HeaderBar.vala:93
 msgid "Quit"
 msgstr "வெளியேறு"
 
-#: src/Layouts/HeaderBar.vala:127
+#: src/Layouts/HeaderBar.vala:113
 msgid "Menu"
 msgstr "பட்டியல்"
 
@@ -391,7 +383,7 @@ msgstr "நெடுவரிசையில்"
 msgid "Copy %s"
 msgstr "%s நகல்"
 
-#: src/Services/Settings.vala:103
+#: src/Services/Settings.vala:99
 #, c-format
 msgid "%s (copy)"
 msgstr "%s (நகல்)"
@@ -607,3 +599,9 @@ msgstr "இணைப்பு சேமிக்கப்பட்டது!"
 #: src/Widgets/ConnectionDialog.vala:727
 msgid "Connecting…"
 msgstr "இணைத்தல்…"
+
+#~ msgid "Light background"
+#~ msgstr "ஒளி பின்னணி"
+
+#~ msgid "Dark background"
+#~ msgstr "இருண்ட பின்னணி"
