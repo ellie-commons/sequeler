@@ -2,9 +2,9 @@
 name: Merge
 
 on:
-  push:
-    branches:
-      - main
+  schedule:
+    - cron: "0 9 * * SUN"
+  workflow_dispatch: {}
 
 jobs:
   gettext:
