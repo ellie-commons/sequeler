@@ -15,10 +15,10 @@ jobs:
       options: --privileged
 
     steps:
-    - name: Install git, python3-git and jq
+    - name: Install bzip2, git, python3-git and jq
       run: |
         apt-get update
-        apt-get install git jq python3-git -y
+        apt-get install bzip2 git jq python3-git -y
 
     - name: Clone repository
       uses: actions/checkout@v6
