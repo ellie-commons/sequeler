@@ -1,13 +1,16 @@
 [Desktop Entry]
+Version=1.0
+Type=Application
+
 Name=Sequeler
-GenericName=Sequeler App
-Comment=Friendly SQL Client
+GenericName=SQL Client
+Comment=Easily connect to your local or remote database
 Categories=Utility;Development;
-TryExec=@binary@
+
 Exec=@binary@ %U
 Icon=@icon@
-Terminal=false
-Type=Application
 Keywords=SQL;MySql;Database;MariaDB;S3;PostgreSQL;
 MimeType=application/x-sqlite3;application/vnd.sqlite3;
 StartupWMClass=Sequeler
+Terminal=false
+TryExec=@binary@
