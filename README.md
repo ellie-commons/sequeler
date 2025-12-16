@@ -6,7 +6,7 @@
 
 Sequeler is a native Linux SQL client built in Vala and Gtk. It allows you to connect to your local and remote databases, write SQL in a handy text editor with language recognition, and visualize SELECT results in a Gtk.Grid Widget.
 
-![](data/assets/screenshots/sequeler-screenshot.png)
+![Database view in the light mode](data/assets/screenshots/database-light.png#gh-light-mode-only) ![Database view in the dark mode](data/assets/screenshots/database-dark.png#gh-dark-mode-only)
 
 ## Supported Databases
 - PostgreSQL

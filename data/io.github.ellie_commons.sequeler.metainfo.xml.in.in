@@ -501,11 +501,11 @@
   </releases>
   <screenshots>
     <screenshot type="default" environment="pantheon">
-      <caption>Database screen</caption>
+      <caption>Database view</caption>
       <image>https://raw.githubusercontent.com/ellie-commons/sequeler/v@version@/data/assets/screenshots/database-light.png</image>
     </screenshot>
     <screenshot environment="pantheon:dark">
-      <caption>Database screen</caption>
+      <caption>Database view</caption>
       <image>https://raw.githubusercontent.com/ellie-commons/sequeler/v@version@/data/assets/screenshots/database-dark.png</image>
     </screenshot>
     <screenshot environment="pantheon">
