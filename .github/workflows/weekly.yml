@@ -1,5 +1,5 @@
 ---
-name: Merge
+name: Weekly
 
 on:
   schedule:
