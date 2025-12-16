@@ -2,6 +2,8 @@
 name: Weekly
 
 on:
+  # This workflow does't run every push because it takes some time to build
+  # the app and not always translatable strings are modified on every push
   schedule:
     - cron: "0 9 * * SUN"
   workflow_dispatch: {}
