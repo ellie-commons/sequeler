@@ -1,5 +1,5 @@
 ---
-name: Weekly
+name: Monthly
 
 on:
   # This workflow does't run every push because it takes some time to build
