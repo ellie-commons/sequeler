@@ -128,8 +128,8 @@
             {
               "type": "git",
               "url": "https://github.com/fmtlib/fmt.git",
-              "tag": "8.1.1",
-              "commit": "b6f4ceaed0a0a24ccf575fab6c56dd50ccf6f1a9"
+              "tag": "12.1.0",
+              "commit": "407c905e45ad75fc29bf0f9bb7c5c2fd3475976f"
             }
           ]
         },
