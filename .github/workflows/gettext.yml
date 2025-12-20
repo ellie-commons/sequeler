@@ -35,7 +35,7 @@ jobs:
     - name: Update Translation Files
       uses: elementary/actions/gettext-flatpak@main
       with:
-        manifest-path: io.github.ellie_commons.sequeler.json
+        manifest-path: io.github.ellie_commons.sequeler.yml
       env:
         GIT_USER_NAME: "github-actions[bot]"
         GIT_USER_EMAIL: "41898282+github-actions[bot]@users.noreply.github.com"
