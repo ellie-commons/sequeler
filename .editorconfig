@@ -5,7 +5,7 @@ trim_trailing_whitespace = true
 insert_final_newline = true
 charset = utf-8
 
-[*.{build,json,xml*}]
+[*.{build,yml,xml*}]
 indent_size = 2
 
 [*.vala]

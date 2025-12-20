@@ -31,7 +31,7 @@ jobs:
         uses: flatpak/flatpak-github-actions/flatpak-builder@v6.6
         with:
           bundle: sequeler-nightly.flatpak
-          manifest-path: io.github.ellie_commons.sequeler.json
+          manifest-path: io.github.ellie_commons.sequeler.yml
           run-tests: true
           repository-name: appcenter
           repository-url: https://flatpak.elementary.io/repo.flatpakrepo
