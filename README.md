@@ -57,7 +57,7 @@ sudo ninja -C build install
 
 You can run the application from terminal using
 ```
-io.github.ellie_commons.sequelerDevel
+io.github.ellie_commons.sequeler.Devel
 ```
 
 ### Help with the translation

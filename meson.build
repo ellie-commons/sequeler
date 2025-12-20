@@ -14,7 +14,7 @@ add_project_arguments(
 )
 
 if get_option('profile') == 'development'
-	application_id = '@0@Devel'.format(meson.project_name())
+	application_id = '@0@.Devel'.format(meson.project_name())
 	vala_args += ['-D', 'IS_DEVEL']
 else
 	application_id = meson.project_name()
