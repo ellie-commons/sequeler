@@ -88,16 +88,14 @@ modules:
               type: json
               url: https://api.github.com/repos/jemalloc/jemalloc/releases/latest
               version-query: .tag_name
-              url-query: .assets[] | select(.name=="jemalloc-" + $version + ".tar.bz2")
-                | .browser_download_url
+              url-query: .assets[] | select(.name=="jemalloc-" + $version + ".tar.bz2") | .browser_download_url
 
       - name: libaio
         buildsystem: simple
         build-options:
           arch:
             i386:
-              cflags: -march=x86-64 -mtune=generic -O2 -pipe -fno-stack-protector
-                -fno-plt
+              cflags: -march=x86-64 -mtune=generic -O2 -pipe -fno-stack-protector -fno-plt
         build-commands:
           - make
           - make prefix=/app install
@@ -178,8 +176,7 @@ modules:
           type: json
           url: https://api.github.com/repos/sionescu/libfixposix/releases/latest
           version-query: .tag_name | sub("^v"; "")
-          url-query: '"https://github.com/sionescu/libfixposix/archive/" + .tag_name
-            + ".tar.gz"'
+          url-query: '"https://github.com/sionescu/libfixposix/archive/" + .tag_name + ".tar.gz"'
           timestamp-query: .published_at
       - type: script
         dest-filename: autogen.sh
