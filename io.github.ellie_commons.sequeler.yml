@@ -35,6 +35,7 @@ modules:
           name: gtksourceview
           versions:
             <: '4.99'
+
   - name: libgda
     build-options:
       config-opts:
@@ -70,6 +71,7 @@ modules:
               type: anitya
               project-id: 381406
               url-template: https://ftp.postgresql.org/pub/source/v$version/postgresql-$version.tar.gz
+
       - name: jemalloc
         cleanup:
           - /bin/
@@ -84,6 +86,7 @@ modules:
               version-query: .tag_name
               url-query: .assets[] | select(.name=="jemalloc-" + $version + ".tar.bz2")
                 | .browser_download_url
+
       - name: libaio
         buildsystem: simple
         build-options:
@@ -103,6 +106,7 @@ modules:
               url: https://packages.debian.org/source/sid/libaio
               pattern: <a href="(http://deb.debian.org/debian/pool/main/liba/libaio/libaio_([^"]+).orig.tar.gz)">
               is-main-source: true
+
       - name: libfmt
         buildsystem: cmake-ninja
         sources:
@@ -113,6 +117,7 @@ modules:
             x-checker-data:
               type: git
               tag-pattern: ^([\d.]+)$
+
       - name: mariadb
         buildsystem: cmake-ninja
         config-opts:
@@ -141,6 +146,7 @@ modules:
             x-checker-data:
               type: git
               tag-pattern: ^mariadb-([\d.]+)$
+
       - name: intltool
         cleanup:
           - '*'
@@ -148,6 +154,7 @@ modules:
           - type: archive
             url: https://launchpad.net/intltool/trunk/0.51.0/+download/intltool-0.51.0.tar.gz
             sha256: 67c74d94196b153b774ab9f89b2fa6c6ba79352407037c8c14d5aeb334e959cd
+
   - name: libssh2
     sources:
       - type: archive
@@ -157,6 +164,7 @@ modules:
           type: anitya
           project-id: 1730
           url-template: https://www.libssh2.org/download/libssh2-$version.tar.gz
+
   - name: libfiposix
     sources:
       - type: archive
@@ -173,6 +181,7 @@ modules:
         dest-filename: autogen.sh
         commands:
           - autoreconf -vfi
+
   - name: sequeler
     buildsystem: meson
     sources:
