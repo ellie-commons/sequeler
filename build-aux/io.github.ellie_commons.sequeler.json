@@ -40,7 +40,14 @@
         {
           "type": "archive",
           "url": "https://download.gnome.org/sources/gtksourceview/4.8/gtksourceview-4.8.4.tar.xz",
-          "sha256": "7ec9d18fb283d1f84a3a3eff3b7a72b09a10c9c006597b3fbabbb5958420a87d"
+          "sha256": "7ec9d18fb283d1f84a3a3eff3b7a72b09a10c9c006597b3fbabbb5958420a87d",
+          "x-checker-data": {
+            "type": "gnome",
+            "name": "gtksourceview",
+            "versions": {
+              "<": "4.99"
+            }
+          }
         }
       ]
     },
@@ -59,7 +66,14 @@
         {
           "type": "archive",
           "url": "https://download.gnome.org/sources/libgda/5.2/libgda-5.2.9.tar.xz",
-          "sha256": "59caed8ca72b1ac6437c9844f0677f8a296d52cfd1c0049116026abfb1d87d9b"
+          "sha256": "59caed8ca72b1ac6437c9844f0677f8a296d52cfd1c0049116026abfb1d87d9b",
+          "x-checker-data": {
+            "type": "gnome",
+            "name": "libgda",
+            "versions": {
+              "<": "5.2.10"
+            }
+          }
         },
         {
           "type": "patch",
@@ -81,7 +95,12 @@
             {
               "type": "archive",
               "url": "https://ftp.postgresql.org/pub/source/v18.1/postgresql-18.1.tar.gz",
-              "sha256": "b0f18c2d6973d2aa023cfc77feda787d7bbe9c31a3977d0f04ac29885fb98ec4"
+              "sha256": "b0f18c2d6973d2aa023cfc77feda787d7bbe9c31a3977d0f04ac29885fb98ec4",
+              "x-checker-data": {
+                "type": "anitya",
+                "project-id": 381406,
+                "url-template": "https://ftp.postgresql.org/pub/source/v$version/postgresql-$version.tar.gz"
+              }
             }
           ]
         },
@@ -95,7 +114,13 @@
             {
               "type": "archive",
               "url": "https://github.com/jemalloc/jemalloc/releases/download/5.3.0/jemalloc-5.3.0.tar.bz2",
-              "sha256": "2db82d1e7119df3e71b7640219b6dfe84789bc0537983c3b7ac4f7189aecfeaa"
+              "sha256": "2db82d1e7119df3e71b7640219b6dfe84789bc0537983c3b7ac4f7189aecfeaa",
+              "x-checker-data": {
+                "type": "json",
+                "url": "https://api.github.com/repos/jemalloc/jemalloc/releases/latest",
+                "version-query": ".tag_name",
+                "url-query": ".assets[] | select(.name==\"jemalloc-\" + $version + \".tar.bz2\") | .browser_download_url"
+              }
             }
           ]
         },
@@ -116,8 +141,14 @@
           "sources": [
             {
               "type": "archive",
-              "url": "https://ftp.debian.org/debian/pool/main/liba/libaio/libaio_0.3.113.orig.tar.gz",
-              "sha256": "2c44d1c5fd0d43752287c9ae1eb9c023f04ef848ea8d4aafa46e9aedb678200b"
+              "url": "http://deb.debian.org/debian/pool/main/liba/libaio/libaio_0.3.113.orig.tar.gz",
+              "sha256": "2c44d1c5fd0d43752287c9ae1eb9c023f04ef848ea8d4aafa46e9aedb678200b",
+              "x-checker-data": {
+                "type": "html",
+                "url": "https://packages.debian.org/source/sid/libaio",
+                "pattern": "<a href=\"(http://deb.debian.org/debian/pool/main/liba/libaio/libaio_([^\"]+).orig.tar.gz)\">",
+                "is-main-source": true
+              }
             }
           ]
         },
@@ -129,7 +160,11 @@
               "type": "git",
               "url": "https://github.com/fmtlib/fmt.git",
               "tag": "12.1.0",
-              "commit": "407c905e45ad75fc29bf0f9bb7c5c2fd3475976f"
+              "commit": "407c905e45ad75fc29bf0f9bb7c5c2fd3475976f",
+              "x-checker-data": {
+                "type": "git",
+                "tag-pattern": "^([\\d.]+)$"
+              }
             }
           ]
         },
@@ -161,7 +196,11 @@
               "type": "git",
               "url": "https://github.com/MariaDB/server.git",
               "tag": "mariadb-12.2.1",
-              "commit": "144dead8826f4a84008a76ef7fcc44e816f92930"
+              "commit": "144dead8826f4a84008a76ef7fcc44e816f92930",
+              "x-checker-data": {
+                "type": "git",
+                "tag-pattern": "^mariadb-([\\d.]+)$"
+              }
             }
           ]
         },
@@ -184,7 +223,12 @@
         {
           "type": "archive",
           "url": "https://www.libssh2.org/download/libssh2-1.11.1.tar.gz",
-          "sha256": "d9ec76cbe34db98eec3539fe2c899d26b0c837cb3eb466a56b0f109cabf658f7"
+          "sha256": "d9ec76cbe34db98eec3539fe2c899d26b0c837cb3eb466a56b0f109cabf658f7",
+          "x-checker-data": {
+            "type": "anitya",
+            "project-id": 1730,
+            "url-template": "https://www.libssh2.org/download/libssh2-$version.tar.gz"
+          }
         }
       ]
     },
@@ -194,7 +238,14 @@
         {
           "type": "archive",
           "url": "https://github.com/sionescu/libfixposix/archive/v0.5.1.tar.gz",
-          "sha256": "5d9d3d321d4c7302040389c43f966a70d180abb58d1d7df370f39e0d402d50d4"
+          "sha256": "5d9d3d321d4c7302040389c43f966a70d180abb58d1d7df370f39e0d402d50d4",
+          "x-checker-data": {
+            "type": "json",
+            "url": "https://api.github.com/repos/sionescu/libfixposix/releases/latest",
+            "version-query": ".tag_name | sub(\"^v\"; \"\")",
+            "url-query": "\"https://github.com/sionescu/libfixposix/archive/\" + .tag_name + \".tar.gz\"",
+            "timestamp-query": ".published_at"
+          }
         },
         {
           "type": "script",
