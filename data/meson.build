@@ -2,21 +2,19 @@ icon_sizes = ['16', '24', '32', '48', '64', '128']
 
 icons_dir = join_paths(get_option('datadir'), 'icons', 'hicolor')
 foreach size : icon_sizes
-		asset = join_paths('assets', 'icons', '@0@x@0@'.format(size), '@0@.svg'.format(meson.project_name()))
+		asset = join_paths('assets', 'icons', '@0@x@0@'.format(size), '@0@.svg'.format(application_id))
 		install_data(
 				asset,
-				install_dir:  join_paths(icons_dir, '@0@x@0@'.format(size), 'apps'),
-				rename: '@0@.svg'.format(application_id)
+				install_dir:  join_paths(icons_dir, '@0@x@0@'.format(size), 'apps')
 		)
 		install_data(
 				asset,
-				install_dir: join_paths(icons_dir,  '@0@x@0@@2'.format(size), 'apps'),
-				rename: '@0@.svg'.format(application_id)
+				install_dir: join_paths(icons_dir,  '@0@x@0@@2'.format(size), 'apps')
 		)
 endforeach
 
 install_data(
-		join_paths('assets', 'icons', '128x128', '@0@.svg'.format(meson.project_name())),
+		join_paths('assets', 'icons', '128x128', '@0@.svg'.format(application_id)),
 		install_dir: join_paths(icons_dir , 'scalable', 'apps'),
 		rename: '@0@.svg'.format(application_id)
 )
