@@ -16,7 +16,6 @@ finish-args:
 cleanup:
   - /include
   - /lib/pkgconfig
-  - /lib/debug
   - /share/vala
   - /man
   - '*.a'
