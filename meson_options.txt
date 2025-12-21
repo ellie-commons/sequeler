@@ -7,3 +7,4 @@ option(
         ],
         value: 'default'
 )
+option('sized-app-icon', type: 'boolean', value: true)

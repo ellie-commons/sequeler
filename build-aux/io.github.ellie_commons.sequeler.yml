@@ -185,6 +185,9 @@ modules:
 
   - name: sequeler
     buildsystem: meson
+    build-options:
+      config-opts:
+        - -Dsized-app-icon=false
     sources:
       - type: dir
         path: ../
