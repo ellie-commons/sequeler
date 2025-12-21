@@ -71,6 +71,8 @@ public class Sequeler.Widgets.ConnectionDialog : Gtk.Dialog {
     private Sequeler.Partials.Entry ssh_port_entry;
     private Sequeler.Partials.LabelForm ssh_identity_file_label;
     private Gtk.FileChooserButton ssh_identity_file_entry;
+    private Sequeler.Partials.LabelForm ssh_pubkey_file_label;
+    private Gtk.FileChooserButton ssh_pubkey_file_entry;
 
     private Gtk.Spinner spinner;
     private Sequeler.Partials.ResponseMessage response_msg;
@@ -327,6 +329,16 @@ public class Sequeler.Widgets.ConnectionDialog : Gtk.Dialog {
         ssh_grid.attach (ssh_identity_file_label, 0, 6, 1, 1);
         ssh_grid.attach (ssh_identity_file_entry, 1, 6, 1, 1);
 
+        ssh_pubkey_file_label = new Sequeler.Partials.LabelForm (_("SSH Public Key"));
+        ssh_pubkey_file_entry = new Gtk.FileChooserButton (
+            _("Select Your Public Key File\u2026"),
+            Gtk.FileChooserAction.OPEN
+        );
+        ssh_pubkey_file_entry.set_filename (this.get_default_ssh_pubkey_filename ());
+        ssh_pubkey_file_entry.file_set.connect (this.verify_ssh_file_entry);
+        ssh_grid.attach (ssh_pubkey_file_label, 0, 7, 1, 1);
+        ssh_grid.attach (ssh_pubkey_file_entry, 1, 7, 1, 1);
+
         infobar_label = new Gtk.Label (infobar_label_missing_private_key);
         infobar_label.show ();
 
@@ -351,7 +363,7 @@ public class Sequeler.Widgets.ConnectionDialog : Gtk.Dialog {
                 }
             }
         });
-        ssh_grid.attach (infobar, 0, 7, 2, 1);
+        ssh_grid.attach (infobar, 0, 8, 2, 1);
 
 
         var stack_grid = new Gtk.Grid ();
@@ -384,9 +396,14 @@ public class Sequeler.Widgets.ConnectionDialog : Gtk.Dialog {
         return home_dir + "/.ssh/id_rsa";
     }
 
-    private void verify_ssh_file_entry (Gtk.FileChooserButton file_entry) {
-        keyfile2 = file_entry.get_filename ();
-        keyfile1 = keyfile2 + ".pub";
+    private string get_default_ssh_pubkey_filename () {
+        var identity_filename = get_default_ssh_identity_filename ();
+        return identity_filename + ".pub";
+    }
+
+    private void verify_ssh_file_entry () {
+        keyfile2 = ssh_identity_file_entry.get_filename ();
+        keyfile1 = ssh_pubkey_file_entry.get_filename ();
 
         var public_key_exists = File.new_for_path (keyfile1).query_exists ();
         var private_key_exists = File.new_for_path (keyfile2).query_exists ();
@@ -404,7 +421,7 @@ public class Sequeler.Widgets.ConnectionDialog : Gtk.Dialog {
 
     private void toggle_ssh_fields (bool toggle) {
         if (toggle) {
-            this.verify_ssh_file_entry (ssh_identity_file_entry);
+            this.verify_ssh_file_entry ();
         }
         else {
             infobar.revealed = false;
@@ -434,6 +451,11 @@ public class Sequeler.Widgets.ConnectionDialog : Gtk.Dialog {
         ssh_identity_file_label.no_show_all = !toggle;
         ssh_identity_file_entry.visible = toggle;
         ssh_identity_file_entry.no_show_all = !toggle;
+
+        ssh_pubkey_file_label.visible = toggle;
+        ssh_pubkey_file_label.no_show_all = !toggle;
+        ssh_pubkey_file_entry.visible = toggle;
+        ssh_pubkey_file_entry.no_show_all = !toggle;
     }
 
     private void build_actions () {
@@ -515,6 +537,9 @@ public class Sequeler.Widgets.ConnectionDialog : Gtk.Dialog {
             ssh_port_entry.text = (update_data["ssh_port"] != null) ? update_data["ssh_port"] : "";
             if (update_data["ssh_identity_file"] != null) {
                 ssh_identity_file_entry.set_filename (update_data["ssh_identity_file"]);
+            }
+            if (update_data["ssh_pubkey_file"] != null) {
+                ssh_pubkey_file_entry.set_filename (update_data["ssh_pubkey_file"]);
             }
         }
 
@@ -776,6 +801,7 @@ public class Sequeler.Widgets.ConnectionDialog : Gtk.Dialog {
         packaged_data.set ("ssh_password", ssh_switch.active ? ssh_password_entry.text : "");
         packaged_data.set ("ssh_port", ssh_switch.active ? ssh_port_entry.text : "");
         packaged_data.set ("ssh_identity_file", ssh_identity_file_entry.get_filename () ?? "");
+        packaged_data.set ("ssh_pubkey_file", ssh_pubkey_file_entry.get_filename () ?? "");
 
         packaged_data.set ("use_ssl", ssl_switch.active.to_string ());
 

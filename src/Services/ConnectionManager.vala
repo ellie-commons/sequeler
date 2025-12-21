@@ -167,7 +167,10 @@ public class Sequeler.Services.ConnectionManager : Object {
         }
 
         // public key file
-        var keyfile1 = keyfile2 + ".pub";
+        var keyfile1 = home_dir + "/.ssh/id_rsa.pub";
+        if (data.has_key ("ssh_pubkey_file") && data["ssh_pubkey_file"] != "") {
+            keyfile1 = data["ssh_pubkey_file"];
+        }
 
         // SSH credentials if password authentication is required
         var username = data["ssh_username"];
