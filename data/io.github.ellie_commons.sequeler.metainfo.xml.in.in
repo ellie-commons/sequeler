@@ -44,7 +44,7 @@
           <li>Fix translations are not loaded in Flatpak</li>
           <li>Sync with system color scheme instead of ModeSwitch</li>
           <li>Fix connection through SSH using ed25519 public keys</li>
-          <li>Allow selecting public key to fix authentication by public key being failed in Flatpak</li>
+          <li>Allow selecting public key to fix authentication by public key fails in Flatpak</li>
           <li>Update Flatpak platform runtime and modules</li>
           <li>Update translations</li>
         </ul>
