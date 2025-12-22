@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-16 14:54+0000\n"
-"PO-Revision-Date: 2025-04-29 01:01+0000\n"
+"PO-Revision-Date: 2025-12-21 16:00+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/sequeler/"
 "metainfo/ja/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12-dev\n"
+"X-Generator: Weblate 5.15.1\n"
 
 #: data/io.github.ellie_commons.sequeler.desktop.in.in:6
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:7
@@ -25,10 +25,8 @@ msgid "Sequeler"
 msgstr "Sequeler"
 
 #: data/io.github.ellie_commons.sequeler.desktop.in.in:7
-#, fuzzy
-#| msgid "Friendly SQL Client"
 msgid "SQL Client"
-msgstr "フレンドリーな SQL クライアント"
+msgstr "SQL クライアント"
 
 #: data/io.github.ellie_commons.sequeler.desktop.in.in:8
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:10
@@ -846,12 +844,12 @@ msgstr ""
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:504
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:508
 msgid "Database view"
-msgstr ""
+msgstr "データベース画面"
 
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:512
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:516
 msgid "New connection dialog"
-msgstr ""
+msgstr "新しい接続ダイアログ"
 
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:521
 msgid "Alessandro Castellani"
