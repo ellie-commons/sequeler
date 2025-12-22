@@ -1,7 +1,7 @@
 # project name and programming language
 project('io.github.ellie_commons.sequeler', 'vala', 'c',
     version: '0.8.2',
-    meson_version: '>= 0.56.0')
+    meson_version: '>= 0.59.0')
 
 cc = meson.get_compiler('c')
 m_dep = cc.find_library('m', required: true)
@@ -48,6 +48,9 @@ endif
 subdir('src')
 subdir('data')
 subdir('po')
-subdir('schemas')
 
-meson.add_install_script('build-aux/meson_post_install.py')
+gnome.post_install(
+    glib_compile_schemas: true,
+    gtk_update_icon_cache: true,
+    update_desktop_database: true
+)
