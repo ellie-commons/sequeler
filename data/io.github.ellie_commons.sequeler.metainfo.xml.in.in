@@ -37,6 +37,19 @@
     <binary>@appid@</binary>
   </provides>
   <releases>
+    <release version="0.9.0" date="2025-12-25" urgency="medium">
+      <description>
+        <ul>
+          <li>Sort table list alphabetically</li>
+          <li>Fix translations are not loaded in Flatpak</li>
+          <li>Sync with system color scheme instead of ModeSwitch</li>
+          <li>Fix connection through SSH using ed25519 public keys</li>
+          <li>Allow selecting public key to fix authentication by public key fails in Flatpak</li>
+          <li>Update Flatpak platform runtime and modules</li>
+          <li>Update translations</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.8.2" date="2021-08-10">
       <description>
         <p>Odin release</p>
