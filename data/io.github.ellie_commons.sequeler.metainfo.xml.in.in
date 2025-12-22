@@ -40,18 +40,13 @@
     <release version="0.9.0" date="2025-12-25" urgency="medium">
       <description>
         <ul>
-          <li>Fix connection through SSH using ed25519 public keys</li>
-          <li>Use correct icon for current profile</li>
-          <li>Sync with system color scheme instead of ModeSwitch</li>
-          <li>Port to GtkSourceView 4</li>
           <li>Sort table list alphabetically</li>
-          <li>Update translations</li>
-        </ul>
-        <p>Flatpak related changes:</p>
-        <ul>
-          <li>Update platform runtime and modules</li>
-          <li>Allow selecting public key to fix authentication by public key being failed in Flatpak</li>
           <li>Fix translations are not loaded in Flatpak</li>
+          <li>Sync with system color scheme instead of ModeSwitch</li>
+          <li>Fix connection through SSH using ed25519 public keys</li>
+          <li>Allow selecting public key to fix authentication by public key being failed in Flatpak</li>
+          <li>Update Flatpak platform runtime and modules</li>
+          <li>Update translations</li>
         </ul>
       </description>
     </release>
