@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.github.ellie_commons.sequeler\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-16 14:54+0000\n"
+"POT-Creation-Date: 2025-12-23 14:47+0000\n"
 "PO-Revision-Date: 2021-09-02 12:32+0000\n"
 "Last-Translator: Vojtěch Perník <translations@pervoj.cz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/sequeler/"
@@ -57,8 +57,8 @@ msgstr "Typ databáze:"
 msgid "New Window"
 msgstr "Nové okno"
 
-#: src/Layouts/HeaderBar.vala:90 src/Widgets/ConnectionDialog.vala:135
-#: src/Widgets/ConnectionDialog.vala:170
+#: src/Layouts/HeaderBar.vala:90 src/Widgets/ConnectionDialog.vala:137
+#: src/Widgets/ConnectionDialog.vala:172
 msgid "New Connection"
 msgstr "Nové připojení"
 
@@ -111,8 +111,8 @@ msgstr "Všechna data budou smazána a nebudete je moci obnovit."
 msgid "Yes, Delete All!"
 msgstr "Ano, smazat vše!"
 
-#: src/Layouts/Library.vala:335 src/Widgets/ConnectionDialog.vala:602
-#: src/Widgets/ConnectionDialog.vala:623
+#: src/Layouts/Library.vala:335 src/Widgets/ConnectionDialog.vala:627
+#: src/Widgets/ConnectionDialog.vala:648
 msgid "A username is required in order to connect!"
 msgstr "K připojení je vyžadováno uživatelské jméno!"
 
@@ -355,7 +355,7 @@ msgstr "Dotaz dokončen!"
 msgid "Run Query"
 msgstr "Spustit dotaz"
 
-#: src/Partials/LibraryItem.vala:107 src/Widgets/ConnectionDialog.vala:443
+#: src/Partials/LibraryItem.vala:107 src/Widgets/ConnectionDialog.vala:465
 msgid "Connect"
 msgstr "Připojit"
 
@@ -406,53 +406,53 @@ msgid ""
 "All the tables and data will be deleted and you won’t be able to recover it."
 msgstr "Všechna data budou smazána a nebudete je moci obnovit."
 
-#: src/Services/ConnectionManager.vala:193
+#: src/Services/ConnectionManager.vala:196
 #, c-format
 msgid "Libssh2 initialization failed (%d)"
 msgstr "Selhala inicializace Libssh2 (%d)"
 
-#: src/Services/ConnectionManager.vala:202
+#: src/Services/ConnectionManager.vala:205
 msgid "Failed to open socket"
 msgstr "Nepodařilo se otevřít socket"
 
-#: src/Services/ConnectionManager.vala:211
+#: src/Services/ConnectionManager.vala:214
 msgid "Failed to connect!"
 msgstr "Nepodařilo se připojit!"
 
-#: src/Services/ConnectionManager.vala:223
+#: src/Services/ConnectionManager.vala:226
 #, c-format
 msgid "Error when starting up SSH session: %d"
 msgstr "Chyba při spuštění relace SSH: %d"
 
-#: src/Services/ConnectionManager.vala:242
+#: src/Services/ConnectionManager.vala:245
 msgid "Authentication by password failed!"
 msgstr "Přihlášení heslem se nezdařilo!"
 
-#: src/Services/ConnectionManager.vala:252
+#: src/Services/ConnectionManager.vala:255
 msgid "Authentication by public key failed!"
 msgstr "Přihlášení pomocí veřejného klíče se nezdařilo!"
 
-#: src/Services/ConnectionManager.vala:259
+#: src/Services/ConnectionManager.vala:262
 msgid "No supported authentication methods found!"
 msgstr "Nebyly nalezeny žádné podporované metody přihlášení!"
 
-#: src/Services/ConnectionManager.vala:266
+#: src/Services/ConnectionManager.vala:269
 msgid "Failed to open listen socket"
 msgstr "Nepodařilo se otevřít socket pro poslech"
 
-#: src/Services/ConnectionManager.vala:281
+#: src/Services/ConnectionManager.vala:284
 msgid "Failed to bind. Your Database Port may be wrong!"
 msgstr "Připojení se nezdařilo. Zadaný databázový port může být nesprávný!"
 
-#: src/Services/ConnectionManager.vala:287
+#: src/Services/ConnectionManager.vala:290
 msgid "Failed to listen!"
 msgstr "Nepodařilo se poslouchat!"
 
-#: src/Services/ConnectionManager.vala:314
+#: src/Services/ConnectionManager.vala:317
 msgid "Failed to accept remote connection!"
 msgstr "Autorizace vzdáleného připojení se nezdařila!"
 
-#: src/Services/ConnectionManager.vala:323
+#: src/Services/ConnectionManager.vala:326
 msgid ""
 "Could not open the direct-tcpip channel! (Note that this can be a problem at "
 "the server! Please review the server logs.)"
@@ -460,7 +460,7 @@ msgstr ""
 "Nelze otevřít kanál direct-tcpip! (To může být také problém serveru! "
 "Zkontrolujte logy serveru.)"
 
-#: src/Services/ConnectionManager.vala:578
+#: src/Services/ConnectionManager.vala:581
 msgid "Error!"
 msgstr "Chyba!"
 
@@ -472,140 +472,152 @@ msgstr "Chybí soubor klíče SSH!"
 msgid "Missing SSH public key!"
 msgstr "Chybí veřejný klíč SSH!"
 
-#: src/Widgets/ConnectionDialog.vala:94 src/Widgets/ConnectionDialog.vala:369
+#: src/Widgets/ConnectionDialog.vala:96 src/Widgets/ConnectionDialog.vala:381
 msgid "Connection"
 msgstr "Připojení"
 
-#: src/Widgets/ConnectionDialog.vala:146
+#: src/Widgets/ConnectionDialog.vala:148
 msgid "Select connection color"
 msgstr "Vyberte barvu připojení"
 
-#: src/Widgets/ConnectionDialog.vala:169
+#: src/Widgets/ConnectionDialog.vala:171
 msgid "Connection Name:"
 msgstr "Název připojení:"
 
-#: src/Widgets/ConnectionDialog.vala:170
+#: src/Widgets/ConnectionDialog.vala:172
 msgid "Connection's name"
 msgstr "Název připojení"
 
-#: src/Widgets/ConnectionDialog.vala:177
+#: src/Widgets/ConnectionDialog.vala:179
 msgid "Database Type:"
 msgstr "Typ databáze:"
 
-#: src/Widgets/ConnectionDialog.vala:199
+#: src/Widgets/ConnectionDialog.vala:201
 msgid "Host:"
 msgstr "Hostitel:"
 
-#: src/Widgets/ConnectionDialog.vala:205
+#: src/Widgets/ConnectionDialog.vala:207
 msgid "Database Name:"
 msgstr "Jméno databáze:"
 
-#: src/Widgets/ConnectionDialog.vala:212
+#: src/Widgets/ConnectionDialog.vala:214
 msgid "Username:"
 msgstr "Uživatelské jméno:"
 
-#: src/Widgets/ConnectionDialog.vala:218
+#: src/Widgets/ConnectionDialog.vala:220
 msgid "Password:"
 msgstr "Heslo:"
 
-#: src/Widgets/ConnectionDialog.vala:222 src/Widgets/ConnectionDialog.vala:232
-#: src/Widgets/ConnectionDialog.vala:299 src/Widgets/ConnectionDialog.vala:309
+#: src/Widgets/ConnectionDialog.vala:224 src/Widgets/ConnectionDialog.vala:234
+#: src/Widgets/ConnectionDialog.vala:301 src/Widgets/ConnectionDialog.vala:311
 msgid "Show password"
 msgstr "Zobrazit heslo"
 
-#: src/Widgets/ConnectionDialog.vala:229 src/Widgets/ConnectionDialog.vala:306
+#: src/Widgets/ConnectionDialog.vala:231 src/Widgets/ConnectionDialog.vala:308
 msgid "Hide password"
 msgstr "Skrýt heslo"
 
-#: src/Widgets/ConnectionDialog.vala:239
+#: src/Widgets/ConnectionDialog.vala:241
 msgid "Port:"
 msgstr "Port:"
 
-#: src/Widgets/ConnectionDialog.vala:245
+#: src/Widgets/ConnectionDialog.vala:247
 msgid "Use SSL:"
 msgstr ""
 
-#: src/Widgets/ConnectionDialog.vala:254
+#: src/Widgets/ConnectionDialog.vala:256
 msgid "File Path:"
 msgstr "Cesta k souboru:"
 
-#: src/Widgets/ConnectionDialog.vala:255
+#: src/Widgets/ConnectionDialog.vala:257
 msgid "Select Your SQLite File…"
 msgstr "Vyberte soubor SQLite…"
 
-#: src/Widgets/ConnectionDialog.vala:275
+#: src/Widgets/ConnectionDialog.vala:277
 msgid "Connect via SSH Tunnel:"
 msgstr "Připojit přes tunel SSH:"
 
-#: src/Widgets/ConnectionDialog.vala:285
+#: src/Widgets/ConnectionDialog.vala:287
 msgid "SSH Host:"
 msgstr "Hostitel SSH:"
 
-#: src/Widgets/ConnectionDialog.vala:290
+#: src/Widgets/ConnectionDialog.vala:292
 msgid "SSH Username:"
 msgstr "Uživatelské jméno SSH:"
 
-#: src/Widgets/ConnectionDialog.vala:295
+#: src/Widgets/ConnectionDialog.vala:297
 msgid "SSH Password:"
 msgstr "Heslo SSH:"
 
-#: src/Widgets/ConnectionDialog.vala:315
+#: src/Widgets/ConnectionDialog.vala:317
 msgid "SSH Port:"
 msgstr "Port SSH:"
 
-#: src/Widgets/ConnectionDialog.vala:316
+#: src/Widgets/ConnectionDialog.vala:318
 msgid "Optional"
 msgstr "Volitelné"
 
-#: src/Widgets/ConnectionDialog.vala:320
+#: src/Widgets/ConnectionDialog.vala:322
 msgid "SSH Identity"
 msgstr "Identita SSH"
 
-#: src/Widgets/ConnectionDialog.vala:322
+#: src/Widgets/ConnectionDialog.vala:324
 msgid "Select Your Identity File…"
 msgstr "Vyberte soubor identity…"
 
-#: src/Widgets/ConnectionDialog.vala:338
+#: src/Widgets/ConnectionDialog.vala:332
+#, fuzzy
+#| msgid "Missing SSH public key!"
+msgid "SSH Public Key"
+msgstr "Chybí veřejný klíč SSH!"
+
+#: src/Widgets/ConnectionDialog.vala:334
+#, fuzzy
+#| msgid "Select Your SQLite File…"
+msgid "Select Your Public Key File…"
+msgstr "Vyberte soubor SQLite…"
+
+#: src/Widgets/ConnectionDialog.vala:350
 msgid "Generate SSH Key"
 msgstr "Vygenerovat klíč SSH"
 
-#: src/Widgets/ConnectionDialog.vala:370
+#: src/Widgets/ConnectionDialog.vala:382
 msgid "SSH Tunnel"
 msgstr "Tunel SSH"
 
-#: src/Widgets/ConnectionDialog.vala:440
+#: src/Widgets/ConnectionDialog.vala:462
 msgid "Close"
 msgstr "Zavřít"
 
-#: src/Widgets/ConnectionDialog.vala:441
+#: src/Widgets/ConnectionDialog.vala:463
 msgid "Save Connection"
 msgstr "Uložit připojení"
 
-#: src/Widgets/ConnectionDialog.vala:442
+#: src/Widgets/ConnectionDialog.vala:464
 msgid "Test Connection"
 msgstr "Otestovat připojení"
 
-#: src/Widgets/ConnectionDialog.vala:647
+#: src/Widgets/ConnectionDialog.vala:672
 msgid "Opening SSH Tunnel…"
 msgstr "Otevírá se tunel SSH…"
 
-#: src/Widgets/ConnectionDialog.vala:683
+#: src/Widgets/ConnectionDialog.vala:708
 msgid "Testing Connection…"
 msgstr "Testuje se připojení…"
 
-#: src/Widgets/ConnectionDialog.vala:705
+#: src/Widgets/ConnectionDialog.vala:730
 msgid "Successfully Connected!"
 msgstr "Úspěšně připojeno!"
 
-#: src/Widgets/ConnectionDialog.vala:714
+#: src/Widgets/ConnectionDialog.vala:739
 msgid "Saving Connection…"
 msgstr "Ukládá se připojení…"
 
-#: src/Widgets/ConnectionDialog.vala:719
+#: src/Widgets/ConnectionDialog.vala:744
 msgid "Connection Saved!"
 msgstr "Připojení uloženo!"
 
-#: src/Widgets/ConnectionDialog.vala:727
+#: src/Widgets/ConnectionDialog.vala:752
 msgid "Connecting…"
 msgstr "Připojování…"
 

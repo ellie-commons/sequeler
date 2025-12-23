@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.github.ellie_commons.sequeler\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-16 14:54+0000\n"
+"POT-Creation-Date: 2025-12-23 14:47+0000\n"
 "PO-Revision-Date: 2020-06-22 03:41+0000\n"
 "Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/sequeler/"
@@ -57,8 +57,8 @@ msgstr "Type de base de données :"
 msgid "New Window"
 msgstr "Nouvelle fenêtre"
 
-#: src/Layouts/HeaderBar.vala:90 src/Widgets/ConnectionDialog.vala:135
-#: src/Widgets/ConnectionDialog.vala:170
+#: src/Layouts/HeaderBar.vala:90 src/Widgets/ConnectionDialog.vala:137
+#: src/Widgets/ConnectionDialog.vala:172
 msgid "New Connection"
 msgstr "Nouvelle connexion"
 
@@ -113,8 +113,8 @@ msgstr ""
 msgid "Yes, Delete All!"
 msgstr "Oui, tout supprimer !"
 
-#: src/Layouts/Library.vala:335 src/Widgets/ConnectionDialog.vala:602
-#: src/Widgets/ConnectionDialog.vala:623
+#: src/Layouts/Library.vala:335 src/Widgets/ConnectionDialog.vala:627
+#: src/Widgets/ConnectionDialog.vala:648
 msgid "A username is required in order to connect!"
 msgstr "Un nom d'utilisateur est nécessaire pour pouvoir se connecter !"
 
@@ -361,7 +361,7 @@ msgstr "Requête exécutée !"
 msgid "Run Query"
 msgstr "Exécuter la requête"
 
-#: src/Partials/LibraryItem.vala:107 src/Widgets/ConnectionDialog.vala:443
+#: src/Partials/LibraryItem.vala:107 src/Widgets/ConnectionDialog.vala:465
 msgid "Connect"
 msgstr "Se connecter"
 
@@ -413,53 +413,53 @@ msgid ""
 msgstr ""
 "Toutes les données seront supprimées et vous ne pourrez pas les récupérer."
 
-#: src/Services/ConnectionManager.vala:193
+#: src/Services/ConnectionManager.vala:196
 #, c-format
 msgid "Libssh2 initialization failed (%d)"
 msgstr "L'initialisation de libssh2 à échoué (%d)"
 
-#: src/Services/ConnectionManager.vala:202
+#: src/Services/ConnectionManager.vala:205
 msgid "Failed to open socket"
 msgstr "Échec de l'ouverture du socket"
 
-#: src/Services/ConnectionManager.vala:211
+#: src/Services/ConnectionManager.vala:214
 msgid "Failed to connect!"
 msgstr "Échec de la connexion !"
 
-#: src/Services/ConnectionManager.vala:223
+#: src/Services/ConnectionManager.vala:226
 #, c-format
 msgid "Error when starting up SSH session: %d"
 msgstr "Erreur lors du lancement de la session SSH : %d"
 
-#: src/Services/ConnectionManager.vala:242
+#: src/Services/ConnectionManager.vala:245
 msgid "Authentication by password failed!"
 msgstr "Échec de l'authentification par mot de passe !"
 
-#: src/Services/ConnectionManager.vala:252
+#: src/Services/ConnectionManager.vala:255
 msgid "Authentication by public key failed!"
 msgstr "Échec de l'authentification par clé publique !"
 
-#: src/Services/ConnectionManager.vala:259
+#: src/Services/ConnectionManager.vala:262
 msgid "No supported authentication methods found!"
 msgstr "Aucune méthode d'authentification pris en charge trouvée !"
 
-#: src/Services/ConnectionManager.vala:266
+#: src/Services/ConnectionManager.vala:269
 msgid "Failed to open listen socket"
 msgstr "Échec de l'ouverture de la liste des sockets"
 
-#: src/Services/ConnectionManager.vala:281
+#: src/Services/ConnectionManager.vala:284
 msgid "Failed to bind. Your Database Port may be wrong!"
 msgstr "Échec de la liaison. Votre port de connexion peut être incorrect !"
 
-#: src/Services/ConnectionManager.vala:287
+#: src/Services/ConnectionManager.vala:290
 msgid "Failed to listen!"
 msgstr "Échec de la récupération !"
 
-#: src/Services/ConnectionManager.vala:314
+#: src/Services/ConnectionManager.vala:317
 msgid "Failed to accept remote connection!"
 msgstr "Échec d'autorisation de la connexion distante !"
 
-#: src/Services/ConnectionManager.vala:323
+#: src/Services/ConnectionManager.vala:326
 msgid ""
 "Could not open the direct-tcpip channel! (Note that this can be a problem at "
 "the server! Please review the server logs.)"
@@ -467,7 +467,7 @@ msgstr ""
 "Impossible d'ouvrir le canal direct-tcpip ! (Notez que cela peut être un "
 "problème lié au serveur ! Veuillez consulter les journaux du serveur.)"
 
-#: src/Services/ConnectionManager.vala:578
+#: src/Services/ConnectionManager.vala:581
 msgid "Error!"
 msgstr "Erreur !"
 
@@ -479,140 +479,152 @@ msgstr "Fichier de clé SSH manquant !"
 msgid "Missing SSH public key!"
 msgstr "Fichier de clé SSH publique manquant !"
 
-#: src/Widgets/ConnectionDialog.vala:94 src/Widgets/ConnectionDialog.vala:369
+#: src/Widgets/ConnectionDialog.vala:96 src/Widgets/ConnectionDialog.vala:381
 msgid "Connection"
 msgstr "Connexion"
 
-#: src/Widgets/ConnectionDialog.vala:146
+#: src/Widgets/ConnectionDialog.vala:148
 msgid "Select connection color"
 msgstr "Sélectionner la couleur de la connexion"
 
-#: src/Widgets/ConnectionDialog.vala:169
+#: src/Widgets/ConnectionDialog.vala:171
 msgid "Connection Name:"
 msgstr "Nom de la connexion :"
 
-#: src/Widgets/ConnectionDialog.vala:170
+#: src/Widgets/ConnectionDialog.vala:172
 msgid "Connection's name"
 msgstr "Nom de la connexion"
 
-#: src/Widgets/ConnectionDialog.vala:177
+#: src/Widgets/ConnectionDialog.vala:179
 msgid "Database Type:"
 msgstr "Type de base de données :"
 
-#: src/Widgets/ConnectionDialog.vala:199
+#: src/Widgets/ConnectionDialog.vala:201
 msgid "Host:"
 msgstr "Hôte :"
 
-#: src/Widgets/ConnectionDialog.vala:205
+#: src/Widgets/ConnectionDialog.vala:207
 msgid "Database Name:"
 msgstr "Nom de la base de données :"
 
-#: src/Widgets/ConnectionDialog.vala:212
+#: src/Widgets/ConnectionDialog.vala:214
 msgid "Username:"
 msgstr "Nom d'utilisateur :"
 
-#: src/Widgets/ConnectionDialog.vala:218
+#: src/Widgets/ConnectionDialog.vala:220
 msgid "Password:"
 msgstr "Mot de passe :"
 
-#: src/Widgets/ConnectionDialog.vala:222 src/Widgets/ConnectionDialog.vala:232
-#: src/Widgets/ConnectionDialog.vala:299 src/Widgets/ConnectionDialog.vala:309
+#: src/Widgets/ConnectionDialog.vala:224 src/Widgets/ConnectionDialog.vala:234
+#: src/Widgets/ConnectionDialog.vala:301 src/Widgets/ConnectionDialog.vala:311
 msgid "Show password"
 msgstr "Afficher le mot de passe"
 
-#: src/Widgets/ConnectionDialog.vala:229 src/Widgets/ConnectionDialog.vala:306
+#: src/Widgets/ConnectionDialog.vala:231 src/Widgets/ConnectionDialog.vala:308
 msgid "Hide password"
 msgstr "Masquer le mot de passe"
 
-#: src/Widgets/ConnectionDialog.vala:239
+#: src/Widgets/ConnectionDialog.vala:241
 msgid "Port:"
 msgstr "Port :"
 
-#: src/Widgets/ConnectionDialog.vala:245
+#: src/Widgets/ConnectionDialog.vala:247
 msgid "Use SSL:"
 msgstr ""
 
-#: src/Widgets/ConnectionDialog.vala:254
+#: src/Widgets/ConnectionDialog.vala:256
 msgid "File Path:"
 msgstr "Chemin du fichier :"
 
-#: src/Widgets/ConnectionDialog.vala:255
+#: src/Widgets/ConnectionDialog.vala:257
 msgid "Select Your SQLite File…"
 msgstr "Sélectionnez votre fichier SQLite…"
 
-#: src/Widgets/ConnectionDialog.vala:275
+#: src/Widgets/ConnectionDialog.vala:277
 msgid "Connect via SSH Tunnel:"
 msgstr "Se connecter via un tunnel SSH :"
 
-#: src/Widgets/ConnectionDialog.vala:285
+#: src/Widgets/ConnectionDialog.vala:287
 msgid "SSH Host:"
 msgstr "Hôte SSH :"
 
-#: src/Widgets/ConnectionDialog.vala:290
+#: src/Widgets/ConnectionDialog.vala:292
 msgid "SSH Username:"
 msgstr "Nom d'utilisateur SSH :"
 
-#: src/Widgets/ConnectionDialog.vala:295
+#: src/Widgets/ConnectionDialog.vala:297
 msgid "SSH Password:"
 msgstr "Mot de passe SSH :"
 
-#: src/Widgets/ConnectionDialog.vala:315
+#: src/Widgets/ConnectionDialog.vala:317
 msgid "SSH Port:"
 msgstr "Port SSH :"
 
-#: src/Widgets/ConnectionDialog.vala:316
+#: src/Widgets/ConnectionDialog.vala:318
 msgid "Optional"
 msgstr "Facultatif"
 
-#: src/Widgets/ConnectionDialog.vala:320
+#: src/Widgets/ConnectionDialog.vala:322
 msgid "SSH Identity"
 msgstr "Identité SSH"
 
-#: src/Widgets/ConnectionDialog.vala:322
+#: src/Widgets/ConnectionDialog.vala:324
 msgid "Select Your Identity File…"
 msgstr "Sélectionnez votre fichier d'identité…"
 
-#: src/Widgets/ConnectionDialog.vala:338
+#: src/Widgets/ConnectionDialog.vala:332
+#, fuzzy
+#| msgid "Missing SSH public key!"
+msgid "SSH Public Key"
+msgstr "Fichier de clé SSH publique manquant !"
+
+#: src/Widgets/ConnectionDialog.vala:334
+#, fuzzy
+#| msgid "Select Your SQLite File…"
+msgid "Select Your Public Key File…"
+msgstr "Sélectionnez votre fichier SQLite…"
+
+#: src/Widgets/ConnectionDialog.vala:350
 msgid "Generate SSH Key"
 msgstr "Générer une clé SSH"
 
-#: src/Widgets/ConnectionDialog.vala:370
+#: src/Widgets/ConnectionDialog.vala:382
 msgid "SSH Tunnel"
 msgstr "Tunnel SSH"
 
-#: src/Widgets/ConnectionDialog.vala:440
+#: src/Widgets/ConnectionDialog.vala:462
 msgid "Close"
 msgstr "Fermer"
 
-#: src/Widgets/ConnectionDialog.vala:441
+#: src/Widgets/ConnectionDialog.vala:463
 msgid "Save Connection"
 msgstr "Enregistrer la connexion"
 
-#: src/Widgets/ConnectionDialog.vala:442
+#: src/Widgets/ConnectionDialog.vala:464
 msgid "Test Connection"
 msgstr "Tester la connexion"
 
-#: src/Widgets/ConnectionDialog.vala:647
+#: src/Widgets/ConnectionDialog.vala:672
 msgid "Opening SSH Tunnel…"
 msgstr "Ouverture du tunnel SSH…"
 
-#: src/Widgets/ConnectionDialog.vala:683
+#: src/Widgets/ConnectionDialog.vala:708
 msgid "Testing Connection…"
 msgstr "Test de connexion…"
 
-#: src/Widgets/ConnectionDialog.vala:705
+#: src/Widgets/ConnectionDialog.vala:730
 msgid "Successfully Connected!"
 msgstr "Connexion établie !"
 
-#: src/Widgets/ConnectionDialog.vala:714
+#: src/Widgets/ConnectionDialog.vala:739
 msgid "Saving Connection…"
 msgstr "Enregistrement de la connexion…"
 
-#: src/Widgets/ConnectionDialog.vala:719
+#: src/Widgets/ConnectionDialog.vala:744
 msgid "Connection Saved!"
 msgstr "Connexion enregistrée !"
 
-#: src/Widgets/ConnectionDialog.vala:727
+#: src/Widgets/ConnectionDialog.vala:752
 msgid "Connecting…"
 msgstr "Connexion en cours…"
 
