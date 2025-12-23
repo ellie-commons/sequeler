@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.github.ellie_commons.sequeler\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-16 14:54+0000\n"
+"POT-Creation-Date: 2025-12-23 14:47+0000\n"
 "PO-Revision-Date: 2021-06-28 12:33+0000\n"
 "Last-Translator: GM <muziejusinfo@gmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/sequeler/"
@@ -59,8 +59,8 @@ msgstr "Duomenų bazės tipas:"
 msgid "New Window"
 msgstr "Naujas langas"
 
-#: src/Layouts/HeaderBar.vala:90 src/Widgets/ConnectionDialog.vala:135
-#: src/Widgets/ConnectionDialog.vala:170
+#: src/Layouts/HeaderBar.vala:90 src/Widgets/ConnectionDialog.vala:137
+#: src/Widgets/ConnectionDialog.vala:172
 msgid "New Connection"
 msgstr "Naujas ryšys"
 
@@ -113,8 +113,8 @@ msgstr "Visi duomenys bus ištrinti ir jūs nebegalėsite jų atkurti."
 msgid "Yes, Delete All!"
 msgstr "Taip, ištrinti viską!"
 
-#: src/Layouts/Library.vala:335 src/Widgets/ConnectionDialog.vala:602
-#: src/Widgets/ConnectionDialog.vala:623
+#: src/Layouts/Library.vala:335 src/Widgets/ConnectionDialog.vala:627
+#: src/Widgets/ConnectionDialog.vala:648
 msgid "A username is required in order to connect!"
 msgstr "Norint prisijungti būtina įvesti slapyvardį!"
 
@@ -359,7 +359,7 @@ msgstr "Užklausa įvykdyta!"
 msgid "Run Query"
 msgstr "Vykdyti užklausą"
 
-#: src/Partials/LibraryItem.vala:107 src/Widgets/ConnectionDialog.vala:443
+#: src/Partials/LibraryItem.vala:107 src/Widgets/ConnectionDialog.vala:465
 msgid "Connect"
 msgstr "Prisijungti"
 
@@ -410,55 +410,55 @@ msgid ""
 "All the tables and data will be deleted and you won’t be able to recover it."
 msgstr "Visi duomenys bus ištrinti ir jūs nebegalėsite jų atkurti."
 
-#: src/Services/ConnectionManager.vala:193
+#: src/Services/ConnectionManager.vala:196
 #, c-format
 msgid "Libssh2 initialization failed (%d)"
 msgstr "Libssh2 inicijavimas patyrė nesėkmę (%d)"
 
-#: src/Services/ConnectionManager.vala:202
+#: src/Services/ConnectionManager.vala:205
 msgid "Failed to open socket"
 msgstr "Nepavyko atidaryti lizdo"
 
-#: src/Services/ConnectionManager.vala:211
+#: src/Services/ConnectionManager.vala:214
 msgid "Failed to connect!"
 msgstr "Nepavyko prisijungti!"
 
-#: src/Services/ConnectionManager.vala:223
+#: src/Services/ConnectionManager.vala:226
 #, c-format
 msgid "Error when starting up SSH session: %d"
 msgstr "Klaida, paleidžiant SSH seansą: %d"
 
-#: src/Services/ConnectionManager.vala:242
+#: src/Services/ConnectionManager.vala:245
 msgid "Authentication by password failed!"
 msgstr "Tapatybės nustatymas slaptažodžiu patyrė nesėkmę!"
 
-#: src/Services/ConnectionManager.vala:252
+#: src/Services/ConnectionManager.vala:255
 msgid "Authentication by public key failed!"
 msgstr "Tapatybės nustatymas viešuoju raktu patyrė nesėkmę!"
 
-#: src/Services/ConnectionManager.vala:259
+#: src/Services/ConnectionManager.vala:262
 msgid "No supported authentication methods found!"
 msgstr "Rasti nepalaikomi tapatybės nustatymo metodai!"
 
-#: src/Services/ConnectionManager.vala:266
+#: src/Services/ConnectionManager.vala:269
 msgid "Failed to open listen socket"
 msgstr "Nepavyko atidaryti klausymosi lizdo"
 
-#: src/Services/ConnectionManager.vala:281
+#: src/Services/ConnectionManager.vala:284
 msgid "Failed to bind. Your Database Port may be wrong!"
 msgstr ""
 "Nepavyko susieti. Gali būti, kad jūsų duomenų bazės prievadas yra "
 "neteisingas!"
 
-#: src/Services/ConnectionManager.vala:287
+#: src/Services/ConnectionManager.vala:290
 msgid "Failed to listen!"
 msgstr "Nepavyko klausytis!"
 
-#: src/Services/ConnectionManager.vala:314
+#: src/Services/ConnectionManager.vala:317
 msgid "Failed to accept remote connection!"
 msgstr "Nepavyko priimti nuotolinio ryšio!"
 
-#: src/Services/ConnectionManager.vala:323
+#: src/Services/ConnectionManager.vala:326
 msgid ""
 "Could not open the direct-tcpip channel! (Note that this can be a problem at "
 "the server! Please review the server logs.)"
@@ -466,7 +466,7 @@ msgstr ""
 "Nepavyko atidaryti direct-tcpip kanalo! (Turėkite omenyje, kad ši problema "
 "gali būti serveryje! Peržiūrėkite serverio žurnalus.)"
 
-#: src/Services/ConnectionManager.vala:578
+#: src/Services/ConnectionManager.vala:581
 msgid "Error!"
 msgstr "Klaida!"
 
@@ -478,140 +478,152 @@ msgstr "Trūksta SSH rakto failo!"
 msgid "Missing SSH public key!"
 msgstr "Trūksta SSH rakto failo!"
 
-#: src/Widgets/ConnectionDialog.vala:94 src/Widgets/ConnectionDialog.vala:369
+#: src/Widgets/ConnectionDialog.vala:96 src/Widgets/ConnectionDialog.vala:381
 msgid "Connection"
 msgstr "Ryšys"
 
-#: src/Widgets/ConnectionDialog.vala:146
+#: src/Widgets/ConnectionDialog.vala:148
 msgid "Select connection color"
 msgstr "Pasirinkitę prisijungimo spalvą"
 
-#: src/Widgets/ConnectionDialog.vala:169
+#: src/Widgets/ConnectionDialog.vala:171
 msgid "Connection Name:"
 msgstr "Ryšio pavadinimas:"
 
-#: src/Widgets/ConnectionDialog.vala:170
+#: src/Widgets/ConnectionDialog.vala:172
 msgid "Connection's name"
 msgstr "Ryšio pavadinimas"
 
-#: src/Widgets/ConnectionDialog.vala:177
+#: src/Widgets/ConnectionDialog.vala:179
 msgid "Database Type:"
 msgstr "Duomenų bazės tipas:"
 
-#: src/Widgets/ConnectionDialog.vala:199
+#: src/Widgets/ConnectionDialog.vala:201
 msgid "Host:"
 msgstr "Serveris:"
 
-#: src/Widgets/ConnectionDialog.vala:205
+#: src/Widgets/ConnectionDialog.vala:207
 msgid "Database Name:"
 msgstr "Duomenų bazės pavadinimas:"
 
-#: src/Widgets/ConnectionDialog.vala:212
+#: src/Widgets/ConnectionDialog.vala:214
 msgid "Username:"
 msgstr "Naudotojo vardas:"
 
-#: src/Widgets/ConnectionDialog.vala:218
+#: src/Widgets/ConnectionDialog.vala:220
 msgid "Password:"
 msgstr "Slaptažodis:"
 
-#: src/Widgets/ConnectionDialog.vala:222 src/Widgets/ConnectionDialog.vala:232
-#: src/Widgets/ConnectionDialog.vala:299 src/Widgets/ConnectionDialog.vala:309
+#: src/Widgets/ConnectionDialog.vala:224 src/Widgets/ConnectionDialog.vala:234
+#: src/Widgets/ConnectionDialog.vala:301 src/Widgets/ConnectionDialog.vala:311
 msgid "Show password"
 msgstr "Rodyti slaptažodį"
 
-#: src/Widgets/ConnectionDialog.vala:229 src/Widgets/ConnectionDialog.vala:306
+#: src/Widgets/ConnectionDialog.vala:231 src/Widgets/ConnectionDialog.vala:308
 msgid "Hide password"
 msgstr "Paslėpti slaptažodį"
 
-#: src/Widgets/ConnectionDialog.vala:239
+#: src/Widgets/ConnectionDialog.vala:241
 msgid "Port:"
 msgstr "Prievadas:"
 
-#: src/Widgets/ConnectionDialog.vala:245
+#: src/Widgets/ConnectionDialog.vala:247
 msgid "Use SSL:"
 msgstr ""
 
-#: src/Widgets/ConnectionDialog.vala:254
+#: src/Widgets/ConnectionDialog.vala:256
 msgid "File Path:"
 msgstr "Failo kelias:"
 
-#: src/Widgets/ConnectionDialog.vala:255
+#: src/Widgets/ConnectionDialog.vala:257
 msgid "Select Your SQLite File…"
 msgstr "Pasirinkite savo SQLite failą…"
 
-#: src/Widgets/ConnectionDialog.vala:275
+#: src/Widgets/ConnectionDialog.vala:277
 msgid "Connect via SSH Tunnel:"
 msgstr "Prisijungti per SSH tunelį:"
 
-#: src/Widgets/ConnectionDialog.vala:285
+#: src/Widgets/ConnectionDialog.vala:287
 msgid "SSH Host:"
 msgstr "SSH serveris:"
 
-#: src/Widgets/ConnectionDialog.vala:290
+#: src/Widgets/ConnectionDialog.vala:292
 msgid "SSH Username:"
 msgstr "SSH naudotojo vardas:"
 
-#: src/Widgets/ConnectionDialog.vala:295
+#: src/Widgets/ConnectionDialog.vala:297
 msgid "SSH Password:"
 msgstr "SSH slaptažodis:"
 
-#: src/Widgets/ConnectionDialog.vala:315
+#: src/Widgets/ConnectionDialog.vala:317
 msgid "SSH Port:"
 msgstr "SSH prievadas:"
 
-#: src/Widgets/ConnectionDialog.vala:316
+#: src/Widgets/ConnectionDialog.vala:318
 msgid "Optional"
 msgstr "Nebūtina"
 
-#: src/Widgets/ConnectionDialog.vala:320
+#: src/Widgets/ConnectionDialog.vala:322
 msgid "SSH Identity"
 msgstr "SSH tapatybė"
 
-#: src/Widgets/ConnectionDialog.vala:322
+#: src/Widgets/ConnectionDialog.vala:324
 msgid "Select Your Identity File…"
 msgstr "Pasirinkite savo tapatybės failą…"
 
-#: src/Widgets/ConnectionDialog.vala:338
+#: src/Widgets/ConnectionDialog.vala:332
+#, fuzzy
+#| msgid "Missing SSH public key!"
+msgid "SSH Public Key"
+msgstr "Trūksta SSH rakto failo!"
+
+#: src/Widgets/ConnectionDialog.vala:334
+#, fuzzy
+#| msgid "Select Your SQLite File…"
+msgid "Select Your Public Key File…"
+msgstr "Pasirinkite savo SQLite failą…"
+
+#: src/Widgets/ConnectionDialog.vala:350
 msgid "Generate SSH Key"
 msgstr "Generuoti SSH raktą"
 
-#: src/Widgets/ConnectionDialog.vala:370
+#: src/Widgets/ConnectionDialog.vala:382
 msgid "SSH Tunnel"
 msgstr "SSH tunelis"
 
-#: src/Widgets/ConnectionDialog.vala:440
+#: src/Widgets/ConnectionDialog.vala:462
 msgid "Close"
 msgstr "Užverti"
 
-#: src/Widgets/ConnectionDialog.vala:441
+#: src/Widgets/ConnectionDialog.vala:463
 msgid "Save Connection"
 msgstr "Įrašyti ryšį"
 
-#: src/Widgets/ConnectionDialog.vala:442
+#: src/Widgets/ConnectionDialog.vala:464
 msgid "Test Connection"
 msgstr "Išbandyti ryšį"
 
-#: src/Widgets/ConnectionDialog.vala:647
+#: src/Widgets/ConnectionDialog.vala:672
 msgid "Opening SSH Tunnel…"
 msgstr "Atidaromas SSH tunelis…"
 
-#: src/Widgets/ConnectionDialog.vala:683
+#: src/Widgets/ConnectionDialog.vala:708
 msgid "Testing Connection…"
 msgstr "Išbandomas ryšys…"
 
-#: src/Widgets/ConnectionDialog.vala:705
+#: src/Widgets/ConnectionDialog.vala:730
 msgid "Successfully Connected!"
 msgstr "Sėkmingai prisijungta!"
 
-#: src/Widgets/ConnectionDialog.vala:714
+#: src/Widgets/ConnectionDialog.vala:739
 msgid "Saving Connection…"
 msgstr "Įrašomas ryšys…"
 
-#: src/Widgets/ConnectionDialog.vala:719
+#: src/Widgets/ConnectionDialog.vala:744
 msgid "Connection Saved!"
 msgstr "Ryšys įrašytas!"
 
-#: src/Widgets/ConnectionDialog.vala:727
+#: src/Widgets/ConnectionDialog.vala:752
 msgid "Connecting…"
 msgstr "Jungiamasi…"
 

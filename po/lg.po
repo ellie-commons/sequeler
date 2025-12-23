@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.github.ellie_commons.sequeler\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-16 14:54+0000\n"
+"POT-Creation-Date: 2025-12-23 14:47+0000\n"
 "PO-Revision-Date: 2023-05-13 20:50+0000\n"
 "Last-Translator: Clizco <gonzalezad06@gmail.com>\n"
 "Language-Team: Luganda <https://hosted.weblate.org/projects/sequeler/"
@@ -55,8 +55,8 @@ msgstr "Ekika ky'enkolagana:"
 msgid "New Window"
 msgstr "Eddirisa Eppya"
 
-#: src/Layouts/HeaderBar.vala:90 src/Widgets/ConnectionDialog.vala:135
-#: src/Widgets/ConnectionDialog.vala:170
+#: src/Layouts/HeaderBar.vala:90 src/Widgets/ConnectionDialog.vala:137
+#: src/Widgets/ConnectionDialog.vala:172
 msgid "New Connection"
 msgstr "Enkolagana empya"
 
@@ -112,8 +112,8 @@ msgstr ""
 msgid "Yes, Delete All!"
 msgstr "Byonna bigyemu"
 
-#: src/Layouts/Library.vala:335 src/Widgets/ConnectionDialog.vala:602
-#: src/Widgets/ConnectionDialog.vala:623
+#: src/Layouts/Library.vala:335 src/Widgets/ConnectionDialog.vala:627
+#: src/Widgets/ConnectionDialog.vala:648
 msgid "A username is required in order to connect!"
 msgstr ""
 
@@ -366,7 +366,7 @@ msgstr "Okunyerezebwa kukoze bulungi!"
 msgid "Run Query"
 msgstr "Buza Databesi"
 
-#: src/Partials/LibraryItem.vala:107 src/Widgets/ConnectionDialog.vala:443
+#: src/Partials/LibraryItem.vala:107 src/Widgets/ConnectionDialog.vala:465
 msgid "Connect"
 msgstr "Gatta Enkolagana"
 
@@ -414,60 +414,60 @@ msgid ""
 "All the tables and data will be deleted and you won’t be able to recover it."
 msgstr ""
 
-#: src/Services/ConnectionManager.vala:193
+#: src/Services/ConnectionManager.vala:196
 #, c-format
 msgid "Libssh2 initialization failed (%d)"
 msgstr ""
 
-#: src/Services/ConnectionManager.vala:202
+#: src/Services/ConnectionManager.vala:205
 msgid "Failed to open socket"
 msgstr ""
 
-#: src/Services/ConnectionManager.vala:211
+#: src/Services/ConnectionManager.vala:214
 #, fuzzy
 msgid "Failed to connect!"
 msgstr "Gyamu Enkolagana"
 
-#: src/Services/ConnectionManager.vala:223
+#: src/Services/ConnectionManager.vala:226
 #, c-format
 msgid "Error when starting up SSH session: %d"
 msgstr ""
 
-#: src/Services/ConnectionManager.vala:242
+#: src/Services/ConnectionManager.vala:245
 msgid "Authentication by password failed!"
 msgstr ""
 
-#: src/Services/ConnectionManager.vala:252
+#: src/Services/ConnectionManager.vala:255
 msgid "Authentication by public key failed!"
 msgstr ""
 
-#: src/Services/ConnectionManager.vala:259
+#: src/Services/ConnectionManager.vala:262
 msgid "No supported authentication methods found!"
 msgstr ""
 
-#: src/Services/ConnectionManager.vala:266
+#: src/Services/ConnectionManager.vala:269
 msgid "Failed to open listen socket"
 msgstr ""
 
-#: src/Services/ConnectionManager.vala:281
+#: src/Services/ConnectionManager.vala:284
 msgid "Failed to bind. Your Database Port may be wrong!"
 msgstr ""
 
-#: src/Services/ConnectionManager.vala:287
+#: src/Services/ConnectionManager.vala:290
 msgid "Failed to listen!"
 msgstr ""
 
-#: src/Services/ConnectionManager.vala:314
+#: src/Services/ConnectionManager.vala:317
 msgid "Failed to accept remote connection!"
 msgstr ""
 
-#: src/Services/ConnectionManager.vala:323
+#: src/Services/ConnectionManager.vala:326
 msgid ""
 "Could not open the direct-tcpip channel! (Note that this can be a problem at "
 "the server! Please review the server logs.)"
 msgstr ""
 
-#: src/Services/ConnectionManager.vala:578
+#: src/Services/ConnectionManager.vala:581
 msgid "Error!"
 msgstr ""
 
@@ -479,153 +479,161 @@ msgstr ""
 msgid "Missing SSH public key!"
 msgstr ""
 
-#: src/Widgets/ConnectionDialog.vala:94 src/Widgets/ConnectionDialog.vala:369
+#: src/Widgets/ConnectionDialog.vala:96 src/Widgets/ConnectionDialog.vala:381
 #, fuzzy
 msgid "Connection"
 msgstr "Enkolagana empya"
 
-#: src/Widgets/ConnectionDialog.vala:146
+#: src/Widgets/ConnectionDialog.vala:148
 #, fuzzy
 msgid "Select connection color"
 msgstr "Gyamu Enkolagana"
 
-#: src/Widgets/ConnectionDialog.vala:169
+#: src/Widgets/ConnectionDialog.vala:171
 #, fuzzy
 msgid "Connection Name:"
 msgstr "Erinnya ly'enkolagana"
 
-#: src/Widgets/ConnectionDialog.vala:170
+#: src/Widgets/ConnectionDialog.vala:172
 msgid "Connection's name"
 msgstr "Erinnya ly'enkolagana"
 
-#: src/Widgets/ConnectionDialog.vala:177
+#: src/Widgets/ConnectionDialog.vala:179
 msgid "Database Type:"
 msgstr "Ekika ky'enkolagana:"
 
-#: src/Widgets/ConnectionDialog.vala:199
+#: src/Widgets/ConnectionDialog.vala:201
 msgid "Host:"
 msgstr "Erinnya lya Sava:"
 
-#: src/Widgets/ConnectionDialog.vala:205
+#: src/Widgets/ConnectionDialog.vala:207
 msgid "Database Name:"
 msgstr "Erinnya lya Databesi:"
 
-#: src/Widgets/ConnectionDialog.vala:212
+#: src/Widgets/ConnectionDialog.vala:214
 msgid "Username:"
 msgstr "Erinnya lya agyikozesa:"
 
-#: src/Widgets/ConnectionDialog.vala:218
+#: src/Widgets/ConnectionDialog.vala:220
 msgid "Password:"
 msgstr "Ekyama:"
 
-#: src/Widgets/ConnectionDialog.vala:222 src/Widgets/ConnectionDialog.vala:232
-#: src/Widgets/ConnectionDialog.vala:299 src/Widgets/ConnectionDialog.vala:309
+#: src/Widgets/ConnectionDialog.vala:224 src/Widgets/ConnectionDialog.vala:234
+#: src/Widgets/ConnectionDialog.vala:301 src/Widgets/ConnectionDialog.vala:311
 #, fuzzy
 msgid "Show password"
 msgstr "Ekyama:"
 
-#: src/Widgets/ConnectionDialog.vala:229 src/Widgets/ConnectionDialog.vala:306
+#: src/Widgets/ConnectionDialog.vala:231 src/Widgets/ConnectionDialog.vala:308
 #, fuzzy
 msgid "Hide password"
 msgstr "Ekyama:"
 
-#: src/Widgets/ConnectionDialog.vala:239
+#: src/Widgets/ConnectionDialog.vala:241
 msgid "Port:"
 msgstr ""
 
-#: src/Widgets/ConnectionDialog.vala:245
+#: src/Widgets/ConnectionDialog.vala:247
 msgid "Use SSL:"
 msgstr ""
 
-#: src/Widgets/ConnectionDialog.vala:254
+#: src/Widgets/ConnectionDialog.vala:256
 msgid "File Path:"
 msgstr ""
 
-#: src/Widgets/ConnectionDialog.vala:255
+#: src/Widgets/ConnectionDialog.vala:257
 msgid "Select Your SQLite File…"
 msgstr ""
 
-#: src/Widgets/ConnectionDialog.vala:275
+#: src/Widgets/ConnectionDialog.vala:277
 #, fuzzy
 msgid "Connect via SSH Tunnel:"
 msgstr "Enkolagana mu termino"
 
-#: src/Widgets/ConnectionDialog.vala:285
+#: src/Widgets/ConnectionDialog.vala:287
 #, fuzzy
 msgid "SSH Host:"
 msgstr "Erinnya lya Sava:"
 
-#: src/Widgets/ConnectionDialog.vala:290
+#: src/Widgets/ConnectionDialog.vala:292
 #, fuzzy
 msgid "SSH Username:"
 msgstr "Erinnya lya agyikozesa:"
 
-#: src/Widgets/ConnectionDialog.vala:295
+#: src/Widgets/ConnectionDialog.vala:297
 #, fuzzy
 msgid "SSH Password:"
 msgstr "Ekyama:"
 
-#: src/Widgets/ConnectionDialog.vala:315
+#: src/Widgets/ConnectionDialog.vala:317
 msgid "SSH Port:"
 msgstr ""
 
-#: src/Widgets/ConnectionDialog.vala:316
+#: src/Widgets/ConnectionDialog.vala:318
 msgid "Optional"
 msgstr ""
 
-#: src/Widgets/ConnectionDialog.vala:320
+#: src/Widgets/ConnectionDialog.vala:322
 msgid "SSH Identity"
 msgstr ""
 
-#: src/Widgets/ConnectionDialog.vala:322
+#: src/Widgets/ConnectionDialog.vala:324
 msgid "Select Your Identity File…"
 msgstr ""
 
-#: src/Widgets/ConnectionDialog.vala:338
+#: src/Widgets/ConnectionDialog.vala:332
+msgid "SSH Public Key"
+msgstr ""
+
+#: src/Widgets/ConnectionDialog.vala:334
+msgid "Select Your Public Key File…"
+msgstr ""
+
+#: src/Widgets/ConnectionDialog.vala:350
 msgid "Generate SSH Key"
 msgstr ""
 
-#: src/Widgets/ConnectionDialog.vala:370
+#: src/Widgets/ConnectionDialog.vala:382
 #, fuzzy
 msgid "SSH Tunnel"
 msgstr "Enkolagana mu termino"
 
-#: src/Widgets/ConnectionDialog.vala:440
+#: src/Widgets/ConnectionDialog.vala:462
 msgid "Close"
 msgstr "Galawo"
 
-#: src/Widgets/ConnectionDialog.vala:441
+#: src/Widgets/ConnectionDialog.vala:463
 msgid "Save Connection"
 msgstr "Tereka Enkolagana"
 
-#: src/Widgets/ConnectionDialog.vala:442
+#: src/Widgets/ConnectionDialog.vala:464
 msgid "Test Connection"
 msgstr "Gezesa Enkolagana"
 
-#: src/Widgets/ConnectionDialog.vala:647
+#: src/Widgets/ConnectionDialog.vala:672
 msgid "Opening SSH Tunnel…"
 msgstr ""
 
-#: src/Widgets/ConnectionDialog.vala:683
+#: src/Widgets/ConnectionDialog.vala:708
 #, fuzzy
 msgid "Testing Connection…"
 msgstr "Gezesa Enkolagana"
 
-#: src/Widgets/ConnectionDialog.vala:705
+#: src/Widgets/ConnectionDialog.vala:730
 #, fuzzy
 msgid "Successfully Connected!"
 msgstr "Okunyerezebwa kukoze bulungi!"
 
-#: src/Widgets/ConnectionDialog.vala:714
+#: src/Widgets/ConnectionDialog.vala:739
 #, fuzzy
 msgid "Saving Connection…"
 msgstr "Tereka Enkolagana"
 
-#: src/Widgets/ConnectionDialog.vala:719
+#: src/Widgets/ConnectionDialog.vala:744
 msgid "Connection Saved!"
 msgstr "Enkolagana eterekeddwa!"
 
-#: src/Widgets/ConnectionDialog.vala:727
+#: src/Widgets/ConnectionDialog.vala:752
 #, fuzzy
 msgid "Connecting…"
 msgstr "Gatta Enkolagana"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.github.ellie_commons.sequeler\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-16 14:54+0000\n"
+"POT-Creation-Date: 2025-12-23 14:47+0000\n"
 "PO-Revision-Date: 2020-04-27 09:11+0000\n"
 "Last-Translator: abhishek maurya <mabhishek7081@gmail.com>\n"
 "Language-Team: Hindi <https://hosted.weblate.org/projects/sequeler/"
@@ -57,8 +57,8 @@ msgstr "डेटाबेस प्रकार:"
 msgid "New Window"
 msgstr "नया विंडो"
 
-#: src/Layouts/HeaderBar.vala:90 src/Widgets/ConnectionDialog.vala:135
-#: src/Widgets/ConnectionDialog.vala:170
+#: src/Layouts/HeaderBar.vala:90 src/Widgets/ConnectionDialog.vala:137
+#: src/Widgets/ConnectionDialog.vala:172
 msgid "New Connection"
 msgstr "नया कनेक्शन"
 
@@ -111,8 +111,8 @@ msgstr "सम्पूर्ण डेटा हटा दिए जाएग�
 msgid "Yes, Delete All!"
 msgstr "हाँ, सभी हटाएँ!"
 
-#: src/Layouts/Library.vala:335 src/Widgets/ConnectionDialog.vala:602
-#: src/Widgets/ConnectionDialog.vala:623
+#: src/Layouts/Library.vala:335 src/Widgets/ConnectionDialog.vala:627
+#: src/Widgets/ConnectionDialog.vala:648
 msgid "A username is required in order to connect!"
 msgstr "कनेक्ट करने के लिए उपयोगकर्ता नाम (username ) आवश्यक है!"
 
@@ -355,7 +355,7 @@ msgstr "क्वेरी निष्पादित!"
 msgid "Run Query"
 msgstr "रन क्वेरी"
 
-#: src/Partials/LibraryItem.vala:107 src/Widgets/ConnectionDialog.vala:443
+#: src/Partials/LibraryItem.vala:107 src/Widgets/ConnectionDialog.vala:465
 msgid "Connect"
 msgstr "जुड़े"
 
@@ -406,53 +406,53 @@ msgid ""
 "All the tables and data will be deleted and you won’t be able to recover it."
 msgstr "सम्पूर्ण डेटा हटा दिए जाएगा और आप इसे पुनर्प्राप्त करने में सक्षम नहीं होंगे।"
 
-#: src/Services/ConnectionManager.vala:193
+#: src/Services/ConnectionManager.vala:196
 #, c-format
 msgid "Libssh2 initialization failed (%d)"
 msgstr "Libssh2 प्रारंभ विफल (%d)"
 
-#: src/Services/ConnectionManager.vala:202
+#: src/Services/ConnectionManager.vala:205
 msgid "Failed to open socket"
 msgstr "सॉकेट खोलने में विफल"
 
-#: src/Services/ConnectionManager.vala:211
+#: src/Services/ConnectionManager.vala:214
 msgid "Failed to connect!"
 msgstr "कनेक्ट करने में विफल!"
 
-#: src/Services/ConnectionManager.vala:223
+#: src/Services/ConnectionManager.vala:226
 #, c-format
 msgid "Error when starting up SSH session: %d"
 msgstr "SSH सेशन शुरू करते समय त्रुटि(error): %d"
 
-#: src/Services/ConnectionManager.vala:242
+#: src/Services/ConnectionManager.vala:245
 msgid "Authentication by password failed!"
 msgstr "पासवर्ड द्वारा प्रमाणीकरण विफल!"
 
-#: src/Services/ConnectionManager.vala:252
+#: src/Services/ConnectionManager.vala:255
 msgid "Authentication by public key failed!"
 msgstr "सार्वजनिक कुंजी(public key) द्वारा प्रमाणीकरण विफल!"
 
-#: src/Services/ConnectionManager.vala:259
+#: src/Services/ConnectionManager.vala:262
 msgid "No supported authentication methods found!"
 msgstr "कोई समर्थित प्रमाणीकरण के साधन नहीं मिले!"
 
-#: src/Services/ConnectionManager.vala:266
+#: src/Services/ConnectionManager.vala:269
 msgid "Failed to open listen socket"
 msgstr "लिसेन सॉकेट को खोलने में विफल"
 
-#: src/Services/ConnectionManager.vala:281
+#: src/Services/ConnectionManager.vala:284
 msgid "Failed to bind. Your Database Port may be wrong!"
 msgstr "बाइन्ड करने में विफल। आपका डेटाबेस पोर्ट गलत हो सकता है!"
 
-#: src/Services/ConnectionManager.vala:287
+#: src/Services/ConnectionManager.vala:290
 msgid "Failed to listen!"
 msgstr "लिसेन असफल रहा!"
 
-#: src/Services/ConnectionManager.vala:314
+#: src/Services/ConnectionManager.vala:317
 msgid "Failed to accept remote connection!"
 msgstr "दूरस्थ(remote) कनेक्शन स्वीकार करने में विफल!"
 
-#: src/Services/ConnectionManager.vala:323
+#: src/Services/ConnectionManager.vala:326
 msgid ""
 "Could not open the direct-tcpip channel! (Note that this can be a problem at "
 "the server! Please review the server logs.)"
@@ -460,7 +460,7 @@ msgstr ""
 "direct-tcpip चैनल नहीं खोल सका! (ध्यान दें कि यह सर्वर की समस्या हो सकती है! कृपया "
 "सर्वर लॉग की समीक्षा करें।)"
 
-#: src/Services/ConnectionManager.vala:578
+#: src/Services/ConnectionManager.vala:581
 msgid "Error!"
 msgstr "त्रुटि(error)!"
 
@@ -472,140 +472,152 @@ msgstr "SSH कुंजी(key) फ़ाइल उपलब्ध नहीं
 msgid "Missing SSH public key!"
 msgstr "SSH पब्लिक की(key) उपलब्ध नहीं!"
 
-#: src/Widgets/ConnectionDialog.vala:94 src/Widgets/ConnectionDialog.vala:369
+#: src/Widgets/ConnectionDialog.vala:96 src/Widgets/ConnectionDialog.vala:381
 msgid "Connection"
 msgstr "कनेक्शन"
 
-#: src/Widgets/ConnectionDialog.vala:146
+#: src/Widgets/ConnectionDialog.vala:148
 msgid "Select connection color"
 msgstr "कनेक्शन का रंग चुनें"
 
-#: src/Widgets/ConnectionDialog.vala:169
+#: src/Widgets/ConnectionDialog.vala:171
 msgid "Connection Name:"
 msgstr "कनेक्शन नाम:"
 
-#: src/Widgets/ConnectionDialog.vala:170
+#: src/Widgets/ConnectionDialog.vala:172
 msgid "Connection's name"
 msgstr "कनेक्शन का नाम"
 
-#: src/Widgets/ConnectionDialog.vala:177
+#: src/Widgets/ConnectionDialog.vala:179
 msgid "Database Type:"
 msgstr "डेटाबेस प्रकार:"
 
-#: src/Widgets/ConnectionDialog.vala:199
+#: src/Widgets/ConnectionDialog.vala:201
 msgid "Host:"
 msgstr "होस्ट:"
 
-#: src/Widgets/ConnectionDialog.vala:205
+#: src/Widgets/ConnectionDialog.vala:207
 msgid "Database Name:"
 msgstr "डेटाबेस का नाम:"
 
-#: src/Widgets/ConnectionDialog.vala:212
+#: src/Widgets/ConnectionDialog.vala:214
 msgid "Username:"
 msgstr "यूजरनाम:"
 
-#: src/Widgets/ConnectionDialog.vala:218
+#: src/Widgets/ConnectionDialog.vala:220
 msgid "Password:"
 msgstr "पासवर्ड:"
 
-#: src/Widgets/ConnectionDialog.vala:222 src/Widgets/ConnectionDialog.vala:232
-#: src/Widgets/ConnectionDialog.vala:299 src/Widgets/ConnectionDialog.vala:309
+#: src/Widgets/ConnectionDialog.vala:224 src/Widgets/ConnectionDialog.vala:234
+#: src/Widgets/ConnectionDialog.vala:301 src/Widgets/ConnectionDialog.vala:311
 msgid "Show password"
 msgstr "पासवर्ड दिखाए"
 
-#: src/Widgets/ConnectionDialog.vala:229 src/Widgets/ConnectionDialog.vala:306
+#: src/Widgets/ConnectionDialog.vala:231 src/Widgets/ConnectionDialog.vala:308
 msgid "Hide password"
 msgstr "पासवर्ड छिपाएं"
 
-#: src/Widgets/ConnectionDialog.vala:239
+#: src/Widgets/ConnectionDialog.vala:241
 msgid "Port:"
 msgstr "पोर्ट:"
 
-#: src/Widgets/ConnectionDialog.vala:245
+#: src/Widgets/ConnectionDialog.vala:247
 msgid "Use SSL:"
 msgstr ""
 
-#: src/Widgets/ConnectionDialog.vala:254
+#: src/Widgets/ConnectionDialog.vala:256
 msgid "File Path:"
 msgstr "फाइल पथ:"
 
-#: src/Widgets/ConnectionDialog.vala:255
+#: src/Widgets/ConnectionDialog.vala:257
 msgid "Select Your SQLite File…"
 msgstr "अपनी SQLite फ़ाइल का चयन करें …"
 
-#: src/Widgets/ConnectionDialog.vala:275
+#: src/Widgets/ConnectionDialog.vala:277
 msgid "Connect via SSH Tunnel:"
 msgstr "SSH टनल के माध्यम से कनेक्ट करें:"
 
-#: src/Widgets/ConnectionDialog.vala:285
+#: src/Widgets/ConnectionDialog.vala:287
 msgid "SSH Host:"
 msgstr "SSH होस्ट:"
 
-#: src/Widgets/ConnectionDialog.vala:290
+#: src/Widgets/ConnectionDialog.vala:292
 msgid "SSH Username:"
 msgstr "SSH यूजरनाम:"
 
-#: src/Widgets/ConnectionDialog.vala:295
+#: src/Widgets/ConnectionDialog.vala:297
 msgid "SSH Password:"
 msgstr "SSH पासवर्ड:"
 
-#: src/Widgets/ConnectionDialog.vala:315
+#: src/Widgets/ConnectionDialog.vala:317
 msgid "SSH Port:"
 msgstr "SSH पोर्ट:"
 
-#: src/Widgets/ConnectionDialog.vala:316
+#: src/Widgets/ConnectionDialog.vala:318
 msgid "Optional"
 msgstr "वैकल्पिक"
 
-#: src/Widgets/ConnectionDialog.vala:320
+#: src/Widgets/ConnectionDialog.vala:322
 msgid "SSH Identity"
 msgstr "SSH आइडेंटिटी(identity)"
 
-#: src/Widgets/ConnectionDialog.vala:322
+#: src/Widgets/ConnectionDialog.vala:324
 msgid "Select Your Identity File…"
 msgstr "अपनी पहचान(Identity) फ़ाइल चुनें …"
 
-#: src/Widgets/ConnectionDialog.vala:338
+#: src/Widgets/ConnectionDialog.vala:332
+#, fuzzy
+#| msgid "Missing SSH public key!"
+msgid "SSH Public Key"
+msgstr "SSH पब्लिक की(key) उपलब्ध नहीं!"
+
+#: src/Widgets/ConnectionDialog.vala:334
+#, fuzzy
+#| msgid "Select Your SQLite File…"
+msgid "Select Your Public Key File…"
+msgstr "अपनी SQLite फ़ाइल का चयन करें …"
+
+#: src/Widgets/ConnectionDialog.vala:350
 msgid "Generate SSH Key"
 msgstr "SSH कुंजी बनाएं"
 
-#: src/Widgets/ConnectionDialog.vala:370
+#: src/Widgets/ConnectionDialog.vala:382
 msgid "SSH Tunnel"
 msgstr "SSH टनल"
 
-#: src/Widgets/ConnectionDialog.vala:440
+#: src/Widgets/ConnectionDialog.vala:462
 msgid "Close"
 msgstr "बंद करे"
 
-#: src/Widgets/ConnectionDialog.vala:441
+#: src/Widgets/ConnectionDialog.vala:463
 msgid "Save Connection"
 msgstr "कनेक्शन सहेजें"
 
-#: src/Widgets/ConnectionDialog.vala:442
+#: src/Widgets/ConnectionDialog.vala:464
 msgid "Test Connection"
 msgstr "टेस्ट कनेक्शन"
 
-#: src/Widgets/ConnectionDialog.vala:647
+#: src/Widgets/ConnectionDialog.vala:672
 msgid "Opening SSH Tunnel…"
 msgstr "ओपनिंग SSH टनल…"
 
-#: src/Widgets/ConnectionDialog.vala:683
+#: src/Widgets/ConnectionDialog.vala:708
 msgid "Testing Connection…"
 msgstr "टेस्टिंग कनेक्शन…"
 
-#: src/Widgets/ConnectionDialog.vala:705
+#: src/Widgets/ConnectionDialog.vala:730
 msgid "Successfully Connected!"
 msgstr "सफलतापूर्वक कनेक्ट हुआ!"
 
-#: src/Widgets/ConnectionDialog.vala:714
+#: src/Widgets/ConnectionDialog.vala:739
 msgid "Saving Connection…"
 msgstr "कनेक्शन सहेजा जा रहा है …"
 
-#: src/Widgets/ConnectionDialog.vala:719
+#: src/Widgets/ConnectionDialog.vala:744
 msgid "Connection Saved!"
 msgstr "कनेक्शन सहेजा गया!"
 
-#: src/Widgets/ConnectionDialog.vala:727
+#: src/Widgets/ConnectionDialog.vala:752
 msgid "Connecting…"
 msgstr "कनेक्ट किया जा रहा…"
 
