@@ -42,13 +42,20 @@
         <ul>
           <li>Sort table list alphabetically</li>
           <li>Fix translations are not loaded in Flatpak</li>
-          <li>Sync with system color scheme instead of ModeSwitch</li>
-          <li>Fix connection through SSH using ed25519 public keys</li>
-          <li>Allow selecting public key to fix authentication by public key fails in Flatpak</li>
+          <li>Modernize the UI to fall in line with modern desktop environments</li>
           <li>Update Flatpak platform runtime and modules</li>
           <li>Update translations</li>
         </ul>
       </description>
+      <issues>
+        <issue url="https://github.com/ellie-commons/sequeler/issues/340">Feature to sort tables alphabetically</issue>
+        <issue url="https://github.com/ellie-commons/sequeler/issues/346">Build error in HeaderBar.vala: The name 'AccelLabel' does not exist in the context of 'Granite'</issue>
+        <issue url="https://github.com/ellie-commons/sequeler/issues/370">Can't use ed25519 to connect through SSH</issue>
+        <issue url="https://github.com/ellie-commons/sequeler/issues/371">RFE: port to gtksourceview-4</issue>
+        <issue url="https://github.com/ellie-commons/sequeler/issues/374">gnome40 EOL</issue>
+        <issue url="https://github.com/ellie-commons/sequeler/issues/401">Authentication by public key failed when using Flatpak</issue>
+        <issue url="https://github.com/ellie-commons/sequeler/issues/417">Development build uses the normal icon instead of the development one</issue>
+      </issues>
     </release>
     <release version="0.8.2" date="2021-08-10">
       <description>
