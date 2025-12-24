@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-24 13:44+0000\n"
-"PO-Revision-Date: 2025-12-21 16:00+0000\n"
+"PO-Revision-Date: 2025-12-25 11:37+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/sequeler/"
 "metainfo/ja/>\n"
@@ -101,142 +101,146 @@ msgstr ""
 
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:43
 msgid "Fix translations are not loaded in Flatpak"
-msgstr ""
+msgstr "Flatpak 版において翻訳が読み込まれない問題を修正"
 
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:44
 msgid "Modernize the UI to fall in line with modern desktop environments"
-msgstr ""
+msgstr "最近のデスクトップ環境に合うように UI をモダン化"
 
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:45
 msgid "Update Flatpak platform runtime and modules"
-msgstr ""
+msgstr "Flatpak プラットフォームランタイムとモジュールを更新"
 
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:46
 msgid "Update translations"
-msgstr ""
+msgstr "翻訳を更新"
 
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:61
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:70
 msgid "Odin release"
-msgstr ""
+msgstr "Odin リリース"
 
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:63
 msgid "Update elementary OS Platform runtime."
-msgstr ""
+msgstr "elementary OS プラットフォームランタイムを更新しました。"
 
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:64
 msgid "Update screenshots."
-msgstr ""
+msgstr "スクリーンショットを更新しました。"
 
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:72
 msgid ""
 "Updated translations for Ukranian, Russian, Indonisian, Chinese, Lithuanian, "
 "Portugese, Turkish, and Arabic."
 msgstr ""
+"ウクライナ語、ロシア語、インドネシア語、中国語、リトアニア語、ポルトガル語、"
+"トルコ語、アラビア語の翻訳を更新しました。"
 
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:78
 msgid "New Features"
-msgstr ""
+msgstr "新機能"
 
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:80
 msgid "Create, Edit, and Delete databases."
-msgstr ""
+msgstr "データベースを作成、編集、削除する機能を追加しました。"
 
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:81
 msgid "New context menu to copy and edit tables."
-msgstr ""
+msgstr "テーブルをコピー/編集できるコンテキストメニューを追加しました。"
 
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:82
 msgid "Support unencrypted connections."
-msgstr ""
+msgstr "暗号化されていない接続に対応しました。"
 
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:84
 msgid "Bug Fixes"
-msgstr ""
+msgstr "バグ修正"
 
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:86
 msgid "Fix copy column data."
-msgstr ""
+msgstr "カラムデータのコピーに関する不具合を修正しました。"
 
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:88
 msgid "Translations"
-msgstr ""
+msgstr "翻訳"
 
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:90
 msgid "Updated translations for Ukranian, Russian, French, and German."
-msgstr ""
+msgstr "ウクライナ語、ロシア語、フランス語、ドイツ語の翻訳を更新しました。"
 
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:96
 msgid "Reduced CPU usage by 2%."
-msgstr ""
+msgstr "CPU 使用量を 2% 削減しました。"
 
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:97
 msgid ""
 "Update translations for Italian, Spanish, Catalan, French, Hindi, Russian, "
 "and Turkish."
 msgstr ""
+"イタリア語、スペイン語、カタロニア語、フランス語、ヒンディー語、ロシア語、"
+"トルコ語の翻訳を更新しました。"
 
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:102
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:125
 msgid "More fixes!"
-msgstr ""
+msgstr "追加のバグ修正!"
 
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:103
 msgid "0.7.8 changelog"
-msgstr ""
+msgstr "0.7.8 の変更履歴"
 
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:105
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:127
 msgid "Fixed usage attempt of wrong Vala method."
-msgstr ""
+msgstr "間違った Vala 言語のメソッドを使おうとしていた問題を修正しました。"
 
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:107
 msgid "0.7.7 changelog"
-msgstr ""
+msgstr "0.7.7 の変更履歴"
 
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:109
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:135
 msgid "Fix nasty GSettings bug causing the app to crash."
-msgstr ""
+msgstr "アプリをクラッシュさせるやっかいな GSettings 関連のバグを修正しました。"
 
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:110
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:136
 msgid "Implement GDA Placeholder statement."
-msgstr ""
+msgstr "GDA のプレースホルダーステートメントを実装しました。"
 
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:111
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:137
 msgid "Improve Query Tab iconography."
-msgstr ""
+msgstr "クエリタブのアイコンを改善しました。"
 
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:113
 msgid "0.7.6 changelog"
-msgstr ""
+msgstr "0.7.6 の変更履歴"
 
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:115
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:145
 msgid "Fix ORDER BY in PostgreSQL Relationship view."
-msgstr ""
+msgstr "PostgreSQL のリレーションシップ画面における ORDER BY を修正しました。"
 
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:116
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:146
 msgid "Improve MySQL structure view."
-msgstr ""
+msgstr "MySQL の構造画面を改善しました。"
 
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:117
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:147
 msgid "Drop Granite.Settings in favour of GLib.Settings."
-msgstr ""
+msgstr "Granite.Settings の使用を停止し、GLib.Settings に置き換えました。"
 
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:118
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:148
 msgid "Implement Granite.Notebook on the Query tab."
-msgstr ""
+msgstr "クエリタブに Granite.Notebook を実装しました。"
 
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:119
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:149
 msgid "Show query error messages inline."
-msgstr ""
+msgstr "クエリのエラーメッセージをインラインで表示するように修正しました。"
 
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:133
 msgid "Because 0.7.6 never happened!"
