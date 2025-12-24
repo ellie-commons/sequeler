@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.github.ellie_commons.sequeler\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-24 13:44+0000\n"
-"PO-Revision-Date: 2025-12-24 14:27+0000\n"
+"PO-Revision-Date: 2025-12-25 11:37+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/sequeler/"
 "translations/ja/>\n"
@@ -206,7 +206,7 @@ msgstr "内容"
 
 #: src/Layouts/DataBaseView.vala:51
 msgid "Relations"
-msgstr "関係"
+msgstr "リレーション"
 
 #: src/Layouts/DataBaseView.vala:52 src/Layouts/DataBaseView.vala:228
 #: src/Layouts/DataBaseView.vala:256
