@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.github.ellie_commons.sequeler\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-24 13:44+0000\n"
-"PO-Revision-Date: 2025-12-25 11:37+0000\n"
+"PO-Revision-Date: 2025-12-25 12:28+0000\n"
 "Last-Translator: Stella and Charlie <littlepastelworld@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/sequeler/"
 "translations/fr/>\n"
@@ -40,16 +40,12 @@ msgid "Create a new database"
 msgstr "Créer une nouvelle base de données"
 
 #: src/Layouts/HeaderBar.vala:65
-#, fuzzy
-#| msgid "- Select Database -"
 msgid "Delete database"
-msgstr "- Sélectionner une base de données -"
+msgstr "Supprimer base de données"
 
 #: src/Layouts/HeaderBar.vala:74
-#, fuzzy
-#| msgid "Database Type:"
 msgid "Database properties"
-msgstr "Type de base de données :"
+msgstr "Propriétés de la base de données"
 
 #: src/Layouts/HeaderBar.vala:87 src/Layouts/Welcome.vala:39
 msgid "New Window"
@@ -91,30 +87,30 @@ msgstr "Exporter la bibliothèque"
 
 #: src/Layouts/Library.vala:215 src/Layouts/Library.vala:233
 msgid "Are you sure you want to proceed?"
-msgstr "Êtes-vous sûr·e de vouloir continuer ?"
+msgstr "Êtes-vous sûr·e de vouloir continuer ?"
 
 #: src/Layouts/Library.vala:215
 msgid "By deleting this connection you won’t be able to recover this data."
 msgstr ""
-"En supprimant cette connexion, vous ne pourrez pas récupérer ces données."
+"En supprimant cette connexion, vous ne pourrez plus récupérer ces données."
 
 #: src/Layouts/Library.vala:218 src/Services/ActionManager.vala:257
 msgid "Yes, Delete!"
-msgstr "Oui, supprimer !"
+msgstr "Oui, supprimer !"
 
 #: src/Layouts/Library.vala:233
 msgid "All the data will be deleted and you won’t be able to recover it."
 msgstr ""
-"Toutes les données seront supprimées et vous ne pourrez pas les récupérer."
+"Toutes les données seront supprimées et vous ne pourrez plus les récupérer."
 
 #: src/Layouts/Library.vala:236
 msgid "Yes, Delete All!"
-msgstr "Oui, tout supprimer !"
+msgstr "Oui, tout supprimer !"
 
 #: src/Layouts/Library.vala:335 src/Widgets/ConnectionDialog.vala:627
 #: src/Widgets/ConnectionDialog.vala:648
 msgid "A username is required in order to connect!"
-msgstr "Un nom d'utilisateur est nécessaire pour pouvoir se connecter !"
+msgstr "Un nom d'utilisateur est nécessaire pour pouvoir se connecter !"
 
 #: src/Layouts/Library.vala:409 src/Layouts/Views/Query.vala:555
 msgid "Pick a file"
@@ -158,7 +154,7 @@ msgstr ""
 
 #: src/Layouts/Welcome.vala:39
 msgid "Open a New Sequeler Window"
-msgstr "Ouvrir une nouvelle fenêtre de Sequeler"
+msgstr "Ouvrir une nouvelle fenêtre Sequeler"
 
 #: src/Layouts/Welcome.vala:40
 msgid "Import Connections"
@@ -398,18 +394,15 @@ msgid "%s (copy)"
 msgstr "%s (copie)"
 
 #: src/Services/ActionManager.vala:254
-#, fuzzy
-#| msgid "Are you sure you want to proceed?"
 msgid "Are you sure you want to delete this Database?"
-msgstr "Êtes-vous sûr·e de vouloir continuer ?"
+msgstr "Êtes-vous sûr·e de vouloir supprimer cette base de données ?"
 
 #: src/Services/ActionManager.vala:254
-#, fuzzy
-#| msgid "All the data will be deleted and you won’t be able to recover it."
 msgid ""
 "All the tables and data will be deleted and you won’t be able to recover it."
 msgstr ""
-"Toutes les données seront supprimées et vous ne pourrez pas les récupérer."
+"Toutes les tables et données seront supprimées et vous ne pourrez plus les "
+"récupérer."
 
 #: src/Services/ConnectionManager.vala:196
 #, c-format
@@ -528,7 +521,7 @@ msgstr "Port :"
 
 #: src/Widgets/ConnectionDialog.vala:247
 msgid "Use SSL:"
-msgstr ""
+msgstr "Utiliser SSL :"
 
 #: src/Widgets/ConnectionDialog.vala:256
 msgid "File Path:"
@@ -571,16 +564,12 @@ msgid "Select Your Identity File…"
 msgstr "Sélectionnez votre fichier d'identité…"
 
 #: src/Widgets/ConnectionDialog.vala:332
-#, fuzzy
-#| msgid "Missing SSH public key!"
 msgid "SSH Public Key"
-msgstr "Fichier de clé SSH publique manquant !"
+msgstr "Clé SSH publique"
 
 #: src/Widgets/ConnectionDialog.vala:334
-#, fuzzy
-#| msgid "Select Your SQLite File…"
 msgid "Select Your Public Key File…"
-msgstr "Sélectionnez votre fichier SQLite…"
+msgstr "Sélectionnez votre fichier de clé publique…"
 
 #: src/Widgets/ConnectionDialog.vala:350
 msgid "Generate SSH Key"
