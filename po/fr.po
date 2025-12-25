@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.github.ellie_commons.sequeler\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-23 14:47+0000\n"
-"PO-Revision-Date: 2020-06-22 03:41+0000\n"
-"Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
+"POT-Creation-Date: 2025-12-24 13:44+0000\n"
+"PO-Revision-Date: 2025-12-25 11:37+0000\n"
+"Last-Translator: Stella and Charlie <littlepastelworld@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/sequeler/"
 "translations/fr/>\n"
 "Language: fr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.2-dev\n"
+"X-Generator: Weblate 5.15.1\n"
 
 #: src/Application.vala:67
 msgid "Directories are not supported"
@@ -25,7 +25,7 @@ msgstr "Les dossiers ne sont pas pris en charge"
 
 #: src/Application.vala:73
 msgid "Don't know what to do"
-msgstr "Qu'est-ce qu'il s'est passé ?"
+msgstr "Qu'est-ce qu'il s'est passé ?"
 
 #: src/Application.vala:85
 msgid "Something completely unexpected happened"
@@ -36,10 +36,8 @@ msgid "Logout"
 msgstr "Déconnexion"
 
 #: src/Layouts/HeaderBar.vala:56
-#, fuzzy
-#| msgid "Create a new Query Tab"
 msgid "Create a new database"
-msgstr "Créer un nouvel onglet de requête"
+msgstr "Créer une nouvelle base de données"
 
 #: src/Layouts/HeaderBar.vala:65
 #, fuzzy

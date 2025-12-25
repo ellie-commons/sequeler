@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.github.ellie_commons.sequeler\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-23 14:47+0000\n"
-"PO-Revision-Date: 2025-06-04 14:01+0000\n"
+"POT-Creation-Date: 2025-12-24 13:44+0000\n"
+"PO-Revision-Date: 2025-12-25 11:37+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/sequeler/"
 "translations/ja/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12-dev\n"
+"X-Generator: Weblate 5.15.1\n"
 
 #: src/Application.vala:67
 msgid "Directories are not supported"
@@ -206,7 +206,7 @@ msgstr "内容"
 
 #: src/Layouts/DataBaseView.vala:51
 msgid "Relations"
-msgstr "関係"
+msgstr "リレーション"
 
 #: src/Layouts/DataBaseView.vala:52 src/Layouts/DataBaseView.vala:228
 #: src/Layouts/DataBaseView.vala:256
@@ -557,16 +557,12 @@ msgid "Select Your Identity File…"
 msgstr "認証情報ファイルを選択…"
 
 #: src/Widgets/ConnectionDialog.vala:332
-#, fuzzy
-#| msgid "Missing SSH public key!"
 msgid "SSH Public Key"
-msgstr "SSH 公開鍵がありません"
+msgstr "SSH 公開鍵"
 
 #: src/Widgets/ConnectionDialog.vala:334
-#, fuzzy
-#| msgid "Select Your SQLite File…"
 msgid "Select Your Public Key File…"
-msgstr "SQLite ファイルを選択…"
+msgstr "SSH 公開鍵ファイルを選択…"
 
 #: src/Widgets/ConnectionDialog.vala:350
 msgid "Generate SSH Key"

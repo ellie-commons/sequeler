@@ -40,7 +40,6 @@
     <release version="0.9.0" date="2025-12-25" urgency="medium">
       <description>
         <ul>
-          <li>Sort table list alphabetically</li>
           <li>Fix translations are not loaded in Flatpak</li>
           <li>Modernize the UI to fall in line with modern desktop environments</li>
           <li>Update Flatpak platform runtime and modules</li>

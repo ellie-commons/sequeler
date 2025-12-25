@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.github.ellie_commons.sequeler\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-23 14:47+0000\n"
-"PO-Revision-Date: 2025-06-04 14:01+0000\n"
-"Last-Translator: Priit Jõerüüt <hwlate@joeruut.com>\n"
+"POT-Creation-Date: 2025-12-24 13:44+0000\n"
+"PO-Revision-Date: 2025-12-25 11:37+0000\n"
+"Last-Translator: Priit Jõerüüt <jrthwlate@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Estonian <https://hosted.weblate.org/projects/sequeler/"
 "translations/et/>\n"
 "Language: et\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12-dev\n"
+"X-Generator: Weblate 5.15.1\n"
 
 #: src/Application.vala:67
 msgid "Directories are not supported"
@@ -556,16 +556,12 @@ msgid "Select Your Identity File…"
 msgstr "Vali oma identiteedifail…"
 
 #: src/Widgets/ConnectionDialog.vala:332
-#, fuzzy
-#| msgid "Missing SSH public key!"
 msgid "SSH Public Key"
-msgstr "SSH avalik võti on puudu!"
+msgstr "SSH avalik võti"
 
 #: src/Widgets/ConnectionDialog.vala:334
-#, fuzzy
-#| msgid "Select Your SQLite File…"
 msgid "Select Your Public Key File…"
-msgstr "Vali oma SQLite'i fail…"
+msgstr "Vali oma avaliku võtme fail…"
 
 #: src/Widgets/ConnectionDialog.vala:350
 msgid "Generate SSH Key"
