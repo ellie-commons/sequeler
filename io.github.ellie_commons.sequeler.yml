@@ -76,13 +76,14 @@ modules:
           - /share
         sources:
           - type: archive
-            url: https://github.com/jemalloc/jemalloc/releases/download/5.3.0/jemalloc-5.3.0.tar.bz2
-            sha256: 2db82d1e7119df3e71b7640219b6dfe84789bc0537983c3b7ac4f7189aecfeaa
+            url: https://github.com/jemalloc/jemalloc/archive/5.3.0.tar.gz
+            sha256: ef6f74fd45e95ee4ef7f9e19ebe5b075ca6b7fbe0140612b2a161abafb7ee179
             x-checker-data:
               type: json
               url: https://api.github.com/repos/jemalloc/jemalloc/releases/latest
               version-query: .tag_name
-              url-query: .assets[] | select(.name=="jemalloc-" + $version + ".tar.bz2") | .browser_download_url
+              url-query: '"https://github.com/jemalloc/jemalloc/archive/" + .tag_name + ".tar.gz"'
+              timestamp-query: .published_at
 
       - name: libaio
         buildsystem: simple
