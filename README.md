@@ -21,7 +21,7 @@ Sequeler, is primarily available from the AppCenter of elementary OS. Download i
 ## Get it from Flathub!
 You can get Sequeler form Flathub no matter what distribution you're using. Download it or follow the instructions to install it from here!
 
-<a href="https://flathub.org/apps/details/io.github.ellie_commons.sequeler" target="_blank"><img src="https://flathub.org/assets/badges/flathub-badge-i-en.svg" width="160px" alt="Get it from Flathub!"></a>
+[![Get it on Flathub](https://flathub.org/api/badge?locale=en)](https://flathub.org/apps/io.github.ellie_commons.sequeler)
 
 ## Support the Project
 If you like Sequeler and you want to support its development, consider donating via [PayPal](https://www.paypal.me/alecaddd) or pledge on [Patreon](https://www.patreon.com/alecaddd).
