@@ -117,6 +117,13 @@ public class Sequeler.Application : Gtk.Application {
             // Maybe due to this issue in vala: https://gitlab.gnome.org/GNOME/vala/-/issues/957
             (BindingTransformFunc) granite_color_scheme_to_gtk_dark_theme
         );
+
+        unowned string desktop_environment = Environment.get_variable ("XDG_CURRENT_DESKTOP");
+        if (desktop_environment != "Pantheon") {
+            // Force elementary stylesheet to prevent broken UI on other DEs
+            gtk_settings.set_property ("gtk-theme-name", "elementary");
+            gtk_settings.set_property ("gtk-icon-theme-name", "elementary");
+        }
     }
 
     protected override void activate () {
