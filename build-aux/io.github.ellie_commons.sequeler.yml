@@ -127,6 +127,7 @@ modules:
           - -DWITH_INNOBASE_STORAGE_ENGINE=1
           - -DWITH_PCRE=system
           - -DWITH_LIBFMT=system
+          - -DWITH_SSL=system
           - -DWITH_SBOM=0
           - -DWITHOUT_ARCHIVE_STORAGE_ENGINE=1
           - -DWITHOUT_BLACKHOLE_STORAGE_ENGINE=1
