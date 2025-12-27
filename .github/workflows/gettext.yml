@@ -29,10 +29,6 @@ jobs:
         submodules: recursive
         token: ${{ secrets.GIT_USER_TOKEN }}
 
-    - name: Configure Git
-      run: |
-        git config --global --add safe.directory "$GITHUB_WORKSPACE"
-
     - name: Update Translation Files
       uses: elementary/actions/gettext-flatpak@main
       with:
