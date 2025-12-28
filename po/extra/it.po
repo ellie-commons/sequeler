@@ -1,0 +1,887 @@
+# ITALIAN TRANSLATION.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the extra package.
+# ALBANO BATTISTELLA <ALBANOBATTISTELLA@GMAIL.COM>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: extra\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-24 13:44+0000\n"
+"PO-Revision-Date: 2025-12-29 10:41+0100\n"
+"Last-Translator: Albano Battistella <albanobattistella@gmail.com>\n"
+"Language-Team: Italian <LL@li.org>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"  
+  
+#: data/io.github.ellie_commons.sequeler.desktop.in.in:6  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:7  
+msgid "Sequeler"  
+msgstr "Sequeler"  
+  
+#: data/io.github.ellie_commons.sequeler.desktop.in.in:7  
+msgid "SQL Client"  
+msgstr "Client SQL"  
+  
+#: data/io.github.ellie_commons.sequeler.desktop.in.in:8  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:10  
+msgid "Easily connect to your local or remote database"  
+msgstr "Connettiti facilmente al tuo database locale o remoto"  
+  
+#: data/io.github.ellie_commons.sequeler.desktop.in.in:13  
+msgid "SQL;MySql;Database;MariaDB;S3;PostgreSQL;"  
+msgstr "SQL;MySql;Database;MariaDB;S3;PostgreSQL;"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:8  
+msgid "Friendly SQL Client"  
+msgstr "Client SQL intuitivo"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:13  
+msgid ""  
+"Store your Database Connections in the library, connect over SSH tunnel, "  
+"type and execute SQL commands directly in the app, and do everything you "  
+"need to do without the necessity of opening the terminal."  
+msgstr ""  
+"Salva le tue connessioni al database nella libreria, connettiti tramite tunnel SSH, "  
+"digita ed esegui comandi SQL direttamente nell'app e fai tutto ciò che "  
+"ti serve senza la necessità di aprire il terminale."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:16  
+msgid "Supported Databases:"  
+msgstr "Database supportati:"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:20  
+msgid "SQLite"  
+msgstr "SQLite"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:21  
+msgid "MySQL"  
+msgstr "MySQL"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:22  
+msgid "MariaDB"  
+msgstr "MariaDB"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:23  
+msgid "PostgreSQL"  
+msgstr "PostgreSQL"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:25  
+msgid "Features Include:"  
+msgstr "Le funzionalità includono:"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:29  
+msgid "Test Connections before saving them"  
+msgstr "Verifica le connessioni prima di salvarle"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:30  
+msgid "View Table structure, content, and relations"  
+msgstr "Visualizza la struttura, il contenuto e le relazioni delle tabelle"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:31  
+msgid "Write multiple custom SQL Queries"  
+msgstr "Scrivi più query SQL personalizzate"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:32  
+msgid "Switch between light and dark mode"  
+msgstr "Passa dalla modalità chiara alla modalità scura"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:33  
+msgid ""  
+"Handy keyboard shortcuts to quit (ctrl+q), create new connection "  
+"(ctrl+shift+n), open a new window (ctrl+n)"  
+msgstr ""  
+"Comode scorciatoie da tastiera per uscire (ctrl+q), creare una nuova connessione "  
+"(ctrl+shift+n), aprire una nuova finestra (ctrl+n)"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:43  
+msgid "Fix translations are not loaded in Flatpak"  
+msgstr "Correzione: le traduzioni non vengono caricate in Flatpak"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:44  
+msgid "Modernize the UI to fall in line with modern desktop environments"  
+msgstr "Modernizza l'interfaccia utente per allinearla agli ambienti desktop moderni"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:45  
+msgid "Update Flatpak platform runtime and modules"  
+msgstr "Aggiorna il runtime e i moduli della piattaforma Flatpak"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:46  
+msgid "Update translations"  
+msgstr "Aggiorna le traduzioni"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:61  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:70  
+msgid "Odin release"  
+msgstr "Rilascio Odin"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:63  
+msgid "Update elementary OS Platform runtime."  
+msgstr "Aggiorna il runtime della piattaforma elementary OS."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:64  
+msgid "Update screenshots."  
+msgstr "Aggiorna gli screenshot."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:72  
+msgid ""  
+"Updated translations for Ukranian, Russian, Indonisian, Chinese, Lithuanian, "  
+"Portugese, Turkish, and Arabic."  
+msgstr ""  
+"Traduzioni aggiornate per ucraino, russo, indonesiano, cinese, lituano, "  
+"portoghese, turco e arabo."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:78  
+msgid "New Features"  
+msgstr "Nuove Funzionalità"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:80  
+msgid "Create, Edit, and Delete databases."  
+msgstr "Crea, modifica ed elimina database."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:81  
+msgid "New context menu to copy and edit tables."  
+msgstr "Nuovo menu contestuale per copiare e modificare le tabelle."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:82  
+msgid "Support unencrypted connections."  
+msgstr "Supporto per connessioni non crittografate."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:84  
+msgid "Bug Fixes"  
+msgstr "Correzioni di Bug"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:86  
+msgid "Fix copy column data."  
+msgstr "Correzione: copia dei dati delle colonne."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:88  
+msgid "Translations"  
+msgstr "Traduzioni"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:90  
+msgid "Updated translations for Ukranian, Russian, French, and German."  
+msgstr "Traduzioni aggiornate per ucraino, russo, francese e tedesco."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:96  
+msgid "Reduced CPU usage by 2%."  
+msgstr "Ridotto l'utilizzo della CPU del 2%."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:97  
+msgid ""  
+"Update translations for Italian, Spanish, Catalan, French, Hindi, Russian, "  
+"and Turkish."  
+msgstr ""  
+"Aggiornate le traduzioni per italiano, spagnolo, catalano, francese, hindi, russo e turco."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:102  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:125  
+msgid "More fixes!"  
+msgstr "Altre correzioni!"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:103  
+msgid "0.7.8 changelog"  
+msgstr "Registro delle modifiche 0.7.8"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:105  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:127  
+msgid "Fixed usage attempt of wrong Vala method."  
+msgstr "Corretto il tentativo di utilizzo di un metodo Vala errato."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:107  
+msgid "0.7.7 changelog"  
+msgstr "Registro delle modifiche 0.7.7"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:109  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:135  
+msgid "Fix nasty GSettings bug causing the app to crash."  
+msgstr "Corretto un fastidioso bug di GSettings che causava l'arresto anomalo dell'app."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:110  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:136  
+msgid "Implement GDA Placeholder statement."  
+msgstr "Implementata l'istruzione GDA Placeholder."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:111  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:137  
+msgid "Improve Query Tab iconography."  
+msgstr "Migliorata l'iconografia della scheda Query."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:113  
+msgid "0.7.6 changelog"  
+msgstr "Registro delle modifiche 0.7.6"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:115  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:145  
+msgid "Fix ORDER BY in PostgreSQL Relationship view."  
+msgstr "Corretto ORDER BY nella vista delle relazioni di PostgreSQL."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:116  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:146  
+msgid "Improve MySQL structure view."  
+msgstr "Migliorata la visualizzazione della struttura MySQL."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:117  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:147  
+msgid "Drop Granite.Settings in favour of GLib.Settings."  
+msgstr "Rimossa Granite.Settings a favore di GLib.Settings."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:118  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:148  
+msgid "Implement Granite.Notebook on the Query tab."  
+msgstr "Implementato Granite.Notebook nella scheda Query."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:119  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:149  
+msgid "Show query error messages inline."  
+msgstr "Mostra i messaggi di errore delle query in linea."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:133  
+msgid "Because 0.7.6 never happened!"  
+msgstr "Perché la 0.7.6 non è mai esistita!"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:143  
+msgid "Query Tab Bonanza!"  
+msgstr "Abbondanza di novità nella scheda Query!"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:155  
+msgid "New features and improvements"  
+msgstr "Nuove funzionalità e miglioramenti"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:157  
+msgid "You can now duplicate connections."  
+msgstr "Ora puoi duplicare le connessioni."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:158  
+msgid ""  
+"Sorting columns now works as expected by actually running the ORDER BY query."  
+msgstr ""  
+"L'ordinamento delle colonne ora funziona come previsto eseguendo effettivamente la query ORDER BY."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:159  
+msgid ""  
+"Quickly jump to a specific result page with the handy dandy pagination "  
+"popover."  
+msgstr ""  
+"Salta rapidamente a una pagina di risultati specifica con il pratico popover di paginazione."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:160  
+msgid "Show Comment Column inside table structure view."  
+msgstr "Mostra la colonna Commento all'interno della visualizzazione della struttura della tabella."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:166  
+msgid "The 2020 release!"  
+msgstr "Il rilascio del 2020!"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:168  
+msgid "Manually reorder saved connection."  
+msgstr "Riordina manualmente le connessioni salvate."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:169  
+msgid "Allow selecting a custom SSH public key."  
+msgstr "Consenti la selezione di una chiave pubblica SSH personalizzata."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:170  
+msgid "Fix SSH tunnel crashes."  
+msgstr "Correzione: arresti anomali del tunnel SSH."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:176  
+msgid "Raw Query Improvements"  
+msgstr "Miglioramenti alle query grezze"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:178  
+msgid "Strip comments from SQL raw queries."  
+msgstr "Rimuovi i commenti dalle query SQL grezze."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:179  
+msgid "Better handle complex queries on multiple lines."  
+msgstr "Gestione migliorata delle query complesse su più righe."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:180  
+msgid "Speed up query rendering."  
+msgstr "Velocizza il rendering delle query."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:186  
+msgid "Sweet Query Tab Improvements"  
+msgstr "Dolci miglioramenti alla scheda Query"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:188  
+msgid "Edit font size of the Query Tab."  
+msgstr "Modifica la dimensione del carattere della scheda Query."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:189  
+msgid "Edit background style of the Query Tab."  
+msgstr "Modifica lo stile dello sfondo della scheda Query."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:190  
+msgid "Save and remember the Query Tab size."  
+msgstr "Salva e ricorda le dimensioni della scheda Query."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:196  
+msgid "PostgreSQL Fixes"  
+msgstr "Correzioni PostgreSQL"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:198  
+msgid "Fixed PostgreSQL relationship table."  
+msgstr "Corretta la tabella delle relazioni di PostgreSQL."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:199  
+msgid "Fixed wrong response message when handling non select queries."  
+msgstr "Corretto il messaggio di risposta errato quando si gestiscono query non selezionata."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:205  
+msgid "Bite-Size fixes"  
+msgstr "Correzioni a piccole dosi"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:207  
+msgid "Removed unused libfixposix."  
+msgstr "Rimossa libfixposix inutilizzata."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:208  
+msgid "Fixed pagination issue when clicking too fast while fetching big data."  
+msgstr "Corretto il problema di paginazione quando si clicca troppo velocemente durante il recupero di big data."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:214  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:225  
+msgid "Bug fixes and improvements"  
+msgstr "Correzioni di bug e miglioramenti"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:216  
+msgid "Rewritten pagination to use LIMIT and OFFSET."  
+msgstr "Riscritta la paginazione per utilizzare LIMIT e OFFSET."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:217  
+msgid "Faster pagination and content viewing for big data."  
+msgstr "Paginazione e visualizzazione dei contenuti più veloci per i big data."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:218  
+msgid "Show records count in table's list."  
+msgstr "Mostra il conteggio dei record nell'elenco delle tabelle."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:219  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:252  
+msgid "Bug fixes and other improvements."  
+msgstr "Correzioni di bug e altri miglioramenti."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:227  
+msgid "Properly handle EXPLAIN SQL statement."  
+msgstr "Gestisce correttamente l'istruzione EXPLAIN SQL."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:228  
+msgid "Properly handle querying capitlized PostgreSQL tables."  
+msgstr "Gestisce correttamente l'interrogazione di tabelle PostgreSQL con nomi in maiuscolo."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:229  
+msgid "Improved async methods for internal views."  
+msgstr "Metodi asincroni migliorati per le viste interne."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:230  
+msgid "Updated translations."  
+msgstr "Traduzioni aggiornate."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:236  
+msgid "Critical bug fix!"  
+msgstr "Correzione di bug critica!"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:238  
+msgid "CRITICAL: Fixes missing GSettings Schema, restore lost connections."  
+msgstr "CRITICO: Corregge lo schema GSettings mancante, ripristina le connessioni perse."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:239  
+msgid "Other small bug fixes and improvements."  
+msgstr "Altre piccole correzioni di bug e miglioramenti."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:245  
+msgid "Implemented SSH tunneling"  
+msgstr "Implementato il tunneling SSH"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:247  
+msgid ""  
+"WARNING: This release packs many updates and something could break. Please, "  
+"backup your connections."  
+msgstr ""  
+"ATTENZIONE: questa versione include molti aggiornamenti e qualcosa potrebbe rompersi. Si prega di "  
+"eseguire il backup delle connessioni."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:248  
+msgid "Connect via SSH to a remote Database."  
+msgstr "Connettiti tramite SSH a un database remoto."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:249  
+msgid "Major code refactor to handle UI updates via async methods."  
+msgstr "Importante refactoring del codice per gestire gli aggiornamenti dell'interfaccia utente tramite metodi asincroni."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:250  
+msgid ""  
+"Use Stack container to show a loading Spinner during fetch or data "  
+"processing methods."  
+msgstr ""  
+"Utilizza il contenitore Stack per mostrare un indicatore di caricamento durante i metodi di recupero o elaborazione dei dati."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:251  
+msgid ""  
+"Major performance improvements to the table search and dropdown schema "  
+"switcher."  
+msgstr ""  
+"Importanti miglioramenti delle prestazioni nella ricerca delle tabelle e nello switcher dello schema a discesa."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:258  
+msgid "Fancy New Icon!"  
+msgstr "Nuova icona elegante!"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:260  
+msgid "New fancy Icon."  
+msgstr "Nuova icona elegante."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:261  
+msgid "Use GtkNativeDialog."  
+msgstr "Utilizza GtkNativeDialog."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:262  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:272  
+msgid "Bug fixes and Improvements."  
+msgstr "Correzioni di bug e miglioramenti."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:268  
+msgid "Open SQLite files"  
+msgstr "Apri file SQLite"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:270  
+msgid "Open SQLite files directly in Sequeler."  
+msgstr "Apri i file SQLite direttamente in Sequeler."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:271  
+msgid "Right click to copy data inside a column."  
+msgstr "Fai clic con il pulsante destro del mouse per copiare i dati all'interno di una colonna."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:278  
+msgid "UI Fixes and Performance Improvements"  
+msgstr "Correzioni dell'interfaccia utente e miglioramenti delle prestazioni"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:280  
+msgid "UI fix for logout button."  
+msgstr "Correzione dell'interfaccia utente per il pulsante di disconnessione."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:281  
+msgid "View shortcuts on preferences dropdown."  
+msgstr "Visualizza le scorciatoie nel menu a tendina delle preferenze."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:282  
+msgid "Performance Improvements."  
+msgstr "Miglioramenti delle prestazioni."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:283  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:351  
+msgid "Italian translation."  
+msgstr "Traduzione italiana."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:289  
+msgid "Export all the things!"  
+msgstr "Esporta tutte le cose!"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:291  
+msgid "Export results from Query Tab."  
+msgstr "Esporta i risultati dalla scheda Query."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:292  
+msgid "Export in CSV or Plain Text format."  
+msgstr "Esporta in formato CSV o Testo semplice."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:293  
+msgid "Sort Columns order everywhere."  
+msgstr "Ordina l'ordine delle colonne ovunque."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:294  
+msgid "Brazilian translation."  
+msgstr "Traduzione brasiliana."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:300  
+msgid "Here comes the power of Pagination!!!"  
+msgstr "Ecco che arriva la potenza della paginazione!!!"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:302  
+msgid "Paginate results in the Content tab."  
+msgstr "Pagina i risultati nella scheda Contenuto."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:303  
+msgid "Query messages UI improvements."  
+msgstr "Miglioramenti all'interfaccia utente dei messaggi di query."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:304  
+msgid "Relations table bug fixes."  
+msgstr "Correzioni di bug nella tabella delle relazioni."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:310  
+msgid "We got Multi SQL Query support."  
+msgstr "Abbiamo il supporto per query SQL multiple."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:312  
+msgid "Ability to handle multiple SQL queries."  
+msgstr "Possibilità di gestire query SQL multiple."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:313  
+msgid "Execute the currently highlighted query."  
+msgstr "Esegui la query attualmente evidenziata."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:314  
+msgid "Improved Library Popover UI."  
+msgstr "Interfaccia utente migliorata per il popover della libreria."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:315  
+msgid "Use native GTK+ CSS attributes for better Light/Dark mode."  
+msgstr "Utilizza gli attributi CSS GTK+ nativi per una migliore modalità Chiaro/Scuro."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:316  
+msgid "Random UI improvements."  
+msgstr "Miglioramenti casuali all'interfaccia utente."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:322  
+msgid "Urgent! Fixed broken Tabs for translated version."  
+msgstr "Urgente! Corrette le schede danneggiate per la versione tradotta."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:327  
+msgid "Light and Dark Mode Switch!"  
+msgstr "Interruttore per la modalità chiara e scura!"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:329  
+msgid "Better Dark/Light mode switch in header bar."  
+msgstr "Migliore interruttore per la modalità Chiaro/Scuro nella barra dell'intestazione."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:330  
+msgid "Add Russian translation."  
+msgstr "Aggiunta la traduzione russa."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:331  
+msgid "Updated Welcome screen with New Window command."  
+msgstr "Schermata di benvenuto aggiornata con il comando Nuova finestra."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:332  
+msgid "Code cleanup."  
+msgstr "Pulizia del codice."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:338  
+msgid "Official Juno release!"  
+msgstr "Rilascio ufficiale di Juno!"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:340  
+msgid "Missing filter name on SQLite File Dialog."  
+msgstr "Nome del filtro mancante nella finestra di dialogo del file SQLite."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:346  
+msgid "We got Search!"  
+msgstr "Abbiamo la ricerca!"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:348  
+msgid "Search table names in sidebar."  
+msgstr "Cerca i nomi delle tabelle nella barra laterale."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:349  
+msgid "Fixes issue in connecting directly on a non saved connection."  
+msgstr "Corregge il problema di connessione diretta a una connessione non salvata."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:350  
+msgid "Updated Lithuanian translation."  
+msgstr "Traduzione lituana aggiornata."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:357  
+msgid "Improved Password Security."  
+msgstr "Sicurezza delle password migliorata."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:359  
+msgid "Safely store passwords in LibSecret."  
+msgstr "Archivia le password in modo sicuro in LibSecret."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:360  
+msgid "Auto upgrade on startup to remove passwords from GSettings."  
+msgstr "Aggiornamento automatico all'avvio per rimuovere le password da GSettings."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:361  
+msgid ""  
+"Fixes issues with identical table names from other database in the same "  
+"connection."  
+msgstr ""  
+"Corregge i problemi con nomi di tabelle identici da altri database nella stessa "  
+"connessione."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:362  
+msgid "Alphabetically ordered tables."  
+msgstr "Tabelle ordinate alfabeticamente."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:363  
+msgid "Improvements in showing MySql/MariaDB Table Structure."  
+msgstr "Miglioramenti nella visualizzazione della struttura delle tabelle MySql/MariaDB."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:364  
+msgid "Many more bugs for you to discover."  
+msgstr "Molti altri bug da scoprire."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:370  
+msgid "New Icon and Import/Export Library."  
+msgstr "Nuova icona e libreria di importazione/esportazione."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:372  
+msgid "Fancy new icon."  
+msgstr "Nuova icona elegante."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:373  
+msgid "Import and Export connections library."  
+msgstr "Importa ed esporta la libreria delle connessioni."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:374  
+msgid "Fixed random crash when opening and closing multiple connections."  
+msgstr "Corretto l'arresto anomalo casuale all'apertura e chiusura di più connessioni."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:375  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:381  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:393  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:416  
+msgid "Bug fixes and improvements."  
+msgstr "Correzioni di bug e miglioramenti."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:383  
+msgid "Fixed PostgreSQL Schema show options."  
+msgstr "Corrette le opzioni di visualizzazione dello schema PostgreSQL."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:384  
+msgid ""  
+"Fixed crash on new connection dialog when opening the connection before "  
+"saving."  
+msgstr ""  
+"Corretto l'arresto anomalo nella finestra di dialogo di nuova connessione quando si apre la connessione prima di "  
+"salvarla."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:390  
+msgid "Little side dish update."  
+msgstr "Piccolo aggiornamento di contorno."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:392  
+msgid "Fixed save window state on close."  
+msgstr "Corretto il salvataggio dello stato della finestra alla chiusura."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:399  
+msgid "Alternate coloured rows!"  
+msgstr "Righe colorate alternate!"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:401  
+msgid "Manually reload Content, Structure, and Relations."  
+msgstr "Ricarica manualmente Contenuto, Struttura e Relazioni."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:402  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:413  
+msgid "Show Table schema, content, and constraint relationships."  
+msgstr "Mostra lo schema, il contenuto e le relazioni di vincolo della tabella."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:403  
+msgid "Properly handle compound queries."  
+msgstr "Gestisce correttamente le query composte."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:404  
+msgid "Fix PostgreSQL table switch."  
+msgstr "Corretto lo switch di tabella PostgreSQL."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:410  
+msgid "Complete rewrite of the entire code base!"  
+msgstr "Riscritto completamente l'intero codice base!"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:412  
+msgid "Handle multiple Windows/Instances and multiple open connections."  
+msgstr "Gestisce più finestre/istanze e più connessioni aperte."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:414  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:426  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:438  
+msgid "Quicker response on big select queries"  
+msgstr "Risposta più rapida per le query select di grandi dimensioni"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:415  
+msgid "Better error handling."  
+msgstr "Migliore gestione degli errori."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:422  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:434  
+msgid "Better error handling, less crashes!"  
+msgstr "Migliore gestione degli errori, meno arresti anomali!"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:424  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:436  
+msgid "The app doesn't crash when dealing with big values"  
+msgstr "L'app non si arresta in modo anomalo quando si gestiscono valori di grandi dimensioni"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:425  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:437  
+msgid "Handling errors related to columns"  
+msgstr "Gestione degli errori relativi alle colonne"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:427  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:439  
+msgid "Some small clean up"  
+msgstr "Qualche piccola pulizia"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:428  
+msgid "Fixes issue with SQL Lite encrypted path"  
+msgstr "Corregge il problema con il percorso crittografato di SQL Lite"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:445  
+msgid "New Icon, Better error messages!"  
+msgstr "Nuova icona, messaggi di errore migliori!"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:447  
+msgid "New shiny icon"  
+msgstr "Nuova icona luccicante"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:448  
+msgid "View SQL error message on error"  
+msgstr "Visualizza il messaggio di errore SQL in caso di errore"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:449  
+msgid "FIX: Show proper PostgreSql Schema Table in Sidebar"  
+msgstr "CORREZIONE: Mostra la tabella dello schema PostgreSql corretta nella barra laterale"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:450  
+msgid "Snappiest query execution ever for local databases"  
+msgstr "Esecuzione di query più rapida di sempre per i database locali"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:451  
+msgid "The usual bundle of bugs for you to discover"  
+msgstr "Il solito pacchetto di bug da scoprire"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:457  
+msgid "Summoning the power of async methods!"  
+msgstr "Invochiamo il potere dei metodi asincroni!"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:459  
+msgid "All DataBase queries are now async methods, super fast."  
+msgstr "Tutte le query del database sono ora metodi asincroni, super veloci."  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:460  
+msgid "The UI doesn't freeze anymore during a long process"  
+msgstr "L'interfaccia utente non si blocca più durante un processo lungo"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:461  
+msgid "Granite SourceList to display list of tables"  
+msgstr "Granite SourceList per visualizzare l'elenco delle tabelle"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:462  
+msgid "Tabs to switch between the Query Builder and the Table Structure"  
+msgstr "Schede per passare dal Query Builder alla Struttura della tabella"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:463  
+msgid "ComboBox to select table schemas from the open connection"  
+msgstr "ComboBox per selezionare gli schemi di tabella dalla connessione aperta"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:464  
+msgid "Many more bugs and issues for you to have fun with"  
+msgstr "Molti altri bug e problemi con cui divertirsi"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:470  
+msgid "Bug Fixes and Improvements"  
+msgstr "Correzioni di bug e miglioramenti"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:472  
+msgid "Display Table lists for SQLite and PostgreSQL"  
+msgstr "Visualizza gli elenchi delle tabelle per SQLite e PostgreSQL"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:473  
+msgid "Refresh Table List view if tables change"  
+msgstr "Aggiorna la visualizzazione dell'elenco delle tabelle se le tabelle cambiano"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:474  
+msgid "Removed unused GSettings"  
+msgstr "Rimossi GSettings inutilizzati"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:480  
+msgid ""  
+"This is so good you won't believe it. New Library UI, Schema Table, Custom "  
+"Port, and more"  
+msgstr ""  
+"Questo è così buono che non ci crederai. Nuova interfaccia utente della libreria, tabella dello schema,"
+"porta personalizzata e altro ancora"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:482  
+msgid ""  
+"A brand new Library View directly in your home screen, super tight and "  
+"organized"  
+msgstr ""  
+"Una nuovissima visualizzazione della libreria direttamente nella schermata iniziale, super compatta e "  
+"organizzata"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:483  
+msgid "Custom Port field for those snazzy geeks who don't just use 3306"  
+msgstr "Campo Porta personalizzata per quei geek snazzy che non usano solo la 3306"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:484  
+msgid "A shiny new Sidebar View to list all your DataBase Tables"  
+msgstr "Una nuova e brillante visualizzazione della barra laterale per elencare tutte le tabelle del database"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:485  
+msgid "Code cleanup and speed improvements"  
+msgstr "Pulizia del codice e miglioramenti della velocità"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:486  
+msgid "Usual abundance of bugs and issues for you to have fun with!"  
+msgstr "La solita abbondanza di bug e problemi con cui divertirsi!"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:492  
+msgid "Major Update: Releasing a sweet table to view Query Results!"  
+msgstr "Aggiornamento principale: rilascio di una tabella fantastica per visualizzare i risultati delle query!"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:494  
+msgid "Did I say we got a sweet table to view query results?"  
+msgstr "Ho detto che abbiamo una fantastica tabella per visualizzare i risultati delle query?"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:495  
+msgid "New shortcut (ctrl+enter) to execute query"  
+msgstr "Nuova scorciatoia (ctrl+invio) per eseguire la query"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:496  
+msgid "Solved bug while connecting to DB directly from the Connection Dialog"  
+msgstr "Risolto il bug durante la connessione al database direttamente dalla finestra di dialogo di connessione"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:497  
+msgid "UI Improvements to Connection Dialog"  
+msgstr "Miglioramenti dell'interfaccia utente alla finestra di dialogo di connessione"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:498  
+msgid "Added Spanish and Lithuanian translations"  
+msgstr "Aggiunte le traduzioni in spagnolo e lituano"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:504  
+msgid "UI fixes"  
+msgstr "Correzioni dell'interfaccia utente"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:506  
+msgid "Visual improvements to the library view"  
+msgstr "Miglioramenti visivi alla visualizzazione della libreria"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:512  
+msgid "Initial Release"  
+msgstr "Rilascio iniziale"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:514  
+msgid "Store your Database connections"  
+msgstr "Archivia le tue connessioni al database"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:515  
+msgid "Quickly connect to a Local or Remote Database"  
+msgstr "Connettiti rapidamente a un database locale o remoto"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:516  
+msgid "Write SQL queries in the built-in code editor"  
+msgstr "Scrivi query SQL nell'editor di codice integrato"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:523  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:527  
+msgid "Database view"  
+msgstr "Visualizzazione database"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:531  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:535  
+msgid "New connection dialog"  
+msgstr "Finestra di dialogo nuova connessione"  
+  
+#: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:540  
+msgid "Alessandro Castellani"  
+msgstr "Alessandro Castellani"  
