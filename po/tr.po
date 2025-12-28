@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.github.ellie_commons.sequeler\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-24 13:44+0000\n"
-"PO-Revision-Date: 2025-10-11 09:10+0000\n"
+"PO-Revision-Date: 2025-12-29 18:00+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/sequeler/"
 "translations/tr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.14-dev\n"
+"X-Generator: Weblate 5.15.1\n"
 
 #: src/Application.vala:67
 msgid "Directories are not supported"
@@ -557,16 +557,12 @@ msgid "Select Your Identity File…"
 msgstr "Kimlik Dosyanızı Seçin…"
 
 #: src/Widgets/ConnectionDialog.vala:332
-#, fuzzy
-#| msgid "Missing SSH public key!"
 msgid "SSH Public Key"
-msgstr "SSH ortak anahtarı eksik!"
+msgstr "SSH Ortak Anahtarı"
 
 #: src/Widgets/ConnectionDialog.vala:334
-#, fuzzy
-#| msgid "Select Your SQLite File…"
 msgid "Select Your Public Key File…"
-msgstr "SQLite Dosyanızı Seçin…"
+msgstr "Ortak Anahtar Dosyanızı Seçin…"
 
 #: src/Widgets/ConnectionDialog.vala:350
 msgid "Generate SSH Key"
