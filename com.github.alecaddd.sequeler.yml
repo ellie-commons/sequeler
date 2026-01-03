@@ -137,8 +137,8 @@
           ],
           "sources": [{
             "type": "archive",
-            "url": "http://ftp.hosteurope.de/mirror/archive.mariadb.org/mariadb-10.1.48/source/mariadb-10.1.48.tar.gz",
-            "sha256": "069d58b1e2c06bb1e6c31249eda34138f41fb8ae3dec7ecaeba8035812c87cf9"
+            "url": "https://github.com/MariaDB/server/archive/mariadb-10.1.48.tar.gz",
+            "sha256": "829ddc298e29f37df46c76f879606d8d47a3a5bdb933e62509a25fcde069d91d"
           }]
         },
         {
