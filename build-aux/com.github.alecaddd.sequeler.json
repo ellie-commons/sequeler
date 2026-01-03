@@ -109,8 +109,8 @@
           ],
           "sources": [{
             "type": "archive",
-            "url": "http://ftp.de.debian.org/debian/pool/main/liba/libaio/libaio_0.3.110.orig.tar.gz",
-            "sha256": "e019028e631725729376250e32b473012f7cb68e1f7275bfc1bbcdd0f8745f7e"
+            "url": "https://pagure.io/libaio/archive/libaio-0.3.110-1/libaio-libaio-0.3.110-1.tar.gz",
+            "sha256": "2241532aeec68f816c66dc0c1c753bda5398ee0ff72189a71206cd87cf1026c0"
           }]
         },
         {
