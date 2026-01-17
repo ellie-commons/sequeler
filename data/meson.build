@@ -110,7 +110,7 @@ metainfo_file = i18n.merge_file(
 			configuration: metainfo_conf
 		),
 		output: '@0@.metainfo.xml'.format(application_id),
-		po_dir: join_paths(meson.project_source_root(), 'po'),
+		po_dir: join_paths(meson.project_source_root(), 'po', 'extra'),
 		install: true,
 		install_dir: join_paths(get_option('datadir'), 'metainfo')
 )
