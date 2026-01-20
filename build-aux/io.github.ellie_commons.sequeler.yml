@@ -100,17 +100,6 @@ modules:
               project-id: 1557
               url-template: https://pagure.io/libaio/archive/libaio-$version/libaio-libaio-$version.tar.gz
 
-      - name: libfmt
-        buildsystem: cmake-ninja
-        sources:
-          - type: git
-            url: https://github.com/fmtlib/fmt.git
-            tag: 12.1.0
-            commit: 407c905e45ad75fc29bf0f9bb7c5c2fd3475976f
-            x-checker-data:
-              type: git
-              tag-pattern: ^([\d.]+)$
-
       - name: mariadb
         buildsystem: cmake-ninja
         config-opts:
