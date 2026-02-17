@@ -546,6 +546,7 @@
   <url type="bugtracker">https://github.com/ellie-commons/sequeler/issues</url>
   <url type="help">https://github.com/ellie-commons/sequeler/issues</url>
   <url type="translate">https://hosted.weblate.org/projects/sequeler</url>
+  <url type="vcs-browser">https://github.com/ellie-commons/sequeler</url>
   <update_contact>castellani.ale@gmail.com</update_contact>
   <content_rating type="oars-1.1" />
   <branding>
