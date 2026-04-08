@@ -23,7 +23,7 @@ jobs:
           submodules: recursive
 
       - name: Build
-        uses: flatpak/flatpak-github-actions/flatpak-builder@v6.6
+        uses: flatpak/flatpak-github-actions/flatpak-builder@v6.7
         with:
           bundle: sequeler-nightly.flatpak
           manifest-path: io.github.ellie_commons.sequeler.yml
