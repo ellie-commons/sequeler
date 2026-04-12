@@ -121,8 +121,8 @@ public class Sequeler.Application : Gtk.Application {
         unowned string desktop_environment = Environment.get_variable ("XDG_CURRENT_DESKTOP");
         if (desktop_environment != "Pantheon") {
             // Force elementary stylesheet to prevent broken UI on other DEs
-            gtk_settings.set_property ("gtk-theme-name", "elementary");
-            gtk_settings.set_property ("gtk-icon-theme-name", "elementary");
+            gtk_settings.gtk_theme_name = "elementary";
+            gtk_settings.gtk_icon_theme_name = "elementary";
         }
     }
 
