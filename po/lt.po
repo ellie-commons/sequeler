@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.github.ellie_commons.sequeler\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-24 13:44+0000\n"
+"POT-Creation-Date: 2026-05-23 01:18+0000\n"
 "PO-Revision-Date: 2021-06-28 12:33+0000\n"
 "Last-Translator: GM <muziejusinfo@gmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/sequeler/"
@@ -21,10 +21,14 @@ msgstr ""
 "1 : 2);\n"
 "X-Generator: Weblate 4.7.1-dev\n"
 
+#. File handle represents a directory.
 #: src/Application.vala:67
 msgid "Directories are not supported"
 msgstr "Katalogai yra nepalaikomi"
 
+#. File's type is unknown
+#. File is a "special" file, such as a socket, fifo, block device, or character device.
+#. File is a mountable location.
 #: src/Application.vala:73
 msgid "Don't know what to do"
 msgstr "Nežinau ką daryti"
@@ -32,153 +36,6 @@ msgstr "Nežinau ką daryti"
 #: src/Application.vala:85
 msgid "Something completely unexpected happened"
 msgstr "Nutiko kažkas visiškai netikėto"
-
-#: src/Layouts/HeaderBar.vala:51
-msgid "Logout"
-msgstr "Atsijungti"
-
-#: src/Layouts/HeaderBar.vala:56
-#, fuzzy
-#| msgid "Create a new Query Tab"
-msgid "Create a new database"
-msgstr "Sukurti naują užklausos langą"
-
-#: src/Layouts/HeaderBar.vala:65
-#, fuzzy
-#| msgid "- Select Database -"
-msgid "Delete database"
-msgstr "- Pasirinkite duomenų bazę -"
-
-#: src/Layouts/HeaderBar.vala:74
-#, fuzzy
-#| msgid "Database Type:"
-msgid "Database properties"
-msgstr "Duomenų bazės tipas:"
-
-#: src/Layouts/HeaderBar.vala:87 src/Layouts/Welcome.vala:39
-msgid "New Window"
-msgstr "Naujas langas"
-
-#: src/Layouts/HeaderBar.vala:90 src/Widgets/ConnectionDialog.vala:137
-#: src/Widgets/ConnectionDialog.vala:172
-msgid "New Connection"
-msgstr "Naujas ryšys"
-
-#: src/Layouts/HeaderBar.vala:93
-msgid "Quit"
-msgstr "Išeiti"
-
-#: src/Layouts/HeaderBar.vala:113
-msgid "Menu"
-msgstr "Meniu"
-
-#: src/Layouts/Main.vala:77
-#, c-format
-msgid "Connected to %s"
-msgstr "Prisijungta prie %s"
-
-#: src/Layouts/Library.vala:65
-msgid "SAVED CONNECTIONS"
-msgstr "ĮRAŠYTI RYŠIAI"
-
-#: src/Layouts/Library.vala:74
-msgid "Delete All"
-msgstr "Ištrinti visus"
-
-#: src/Layouts/Library.vala:81
-msgid "Reload Library"
-msgstr "Iš naujo įkelti biblioteką"
-
-#: src/Layouts/Library.vala:84
-msgid "Export Library"
-msgstr "Eksportuoti biblioteką"
-
-#: src/Layouts/Library.vala:215 src/Layouts/Library.vala:233
-msgid "Are you sure you want to proceed?"
-msgstr "Ar tikrai norite tęsti?"
-
-#: src/Layouts/Library.vala:215
-msgid "By deleting this connection you won’t be able to recover this data."
-msgstr "Ištrynę šį ryšį, nebegalėsite atkurti šių duomenų."
-
-#: src/Layouts/Library.vala:218 src/Services/ActionManager.vala:257
-msgid "Yes, Delete!"
-msgstr "Taip, ištrinti!"
-
-#: src/Layouts/Library.vala:233
-msgid "All the data will be deleted and you won’t be able to recover it."
-msgstr "Visi duomenys bus ištrinti ir jūs nebegalėsite jų atkurti."
-
-#: src/Layouts/Library.vala:236
-msgid "Yes, Delete All!"
-msgstr "Taip, ištrinti viską!"
-
-#: src/Layouts/Library.vala:335 src/Widgets/ConnectionDialog.vala:627
-#: src/Widgets/ConnectionDialog.vala:648
-msgid "A username is required in order to connect!"
-msgstr "Norint prisijungti būtina įvesti slapyvardį!"
-
-#: src/Layouts/Library.vala:409 src/Layouts/Views/Query.vala:555
-msgid "Pick a file"
-msgstr "Pasirinkti failą"
-
-#: src/Layouts/Library.vala:412 src/Layouts/Views/Query.vala:558
-msgid "_Save"
-msgstr "Į_rašyti"
-
-#: src/Layouts/Library.vala:413 src/Layouts/Welcome.vala:62
-#: src/Layouts/Views/Query.vala:559
-msgid "_Cancel"
-msgstr "_Atsisakyti"
-
-#: src/Layouts/Library.vala:472
-#, c-format
-msgid "Unable to Connect to %s"
-msgstr "Nepavyko prisijungti prie %s"
-
-#: src/Layouts/Library.vala:485
-msgid "Unable to Export Library "
-msgstr "Nepavyko eksportuoti bibliotekos "
-
-#: src/Layouts/Welcome.vala:28
-msgid "Welcome to Sequeler"
-msgstr "Sveiki atvykę į Sequeler"
-
-#: src/Layouts/Welcome.vala:29
-msgid "Connect to Any Local or Remote Database."
-msgstr "Prisijunkite prie bet kurios vietinės ar nuotolinės duomenų bazės."
-
-#: src/Layouts/Welcome.vala:38
-msgid "Add a New Database"
-msgstr "Pridėti naują duomenų bazę"
-
-#: src/Layouts/Welcome.vala:38
-msgid "Connect to a Database and Save It in Your Library"
-msgstr "Prisijunkite prie duomenų bazės ir įrašykite ją savo bibliotekoje"
-
-#: src/Layouts/Welcome.vala:39
-msgid "Open a New Sequeler Window"
-msgstr "Atverkite naują Sequeler langą"
-
-#: src/Layouts/Welcome.vala:40
-msgid "Import Connections"
-msgstr "Importuoti ryšius"
-
-#: src/Layouts/Welcome.vala:40
-msgid "Import Previously Exported Sequeler Connections"
-msgstr "Importuokite anksčiau eksportuotus Sequeler ryšius"
-
-#: src/Layouts/Welcome.vala:58
-msgid "Select a file"
-msgstr "Pasirinkti failą"
-
-#: src/Layouts/Welcome.vala:61
-msgid "_Open"
-msgstr "_Atverti"
-
-#: src/Layouts/Welcome.vala:107
-msgid "Unable to Import Library "
-msgstr "Nepavyko importuoti bibliotekos "
 
 #: src/Layouts/DataBaseSchema.vala:80
 msgid "Search Tables"
@@ -258,33 +115,124 @@ msgstr "Sukurti naują užklausos langą"
 msgid "Query %i"
 msgstr "Užklausti %i"
 
-#: src/Layouts/Views/Structure.vala:78 src/Layouts/Views/Content.vala:89
-#: src/Layouts/Views/Relations.vala:77
+#: src/Layouts/HeaderBar.vala:51
+msgid "Logout"
+msgstr "Atsijungti"
+
+#: src/Layouts/HeaderBar.vala:56
+#, fuzzy
+#| msgid "Create a new Query Tab"
+msgid "Create a new database"
+msgstr "Sukurti naują užklausos langą"
+
+#: src/Layouts/HeaderBar.vala:65
+#, fuzzy
+#| msgid "- Select Database -"
+msgid "Delete database"
+msgstr "- Pasirinkite duomenų bazę -"
+
+#: src/Layouts/HeaderBar.vala:74
+#, fuzzy
+#| msgid "Database Type:"
+msgid "Database properties"
+msgstr "Duomenų bazės tipas:"
+
+#: src/Layouts/HeaderBar.vala:87 src/Layouts/Welcome.vala:39
+msgid "New Window"
+msgstr "Naujas langas"
+
+#: src/Layouts/HeaderBar.vala:90 src/Widgets/ConnectionDialog.vala:137
+#: src/Widgets/ConnectionDialog.vala:172
+msgid "New Connection"
+msgstr "Naujas ryšys"
+
+#: src/Layouts/HeaderBar.vala:93
+msgid "Quit"
+msgstr "Išeiti"
+
+#: src/Layouts/HeaderBar.vala:113
+msgid "Menu"
+msgstr "Meniu"
+
+#: src/Layouts/Library.vala:65
+msgid "SAVED CONNECTIONS"
+msgstr "ĮRAŠYTI RYŠIAI"
+
+#: src/Layouts/Library.vala:74
+msgid "Delete All"
+msgstr "Ištrinti visus"
+
+#: src/Layouts/Library.vala:81
+msgid "Reload Library"
+msgstr "Iš naujo įkelti biblioteką"
+
+#: src/Layouts/Library.vala:84
+msgid "Export Library"
+msgstr "Eksportuoti biblioteką"
+
+#: src/Layouts/Library.vala:215 src/Layouts/Library.vala:233
+msgid "Are you sure you want to proceed?"
+msgstr "Ar tikrai norite tęsti?"
+
+#: src/Layouts/Library.vala:215
+msgid "By deleting this connection you won’t be able to recover this data."
+msgstr "Ištrynę šį ryšį, nebegalėsite atkurti šių duomenų."
+
+#: src/Layouts/Library.vala:218 src/Services/ActionManager.vala:257
+msgid "Yes, Delete!"
+msgstr "Taip, ištrinti!"
+
+#: src/Layouts/Library.vala:233
+msgid "All the data will be deleted and you won’t be able to recover it."
+msgstr "Visi duomenys bus ištrinti ir jūs nebegalėsite jų atkurti."
+
+#: src/Layouts/Library.vala:236
+msgid "Yes, Delete All!"
+msgstr "Taip, ištrinti viską!"
+
+#: src/Layouts/Library.vala:335 src/Widgets/ConnectionDialog.vala:627
+#: src/Widgets/ConnectionDialog.vala:648
+msgid "A username is required in order to connect!"
+msgstr "Norint prisijungti būtina įvesti slapyvardį!"
+
+#: src/Layouts/Library.vala:409 src/Layouts/Views/Query.vala:555
+msgid "Pick a file"
+msgstr "Pasirinkti failą"
+
+#: src/Layouts/Library.vala:412 src/Layouts/Views/Query.vala:558
+msgid "_Save"
+msgstr "Į_rašyti"
+
+#: src/Layouts/Library.vala:413 src/Layouts/Views/Query.vala:559
+#: src/Layouts/Welcome.vala:62
+msgid "_Cancel"
+msgstr "_Atsisakyti"
+
+#: src/Layouts/Library.vala:472
+#, c-format
+msgid "Unable to Connect to %s"
+msgstr "Nepavyko prisijungti prie %s"
+
+#: src/Layouts/Library.vala:485
+msgid "Unable to Export Library "
+msgstr "Nepavyko eksportuoti bibliotekos "
+
+#: src/Layouts/Main.vala:77
+#, c-format
+msgid "Connected to %s"
+msgstr "Prisijungta prie %s"
+
+#: src/Layouts/Views/Content.vala:89 src/Layouts/Views/Relations.vala:77
+#: src/Layouts/Views/Structure.vala:78
 msgid "Select Table"
 msgstr "Pasirinkti lentelę"
 
-#: src/Layouts/Views/Structure.vala:78 src/Layouts/Views/Content.vala:89
-#: src/Layouts/Views/Relations.vala:77
+#: src/Layouts/Views/Content.vala:89 src/Layouts/Views/Relations.vala:77
+#: src/Layouts/Views/Structure.vala:78
 msgid "Select a table from the left sidebar to activate this view."
 msgstr ""
 "Norėdami aktyvuoti šį rodinį, pasirinkite lentelę kairiojoje šoninėje "
 "juostoje."
-
-#: src/Layouts/Views/Structure.vala:108 src/Layouts/Views/Structure.vala:146
-#: src/Layouts/Views/Content.vala:180 src/Layouts/Views/Content.vala:219
-#: src/Layouts/Views/Relations.vala:107 src/Layouts/Views/Relations.vala:145
-#: src/Layouts/Views/Query.vala:317
-msgid "No Results Available"
-msgstr "Nėra prieinamų rezultatų"
-
-#: src/Layouts/Views/Structure.vala:119 src/Layouts/Views/Content.vala:192
-#: src/Layouts/Views/Relations.vala:118
-msgid "Reload Results"
-msgstr "Iš naujo įkelti rezultatus"
-
-#: src/Layouts/Views/Structure.vala:198
-msgid " Fields"
-msgstr " laukai"
 
 #: src/Layouts/Views/Content.vala:122
 msgid "Previous Page"
@@ -312,14 +260,22 @@ msgstr "1 puslapis"
 msgid "%d of %d Pages"
 msgstr "%d iš %d puslapių"
 
+#: src/Layouts/Views/Content.vala:180 src/Layouts/Views/Content.vala:219
+#: src/Layouts/Views/Query.vala:317 src/Layouts/Views/Relations.vala:107
+#: src/Layouts/Views/Relations.vala:145 src/Layouts/Views/Structure.vala:108
+#: src/Layouts/Views/Structure.vala:146
+msgid "No Results Available"
+msgstr "Nėra prieinamų rezultatų"
+
+#: src/Layouts/Views/Content.vala:192 src/Layouts/Views/Relations.vala:118
+#: src/Layouts/Views/Structure.vala:119
+msgid "Reload Results"
+msgstr "Iš naujo įkelti rezultatus"
+
 #: src/Layouts/Views/Content.vala:276
 #, c-format
 msgid "%d Entries"
 msgstr "%d įrašų"
-
-#: src/Layouts/Views/Relations.vala:198
-msgid " Constraints"
-msgstr " ribojimų"
 
 #: src/Layouts/Views/Query.vala:280
 msgid "Running Query…"
@@ -354,6 +310,54 @@ msgstr "Užklausa sėkmingai įvykdyta! Paveiktos eilutės: %s"
 #: src/Layouts/Views/Query.vala:522
 msgid "Query Executed!"
 msgstr "Užklausa įvykdyta!"
+
+#: src/Layouts/Views/Relations.vala:198
+msgid " Constraints"
+msgstr " ribojimų"
+
+#: src/Layouts/Views/Structure.vala:198
+msgid " Fields"
+msgstr " laukai"
+
+#: src/Layouts/Welcome.vala:28
+msgid "Welcome to Sequeler"
+msgstr "Sveiki atvykę į Sequeler"
+
+#: src/Layouts/Welcome.vala:29
+msgid "Connect to Any Local or Remote Database."
+msgstr "Prisijunkite prie bet kurios vietinės ar nuotolinės duomenų bazės."
+
+#: src/Layouts/Welcome.vala:38
+msgid "Add a New Database"
+msgstr "Pridėti naują duomenų bazę"
+
+#: src/Layouts/Welcome.vala:38
+msgid "Connect to a Database and Save It in Your Library"
+msgstr "Prisijunkite prie duomenų bazės ir įrašykite ją savo bibliotekoje"
+
+#: src/Layouts/Welcome.vala:39
+msgid "Open a New Sequeler Window"
+msgstr "Atverkite naują Sequeler langą"
+
+#: src/Layouts/Welcome.vala:40
+msgid "Import Connections"
+msgstr "Importuoti ryšius"
+
+#: src/Layouts/Welcome.vala:40
+msgid "Import Previously Exported Sequeler Connections"
+msgstr "Importuokite anksčiau eksportuotus Sequeler ryšius"
+
+#: src/Layouts/Welcome.vala:58
+msgid "Select a file"
+msgstr "Pasirinkti failą"
+
+#: src/Layouts/Welcome.vala:61
+msgid "_Open"
+msgstr "_Atverti"
+
+#: src/Layouts/Welcome.vala:107
+msgid "Unable to Import Library "
+msgstr "Nepavyko importuoti bibliotekos "
 
 #: src/Partials/Helpers.vala:130 src/Partials/Helpers.vala:136
 msgid "Run Query"
@@ -392,11 +396,7 @@ msgstr "ties stulpeliu"
 msgid "Copy %s"
 msgstr "Kopijuoti %s"
 
-#: src/Services/Settings.vala:99
-#, c-format
-msgid "%s (copy)"
-msgstr "%s (nukopijuoti)"
-
+#. Ask confirmation to the user before deleting the database.
 #: src/Services/ActionManager.vala:254
 #, fuzzy
 #| msgid "Are you sure you want to proceed?"
@@ -469,6 +469,11 @@ msgstr ""
 #: src/Services/ConnectionManager.vala:581
 msgid "Error!"
 msgstr "Klaida!"
+
+#: src/Services/Settings.vala:99
+#, c-format
+msgid "%s (copy)"
+msgstr "%s (nukopijuoti)"
 
 #: src/Widgets/ConnectionDialog.vala:35
 msgid "Missing SSH Key file!"

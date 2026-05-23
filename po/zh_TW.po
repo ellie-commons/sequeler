@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.github.ellie_commons.sequeler\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-24 13:44+0000\n"
+"POT-Creation-Date: 2026-05-23 01:18+0000\n"
 "PO-Revision-Date: 2021-04-10 13:27+0000\n"
 "Last-Translator: Yangfl <mmyangfl@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
@@ -19,10 +19,14 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.6-dev\n"
 
+#. File handle represents a directory.
 #: src/Application.vala:67
 msgid "Directories are not supported"
 msgstr "不支援目錄"
 
+#. File's type is unknown
+#. File is a "special" file, such as a socket, fifo, block device, or character device.
+#. File is a mountable location.
 #: src/Application.vala:73
 msgid "Don't know what to do"
 msgstr "不知道做什麼"
@@ -30,153 +34,6 @@ msgstr "不知道做什麼"
 #: src/Application.vala:85
 msgid "Something completely unexpected happened"
 msgstr "發生了完全出乎意料的事"
-
-#: src/Layouts/HeaderBar.vala:51
-msgid "Logout"
-msgstr "登出"
-
-#: src/Layouts/HeaderBar.vala:56
-#, fuzzy
-#| msgid "Create a new Query Tab"
-msgid "Create a new database"
-msgstr "建立新查詢選項卡"
-
-#: src/Layouts/HeaderBar.vala:65
-#, fuzzy
-#| msgid "- Select Database -"
-msgid "Delete database"
-msgstr "- 選擇資料庫 -"
-
-#: src/Layouts/HeaderBar.vala:74
-#, fuzzy
-#| msgid "Database Type:"
-msgid "Database properties"
-msgstr "資料庫型別："
-
-#: src/Layouts/HeaderBar.vala:87 src/Layouts/Welcome.vala:39
-msgid "New Window"
-msgstr "新視窗"
-
-#: src/Layouts/HeaderBar.vala:90 src/Widgets/ConnectionDialog.vala:137
-#: src/Widgets/ConnectionDialog.vala:172
-msgid "New Connection"
-msgstr "新連線"
-
-#: src/Layouts/HeaderBar.vala:93
-msgid "Quit"
-msgstr "退出"
-
-#: src/Layouts/HeaderBar.vala:113
-msgid "Menu"
-msgstr "目錄"
-
-#: src/Layouts/Main.vala:77
-#, c-format
-msgid "Connected to %s"
-msgstr "已連線至 %s"
-
-#: src/Layouts/Library.vala:65
-msgid "SAVED CONNECTIONS"
-msgstr "已保持連線"
-
-#: src/Layouts/Library.vala:74
-msgid "Delete All"
-msgstr "刪除全部"
-
-#: src/Layouts/Library.vala:81
-msgid "Reload Library"
-msgstr "過載庫"
-
-#: src/Layouts/Library.vala:84
-msgid "Export Library"
-msgstr "匯出庫"
-
-#: src/Layouts/Library.vala:215 src/Layouts/Library.vala:233
-msgid "Are you sure you want to proceed?"
-msgstr "您確定要繼續嗎？"
-
-#: src/Layouts/Library.vala:215
-msgid "By deleting this connection you won’t be able to recover this data."
-msgstr "刪除此連線後，您將無法恢復此資料。"
-
-#: src/Layouts/Library.vala:218 src/Services/ActionManager.vala:257
-msgid "Yes, Delete!"
-msgstr "是，刪除！"
-
-#: src/Layouts/Library.vala:233
-msgid "All the data will be deleted and you won’t be able to recover it."
-msgstr "所有資料將被刪除，您將無法恢復。"
-
-#: src/Layouts/Library.vala:236
-msgid "Yes, Delete All!"
-msgstr "是，刪除全部！"
-
-#: src/Layouts/Library.vala:335 src/Widgets/ConnectionDialog.vala:627
-#: src/Widgets/ConnectionDialog.vala:648
-msgid "A username is required in order to connect!"
-msgstr "需要使用者名稱才能連線！"
-
-#: src/Layouts/Library.vala:409 src/Layouts/Views/Query.vala:555
-msgid "Pick a file"
-msgstr "選擇檔案"
-
-#: src/Layouts/Library.vala:412 src/Layouts/Views/Query.vala:558
-msgid "_Save"
-msgstr "儲存(_S)"
-
-#: src/Layouts/Library.vala:413 src/Layouts/Welcome.vala:62
-#: src/Layouts/Views/Query.vala:559
-msgid "_Cancel"
-msgstr "取消(_S)"
-
-#: src/Layouts/Library.vala:472
-#, c-format
-msgid "Unable to Connect to %s"
-msgstr "無法連線到 %s"
-
-#: src/Layouts/Library.vala:485
-msgid "Unable to Export Library "
-msgstr "無法匯出庫 "
-
-#: src/Layouts/Welcome.vala:28
-msgid "Welcome to Sequeler"
-msgstr "歡迎來到 Sequeler"
-
-#: src/Layouts/Welcome.vala:29
-msgid "Connect to Any Local or Remote Database."
-msgstr "連線到任何本地或遠端資料庫。"
-
-#: src/Layouts/Welcome.vala:38
-msgid "Add a New Database"
-msgstr "新增一個新的資料庫"
-
-#: src/Layouts/Welcome.vala:38
-msgid "Connect to a Database and Save It in Your Library"
-msgstr "連線到資料庫並將其儲存在您的庫中"
-
-#: src/Layouts/Welcome.vala:39
-msgid "Open a New Sequeler Window"
-msgstr "開啟新的 Sequeler 視窗"
-
-#: src/Layouts/Welcome.vala:40
-msgid "Import Connections"
-msgstr "匯入連線"
-
-#: src/Layouts/Welcome.vala:40
-msgid "Import Previously Exported Sequeler Connections"
-msgstr "匯入先前匯出的 Sequeler 連線"
-
-#: src/Layouts/Welcome.vala:58
-msgid "Select a file"
-msgstr "選擇檔案"
-
-#: src/Layouts/Welcome.vala:61
-msgid "_Open"
-msgstr "開啟(_O)"
-
-#: src/Layouts/Welcome.vala:107
-msgid "Unable to Import Library "
-msgstr "無法匯入庫 "
 
 #: src/Layouts/DataBaseSchema.vala:80
 msgid "Search Tables"
@@ -256,31 +113,122 @@ msgstr "建立新查詢選項卡"
 msgid "Query %i"
 msgstr "查詢 %i"
 
-#: src/Layouts/Views/Structure.vala:78 src/Layouts/Views/Content.vala:89
-#: src/Layouts/Views/Relations.vala:77
+#: src/Layouts/HeaderBar.vala:51
+msgid "Logout"
+msgstr "登出"
+
+#: src/Layouts/HeaderBar.vala:56
+#, fuzzy
+#| msgid "Create a new Query Tab"
+msgid "Create a new database"
+msgstr "建立新查詢選項卡"
+
+#: src/Layouts/HeaderBar.vala:65
+#, fuzzy
+#| msgid "- Select Database -"
+msgid "Delete database"
+msgstr "- 選擇資料庫 -"
+
+#: src/Layouts/HeaderBar.vala:74
+#, fuzzy
+#| msgid "Database Type:"
+msgid "Database properties"
+msgstr "資料庫型別："
+
+#: src/Layouts/HeaderBar.vala:87 src/Layouts/Welcome.vala:39
+msgid "New Window"
+msgstr "新視窗"
+
+#: src/Layouts/HeaderBar.vala:90 src/Widgets/ConnectionDialog.vala:137
+#: src/Widgets/ConnectionDialog.vala:172
+msgid "New Connection"
+msgstr "新連線"
+
+#: src/Layouts/HeaderBar.vala:93
+msgid "Quit"
+msgstr "退出"
+
+#: src/Layouts/HeaderBar.vala:113
+msgid "Menu"
+msgstr "目錄"
+
+#: src/Layouts/Library.vala:65
+msgid "SAVED CONNECTIONS"
+msgstr "已保持連線"
+
+#: src/Layouts/Library.vala:74
+msgid "Delete All"
+msgstr "刪除全部"
+
+#: src/Layouts/Library.vala:81
+msgid "Reload Library"
+msgstr "過載庫"
+
+#: src/Layouts/Library.vala:84
+msgid "Export Library"
+msgstr "匯出庫"
+
+#: src/Layouts/Library.vala:215 src/Layouts/Library.vala:233
+msgid "Are you sure you want to proceed?"
+msgstr "您確定要繼續嗎？"
+
+#: src/Layouts/Library.vala:215
+msgid "By deleting this connection you won’t be able to recover this data."
+msgstr "刪除此連線後，您將無法恢復此資料。"
+
+#: src/Layouts/Library.vala:218 src/Services/ActionManager.vala:257
+msgid "Yes, Delete!"
+msgstr "是，刪除！"
+
+#: src/Layouts/Library.vala:233
+msgid "All the data will be deleted and you won’t be able to recover it."
+msgstr "所有資料將被刪除，您將無法恢復。"
+
+#: src/Layouts/Library.vala:236
+msgid "Yes, Delete All!"
+msgstr "是，刪除全部！"
+
+#: src/Layouts/Library.vala:335 src/Widgets/ConnectionDialog.vala:627
+#: src/Widgets/ConnectionDialog.vala:648
+msgid "A username is required in order to connect!"
+msgstr "需要使用者名稱才能連線！"
+
+#: src/Layouts/Library.vala:409 src/Layouts/Views/Query.vala:555
+msgid "Pick a file"
+msgstr "選擇檔案"
+
+#: src/Layouts/Library.vala:412 src/Layouts/Views/Query.vala:558
+msgid "_Save"
+msgstr "儲存(_S)"
+
+#: src/Layouts/Library.vala:413 src/Layouts/Views/Query.vala:559
+#: src/Layouts/Welcome.vala:62
+msgid "_Cancel"
+msgstr "取消(_S)"
+
+#: src/Layouts/Library.vala:472
+#, c-format
+msgid "Unable to Connect to %s"
+msgstr "無法連線到 %s"
+
+#: src/Layouts/Library.vala:485
+msgid "Unable to Export Library "
+msgstr "無法匯出庫 "
+
+#: src/Layouts/Main.vala:77
+#, c-format
+msgid "Connected to %s"
+msgstr "已連線至 %s"
+
+#: src/Layouts/Views/Content.vala:89 src/Layouts/Views/Relations.vala:77
+#: src/Layouts/Views/Structure.vala:78
 msgid "Select Table"
 msgstr "選擇表"
 
-#: src/Layouts/Views/Structure.vala:78 src/Layouts/Views/Content.vala:89
-#: src/Layouts/Views/Relations.vala:77
+#: src/Layouts/Views/Content.vala:89 src/Layouts/Views/Relations.vala:77
+#: src/Layouts/Views/Structure.vala:78
 msgid "Select a table from the left sidebar to activate this view."
 msgstr "從左邊欄中選擇一個表格以啟用此檢視。"
-
-#: src/Layouts/Views/Structure.vala:108 src/Layouts/Views/Structure.vala:146
-#: src/Layouts/Views/Content.vala:180 src/Layouts/Views/Content.vala:219
-#: src/Layouts/Views/Relations.vala:107 src/Layouts/Views/Relations.vala:145
-#: src/Layouts/Views/Query.vala:317
-msgid "No Results Available"
-msgstr "無可用結果"
-
-#: src/Layouts/Views/Structure.vala:119 src/Layouts/Views/Content.vala:192
-#: src/Layouts/Views/Relations.vala:118
-msgid "Reload Results"
-msgstr "重新整理結果"
-
-#: src/Layouts/Views/Structure.vala:198
-msgid " Fields"
-msgstr ""
 
 #: src/Layouts/Views/Content.vala:122
 msgid "Previous Page"
@@ -308,14 +256,22 @@ msgstr "1 頁"
 msgid "%d of %d Pages"
 msgstr "%2$d 頁中的第 %1$d 頁"
 
+#: src/Layouts/Views/Content.vala:180 src/Layouts/Views/Content.vala:219
+#: src/Layouts/Views/Query.vala:317 src/Layouts/Views/Relations.vala:107
+#: src/Layouts/Views/Relations.vala:145 src/Layouts/Views/Structure.vala:108
+#: src/Layouts/Views/Structure.vala:146
+msgid "No Results Available"
+msgstr "無可用結果"
+
+#: src/Layouts/Views/Content.vala:192 src/Layouts/Views/Relations.vala:118
+#: src/Layouts/Views/Structure.vala:119
+msgid "Reload Results"
+msgstr "重新整理結果"
+
 #: src/Layouts/Views/Content.vala:276
 #, c-format
 msgid "%d Entries"
 msgstr "%d 條"
-
-#: src/Layouts/Views/Relations.vala:198
-msgid " Constraints"
-msgstr " 約束"
 
 #: src/Layouts/Views/Query.vala:280
 msgid "Running Query…"
@@ -350,6 +306,54 @@ msgstr "成功執行查詢！ 受影響的行：%s"
 #: src/Layouts/Views/Query.vala:522
 msgid "Query Executed!"
 msgstr "查詢已執行！"
+
+#: src/Layouts/Views/Relations.vala:198
+msgid " Constraints"
+msgstr " 約束"
+
+#: src/Layouts/Views/Structure.vala:198
+msgid " Fields"
+msgstr ""
+
+#: src/Layouts/Welcome.vala:28
+msgid "Welcome to Sequeler"
+msgstr "歡迎來到 Sequeler"
+
+#: src/Layouts/Welcome.vala:29
+msgid "Connect to Any Local or Remote Database."
+msgstr "連線到任何本地或遠端資料庫。"
+
+#: src/Layouts/Welcome.vala:38
+msgid "Add a New Database"
+msgstr "新增一個新的資料庫"
+
+#: src/Layouts/Welcome.vala:38
+msgid "Connect to a Database and Save It in Your Library"
+msgstr "連線到資料庫並將其儲存在您的庫中"
+
+#: src/Layouts/Welcome.vala:39
+msgid "Open a New Sequeler Window"
+msgstr "開啟新的 Sequeler 視窗"
+
+#: src/Layouts/Welcome.vala:40
+msgid "Import Connections"
+msgstr "匯入連線"
+
+#: src/Layouts/Welcome.vala:40
+msgid "Import Previously Exported Sequeler Connections"
+msgstr "匯入先前匯出的 Sequeler 連線"
+
+#: src/Layouts/Welcome.vala:58
+msgid "Select a file"
+msgstr "選擇檔案"
+
+#: src/Layouts/Welcome.vala:61
+msgid "_Open"
+msgstr "開啟(_O)"
+
+#: src/Layouts/Welcome.vala:107
+msgid "Unable to Import Library "
+msgstr "無法匯入庫 "
 
 #: src/Partials/Helpers.vala:130 src/Partials/Helpers.vala:136
 msgid "Run Query"
@@ -388,11 +392,7 @@ msgstr "於列"
 msgid "Copy %s"
 msgstr "複製 %s"
 
-#: src/Services/Settings.vala:99
-#, c-format
-msgid "%s (copy)"
-msgstr "%s (複製)"
-
+#. Ask confirmation to the user before deleting the database.
 #: src/Services/ActionManager.vala:254
 #, fuzzy
 #| msgid "Are you sure you want to proceed?"
@@ -462,6 +462,11 @@ msgstr ""
 #: src/Services/ConnectionManager.vala:581
 msgid "Error!"
 msgstr "錯誤！"
+
+#: src/Services/Settings.vala:99
+#, c-format
+msgid "%s (copy)"
+msgstr "%s (複製)"
 
 #: src/Widgets/ConnectionDialog.vala:35
 msgid "Missing SSH Key file!"

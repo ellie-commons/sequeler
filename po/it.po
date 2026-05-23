@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.github.ellie_commons.sequeler\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-24 13:44+0000\n"
+"POT-Creation-Date: 2026-05-23 01:18+0000\n"
 "PO-Revision-Date: 2025-12-28 11:38+0000\n"
 "Last-Translator: albanobattistella <albano_battistella@hotmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/sequeler/"
@@ -19,10 +19,14 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.15.1\n"
 
+#. File handle represents a directory.
 #: src/Application.vala:67
 msgid "Directories are not supported"
 msgstr "Selezione di Cartelle non supportata"
 
+#. File's type is unknown
+#. File is a "special" file, such as a socket, fifo, block device, or character device.
+#. File is a mountable location.
 #: src/Application.vala:73
 msgid "Don't know what to do"
 msgstr "Non so cosa fare"
@@ -30,148 +34,6 @@ msgstr "Non so cosa fare"
 #: src/Application.vala:85
 msgid "Something completely unexpected happened"
 msgstr "Si é verificato un errore inaspettato"
-
-#: src/Layouts/HeaderBar.vala:51
-msgid "Logout"
-msgstr "Disconnetti"
-
-#: src/Layouts/HeaderBar.vala:56
-msgid "Create a new database"
-msgstr "Crea un nuovo database"
-
-#: src/Layouts/HeaderBar.vala:65
-msgid "Delete database"
-msgstr "Elimina database"
-
-#: src/Layouts/HeaderBar.vala:74
-msgid "Database properties"
-msgstr "Proprietà del database"
-
-#: src/Layouts/HeaderBar.vala:87 src/Layouts/Welcome.vala:39
-msgid "New Window"
-msgstr "Nuova finestra"
-
-#: src/Layouts/HeaderBar.vala:90 src/Widgets/ConnectionDialog.vala:137
-#: src/Widgets/ConnectionDialog.vala:172
-msgid "New Connection"
-msgstr "Nuova connessione"
-
-#: src/Layouts/HeaderBar.vala:93
-msgid "Quit"
-msgstr "Chiudi"
-
-#: src/Layouts/HeaderBar.vala:113
-msgid "Menu"
-msgstr "Menu"
-
-#: src/Layouts/Main.vala:77
-#, c-format
-msgid "Connected to %s"
-msgstr "Connesso a %s"
-
-#: src/Layouts/Library.vala:65
-msgid "SAVED CONNECTIONS"
-msgstr "CONNESSIONI SALVATE"
-
-#: src/Layouts/Library.vala:74
-msgid "Delete All"
-msgstr "Elimina tutto"
-
-#: src/Layouts/Library.vala:81
-msgid "Reload Library"
-msgstr "Ricarica libreria"
-
-#: src/Layouts/Library.vala:84
-msgid "Export Library"
-msgstr "Esporta libreria"
-
-#: src/Layouts/Library.vala:215 src/Layouts/Library.vala:233
-msgid "Are you sure you want to proceed?"
-msgstr "Si è sicuri di voler procedere?"
-
-#: src/Layouts/Library.vala:215
-msgid "By deleting this connection you won’t be able to recover this data."
-msgstr ""
-"Eliminando questa connessione non sarà possibile recuperare questi dati."
-
-#: src/Layouts/Library.vala:218 src/Services/ActionManager.vala:257
-msgid "Yes, Delete!"
-msgstr "Sì, elimina!"
-
-#: src/Layouts/Library.vala:233
-msgid "All the data will be deleted and you won’t be able to recover it."
-msgstr "Tutti i dati saranno cancellati e non potranno essere recuperati."
-
-#: src/Layouts/Library.vala:236
-msgid "Yes, Delete All!"
-msgstr "Sì, elimina tutto!"
-
-#: src/Layouts/Library.vala:335 src/Widgets/ConnectionDialog.vala:627
-#: src/Widgets/ConnectionDialog.vala:648
-msgid "A username is required in order to connect!"
-msgstr "Nome utente necessario per eseguire una connessione!"
-
-#: src/Layouts/Library.vala:409 src/Layouts/Views/Query.vala:555
-msgid "Pick a file"
-msgstr "Seleziona un file"
-
-#: src/Layouts/Library.vala:412 src/Layouts/Views/Query.vala:558
-msgid "_Save"
-msgstr "_Salva"
-
-#: src/Layouts/Library.vala:413 src/Layouts/Welcome.vala:62
-#: src/Layouts/Views/Query.vala:559
-msgid "_Cancel"
-msgstr "_Annulla"
-
-#: src/Layouts/Library.vala:472
-#, c-format
-msgid "Unable to Connect to %s"
-msgstr "Impossibile connettersi a %s"
-
-#: src/Layouts/Library.vala:485
-msgid "Unable to Export Library "
-msgstr "Impossibile esportare la libreria "
-
-#: src/Layouts/Welcome.vala:28
-msgid "Welcome to Sequeler"
-msgstr "Benvenuto in Sequeler"
-
-#: src/Layouts/Welcome.vala:29
-msgid "Connect to Any Local or Remote Database."
-msgstr "Collegati a qualunque database locale o remoto."
-
-#: src/Layouts/Welcome.vala:38
-msgid "Add a New Database"
-msgstr "Aggiungi nuovo database"
-
-#: src/Layouts/Welcome.vala:38
-msgid "Connect to a Database and Save It in Your Library"
-msgstr "Connettiti a un database e salvalo nella libreria"
-
-#: src/Layouts/Welcome.vala:39
-msgid "Open a New Sequeler Window"
-msgstr "Apri una nuova finestra di Sequeler"
-
-#: src/Layouts/Welcome.vala:40
-msgid "Import Connections"
-msgstr "Importa connessioni"
-
-#: src/Layouts/Welcome.vala:40
-msgid "Import Previously Exported Sequeler Connections"
-msgstr "Importa un file di connessioni di Sequeler precedentemente esportato"
-
-#: src/Layouts/Welcome.vala:58
-msgid "Select a file"
-msgstr "Seleziona un file"
-
-#: src/Layouts/Welcome.vala:61
-msgid "_Open"
-msgstr "_Apri"
-
-#: src/Layouts/Welcome.vala:107
-msgid "Unable to Import Library "
-msgstr "Impossibile importare la libreria "
 
 #: src/Layouts/DataBaseSchema.vala:80
 msgid "Search Tables"
@@ -251,33 +113,119 @@ msgstr "Aggiungi una nuova tab"
 msgid "Query %i"
 msgstr "Query %i"
 
-#: src/Layouts/Views/Structure.vala:78 src/Layouts/Views/Content.vala:89
-#: src/Layouts/Views/Relations.vala:77
+#: src/Layouts/HeaderBar.vala:51
+msgid "Logout"
+msgstr "Disconnetti"
+
+#: src/Layouts/HeaderBar.vala:56
+msgid "Create a new database"
+msgstr "Crea un nuovo database"
+
+#: src/Layouts/HeaderBar.vala:65
+msgid "Delete database"
+msgstr "Elimina database"
+
+#: src/Layouts/HeaderBar.vala:74
+msgid "Database properties"
+msgstr "Proprietà del database"
+
+#: src/Layouts/HeaderBar.vala:87 src/Layouts/Welcome.vala:39
+msgid "New Window"
+msgstr "Nuova finestra"
+
+#: src/Layouts/HeaderBar.vala:90 src/Widgets/ConnectionDialog.vala:137
+#: src/Widgets/ConnectionDialog.vala:172
+msgid "New Connection"
+msgstr "Nuova connessione"
+
+#: src/Layouts/HeaderBar.vala:93
+msgid "Quit"
+msgstr "Chiudi"
+
+#: src/Layouts/HeaderBar.vala:113
+msgid "Menu"
+msgstr "Menu"
+
+#: src/Layouts/Library.vala:65
+msgid "SAVED CONNECTIONS"
+msgstr "CONNESSIONI SALVATE"
+
+#: src/Layouts/Library.vala:74
+msgid "Delete All"
+msgstr "Elimina tutto"
+
+#: src/Layouts/Library.vala:81
+msgid "Reload Library"
+msgstr "Ricarica libreria"
+
+#: src/Layouts/Library.vala:84
+msgid "Export Library"
+msgstr "Esporta libreria"
+
+#: src/Layouts/Library.vala:215 src/Layouts/Library.vala:233
+msgid "Are you sure you want to proceed?"
+msgstr "Si è sicuri di voler procedere?"
+
+#: src/Layouts/Library.vala:215
+msgid "By deleting this connection you won’t be able to recover this data."
+msgstr ""
+"Eliminando questa connessione non sarà possibile recuperare questi dati."
+
+#: src/Layouts/Library.vala:218 src/Services/ActionManager.vala:257
+msgid "Yes, Delete!"
+msgstr "Sì, elimina!"
+
+#: src/Layouts/Library.vala:233
+msgid "All the data will be deleted and you won’t be able to recover it."
+msgstr "Tutti i dati saranno cancellati e non potranno essere recuperati."
+
+#: src/Layouts/Library.vala:236
+msgid "Yes, Delete All!"
+msgstr "Sì, elimina tutto!"
+
+#: src/Layouts/Library.vala:335 src/Widgets/ConnectionDialog.vala:627
+#: src/Widgets/ConnectionDialog.vala:648
+msgid "A username is required in order to connect!"
+msgstr "Nome utente necessario per eseguire una connessione!"
+
+#: src/Layouts/Library.vala:409 src/Layouts/Views/Query.vala:555
+msgid "Pick a file"
+msgstr "Seleziona un file"
+
+#: src/Layouts/Library.vala:412 src/Layouts/Views/Query.vala:558
+msgid "_Save"
+msgstr "_Salva"
+
+#: src/Layouts/Library.vala:413 src/Layouts/Views/Query.vala:559
+#: src/Layouts/Welcome.vala:62
+msgid "_Cancel"
+msgstr "_Annulla"
+
+#: src/Layouts/Library.vala:472
+#, c-format
+msgid "Unable to Connect to %s"
+msgstr "Impossibile connettersi a %s"
+
+#: src/Layouts/Library.vala:485
+msgid "Unable to Export Library "
+msgstr "Impossibile esportare la libreria "
+
+#: src/Layouts/Main.vala:77
+#, c-format
+msgid "Connected to %s"
+msgstr "Connesso a %s"
+
+#: src/Layouts/Views/Content.vala:89 src/Layouts/Views/Relations.vala:77
+#: src/Layouts/Views/Structure.vala:78
 msgid "Select Table"
 msgstr "Seleziona tabella"
 
-#: src/Layouts/Views/Structure.vala:78 src/Layouts/Views/Content.vala:89
-#: src/Layouts/Views/Relations.vala:77
+#: src/Layouts/Views/Content.vala:89 src/Layouts/Views/Relations.vala:77
+#: src/Layouts/Views/Structure.vala:78
 msgid "Select a table from the left sidebar to activate this view."
 msgstr ""
 "Selezionare una tabella dal pannello a sinistra per attivare questa "
 "visualizzazione."
-
-#: src/Layouts/Views/Structure.vala:108 src/Layouts/Views/Structure.vala:146
-#: src/Layouts/Views/Content.vala:180 src/Layouts/Views/Content.vala:219
-#: src/Layouts/Views/Relations.vala:107 src/Layouts/Views/Relations.vala:145
-#: src/Layouts/Views/Query.vala:317
-msgid "No Results Available"
-msgstr "Nessun risultato disponibile"
-
-#: src/Layouts/Views/Structure.vala:119 src/Layouts/Views/Content.vala:192
-#: src/Layouts/Views/Relations.vala:118
-msgid "Reload Results"
-msgstr "Ricarica risultati"
-
-#: src/Layouts/Views/Structure.vala:198
-msgid " Fields"
-msgstr " campi"
 
 #: src/Layouts/Views/Content.vala:122
 msgid "Previous Page"
@@ -305,14 +253,22 @@ msgstr "1 pagina"
 msgid "%d of %d Pages"
 msgstr "%d di %d pagine"
 
+#: src/Layouts/Views/Content.vala:180 src/Layouts/Views/Content.vala:219
+#: src/Layouts/Views/Query.vala:317 src/Layouts/Views/Relations.vala:107
+#: src/Layouts/Views/Relations.vala:145 src/Layouts/Views/Structure.vala:108
+#: src/Layouts/Views/Structure.vala:146
+msgid "No Results Available"
+msgstr "Nessun risultato disponibile"
+
+#: src/Layouts/Views/Content.vala:192 src/Layouts/Views/Relations.vala:118
+#: src/Layouts/Views/Structure.vala:119
+msgid "Reload Results"
+msgstr "Ricarica risultati"
+
 #: src/Layouts/Views/Content.vala:276
 #, c-format
 msgid "%d Entries"
 msgstr "%d voci"
-
-#: src/Layouts/Views/Relations.vala:198
-msgid " Constraints"
-msgstr " vincoli"
 
 #: src/Layouts/Views/Query.vala:280
 msgid "Running Query…"
@@ -347,6 +303,54 @@ msgstr "Query eseguita correttamente! Righe alterate: %s"
 #: src/Layouts/Views/Query.vala:522
 msgid "Query Executed!"
 msgstr "Query eseguita!"
+
+#: src/Layouts/Views/Relations.vala:198
+msgid " Constraints"
+msgstr " vincoli"
+
+#: src/Layouts/Views/Structure.vala:198
+msgid " Fields"
+msgstr " campi"
+
+#: src/Layouts/Welcome.vala:28
+msgid "Welcome to Sequeler"
+msgstr "Benvenuto in Sequeler"
+
+#: src/Layouts/Welcome.vala:29
+msgid "Connect to Any Local or Remote Database."
+msgstr "Collegati a qualunque database locale o remoto."
+
+#: src/Layouts/Welcome.vala:38
+msgid "Add a New Database"
+msgstr "Aggiungi nuovo database"
+
+#: src/Layouts/Welcome.vala:38
+msgid "Connect to a Database and Save It in Your Library"
+msgstr "Connettiti a un database e salvalo nella libreria"
+
+#: src/Layouts/Welcome.vala:39
+msgid "Open a New Sequeler Window"
+msgstr "Apri una nuova finestra di Sequeler"
+
+#: src/Layouts/Welcome.vala:40
+msgid "Import Connections"
+msgstr "Importa connessioni"
+
+#: src/Layouts/Welcome.vala:40
+msgid "Import Previously Exported Sequeler Connections"
+msgstr "Importa un file di connessioni di Sequeler precedentemente esportato"
+
+#: src/Layouts/Welcome.vala:58
+msgid "Select a file"
+msgstr "Seleziona un file"
+
+#: src/Layouts/Welcome.vala:61
+msgid "_Open"
+msgstr "_Apri"
+
+#: src/Layouts/Welcome.vala:107
+msgid "Unable to Import Library "
+msgstr "Impossibile importare la libreria "
 
 #: src/Partials/Helpers.vala:130 src/Partials/Helpers.vala:136
 msgid "Run Query"
@@ -385,11 +389,7 @@ msgstr "sulla colonna"
 msgid "Copy %s"
 msgstr "Copia %s"
 
-#: src/Services/Settings.vala:99
-#, c-format
-msgid "%s (copy)"
-msgstr "%s (copia)"
-
+#. Ask confirmation to the user before deleting the database.
 #: src/Services/ActionManager.vala:254
 msgid "Are you sure you want to delete this Database?"
 msgstr "Sei sicuro di voler eliminare questo database?"
@@ -460,6 +460,11 @@ msgstr ""
 #: src/Services/ConnectionManager.vala:581
 msgid "Error!"
 msgstr "Errore!"
+
+#: src/Services/Settings.vala:99
+#, c-format
+msgid "%s (copy)"
+msgstr "%s (copia)"
 
 #: src/Widgets/ConnectionDialog.vala:35
 msgid "Missing SSH Key file!"
