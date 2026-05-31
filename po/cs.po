@@ -6,8 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: io.github.ellie_commons.sequeler\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-23 01:19+0000\n"
+"Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/sequeler/"
+"translations/\n"
+"POT-Creation-Date: 2026-05-31 06:23+0000\n"
 "PO-Revision-Date: 2021-09-02 12:32+0000\n"
 "Last-Translator: Vojtěch Perník <translations@pervoj.cz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/sequeler/"
@@ -19,14 +20,10 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Weblate 4.8.1-dev\n"
 
-#. File handle represents a directory.
 #: src/Application.vala:67
 msgid "Directories are not supported"
 msgstr "Adresáře nejsou podporovány"
 
-#. File's type is unknown
-#. File is a "special" file, such as a socket, fifo, block device, or character device.
-#. File is a mountable location.
 #: src/Application.vala:73
 msgid "Don't know what to do"
 msgstr "Nevím, co dělat"
@@ -392,7 +389,6 @@ msgstr "na sloupci"
 msgid "Copy %s"
 msgstr "Kopírovat %s"
 
-#. Ask confirmation to the user before deleting the database.
 #: src/Services/ActionManager.vala:254
 #, fuzzy
 #| msgid "Are you sure you want to proceed?"

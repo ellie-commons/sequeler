@@ -6,8 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: io.github.ellie_commons.sequeler\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-23 01:19+0000\n"
+"Report-Msgid-Bugs-To: https://hosted.weblate.org/projects/sequeler/"
+"translations/\n"
+"POT-Creation-Date: 2026-05-31 06:23+0000\n"
 "PO-Revision-Date: 2021-11-08 01:50+0000\n"
 "Last-Translator: Abdulrahman ☕️ <saanina@gmail.com>\n"
 "Language-Team: Arabic (Najdi) <https://hosted.weblate.org/projects/sequeler/"
@@ -21,14 +22,10 @@ msgstr ""
 "99) ? 4 : 5))));\n"
 "X-Generator: Weblate 4.9-dev\n"
 
-#. File handle represents a directory.
 #: src/Application.vala:67
 msgid "Directories are not supported"
 msgstr "المجلدات غير مدعومة"
 
-#. File's type is unknown
-#. File is a "special" file, such as a socket, fifo, block device, or character device.
-#. File is a mountable location.
 #: src/Application.vala:73
 msgid "Don't know what to do"
 msgstr "ما أدري وش أسوي"
@@ -394,7 +391,6 @@ msgstr "على العمود"
 msgid "Copy %s"
 msgstr "انسخ %s"
 
-#. Ask confirmation to the user before deleting the database.
 #: src/Services/ActionManager.vala:254
 #, fuzzy
 #| msgid "Are you sure you want to proceed?"
