@@ -8,18 +8,20 @@ msgstr ""
 "Project-Id-Version: io.github.ellie_commons.sequeler\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-31 08:24+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-07-03 11:01+0000\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <https://hosted.weblate.org/projects/sequeler/"
+"translations/ka/>\n"
 "Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.7.1.dev0\n"
 
 #: src/Application.vala:67
 msgid "Directories are not supported"
-msgstr ""
+msgstr "საქაღალდეები მხარდაჭერილი არაა"
 
 #: src/Application.vala:73
 msgid "Don't know what to do"
@@ -43,7 +45,7 @@ msgstr ""
 
 #: src/Layouts/DataBaseSchema.vala:119
 msgid "Add Table"
-msgstr ""
+msgstr "ცხრილის დამატება"
 
 #: src/Layouts/DataBaseSchema.vala:176
 msgid "- Select Database -"
@@ -51,48 +53,48 @@ msgstr ""
 
 #: src/Layouts/DataBaseSchema.vala:298
 msgid "TABLES"
-msgstr ""
+msgstr "ცხრილები"
 
 #: src/Layouts/DataBaseView.vala:49
 msgid "Structure"
-msgstr ""
+msgstr "სტრუქტურა"
 
 #: src/Layouts/DataBaseView.vala:50
 msgid "Content"
-msgstr ""
+msgstr "შემცველობა"
 
 #: src/Layouts/DataBaseView.vala:51
 msgid "Relations"
-msgstr ""
+msgstr "კავშირები"
 
 #: src/Layouts/DataBaseView.vala:52 src/Layouts/DataBaseView.vala:228
 #: src/Layouts/DataBaseView.vala:256
 msgid "Query"
-msgstr ""
+msgstr "მოთხოვნა"
 
 #: src/Layouts/DataBaseView.vala:100
 msgid "Zoom Out"
-msgstr ""
+msgstr "დაპატარავება"
 
 #: src/Layouts/DataBaseView.vala:106
 msgid "Zoom 1:1"
-msgstr ""
+msgstr "გადიდება 1:1"
 
 #: src/Layouts/DataBaseView.vala:110
 msgid "Zoom In"
-msgstr ""
+msgstr "გადიდება"
 
 #: src/Layouts/DataBaseView.vala:123
 msgid "High Contrast"
-msgstr ""
+msgstr "მაღალი კონტრასტი"
 
 #: src/Layouts/DataBaseView.vala:131
 msgid "Solarized Light"
-msgstr ""
+msgstr "Solarized ღია"
 
 #: src/Layouts/DataBaseView.vala:139
 msgid "Solarized Dark"
-msgstr ""
+msgstr "Solarized მუქი"
 
 #: src/Layouts/DataBaseView.vala:162
 msgid "Change Text Style"
@@ -109,7 +111,7 @@ msgstr ""
 
 #: src/Layouts/HeaderBar.vala:51
 msgid "Logout"
-msgstr ""
+msgstr "გასვლა"
 
 #: src/Layouts/HeaderBar.vala:56
 msgid "Create a new database"
@@ -117,7 +119,7 @@ msgstr ""
 
 #: src/Layouts/HeaderBar.vala:65
 msgid "Delete database"
-msgstr ""
+msgstr "მონაცემთა ბაზის წაშლა"
 
 #: src/Layouts/HeaderBar.vala:74
 msgid "Database properties"
@@ -125,20 +127,20 @@ msgstr ""
 
 #: src/Layouts/HeaderBar.vala:87 src/Layouts/Welcome.vala:39
 msgid "New Window"
-msgstr ""
+msgstr "ახალი ფანჯარა"
 
 #: src/Layouts/HeaderBar.vala:90 src/Widgets/ConnectionDialog.vala:137
 #: src/Widgets/ConnectionDialog.vala:172
 msgid "New Connection"
-msgstr ""
+msgstr "ახალი შეერთება"
 
 #: src/Layouts/HeaderBar.vala:93
 msgid "Quit"
-msgstr ""
+msgstr "გასვლა"
 
 #: src/Layouts/HeaderBar.vala:113
 msgid "Menu"
-msgstr ""
+msgstr "მენიუ"
 
 #: src/Layouts/Library.vala:65
 msgid "SAVED CONNECTIONS"
@@ -146,19 +148,19 @@ msgstr ""
 
 #: src/Layouts/Library.vala:74
 msgid "Delete All"
-msgstr ""
+msgstr "ყველას წაშლა"
 
 #: src/Layouts/Library.vala:81
 msgid "Reload Library"
-msgstr ""
+msgstr "ბიბლიოთეკის თავიდან ჩატვირთვა"
 
 #: src/Layouts/Library.vala:84
 msgid "Export Library"
-msgstr ""
+msgstr "ბიბლიოთეკის გატანა"
 
 #: src/Layouts/Library.vala:215 src/Layouts/Library.vala:233
 msgid "Are you sure you want to proceed?"
-msgstr ""
+msgstr "დარწმუნებული ბრძანდებით?"
 
 #: src/Layouts/Library.vala:215
 msgid "By deleting this connection you won’t be able to recover this data."
@@ -183,16 +185,16 @@ msgstr ""
 
 #: src/Layouts/Library.vala:409 src/Layouts/Views/Query.vala:555
 msgid "Pick a file"
-msgstr ""
+msgstr "აირჩიეთ ფაილი"
 
 #: src/Layouts/Library.vala:412 src/Layouts/Views/Query.vala:558
 msgid "_Save"
-msgstr ""
+msgstr "_შენახვა"
 
 #: src/Layouts/Library.vala:413 src/Layouts/Views/Query.vala:559
 #: src/Layouts/Welcome.vala:62
 msgid "_Cancel"
-msgstr ""
+msgstr "გაუ_ქმება"
 
 #: src/Layouts/Library.vala:472
 #, c-format
@@ -206,12 +208,12 @@ msgstr ""
 #: src/Layouts/Main.vala:77
 #, c-format
 msgid "Connected to %s"
-msgstr ""
+msgstr "მიერთებულია %s-თან"
 
 #: src/Layouts/Views/Content.vala:89 src/Layouts/Views/Relations.vala:77
 #: src/Layouts/Views/Structure.vala:78
 msgid "Select Table"
-msgstr ""
+msgstr "ცხრილის მონიშვნა"
 
 #: src/Layouts/Views/Content.vala:89 src/Layouts/Views/Relations.vala:77
 #: src/Layouts/Views/Structure.vala:78
@@ -220,16 +222,16 @@ msgstr ""
 
 #: src/Layouts/Views/Content.vala:122
 msgid "Previous Page"
-msgstr ""
+msgstr "წინა გვერდი"
 
 #: src/Layouts/Views/Content.vala:127
 msgid "Next Page"
-msgstr ""
+msgstr "შემდეგი გვერდი"
 
 #: src/Layouts/Views/Content.vala:132
 #, c-format
 msgid "%d Pages"
-msgstr ""
+msgstr "%d გვერდი"
 
 #: src/Layouts/Views/Content.vala:135
 msgid "Jump to page…"
@@ -237,7 +239,7 @@ msgstr ""
 
 #: src/Layouts/Views/Content.vala:166
 msgid "1 Page"
-msgstr ""
+msgstr "1 გვერდი"
 
 #: src/Layouts/Views/Content.vala:172
 #, c-format
@@ -259,7 +261,7 @@ msgstr ""
 #: src/Layouts/Views/Content.vala:276
 #, c-format
 msgid "%d Entries"
-msgstr ""
+msgstr "%d ჩანაწერი"
 
 #: src/Layouts/Views/Query.vala:280
 msgid "Running Query…"
@@ -267,15 +269,15 @@ msgstr ""
 
 #: src/Layouts/Views/Query.vala:350
 msgid "Export Results"
-msgstr ""
+msgstr "შედეგების გატანა"
 
 #: src/Layouts/Views/Query.vala:363
 msgid "Export as CSV"
-msgstr ""
+msgstr "CVS-ში გატანა"
 
 #: src/Layouts/Views/Query.vala:371
 msgid "Export as Text"
-msgstr ""
+msgstr "გატანა ტექსტის სახით"
 
 #: src/Layouts/Views/Query.vala:463 src/Layouts/Views/Query.vala:509
 msgid "Unable to process Query!"
@@ -301,7 +303,7 @@ msgstr ""
 
 #: src/Layouts/Views/Structure.vala:198
 msgid " Fields"
-msgstr ""
+msgstr " ველები"
 
 #: src/Layouts/Welcome.vala:28
 msgid "Welcome to Sequeler"
@@ -333,11 +335,11 @@ msgstr ""
 
 #: src/Layouts/Welcome.vala:58
 msgid "Select a file"
-msgstr ""
+msgstr "აირჩიეთ ფაილი"
 
 #: src/Layouts/Welcome.vala:61
 msgid "_Open"
-msgstr ""
+msgstr "_გახსნა"
 
 #: src/Layouts/Welcome.vala:107
 msgid "Unable to Import Library "
@@ -345,15 +347,15 @@ msgstr ""
 
 #: src/Partials/Helpers.vala:130 src/Partials/Helpers.vala:136
 msgid "Run Query"
-msgstr ""
+msgstr "მოთხოვნის გაშვება"
 
 #: src/Partials/LibraryItem.vala:107 src/Widgets/ConnectionDialog.vala:465
 msgid "Connect"
-msgstr ""
+msgstr "დაკავშირება"
 
 #: src/Partials/LibraryItem.vala:110
 msgid "Edit Connection"
-msgstr ""
+msgstr "შეერთების ჩასწორება"
 
 #: src/Partials/LibraryItem.vala:113
 msgid "Duplicate Connection"
@@ -361,15 +363,15 @@ msgstr ""
 
 #: src/Partials/LibraryItem.vala:116
 msgid "Delete Connection"
-msgstr ""
+msgstr "შეერთების წაშლა"
 
 #: src/Partials/LibraryItem.vala:126
 msgid "Options"
-msgstr ""
+msgstr "მორგება"
 
 #: src/Partials/TreeBuilder.vala:132
 msgid "Error"
-msgstr ""
+msgstr "შეცდომა"
 
 #: src/Partials/TreeBuilder.vala:132
 msgid "on Column"
@@ -443,12 +445,12 @@ msgstr ""
 
 #: src/Services/ConnectionManager.vala:581
 msgid "Error!"
-msgstr ""
+msgstr "შეცდომა!"
 
 #: src/Services/Settings.vala:99
 #, c-format
 msgid "%s (copy)"
-msgstr ""
+msgstr "%s (ასლი)"
 
 #: src/Widgets/ConnectionDialog.vala:35
 msgid "Missing SSH Key file!"
@@ -460,7 +462,7 @@ msgstr ""
 
 #: src/Widgets/ConnectionDialog.vala:96 src/Widgets/ConnectionDialog.vala:381
 msgid "Connection"
-msgstr ""
+msgstr "კავშირი"
 
 #: src/Widgets/ConnectionDialog.vala:148
 msgid "Select connection color"
@@ -468,52 +470,52 @@ msgstr ""
 
 #: src/Widgets/ConnectionDialog.vala:171
 msgid "Connection Name:"
-msgstr ""
+msgstr "შეერთების სახელი:"
 
 #: src/Widgets/ConnectionDialog.vala:172
 msgid "Connection's name"
-msgstr ""
+msgstr "შეერთების სახელი"
 
 #: src/Widgets/ConnectionDialog.vala:179
 msgid "Database Type:"
-msgstr ""
+msgstr "მონაცემთა ბაზის ტიპი:"
 
 #: src/Widgets/ConnectionDialog.vala:201
 msgid "Host:"
-msgstr ""
+msgstr "ჰოსტი:"
 
 #: src/Widgets/ConnectionDialog.vala:207
 msgid "Database Name:"
-msgstr ""
+msgstr "მონაცემთა ბაზის სახელი:"
 
 #: src/Widgets/ConnectionDialog.vala:214
 msgid "Username:"
-msgstr ""
+msgstr "მომხმარებელი:"
 
 #: src/Widgets/ConnectionDialog.vala:220
 msgid "Password:"
-msgstr ""
+msgstr "პაროლი:"
 
 #: src/Widgets/ConnectionDialog.vala:224 src/Widgets/ConnectionDialog.vala:234
 #: src/Widgets/ConnectionDialog.vala:301 src/Widgets/ConnectionDialog.vala:311
 msgid "Show password"
-msgstr ""
+msgstr "პაროლის ჩვენება"
 
 #: src/Widgets/ConnectionDialog.vala:231 src/Widgets/ConnectionDialog.vala:308
 msgid "Hide password"
-msgstr ""
+msgstr "პაროლი დამალვა"
 
 #: src/Widgets/ConnectionDialog.vala:241
 msgid "Port:"
-msgstr ""
+msgstr "პორტი:"
 
 #: src/Widgets/ConnectionDialog.vala:247
 msgid "Use SSL:"
-msgstr ""
+msgstr "SSL-ის გამოყენება:"
 
 #: src/Widgets/ConnectionDialog.vala:256
 msgid "File Path:"
-msgstr ""
+msgstr "ფაილის ბილიკი:"
 
 #: src/Widgets/ConnectionDialog.vala:257
 msgid "Select Your SQLite File…"
@@ -525,27 +527,27 @@ msgstr ""
 
 #: src/Widgets/ConnectionDialog.vala:287
 msgid "SSH Host:"
-msgstr ""
+msgstr "SSH ჰოსტი:"
 
 #: src/Widgets/ConnectionDialog.vala:292
 msgid "SSH Username:"
-msgstr ""
+msgstr "SSH მომხმარებლის სახელი:"
 
 #: src/Widgets/ConnectionDialog.vala:297
 msgid "SSH Password:"
-msgstr ""
+msgstr "SSH პაროლი:"
 
 #: src/Widgets/ConnectionDialog.vala:317
 msgid "SSH Port:"
-msgstr ""
+msgstr "SSH პორტი:"
 
 #: src/Widgets/ConnectionDialog.vala:318
 msgid "Optional"
-msgstr ""
+msgstr "არასავალდებულო"
 
 #: src/Widgets/ConnectionDialog.vala:322
 msgid "SSH Identity"
-msgstr ""
+msgstr "SSH იდენტიფიკატორი"
 
 #: src/Widgets/ConnectionDialog.vala:324
 msgid "Select Your Identity File…"
@@ -565,11 +567,11 @@ msgstr ""
 
 #: src/Widgets/ConnectionDialog.vala:382
 msgid "SSH Tunnel"
-msgstr ""
+msgstr "SSH გვირაბი"
 
 #: src/Widgets/ConnectionDialog.vala:462
 msgid "Close"
-msgstr ""
+msgstr "დახურვა"
 
 #: src/Widgets/ConnectionDialog.vala:463
 msgid "Save Connection"
@@ -577,7 +579,7 @@ msgstr ""
 
 #: src/Widgets/ConnectionDialog.vala:464
 msgid "Test Connection"
-msgstr ""
+msgstr "კავშირის შემოწმება"
 
 #: src/Widgets/ConnectionDialog.vala:672
 msgid "Opening SSH Tunnel…"
@@ -601,4 +603,4 @@ msgstr ""
 
 #: src/Widgets/ConnectionDialog.vala:752
 msgid "Connecting…"
-msgstr ""
+msgstr "დაკავშირება…"
