@@ -125,8 +125,8 @@ modules:
         sources:
           - type: git
             url: https://github.com/MariaDB/server.git
-            tag: mariadb-12.2.1
-            commit: 144dead8826f4a84008a76ef7fcc44e816f92930
+            tag: mariadb-13.1.1
+            commit: bb40cb54a35a9b413571b7290e5cd28a7385ddb9
             x-checker-data:
               type: git
               tag-pattern: ^mariadb-([\d.]+)$
