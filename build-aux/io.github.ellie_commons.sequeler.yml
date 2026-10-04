@@ -77,8 +77,8 @@ modules:
           - /share
         sources:
           - type: archive
-            url: https://github.com/jemalloc/jemalloc/archive/5.3.0.tar.gz
-            sha256: ef6f74fd45e95ee4ef7f9e19ebe5b075ca6b7fbe0140612b2a161abafb7ee179
+            url: https://github.com/jemalloc/jemalloc/archive/5.4.0.tar.gz
+            sha256: 077ad99d4bf61d03c01a35e8f765d245cab777b429498ddded9490f1d8c0935b
             x-checker-data:
               type: json
               url: https://api.github.com/repos/jemalloc/jemalloc/releases/latest
