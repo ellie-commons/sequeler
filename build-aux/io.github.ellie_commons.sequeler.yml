@@ -1,9 +1,9 @@
 id: io.github.ellie_commons.sequeler
 runtime: org.gnome.Platform
-runtime-version: '50'
+runtime-version: '51'
 sdk: org.gnome.Sdk
 base: io.elementary.BaseApp
-base-version: circe-25.08
+base-version: tanit-26.08
 command: io.github.ellie_commons.sequeler
 finish-args:
   - --share=ipc
