@@ -1,6 +1,6 @@
 id: io.github.ellie_commons.sequeler
 runtime: io.elementary.Platform
-runtime-version: '8.2'
+runtime-version: '9.1'
 sdk: io.elementary.Sdk
 command: io.github.ellie_commons.sequeler
 finish-args:
