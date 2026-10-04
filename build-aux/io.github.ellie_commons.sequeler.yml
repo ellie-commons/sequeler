@@ -93,12 +93,14 @@ modules:
           - make prefix=/app install
         sources:
           - type: archive
-            url: https://pagure.io/libaio/archive/libaio-0.3.113/libaio-libaio-0.3.113.tar.gz
-            sha256: 716c7059703247344eb066b54ecbc3ca2134f0103307192e6c2b7dab5f9528ab
+            url: https://codeberg.org/jmoyer/libaio/archive/libaio-0.3.113.tar.gz
+            sha256: bb4807cc5fd5320242e286be2372597851fa0a23e14d4386cf045d3fcef0d8d9
             x-checker-data:
-              type: anitya
-              project-id: 1557
-              url-template: https://pagure.io/libaio/archive/libaio-$version/libaio-libaio-$version.tar.gz
+              type: json
+              url: https://codeberg.org/api/v1/repos/jmoyer/libaio/releases/latest
+              version-query: .tag_name
+              url-query: '"https://codeberg.org/jmoyer/libaio/archive/" + .tag_name + ".tar.gz"'
+              timestamp-query: .published_at
 
       - name: mariadb
         buildsystem: cmake-ninja
