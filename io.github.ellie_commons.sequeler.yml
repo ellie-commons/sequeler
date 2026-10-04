@@ -1,6 +1,6 @@
 id: io.github.ellie_commons.sequeler
 runtime: io.elementary.Platform
-runtime-version: '8.2'
+runtime-version: '9.1'
 sdk: io.elementary.Sdk
 command: io.github.ellie_commons.sequeler
 finish-args:
@@ -62,8 +62,8 @@ modules:
             - --with-openssl
         sources:
           - type: archive
-            url: https://ftp.postgresql.org/pub/source/v18.1/postgresql-18.1.tar.gz
-            sha256: b0f18c2d6973d2aa023cfc77feda787d7bbe9c31a3977d0f04ac29885fb98ec4
+            url: https://ftp.postgresql.org/pub/source/v18.6/postgresql-18.6.tar.gz
+            sha256: 983ee554ec53dbeb9b70797bef9fcf4e67e117e7e48ca1463cc80b3ff8e8ff3f
             x-checker-data:
               type: anitya
               project-id: 381406
@@ -75,8 +75,8 @@ modules:
           - /share
         sources:
           - type: archive
-            url: https://github.com/jemalloc/jemalloc/archive/5.3.0.tar.gz
-            sha256: ef6f74fd45e95ee4ef7f9e19ebe5b075ca6b7fbe0140612b2a161abafb7ee179
+            url: https://github.com/jemalloc/jemalloc/archive/5.4.0.tar.gz
+            sha256: 077ad99d4bf61d03c01a35e8f765d245cab777b429498ddded9490f1d8c0935b
             x-checker-data:
               type: json
               url: https://api.github.com/repos/jemalloc/jemalloc/releases/latest
@@ -91,12 +91,14 @@ modules:
           - make prefix=/app install
         sources:
           - type: archive
-            url: https://pagure.io/libaio/archive/libaio-0.3.113/libaio-libaio-0.3.113.tar.gz
-            sha256: 716c7059703247344eb066b54ecbc3ca2134f0103307192e6c2b7dab5f9528ab
+            url: https://codeberg.org/jmoyer/libaio/archive/libaio-0.3.113.tar.gz
+            sha256: bb4807cc5fd5320242e286be2372597851fa0a23e14d4386cf045d3fcef0d8d9
             x-checker-data:
-              type: anitya
-              project-id: 1557
-              url-template: https://pagure.io/libaio/archive/libaio-$version/libaio-libaio-$version.tar.gz
+              type: json
+              url: https://codeberg.org/api/v1/repos/jmoyer/libaio/releases/latest
+              version-query: .tag_name
+              url-query: '"https://codeberg.org/jmoyer/libaio/archive/" + .tag_name + ".tar.gz"'
+              timestamp-query: .published_at
 
       - name: mariadb
         buildsystem: cmake-ninja
@@ -121,8 +123,8 @@ modules:
         sources:
           - type: git
             url: https://github.com/MariaDB/server.git
-            tag: mariadb-12.2.1
-            commit: 144dead8826f4a84008a76ef7fcc44e816f92930
+            tag: mariadb-13.1.1
+            commit: bb40cb54a35a9b413571b7290e5cd28a7385ddb9
             x-checker-data:
               type: git
               tag-pattern: ^mariadb-([\d.]+)$
