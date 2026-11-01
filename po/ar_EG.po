@@ -8,8 +8,9 @@ msgstr ""
 "Project-Id-Version: io.github.ellie_commons.sequeler\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-14 20:14+0200\n"
-"PO-Revision-Date: 2026-01-12 14:01+0000\n"
-"Last-Translator: Ashour 555 <ashour55523@gmail.com>\n"
+"PO-Revision-Date: 2026-11-01 22:37+0000\n"
+"Last-Translator: hafiz kamal <www.hafiz2766@users.noreply.hosted.weblate.org>"
+"\n"
 "Language-Team: Arabic (Egypt) <https://hosted.weblate.org/projects/sequeler/"
 "translations/ar_EG/>\n"
 "Language: ar_EG\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 5.15.1\n"
+"X-Generator: Weblate 2026.11.dev0\n"
 
 #: src/Application.vala:67
 msgid "Directories are not supported"
@@ -119,10 +120,8 @@ msgid "Create a new database"
 msgstr "إنشاء قاعدة بيانات جديدة"
 
 #: src/Layouts/HeaderBar.vala:65
-#, fuzzy
-#| msgid "- Select Database -"
 msgid "Delete database"
-msgstr "- حدد قاعدة البيانات -"
+msgstr "pkg update && pkg upgrade- حدد قاعدة البيانات -"
 
 #: src/Layouts/HeaderBar.vala:74
 msgid "Database properties"
@@ -567,10 +566,8 @@ msgid "SSH Public Key"
 msgstr "مفتاح SSH العمومي مفقود!"
 
 #: src/Widgets/ConnectionDialog.vala:334
-#, fuzzy
-#| msgid "Select Your SQLite File…"
 msgid "Select Your Public Key File…"
-msgstr "حدد ملف SQLite الخاص بك …"
+msgstr "pkg update && pkg upgradeحدد ملف SQLite الخاص بك …"
 
 #: src/Widgets/ConnectionDialog.vala:350
 msgid "Generate SSH Key"
