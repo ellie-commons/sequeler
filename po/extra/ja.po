@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-01 23:37+0100\n"
-"PO-Revision-Date: 2025-12-25 11:37+0000\n"
-"Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
+"PO-Revision-Date: 2026-11-02 22:51+0000\n"
+"Last-Translator: Ryo Nakano <ryonakano@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/sequeler/"
 "metainfo/ja/>\n"
 "Language: ja\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.15.1\n"
+"X-Generator: Weblate 2026.11.1.dev0\n"
 
 #: data/io.github.ellie_commons.sequeler.desktop.in.in:5
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:7
@@ -101,13 +101,15 @@ msgstr ""
 
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:43
 msgid "Remove unnecessary permission to access to SSH_AUTH_SOCK"
-msgstr ""
+msgstr "SSH_AUTH_SOCK への不必要なアクセス権限を削除"
 
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:44
 msgid ""
 "Force elementary stylesheet to prevent broken UI on other desktop "
 "environments"
 msgstr ""
+"非 Pantheon デスクトップ環境において UI が崩れないように、elementary "
+"スタイルシートを強制するように修正"
 
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:45
 #: data/io.github.ellie_commons.sequeler.metainfo.xml.in.in:55
