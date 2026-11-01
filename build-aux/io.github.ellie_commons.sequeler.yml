@@ -68,7 +68,7 @@ modules:
             sha256: 983ee554ec53dbeb9b70797bef9fcf4e67e117e7e48ca1463cc80b3ff8e8ff3f
             x-checker-data:
               type: anitya
-              project-id: 381406
+              project-id: 383697
               url-template: https://ftp.postgresql.org/pub/source/v$version/postgresql-$version.tar.gz
 
       - name: jemalloc
