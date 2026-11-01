@@ -37,6 +37,16 @@
     <binary>@appid@</binary>
   </provides>
   <releases>
+    <release version="0.9.1" date="2026-11-01" urgency="low">
+      <description>
+        <ul>
+          <li>Remove unnecessary permission to access to SSH_AUTH_SOCK</li>
+          <li>Force elementary stylesheet to prevent broken UI on other desktop environments</li>
+          <li>Update Flatpak platform runtime and modules</li>
+          <li>Update translations</li>
+        </ul>
+      </description>
+    </release>
     <release version="0.9.0" date="2025-12-25" urgency="medium">
       <description>
         <ul>
