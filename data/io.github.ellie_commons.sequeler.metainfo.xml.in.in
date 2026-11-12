@@ -37,7 +37,7 @@
     <binary>@appid@</binary>
   </provides>
   <releases>
-    <release version="0.9.1" date="2026-11-01" urgency="low">
+    <release version="0.9.1" date="2026-11-15" urgency="low">
       <description>
         <ul>
           <li>Remove unnecessary permission to access to SSH_AUTH_SOCK</li>

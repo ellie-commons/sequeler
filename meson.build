@@ -1,6 +1,6 @@
 # project name and programming language
 project('io.github.ellie_commons.sequeler', 'vala', 'c',
-    version: '0.9.0',
+    version: '0.9.1',
     meson_version: '>= 0.59.0')
 
 cc = meson.get_compiler('c')
