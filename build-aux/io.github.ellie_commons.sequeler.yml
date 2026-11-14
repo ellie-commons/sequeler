@@ -64,8 +64,8 @@ modules:
             - --with-openssl
         sources:
           - type: archive
-            url: https://ftp.postgresql.org/pub/source/v18.6/postgresql-18.6.tar.gz
-            sha256: 983ee554ec53dbeb9b70797bef9fcf4e67e117e7e48ca1463cc80b3ff8e8ff3f
+            url: https://ftp.postgresql.org/pub/source/v18.7/postgresql-18.7.tar.gz
+            sha256: 19c2dc7d8520e10532d082b43c36c4d2dcc6cd9e40506c6f598e7338f84bbde7
             x-checker-data:
               type: anitya
               project-id: 383697
